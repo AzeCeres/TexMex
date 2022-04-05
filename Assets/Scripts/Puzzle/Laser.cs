@@ -2,8 +2,7 @@ using Player;
 using UnityEngine;
 namespace Puzzle
 {
-    public class Laser : MonoBehaviour
-    {
+    public class Laser : MonoBehaviour {
         private Split m_Split;
         private void Start() {
             var obj = GameObject.FindGameObjectWithTag("PlayerController");
