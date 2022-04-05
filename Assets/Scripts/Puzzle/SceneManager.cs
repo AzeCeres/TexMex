@@ -20,13 +20,11 @@ public class SceneManager : MonoBehaviour
     }
     private void Update()
     {
-        print("is running");
         CheckPlayer();
     }
     void CheckPlayer()
     {
         var count = 0;
-        print("checkplayer is running");
         for (int i = 0; i < m_Split.activeClones.Length; i++)
         {
             if (!m_Split.activeClones[i])
@@ -36,14 +34,12 @@ public class SceneManager : MonoBehaviour
             }
             if (count == m_Split.activeClones.Length)
             {
-                print("reset");
                 Reset();
             }
         }
     }
     private void Reset()
     {
-        print("reset");
         for (int i = 0; i < Buttons.Length; i++)
         {
             Buttons[i].active = false;
