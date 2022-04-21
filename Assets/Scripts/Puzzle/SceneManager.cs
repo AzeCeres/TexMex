@@ -5,17 +5,18 @@ using JetBrains.Annotations;
 using Player;
 using Puzzle;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class SceneManager : MonoBehaviour
 {
     //todo Check if all clones are dead - Reset all Buttons
-    [SerializeField] private Button[] Buttons;
-    private GameObject startPos;
-    private Split m_Split;
+    [FormerlySerializedAs("Buttons")] [SerializeField] private Button[] buttons;
+    private GameObject _startPos;
+    private Split _mSplit;
     private void Start() {
         var obj = GameObject.FindGameObjectWithTag("PlayerController");
-        m_Split = obj.GetComponent<Split>();
-        startPos = obj;
+        _mSplit = obj.GetComponent<Split>();
+        _startPos = obj;
         print(name);
     }
     private void Update()
@@ -27,14 +28,14 @@ public class SceneManager : MonoBehaviour
     {
         var count = 0;
         print("checkplayer is running");
-        for (int i = 0; i < m_Split.activeClones.Length; i++)
+        for (int i = 0; i < _mSplit.activeClones.Length; i++)
         {
-            if (!m_Split.activeClones[i])
+            if (!_mSplit.activeClones[i])
             {
                 count++;
                 print(count);
             }
-            if (count == m_Split.activeClones.Length)
+            if (count == _mSplit.activeClones.Length)
             {
                 print("reset");
                 Reset();
@@ -44,11 +45,11 @@ public class SceneManager : MonoBehaviour
     private void Reset()
     {
         print("reset");
-        for (int i = 0; i < Buttons.Length; i++)
+        for (int i = 0; i < buttons.Length; i++)
         {
-            Buttons[i].active = false;
+            buttons[i].active = false;
         }
         
-        m_Split.SpawnClone(0, m_Split.mainClones, startPos);
+        _mSplit.SpawnClone(0, _mSplit.mainClones, _startPos);
     }
 }

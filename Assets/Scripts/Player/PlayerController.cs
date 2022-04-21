@@ -7,22 +7,22 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Input))]
 public class PlayerController : MonoBehaviour
 {
-    private Input m_Input;
-    private Movement m_Movement;
-    private Split m_Split;
+    private Input _mInput;
+    private Movement _mMovement;
+    private Split _mSplit;
     private void Awake()
     {
-        m_Movement = GetComponent<Movement>();
-        m_Input = GetComponent<Input>();
-        m_Split = GetComponent<Split>();
+        _mMovement = GetComponent<Movement>();
+        _mInput = GetComponent<Input>();
+        _mSplit = GetComponent<Split>();
     }
     //calls upon functions to split whenever buttons to split are pressed
-    void OnSplitMain(InputValue inputValue) => m_Split.MainSplit();
-    void OnSplitSecond(InputValue inputValue) => m_Split.SecondSplit();
+    void OnSplitMain(InputValue inputValue) => _mSplit.MainSplit();
+    void OnSplitSecond(InputValue inputValue) => _mSplit.SecondSplit();
     private void FixedUpdate()
     {
-        m_Movement.MoveMain(m_Input.moveMainVector);
-        m_Movement.MoveSecond(m_Input.moveSecondVector);
+        _mMovement.MoveMain(_mInput.MoveMainVector);
+        _mMovement.MoveSecond(_mInput.MoveSecondVector);
     }
    
 }
