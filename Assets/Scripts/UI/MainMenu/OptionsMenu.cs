@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +13,7 @@ public class OptionsMenu : MonoBehaviour
     [SerializeField] private GameObject[] optionsMenus;
     [SerializeField] private Slider[] volumeSliders;
     
+    [SerializeField] private GameObject[] controlsMenus;
 
 //Ensures that the main options menu always appears first no matter what we enable or disable in the editor.
     private void OnEnable()
@@ -39,12 +41,48 @@ public class OptionsMenu : MonoBehaviour
         }
         optionsMenus[1].SetActive(true);
         //Saves volume from SettingsController to playerprefs, then sets the slider values accordingly
-        //Doing this instead of getting info right from the scrub to avoiod unexplainable bug
+        //Doing this instead of getting info right from the scrub to avoid unexplainable bug
         SaveVolume();
         SetSliderValue();
     }
+    
+    public void ControlsMenu()
+    {
+        foreach (var i in optionsMenus)
+        {
+            i.SetActive(false);
+        }
+        optionsMenus[2].SetActive(true);
+        foreach (var p in controlsMenus)
+        {
+            p.SetActive(false);
+        }
+        controlsMenus[0].SetActive(true);
+    }
 
-    //Called from on slider value change
+    #region Controls Options
+    public void KeyboardControlsMenu()
+    {
+        foreach (var i in controlsMenus)
+        {
+            i.SetActive(false);
+        }
+        controlsMenus[1].SetActive(true);
+    }
+    public void GamepadControlsMenu()
+    {
+        foreach (var i in controlsMenus)
+        {
+            i.SetActive(false);
+        }
+        controlsMenus[2].SetActive(true);
+    }
+
+
+    #endregion
+
+    #region Volume Options
+    //Called from unity slider value change
     public void SetVolume()
     {
         settingsController.masterVolume = volumeSliders[0].value;
@@ -89,4 +127,7 @@ public class OptionsMenu : MonoBehaviour
         settingsController.environmentVolume = PlayerPrefs.GetFloat("EnvironmentVolume");
         settingsController.playerVolume = PlayerPrefs.GetFloat("PlayerVolume");
     }
+    #endregion
+    
+    
 }
