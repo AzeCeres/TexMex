@@ -5,13 +5,13 @@ namespace Puzzle
     {
         [SerializeField] private Button[] button;
         public bool inverted;
-        private bool m_Open;
-        private BoxCollider2D m_DoorCollider;
-        private SpriteRenderer m_DoorRenderer;
+        private bool _mOpen;
+        private BoxCollider2D _mDoorCollider;
+        private SpriteRenderer _mDoorRenderer;
         private void Awake()
         {
-            m_DoorCollider = GetComponentInChildren<BoxCollider2D>();
-            m_DoorRenderer = GetComponentInChildren<SpriteRenderer>();
+            _mDoorCollider = GetComponentInChildren<BoxCollider2D>();
+            _mDoorRenderer = GetComponentInChildren<SpriteRenderer>();
         }
         private void Update()
         {
@@ -26,19 +26,19 @@ namespace Puzzle
                 {
                     activeCount++;
                 }
-                m_Open = activeCount == button.Length;
+                _mOpen = activeCount == button.Length;
             }
-            if (m_Open && !inverted || !m_Open && inverted)
+            if (_mOpen && !inverted || !_mOpen && inverted)
             {
-                m_DoorRenderer.enabled = false;
-                if (m_DoorCollider == null) return;
-                m_DoorCollider.enabled = false;
+                _mDoorRenderer.enabled = false;
+                if (_mDoorCollider == null) return;
+                _mDoorCollider.enabled = false;
             }
             else //if (m_Open && inverted || m_Open && inverted)
             {
-                m_DoorRenderer.enabled = true;
-                if (m_DoorCollider == null) return;
-                m_DoorCollider.enabled = true;
+                _mDoorRenderer.enabled = true;
+                if (_mDoorCollider == null) return;
+                _mDoorCollider.enabled = true;
             }
         }
     }
