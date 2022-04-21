@@ -4,29 +4,26 @@ using UnityEngine.InputSystem;
 
 namespace Audio
 {
-    [RequireComponent(typeof(AudioSource))]
+    [RequireComponent(typeof(LaserAudioController))]
     public class AudioTest : MonoBehaviour
     {
-        [SerializeField] private AudioVariation audioVariationArray;
-        [SerializeField] private AudioVariation audioVariationPitch;
-
-        private AudioSource _audioSource;
+        private LaserAudioController _laserAudioController;
 
         private void Start()
         {
-            _audioSource = GetComponent<AudioSource>();
+            _laserAudioController = GetComponent<LaserAudioController>();
         }
 
         private void Update()
         {
             if (Keyboard.current.aKey.wasPressedThisFrame)
             {
-                audioVariationArray.PlayAudio(_audioSource);
+                _laserAudioController.PlayLaserFireAudio();
             }
 
             if (Keyboard.current.sKey.wasPressedThisFrame)
             {
-                audioVariationPitch.PlayAudio(_audioSource);
+                _laserAudioController.StopAudio();
             }
         }
     }

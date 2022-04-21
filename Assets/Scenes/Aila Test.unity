@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 24460652}
   - component: {fileID: 24460656}
   - component: {fileID: 24460655}
+  - component: {fileID: 24460657}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -221,8 +222,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cd2b916cf044163911129b70d8043f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioVariationArray: {fileID: 11400000, guid: 1b7c32d39d812f24396c47ca80478c6a, type: 2}
-  audioVariationPitch: {fileID: 11400000, guid: 0ecc0b8cbe0ac3941a1f78d22158d0f3, type: 2}
 --- !u!82 &24460656
 AudioSource:
   m_ObjectHideFlags: 0
@@ -319,3 +318,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &24460657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24460651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c99ad2d4eb04467b3f08d152528dac5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laserFire: {fileID: 8300000, guid: 376fed264063f5640a5f46f63a107b3b, type: 3}
+  laserIdle: {fileID: 8300000, guid: f396a82752551dd42bef9fa67f2e0c97, type: 3}
+  startActive: 1
