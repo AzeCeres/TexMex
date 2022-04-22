@@ -14,5 +14,11 @@ public class SettingsController : ScriptableObject
     
 
     #endregion
+
+    #region Accessibility Values
+
+    public Color player1Color;
+
+    #endregion
 }
 

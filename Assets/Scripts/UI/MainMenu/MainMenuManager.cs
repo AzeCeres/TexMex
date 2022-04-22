@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class MainMenuManager : MonoBehaviour
@@ -7,12 +9,15 @@ public class MainMenuManager : MonoBehaviour
     public SettingsController settingsController;
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private GameObject optionsMenu;
+
+    public TMP_Text DebugMainMenutext;
     // Start is called before the first frame update
     void Start()
     {
         MainMenu();
         GetPlayerPrefs();
     }
+    
 
     public void PlayGame()
     {
@@ -30,6 +35,8 @@ public class MainMenuManager : MonoBehaviour
     {
         mainMenu.SetActive(true);
         optionsMenu.SetActive(false);
+        //this is for testing the color saving to playeprefs
+        GetPlayerPrefs();
     }
 
     private void GetPlayerPrefs()
@@ -40,6 +47,9 @@ public class MainMenuManager : MonoBehaviour
         settingsController.musicVolume = PlayerPrefs.GetFloat("MusicVolume");
         settingsController.environmentVolume = PlayerPrefs.GetFloat("EnvironmentVolume");
         settingsController.playerVolume = PlayerPrefs.GetFloat("PlayerVolume");
+        
+        ColorUtility.TryParseHtmlString("#" + PlayerPrefs.GetString("PlayerOneColor"), out settingsController.player1Color);
+        DebugMainMenutext.color = settingsController.player1Color;
     }
 
     public void QuitGame()

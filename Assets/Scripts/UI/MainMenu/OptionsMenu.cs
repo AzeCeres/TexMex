@@ -14,6 +14,9 @@ public class OptionsMenu : MonoBehaviour
     [SerializeField] private Slider[] volumeSliders;
     
     [SerializeField] private GameObject[] controlsMenus;
+    
+    [SerializeField] private GameObject[] accessibilityMenus;
+
 
 //Ensures that the main options menu always appears first no matter what we enable or disable in the editor.
     private void OnEnable()
@@ -59,6 +62,34 @@ public class OptionsMenu : MonoBehaviour
         }
         controlsMenus[0].SetActive(true);
     }
+    
+    public void AccessibilityMenu()
+    {
+        foreach (var i in optionsMenus)
+        {
+            i.SetActive(false);
+        }
+        optionsMenus[3].SetActive(true);
+        foreach (var p in accessibilityMenus)
+        {
+            p.SetActive(false);
+        }
+        accessibilityMenus[0].SetActive(true);
+    }
+
+    #region Accessibility Options
+    
+    public void ColorPickerMenu()
+    {
+        foreach (var i in accessibilityMenus)
+        {
+            i.SetActive(false);
+        }
+        accessibilityMenus[1].SetActive(true);
+    }
+    
+
+    #endregion
 
     #region Controls Options
     public void KeyboardControlsMenu()
