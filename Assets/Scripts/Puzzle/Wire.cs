@@ -64,6 +64,7 @@ namespace Puzzle
             return active;    
         }
         private void OnTriggerEnter2D(Collider2D other) {
+            //print(other.gameObject.name); //for testing, in case of objects not being seen. Make sure they are Kinematic, as static objects aren't seen apparently
             for (int i = 0; i < buttons.Count; i++) {
                 if (other.gameObject != buttons[i])
                     continue;
@@ -73,7 +74,7 @@ namespace Puzzle
             for (int i = 0; i < puzzleObjects.Count; i++) {
                 if (other.gameObject != puzzleObjects[i])
                     continue;
-                if (other.gameObject.transform.parent.TryGetComponent(out Door door)) {
+                if (other.gameObject.TryGetComponent(out Door door)) {
                     door.wire = gameObject.GetComponent<Wire>();
                 } if (other.gameObject.TryGetComponent(out LaserShooter laser)) {
                     laser.wire = gameObject.GetComponent<Wire>();

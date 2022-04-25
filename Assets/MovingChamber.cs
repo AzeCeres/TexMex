@@ -27,10 +27,10 @@ public class MovingChamber : MonoBehaviour
             other.gameObject.transform.parent = transform;
         }
     }
-    private void OnTriggerExit(Collider other) {
-        throw new NotImplementedException();
-        if (other.gameObject.CompareTag("Player")) {
-            other.gameObject.transform.parent = transform;
-        }
-    }
+    // private void OnTriggerExit(Collider other) {
+    //     throw new NotImplementedException();
+    //     if (other.gameObject.CompareTag("Player")) {
+    //         other.gameObject.transform.parent = transform;
+    //     }
+    // }
 }
