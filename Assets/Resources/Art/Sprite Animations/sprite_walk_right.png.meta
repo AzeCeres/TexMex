@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5965f39b3373e4792a61c760606866d8
+guid: e6818d8914e124ff5bb0573b50f794a9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite_walk_left_0
+      name: sprtie_walk_right_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 640c69f00d2b04dfc947bbef4f092f1c
-      internalID: -1803812250
+      spriteID: cb2be4eb1f46c43cf8babfd2601ac2ea
+      internalID: -1623777448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_1
+      name: sprtie_walk_right_1
       rect:
         serializedVersion: 2
         x: 32
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7792abb556356446a988dac660900860
-      internalID: 1466680602
+      spriteID: dc5f4826d12364e6abb6ade93137c635
+      internalID: 1384739413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_2
+      name: sprtie_walk_right_2
       rect:
         serializedVersion: 2
         x: 64
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dea634a0c3a3045ab9cf7d5685e18163
-      internalID: 643636858
+      spriteID: 8e2912f7e1e314ef39d84b567c13397e
+      internalID: -1937846354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_3
+      name: sprtie_walk_right_3
       rect:
         serializedVersion: 2
         x: 96
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b20aea0803c4846d5bb83c6782bba070
-      internalID: 1989111494
+      spriteID: 27caf1fb30e7e48e7920e647a4093872
+      internalID: 1134488560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_4
+      name: sprtie_walk_right_4
       rect:
         serializedVersion: 2
         x: 128
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a46ddeb5ef13f4a27ae9450f6e7bf8c1
-      internalID: -520029495
+      spriteID: 21744561436aa4bbeb84908325b7da7b
+      internalID: -1623942198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_5
+      name: sprtie_walk_right_5
       rect:
         serializedVersion: 2
         x: 160
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ef93081fcefe4cea88167ee4eed5177
-      internalID: -1651580920
+      spriteID: 6945117c844e94509954f4adbabe7946
+      internalID: -1452488784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_6
+      name: sprtie_walk_right_6
       rect:
         serializedVersion: 2
         x: 192
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af83c64a21bfb4e05bcc0a5b55970ec3
-      internalID: 1113969220
+      spriteID: 75458931bdf5b4f098c845cd102b5400
+      internalID: -558145756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_7
+      name: sprtie_walk_right_7
       rect:
         serializedVersion: 2
         x: 224
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db749f9a8f72341db8b187b2e7539a1a
-      internalID: 526258000
+      spriteID: 4fa946e2767414f83861bf23d3db9242
+      internalID: 1131759081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_8
+      name: sprtie_walk_right_8
       rect:
         serializedVersion: 2
         x: 256
@@ -298,14 +298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4694f854678f4bd6b5b47ce14d1a02b
-      internalID: 1327344616
+      spriteID: 31b4c7816e59f411781b5aebd88be142
+      internalID: 1191188255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_9
+      name: sprtie_walk_right_9
       rect:
         serializedVersion: 2
         x: 288
@@ -319,14 +319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a66b79a6ee2e420c9202505e393869f
-      internalID: -1096085751
+      spriteID: 702ed59c08b874c80a8ceed470b0c42e
+      internalID: -1005098188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_10
+      name: sprtie_walk_right_10
       rect:
         serializedVersion: 2
         x: 320
@@ -340,14 +340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f31555f15ffe44f7c8a4c5ab7ef9e0da
-      internalID: -1635404291
+      spriteID: 738aab1c3bbc649a1a15ab103b62018e
+      internalID: 1019641302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_11
+      name: sprtie_walk_right_11
       rect:
         serializedVersion: 2
         x: 352
@@ -361,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56ed7e605d18e461faa15b38d17ad4c9
-      internalID: 1101902674
+      spriteID: 6dc4561aa37ad49a4aadd2f0a00227ab
+      internalID: 2004806010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_12
+      name: sprtie_walk_right_12
       rect:
         serializedVersion: 2
         x: 384
@@ -382,14 +382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38f41be4a888942bfb432482eadb9eab
-      internalID: 2029416144
+      spriteID: f6635395d00a14711bfd2071838e2862
+      internalID: 1374366723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_13
+      name: sprtie_walk_right_13
       rect:
         serializedVersion: 2
         x: 416
@@ -403,14 +403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58b2098cb0ae74ae4ae61a06ba529f6a
-      internalID: -2075832187
+      spriteID: e0e023957919e4b7d8f2e74e9552814f
+      internalID: 307363705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_14
+      name: sprtie_walk_right_14
       rect:
         serializedVersion: 2
         x: 448
@@ -424,14 +424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef5f4799b7a98408895d227b8e31add9
-      internalID: 1423063301
+      spriteID: 2a613606595764220b519849b4c25f9c
+      internalID: -1035312772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_walk_left_15
+      name: sprtie_walk_right_15
       rect:
         serializedVersion: 2
         x: 480
@@ -445,8 +445,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ff807ce4e525433c9b86e4e0d2db0de
-      internalID: 1267304341
+      spriteID: 719ec6be9c5df4dc08c5541dc4f3bce6
+      internalID: 1381529214
       vertices: []
       indices: 
       edges: []
@@ -462,22 +462,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite_walk_left_3: 1989111494
-      Sprite_walk_left_1: 1466680602
-      Sprite_walk_left_13: -2075832187
-      Sprite_walk_left_10: -1635404291
-      Sprite_walk_left_11: 1101902674
-      Sprite_walk_left_2: 643636858
-      Sprite_walk_left_7: 526258000
-      Sprite_walk_left_14: 1423063301
-      Sprite_walk_left_0: -1803812250
-      Sprite_walk_left_9: -1096085751
-      Sprite_walk_left_15: 1267304341
-      Sprite_walk_left_12: 2029416144
-      Sprite_walk_left_8: 1327344616
-      Sprite_walk_left_5: -1651580920
-      Sprite_walk_left_6: 1113969220
-      Sprite_walk_left_4: -520029495
+      sprtie_walk_right_4: -1623942198
+      sprtie_walk_right_10: 1019641302
+      sprtie_walk_right_8: 1191188255
+      sprtie_walk_right_7: 1131759081
+      sprtie_walk_right_13: 307363705
+      sprtie_walk_right_14: -1035312772
+      sprtie_walk_right_11: 2004806010
+      sprtie_walk_right_3: 1134488560
+      sprtie_walk_right_9: -1005098188
+      sprtie_walk_right_15: 1381529214
+      sprtie_walk_right_6: -558145756
+      sprtie_walk_right_5: -1452488784
+      sprtie_walk_right_2: -1937846354
+      sprtie_walk_right_1: 1384739413
+      sprtie_walk_right_12: 1374366723
+      sprtie_walk_right_0: -1623777448
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
