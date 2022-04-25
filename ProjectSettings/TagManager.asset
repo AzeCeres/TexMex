@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Door
   - PlayerController
+  - Puzzle
+  - Button
+  - SceneManager
   layers:
   - Default
   - TransparentFX

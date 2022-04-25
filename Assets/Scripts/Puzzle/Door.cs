@@ -14,7 +14,7 @@ namespace Puzzle
         private void Awake() {
             m_DoorCollider = GetComponent<BoxCollider2D>();
             m_DoorRenderer = GetComponent<SpriteRenderer>();
-            print(m_DoorCollider);
+            //print(m_DoorCollider);
         }
         private void Update() {
             Open();
