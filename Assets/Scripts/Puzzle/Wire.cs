@@ -1,17 +1,17 @@
 using System.Collections.Generic;
+using System.ComponentModel;
 using JetBrains.Annotations;
 using UnityEngine;
 namespace Puzzle
 {
     public class Wire : MonoBehaviour
     {
-        [SerializeField][CanBeNull] private Button button;
-        [SerializeField][CanBeNull] private Wire[] wire;
+        [HideInInspector][CanBeNull] public Button button;
+        //[SerializeField][CanBeNull] private Wire[] wire;
+        [CanBeNull] private WireConnector wireConnector;
         public bool active;
-        // private List<GameObject> m_WireSegments;
         // [SerializeField] private Color inActiveColor;
         // [CanBeNull] public Color color;
-        
         private List<GameObject> puzzleObjects = new List<GameObject>(), buttons = new List<GameObject>();
         private void Start() {
             GameObject[] gameObjects = UnityEngine.Object.FindObjectsOfType<GameObject>();
@@ -30,36 +30,20 @@ namespace Puzzle
             else
                 InActive();
         }
-        // todo // Dont get spriteRenderer every frame
+        // todo // Get Color from either button or button connector
         void Active() {
-            if (!active)
-                return;
-            // foreach (var go in m_WireSegments) {
-            //     var spriteRenderer = go.GetComponent<SpriteRenderer>();
-            //     spriteRenderer.color = color;
-            // }
         }
         void InActive() {
-            // foreach (var go in m_WireSegments) { 
-            //     var spriteRenderer = go.GetComponent<SpriteRenderer>();
-            //     spriteRenderer.color = inActiveColor;
-            // }
         }
         private bool ActivityCheck() {
             active = false;
-            // if (wire != null) {
-            //     var activeWires = 0;
-            //     foreach (var w in wire) {
-            //         if (w.active) 
-            //             activeWires++;  
-            //         if (activeWires == wire.Length) {
-            //             active = true;
-            //             //color = w.color;
-            //         }
-            //     }
-            // } 
-            if (button == null)
+            if (button == null && wireConnector == null) {
+                throw new WarningException(name + " Wire is not connected to either button or Connector");
+            }
+            if (button == null) {
+                active = wireConnector.active;
                 return active;
+            }
             active = button.active;
             return active;    
         }
@@ -75,9 +59,13 @@ namespace Puzzle
                 if (other.gameObject != puzzleObjects[i])
                     continue;
                 if (other.gameObject.TryGetComponent(out Door door)) {
-                    door.wire = gameObject.GetComponent<Wire>();
+                    door.wire = this;
                 } if (other.gameObject.TryGetComponent(out LaserShooter laser)) {
-                    laser.wire = gameObject.GetComponent<Wire>();
+                    laser.wire = this;
+                } if (other.gameObject.TryGetComponent(out WireConnector wireCon))
+                {
+                    wireConnector = wireCon;
+                    wireCon.wires.Add(this);
                 }
             }
         }
