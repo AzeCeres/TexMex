@@ -60,8 +60,12 @@ public class ColourPicker : MonoBehaviour
         colourDebugText.text = debug;
     }
 
-    public void OnClickColorPicker()
+    public void OnClickColorPicker(int colorObject)
     {
+        if (colorObject == 1)
+        {
+            //put things here for the spesific color picker thingy
+        }
         savedColorPickerColor = colorPickerColor;
         colourDebugText.color = savedColorPickerColor;
         //Saves color as string

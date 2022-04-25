@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MainMenuManager : MonoBehaviour
 {
@@ -10,7 +11,6 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private GameObject optionsMenu;
 
-    public TMP_Text DebugMainMenutext;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,7 +49,6 @@ public class MainMenuManager : MonoBehaviour
         settingsController.playerVolume = PlayerPrefs.GetFloat("PlayerVolume");
         
         ColorUtility.TryParseHtmlString("#" + PlayerPrefs.GetString("PlayerOneColor"), out settingsController.player1Color);
-        DebugMainMenutext.color = settingsController.player1Color;
     }
 
     public void QuitGame()

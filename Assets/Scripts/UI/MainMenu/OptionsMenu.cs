@@ -79,13 +79,15 @@ public class OptionsMenu : MonoBehaviour
 
     #region Accessibility Options
     
-    public void ColorPickerMenu()
+    
+    //The Color PickerMenus
+    public void ColorPickerMenu(int selectedMenu)
     {
         foreach (var i in accessibilityMenus)
         {
             i.SetActive(false);
         }
-        accessibilityMenus[1].SetActive(true);
+        accessibilityMenus[selectedMenu].SetActive(true);
     }
     
 

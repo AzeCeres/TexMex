@@ -1,18 +1,34 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PauseGame : MonoBehaviour
 {
     [SerializeField] private InputAction pauseButton;
-    [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject[] pauseMenu;
+    [SerializeField] private GameObject settingsMenu;
 
     private bool paused = false;
 
+    private void OnEnable()
+    {
+        pauseButton.Enable();
+    }
+
+    private void OnDisable()
+    {
+        pauseButton.Disable();
+    }
+
     private void Start()
     {
+        foreach (var i in pauseMenu)
+        {
+            i.SetActive(false);
+        }
         pauseButton.performed += _ => Pause();
     }
 
@@ -22,12 +38,45 @@ public class PauseGame : MonoBehaviour
         if (paused)
         {
             Time.timeScale = 0;
-            pauseMenu.SetActive(true);
+            foreach (var i in pauseMenu)
+            {
+                i.SetActive(false);
+            }
+            pauseMenu[0].SetActive(true);
+            settingsMenu.SetActive(false);
         }
         else
         {
             Time.timeScale = 1;
-            pauseMenu.SetActive(false);
+            foreach (var i in pauseMenu)
+            {
+                i.SetActive(false);
+            }
         }
+    }
+
+    public void OptionsButton()
+    {
+        foreach (var i in pauseMenu)
+        {
+            i.SetActive(false);
+        }
+        settingsMenu.SetActive(true);
+    }
+    public void MainMenu()
+    {
+        foreach (var i in pauseMenu)
+        {
+            i.SetActive(false);
+        }
+        pauseMenu[1].SetActive(true);
+    }
+    public void CancelQuit()
+    {
+        foreach (var i in pauseMenu)
+        {
+            i.SetActive(false);
+        }
+        pauseMenu[0].SetActive(true);
     }
 }
