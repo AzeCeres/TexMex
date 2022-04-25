@@ -245,7 +245,7 @@ TextureImporter:
       name: Tileset_temple_6
       rect:
         serializedVersion: 2
-        x: 320
+        x: 224
         y: 288
         width: 32
         height: 32
@@ -266,7 +266,7 @@ TextureImporter:
       name: Tileset_temple_7
       rect:
         serializedVersion: 2
-        x: 352
+        x: 256
         y: 288
         width: 32
         height: 32
@@ -287,7 +287,7 @@ TextureImporter:
       name: Tileset_temple_8
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 288
         width: 32
         height: 32
@@ -308,7 +308,7 @@ TextureImporter:
       name: Tileset_temple_9
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 288
         width: 32
         height: 32
@@ -329,7 +329,7 @@ TextureImporter:
       name: Tileset_temple_10
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 288
         width: 32
         height: 32
@@ -350,7 +350,7 @@ TextureImporter:
       name: Tileset_temple_11
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 288
         width: 32
         height: 32
@@ -371,7 +371,7 @@ TextureImporter:
       name: Tileset_temple_12
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 288
         width: 32
         height: 32
@@ -392,7 +392,7 @@ TextureImporter:
       name: Tileset_temple_13
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 288
         width: 32
         height: 32
@@ -413,7 +413,7 @@ TextureImporter:
       name: Tileset_temple_14
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 288
         width: 32
         height: 32
@@ -434,7 +434,7 @@ TextureImporter:
       name: Tileset_temple_15
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 288
         width: 32
         height: 32
@@ -455,8 +455,8 @@ TextureImporter:
       name: Tileset_temple_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
+        x: 576
+        y: 288
         width: 32
         height: 32
       alignment: 0
@@ -476,8 +476,8 @@ TextureImporter:
       name: Tileset_temple_17
       rect:
         serializedVersion: 2
-        x: 64
-        y: 256
+        x: 608
+        y: 288
         width: 32
         height: 32
       alignment: 0
@@ -497,7 +497,7 @@ TextureImporter:
       name: Tileset_temple_18
       rect:
         serializedVersion: 2
-        x: 128
+        x: 0
         y: 256
         width: 32
         height: 32
@@ -518,7 +518,7 @@ TextureImporter:
       name: Tileset_temple_19
       rect:
         serializedVersion: 2
-        x: 320
+        x: 64
         y: 256
         width: 32
         height: 32
@@ -539,7 +539,7 @@ TextureImporter:
       name: Tileset_temple_20
       rect:
         serializedVersion: 2
-        x: 352
+        x: 128
         y: 256
         width: 32
         height: 32
@@ -560,7 +560,7 @@ TextureImporter:
       name: Tileset_temple_21
       rect:
         serializedVersion: 2
-        x: 384
+        x: 224
         y: 256
         width: 32
         height: 32
@@ -581,7 +581,7 @@ TextureImporter:
       name: Tileset_temple_22
       rect:
         serializedVersion: 2
-        x: 416
+        x: 256
         y: 256
         width: 32
         height: 32
@@ -602,7 +602,7 @@ TextureImporter:
       name: Tileset_temple_23
       rect:
         serializedVersion: 2
-        x: 448
+        x: 320
         y: 256
         width: 32
         height: 32
@@ -623,7 +623,7 @@ TextureImporter:
       name: Tileset_temple_24
       rect:
         serializedVersion: 2
-        x: 480
+        x: 352
         y: 256
         width: 32
         height: 32
@@ -644,7 +644,7 @@ TextureImporter:
       name: Tileset_temple_25
       rect:
         serializedVersion: 2
-        x: 544
+        x: 384
         y: 256
         width: 32
         height: 32
@@ -665,7 +665,7 @@ TextureImporter:
       name: Tileset_temple_26
       rect:
         serializedVersion: 2
-        x: 576
+        x: 416
         y: 256
         width: 32
         height: 32
@@ -686,7 +686,7 @@ TextureImporter:
       name: Tileset_temple_27
       rect:
         serializedVersion: 2
-        x: 608
+        x: 448
         y: 256
         width: 32
         height: 32
@@ -707,8 +707,8 @@ TextureImporter:
       name: Tileset_temple_28
       rect:
         serializedVersion: 2
-        x: 0
-        y: 224
+        x: 480
+        y: 256
         width: 32
         height: 32
       alignment: 0
@@ -728,8 +728,8 @@ TextureImporter:
       name: Tileset_temple_29
       rect:
         serializedVersion: 2
-        x: 32
-        y: 224
+        x: 544
+        y: 256
         width: 32
         height: 32
       alignment: 0
@@ -749,8 +749,8 @@ TextureImporter:
       name: Tileset_temple_30
       rect:
         serializedVersion: 2
-        x: 64
-        y: 224
+        x: 576
+        y: 256
         width: 32
         height: 32
       alignment: 0
@@ -770,8 +770,8 @@ TextureImporter:
       name: Tileset_temple_31
       rect:
         serializedVersion: 2
-        x: 96
-        y: 224
+        x: 608
+        y: 256
         width: 32
         height: 32
       alignment: 0
@@ -791,7 +791,7 @@ TextureImporter:
       name: Tileset_temple_32
       rect:
         serializedVersion: 2
-        x: 128
+        x: 0
         y: 224
         width: 32
         height: 32
@@ -812,7 +812,7 @@ TextureImporter:
       name: Tileset_temple_33
       rect:
         serializedVersion: 2
-        x: 160
+        x: 32
         y: 224
         width: 32
         height: 32
@@ -833,7 +833,7 @@ TextureImporter:
       name: Tileset_temple_34
       rect:
         serializedVersion: 2
-        x: 192
+        x: 64
         y: 224
         width: 32
         height: 32
@@ -854,7 +854,7 @@ TextureImporter:
       name: Tileset_temple_35
       rect:
         serializedVersion: 2
-        x: 320
+        x: 96
         y: 224
         width: 32
         height: 32
@@ -875,7 +875,7 @@ TextureImporter:
       name: Tileset_temple_36
       rect:
         serializedVersion: 2
-        x: 384
+        x: 128
         y: 224
         width: 32
         height: 32
@@ -896,7 +896,7 @@ TextureImporter:
       name: Tileset_temple_37
       rect:
         serializedVersion: 2
-        x: 416
+        x: 160
         y: 224
         width: 32
         height: 32
@@ -917,7 +917,7 @@ TextureImporter:
       name: Tileset_temple_38
       rect:
         serializedVersion: 2
-        x: 448
+        x: 192
         y: 224
         width: 32
         height: 32
@@ -938,7 +938,7 @@ TextureImporter:
       name: Tileset_temple_39
       rect:
         serializedVersion: 2
-        x: 480
+        x: 224
         y: 224
         width: 32
         height: 32
@@ -959,7 +959,7 @@ TextureImporter:
       name: Tileset_temple_40
       rect:
         serializedVersion: 2
-        x: 512
+        x: 256
         y: 224
         width: 32
         height: 32
@@ -980,7 +980,7 @@ TextureImporter:
       name: Tileset_temple_41
       rect:
         serializedVersion: 2
-        x: 544
+        x: 320
         y: 224
         width: 32
         height: 32
@@ -1001,7 +1001,7 @@ TextureImporter:
       name: Tileset_temple_42
       rect:
         serializedVersion: 2
-        x: 576
+        x: 352
         y: 224
         width: 32
         height: 32
@@ -1022,7 +1022,7 @@ TextureImporter:
       name: Tileset_temple_43
       rect:
         serializedVersion: 2
-        x: 608
+        x: 384
         y: 224
         width: 32
         height: 32
@@ -1043,8 +1043,8 @@ TextureImporter:
       name: Tileset_temple_44
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
+        x: 416
+        y: 224
         width: 32
         height: 32
       alignment: 0
@@ -1064,8 +1064,8 @@ TextureImporter:
       name: Tileset_temple_45
       rect:
         serializedVersion: 2
-        x: 32
-        y: 192
+        x: 448
+        y: 224
         width: 32
         height: 32
       alignment: 0
@@ -1085,8 +1085,8 @@ TextureImporter:
       name: Tileset_temple_46
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
+        x: 480
+        y: 224
         width: 32
         height: 32
       alignment: 0
@@ -1106,8 +1106,8 @@ TextureImporter:
       name: Tileset_temple_47
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
+        x: 512
+        y: 224
         width: 32
         height: 32
       alignment: 0
@@ -1127,8 +1127,8 @@ TextureImporter:
       name: Tileset_temple_48
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
+        x: 544
+        y: 224
         width: 32
         height: 32
       alignment: 0
@@ -1148,8 +1148,8 @@ TextureImporter:
       name: Tileset_temple_49
       rect:
         serializedVersion: 2
-        x: 160
-        y: 192
+        x: 576
+        y: 224
         width: 32
         height: 32
       alignment: 0
@@ -1169,8 +1169,8 @@ TextureImporter:
       name: Tileset_temple_50
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
+        x: 608
+        y: 224
         width: 32
         height: 32
       alignment: 0
@@ -1190,7 +1190,7 @@ TextureImporter:
       name: Tileset_temple_51
       rect:
         serializedVersion: 2
-        x: 320
+        x: 0
         y: 192
         width: 32
         height: 32
@@ -1211,7 +1211,7 @@ TextureImporter:
       name: Tileset_temple_52
       rect:
         serializedVersion: 2
-        x: 384
+        x: 32
         y: 192
         width: 32
         height: 32
@@ -1232,7 +1232,7 @@ TextureImporter:
       name: Tileset_temple_53
       rect:
         serializedVersion: 2
-        x: 416
+        x: 64
         y: 192
         width: 32
         height: 32
@@ -1253,7 +1253,7 @@ TextureImporter:
       name: Tileset_temple_54
       rect:
         serializedVersion: 2
-        x: 448
+        x: 96
         y: 192
         width: 32
         height: 32
@@ -1274,7 +1274,7 @@ TextureImporter:
       name: Tileset_temple_55
       rect:
         serializedVersion: 2
-        x: 576
+        x: 128
         y: 192
         width: 32
         height: 32
@@ -1295,7 +1295,7 @@ TextureImporter:
       name: Tileset_temple_56
       rect:
         serializedVersion: 2
-        x: 608
+        x: 160
         y: 192
         width: 32
         height: 32
@@ -1316,8 +1316,8 @@ TextureImporter:
       name: Tileset_temple_57
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
+        x: 192
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -1337,8 +1337,8 @@ TextureImporter:
       name: Tileset_temple_58
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
+        x: 224
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -1358,8 +1358,8 @@ TextureImporter:
       name: Tileset_temple_59
       rect:
         serializedVersion: 2
-        x: 64
-        y: 160
+        x: 256
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -1379,8 +1379,8 @@ TextureImporter:
       name: Tileset_temple_60
       rect:
         serializedVersion: 2
-        x: 96
-        y: 160
+        x: 320
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -1400,8 +1400,8 @@ TextureImporter:
       name: Tileset_temple_61
       rect:
         serializedVersion: 2
-        x: 128
-        y: 160
+        x: 352
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -1421,8 +1421,8 @@ TextureImporter:
       name: Tileset_temple_62
       rect:
         serializedVersion: 2
-        x: 160
-        y: 160
+        x: 384
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -1442,8 +1442,8 @@ TextureImporter:
       name: Tileset_temple_63
       rect:
         serializedVersion: 2
-        x: 192
-        y: 160
+        x: 416
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -1463,8 +1463,8 @@ TextureImporter:
       name: Tileset_temple_64
       rect:
         serializedVersion: 2
-        x: 256
-        y: 160
+        x: 448
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -1484,8 +1484,8 @@ TextureImporter:
       name: Tileset_temple_65
       rect:
         serializedVersion: 2
-        x: 288
-        y: 160
+        x: 576
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -1505,8 +1505,8 @@ TextureImporter:
       name: Tileset_temple_66
       rect:
         serializedVersion: 2
-        x: 320
-        y: 160
+        x: 608
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -1526,7 +1526,7 @@ TextureImporter:
       name: Tileset_temple_67
       rect:
         serializedVersion: 2
-        x: 352
+        x: 0
         y: 160
         width: 32
         height: 32
@@ -1547,7 +1547,7 @@ TextureImporter:
       name: Tileset_temple_68
       rect:
         serializedVersion: 2
-        x: 384
+        x: 32
         y: 160
         width: 32
         height: 32
@@ -1568,7 +1568,7 @@ TextureImporter:
       name: Tileset_temple_69
       rect:
         serializedVersion: 2
-        x: 416
+        x: 64
         y: 160
         width: 32
         height: 32
@@ -1589,7 +1589,7 @@ TextureImporter:
       name: Tileset_temple_70
       rect:
         serializedVersion: 2
-        x: 448
+        x: 96
         y: 160
         width: 32
         height: 32
@@ -1610,8 +1610,8 @@ TextureImporter:
       name: Tileset_temple_71
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 128
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1631,8 +1631,8 @@ TextureImporter:
       name: Tileset_temple_72
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
+        x: 160
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1652,8 +1652,8 @@ TextureImporter:
       name: Tileset_temple_73
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
+        x: 192
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1673,8 +1673,8 @@ TextureImporter:
       name: Tileset_temple_74
       rect:
         serializedVersion: 2
-        x: 96
-        y: 128
+        x: 256
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1694,8 +1694,8 @@ TextureImporter:
       name: Tileset_temple_75
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 288
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1715,8 +1715,8 @@ TextureImporter:
       name: Tileset_temple_76
       rect:
         serializedVersion: 2
-        x: 160
-        y: 128
+        x: 320
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1736,8 +1736,8 @@ TextureImporter:
       name: Tileset_temple_77
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
+        x: 352
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1757,8 +1757,8 @@ TextureImporter:
       name: Tileset_temple_78
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
+        x: 384
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1778,8 +1778,8 @@ TextureImporter:
       name: Tileset_temple_79
       rect:
         serializedVersion: 2
-        x: 288
-        y: 128
+        x: 416
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1799,8 +1799,8 @@ TextureImporter:
       name: Tileset_temple_80
       rect:
         serializedVersion: 2
-        x: 320
-        y: 128
+        x: 448
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1820,7 +1820,7 @@ TextureImporter:
       name: Tileset_temple_81
       rect:
         serializedVersion: 2
-        x: 352
+        x: 0
         y: 128
         width: 32
         height: 32
@@ -1841,7 +1841,7 @@ TextureImporter:
       name: Tileset_temple_82
       rect:
         serializedVersion: 2
-        x: 384
+        x: 32
         y: 128
         width: 32
         height: 32
@@ -1862,7 +1862,7 @@ TextureImporter:
       name: Tileset_temple_83
       rect:
         serializedVersion: 2
-        x: 416
+        x: 64
         y: 128
         width: 32
         height: 32
@@ -1883,7 +1883,7 @@ TextureImporter:
       name: Tileset_temple_84
       rect:
         serializedVersion: 2
-        x: 448
+        x: 96
         y: 128
         width: 32
         height: 32
@@ -1904,8 +1904,8 @@ TextureImporter:
       name: Tileset_temple_85
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 128
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -1925,8 +1925,8 @@ TextureImporter:
       name: Tileset_temple_86
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
+        x: 160
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -1946,8 +1946,8 @@ TextureImporter:
       name: Tileset_temple_87
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
+        x: 192
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -1967,8 +1967,8 @@ TextureImporter:
       name: Tileset_temple_88
       rect:
         serializedVersion: 2
-        x: 288
-        y: 96
+        x: 256
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -1988,8 +1988,8 @@ TextureImporter:
       name: Tileset_temple_89
       rect:
         serializedVersion: 2
-        x: 320
-        y: 96
+        x: 288
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -2009,8 +2009,8 @@ TextureImporter:
       name: Tileset_temple_90
       rect:
         serializedVersion: 2
-        x: 352
-        y: 96
+        x: 320
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -2030,8 +2030,8 @@ TextureImporter:
       name: Tileset_temple_91
       rect:
         serializedVersion: 2
-        x: 384
-        y: 96
+        x: 352
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -2051,8 +2051,8 @@ TextureImporter:
       name: Tileset_temple_92
       rect:
         serializedVersion: 2
-        x: 416
-        y: 96
+        x: 384
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -2072,8 +2072,8 @@ TextureImporter:
       name: Tileset_temple_93
       rect:
         serializedVersion: 2
-        x: 448
-        y: 96
+        x: 416
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -2093,8 +2093,8 @@ TextureImporter:
       name: Tileset_temple_94
       rect:
         serializedVersion: 2
-        x: 512
-        y: 96
+        x: 448
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -2114,7 +2114,7 @@ TextureImporter:
       name: Tileset_temple_95
       rect:
         serializedVersion: 2
-        x: 544
+        x: 0
         y: 96
         width: 32
         height: 32
@@ -2135,7 +2135,7 @@ TextureImporter:
       name: Tileset_temple_96
       rect:
         serializedVersion: 2
-        x: 576
+        x: 32
         y: 96
         width: 32
         height: 32
@@ -2156,8 +2156,8 @@ TextureImporter:
       name: Tileset_temple_97
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 64
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2177,8 +2177,8 @@ TextureImporter:
       name: Tileset_temple_98
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
+        x: 96
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2198,8 +2198,8 @@ TextureImporter:
       name: Tileset_temple_99
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
+        x: 128
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2219,8 +2219,8 @@ TextureImporter:
       name: Tileset_temple_100
       rect:
         serializedVersion: 2
-        x: 288
-        y: 64
+        x: 160
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2240,8 +2240,8 @@ TextureImporter:
       name: Tileset_temple_101
       rect:
         serializedVersion: 2
-        x: 320
-        y: 64
+        x: 192
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2261,8 +2261,8 @@ TextureImporter:
       name: Tileset_temple_102
       rect:
         serializedVersion: 2
-        x: 352
-        y: 64
+        x: 224
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2282,8 +2282,8 @@ TextureImporter:
       name: Tileset_temple_103
       rect:
         serializedVersion: 2
-        x: 384
-        y: 64
+        x: 256
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2303,8 +2303,8 @@ TextureImporter:
       name: Tileset_temple_104
       rect:
         serializedVersion: 2
-        x: 416
-        y: 64
+        x: 288
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2324,8 +2324,8 @@ TextureImporter:
       name: Tileset_temple_105
       rect:
         serializedVersion: 2
-        x: 448
-        y: 64
+        x: 320
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2345,8 +2345,8 @@ TextureImporter:
       name: Tileset_temple_106
       rect:
         serializedVersion: 2
-        x: 512
-        y: 64
+        x: 352
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2366,8 +2366,8 @@ TextureImporter:
       name: Tileset_temple_107
       rect:
         serializedVersion: 2
-        x: 544
-        y: 64
+        x: 384
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2387,8 +2387,8 @@ TextureImporter:
       name: Tileset_temple_108
       rect:
         serializedVersion: 2
-        x: 576
-        y: 64
+        x: 416
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2408,8 +2408,8 @@ TextureImporter:
       name: Tileset_temple_109
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 448
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2429,8 +2429,8 @@ TextureImporter:
       name: Tileset_temple_110
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
+        x: 512
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2450,8 +2450,8 @@ TextureImporter:
       name: Tileset_temple_111
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
+        x: 544
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2471,8 +2471,8 @@ TextureImporter:
       name: Tileset_temple_112
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
+        x: 576
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2492,8 +2492,8 @@ TextureImporter:
       name: Tileset_temple_113
       rect:
         serializedVersion: 2
-        x: 128
-        y: 32
+        x: 0
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2513,8 +2513,8 @@ TextureImporter:
       name: Tileset_temple_114
       rect:
         serializedVersion: 2
-        x: 160
-        y: 32
+        x: 32
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2534,8 +2534,8 @@ TextureImporter:
       name: Tileset_temple_115
       rect:
         serializedVersion: 2
-        x: 288
-        y: 32
+        x: 64
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2555,8 +2555,8 @@ TextureImporter:
       name: Tileset_temple_116
       rect:
         serializedVersion: 2
-        x: 320
-        y: 32
+        x: 192
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2576,8 +2576,8 @@ TextureImporter:
       name: Tileset_temple_117
       rect:
         serializedVersion: 2
-        x: 352
-        y: 32
+        x: 224
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2597,8 +2597,8 @@ TextureImporter:
       name: Tileset_temple_118
       rect:
         serializedVersion: 2
-        x: 384
-        y: 32
+        x: 256
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2618,8 +2618,8 @@ TextureImporter:
       name: Tileset_temple_119
       rect:
         serializedVersion: 2
-        x: 416
-        y: 32
+        x: 288
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2639,8 +2639,8 @@ TextureImporter:
       name: Tileset_temple_120
       rect:
         serializedVersion: 2
-        x: 448
-        y: 32
+        x: 320
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2660,8 +2660,8 @@ TextureImporter:
       name: Tileset_temple_121
       rect:
         serializedVersion: 2
-        x: 512
-        y: 32
+        x: 352
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2681,8 +2681,8 @@ TextureImporter:
       name: Tileset_temple_122
       rect:
         serializedVersion: 2
-        x: 544
-        y: 32
+        x: 384
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2702,8 +2702,8 @@ TextureImporter:
       name: Tileset_temple_123
       rect:
         serializedVersion: 2
-        x: 576
-        y: 32
+        x: 416
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2723,8 +2723,8 @@ TextureImporter:
       name: Tileset_temple_124
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
+        x: 448
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2744,8 +2744,8 @@ TextureImporter:
       name: Tileset_temple_125
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
+        x: 512
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2765,8 +2765,8 @@ TextureImporter:
       name: Tileset_temple_126
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
+        x: 544
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2786,8 +2786,8 @@ TextureImporter:
       name: Tileset_temple_127
       rect:
         serializedVersion: 2
-        x: 288
-        y: 0
+        x: 576
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2807,8 +2807,8 @@ TextureImporter:
       name: Tileset_temple_128
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
+        x: 0
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -2828,8 +2828,8 @@ TextureImporter:
       name: Tileset_temple_129
       rect:
         serializedVersion: 2
-        x: 352
-        y: 0
+        x: 32
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -2849,8 +2849,8 @@ TextureImporter:
       name: Tileset_temple_130
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
+        x: 64
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -2870,8 +2870,8 @@ TextureImporter:
       name: Tileset_temple_131
       rect:
         serializedVersion: 2
-        x: 416
-        y: 0
+        x: 96
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -2891,8 +2891,8 @@ TextureImporter:
       name: Tileset_temple_132
       rect:
         serializedVersion: 2
-        x: 448
-        y: 0
+        x: 128
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -2904,6 +2904,405 @@ TextureImporter:
       bones: []
       spriteID: 26e0f2a421c13fd4cb7027409eba31be
       internalID: 2119168269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_133
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4075efa0715a99a49b6ed3a05f0a1672
+      internalID: 1586025747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_134
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6f9fa672552fe4491e79e05bce73b5
+      internalID: 1482657088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_135
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5902a8c8a24bfa48afe37c1a0ee7420
+      internalID: 711416216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_136
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f240f572109da4284cf8fc1068e855
+      internalID: 98257597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_137
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfe5387eb9cbc7469b01a90074f0965
+      internalID: -334386823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_138
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5d108c882f5dc40933dbeff4746f72
+      internalID: -1955335766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_139
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a371db3483e7b9a4d82bf9e7826e2994
+      internalID: 1702502443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_140
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ddf54f9242e4b4ba1eaf8b6ac9a1c5
+      internalID: -2080352117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_141
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2575bf6a1a3862748ad1c544e64ae7cc
+      internalID: 278174997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_142
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3274c4803bb4b74895a0ad4c63126d2
+      internalID: -93064472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_143
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e407ee440dd7574895745ad53c24735
+      internalID: -1002591203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_144
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612f4cf39874af442adb4d6aeca25e7b
+      internalID: -1032224069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_145
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480c5edb1492c6341bfafb1642c77bfe
+      internalID: -1504229788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_146
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e8c2a5c695f784fbe9bb826b402b3c
+      internalID: 1195163602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_147
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c144c5991adb024b9063357843708cd
+      internalID: -530179387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_148
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b3ce0ce46a3a648ab6349b90092c81
+      internalID: -371880875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_149
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23808a7096d3884459229d783c273882
+      internalID: -1586940247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_150
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28df1bd6e45555c44bffb068f1f10242
+      internalID: 1394865839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple_151
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c42633949751146be8c1ee8bbfcd17
+      internalID: -1822588625
       vertices: []
       indices: 
       edges: []
@@ -2925,9 +3324,12 @@ TextureImporter:
       Tileset_temple_96: -1764333977
       Tileset_temple_29: 1304786005
       Tileset_temple_116: 1809664187
+      Tileset_temple_135: 711416216
       Tileset_temple_2: -638942157
       Tileset_temple_4: 1852198813
       Tileset_temple_126: -1675904756
+      Tileset_temple_150: 1394865839
+      Tileset_temple_144: -1032224069
       Tileset_temple_20: -1193483719
       Tileset_temple_32: -673721552
       Tileset_temple_113: 1298370508
@@ -2939,8 +3341,11 @@ TextureImporter:
       Tileset_temple_98: 1038448949
       Tileset_temple_6: -77155667
       Tileset_temple_34: -591900165
+      Tileset_temple_138: -1955335766
       Tileset_temple_74: 627699495
       Tileset_temple_60: -49151543
+      Tileset_temple_136: 98257597
+      Tileset_temple_146: 1195163602
       Tileset_temple_53: 1890968944
       Tileset_temple_83: -1613577991
       Tileset_temple_118: -679808361
@@ -2954,14 +3359,17 @@ TextureImporter:
       Tileset_temple_82: 2028442816
       Tileset_temple_50: -2050022449
       Tileset_temple_1: -1314849317
+      Tileset_temple_142: -93064472
       Tileset_temple_104: 123522365
       Tileset_temple_130: -1253927599
       Tileset_temple_120: -1331286790
       Tileset_temple_69: -615371756
       Tileset_temple_119: 811966980
+      Tileset_temple_139: 1702502443
       Tileset_temple_37: 445001401
       Tileset_temple_67: 924480616
       Tileset_temple_91: 1929006062
+      Tileset_temple_143: -1002591203
       Tileset_temple_16: -1292143293
       Tileset_temple_127: -1081776500
       Tileset_temple_89: -430436635
@@ -2985,6 +3393,7 @@ TextureImporter:
       Tileset_temple_112: -1162860216
       Tileset_temple_129: -1407827231
       Tileset_temple_131: 1084689255
+      Tileset_temple_133: 1586025747
       Tileset_temple_97: 1296391083
       Tileset_temple_72: -795922756
       Tileset_temple_87: 860851858
@@ -3011,9 +3420,11 @@ TextureImporter:
       Tileset_temple_66: -2005448790
       Tileset_temple_88: -1755173659
       Tileset_temple_92: 2056878449
+      Tileset_temple_147: -530179387
       Tileset_temple_58: -1413977545
       Tileset_temple_43: -131123413
       Tileset_temple_128: 1235457184
+      Tileset_temple_140: -2080352117
       Tileset_temple_35: 70300478
       Tileset_temple_111: 672839211
       Tileset_temple_124: -2017291207
@@ -3023,6 +3434,8 @@ TextureImporter:
       Tileset_temple_102: 1121581027
       Tileset_temple_80: -102056346
       Tileset_temple_75: -1481371546
+      Tileset_temple_151: -1822588625
+      Tileset_temple_141: 278174997
       Tileset_temple_103: 1555488189
       Tileset_temple_48: 411807947
       Tileset_temple_0: 1040970376
@@ -3033,10 +3446,15 @@ TextureImporter:
       Tileset_temple_93: -1459736300
       Tileset_temple_85: -1417453702
       Tileset_temple_121: -1644752628
+      Tileset_temple_149: -1586940247
       Tileset_temple_132: 2119168269
+      Tileset_temple_134: 1482657088
       Tileset_temple_51: 68393468
       Tileset_temple_55: 213488277
+      Tileset_temple_148: -371880875
       Tileset_temple_101: 1039613023
+      Tileset_temple_137: -334386823
+      Tileset_temple_145: -1504229788
       Tileset_temple_79: 1351753599
       Tileset_temple_63: -316599101
       Tileset_temple_61: 2024379920
