@@ -15,8 +15,7 @@ public class SceneManager : MonoBehaviour
     private void Start() {
         var obj = GameObject.FindGameObjectWithTag("PlayerController");
         m_Split = obj.GetComponent<Split>();
-        startPos = obj;
-        print(name);
+        startPos = obj; 
     }
     private void Update()
     {
@@ -30,7 +29,6 @@ public class SceneManager : MonoBehaviour
             if (!m_Split.activeClones[i])
             {
                 count++;
-                print(count);
             }
             if (count == m_Split.activeClones.Length)
             {

@@ -6,10 +6,11 @@ namespace Puzzle
     {
         [SerializeField] private bool staysDown;
         [SerializeField] private bool keptDown;
-
+        public Color color;
         public bool active;
         private void OnTriggerStay2D(Collider2D other) {
-            active = true;
+            if(other.gameObject.CompareTag("Player"))
+                active = true;
         }
         
         private void OnTriggerExit2D(Collider2D other) {

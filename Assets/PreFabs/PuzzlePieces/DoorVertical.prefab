@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 1703792320556781529}
   m_Layer: 0
   m_Name: DoorVertical
-  m_TagString: Door
+  m_TagString: Puzzle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

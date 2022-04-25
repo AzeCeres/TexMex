@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1137565934629966555}
   - component: {fileID: 1137565934629966553}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Door 1
   m_TagString: Door
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1137565935650671044}
   - component: {fileID: 1137565935650671045}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Vertical Green Marker
   m_TagString: Door
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7226846541179093535}
   - component: {fileID: 7226846541179093534}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Horizontal Green Marker
   m_TagString: Door
   m_Icon: {fileID: 0}
@@ -190,7 +190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7226846542030887168}
   - component: {fileID: 7226846542030887170}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Door 1
   m_TagString: Door
   m_Icon: {fileID: 0}
@@ -273,7 +273,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5638657030724924009}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Green Markers 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
