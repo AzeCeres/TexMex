@@ -1,9 +1,8 @@
 using Unity.VisualScripting;
 using UnityEngine;
 namespace Puzzle
-{
-    public class Button : MonoBehaviour
-    {
+//todo // Collect colour from Accessibility settings, store colour, and have it be inheritable
+{ public class Button : MonoBehaviour {
         [SerializeField] private bool staysDown;
         [SerializeField] private bool keptDown;
         public Color color;

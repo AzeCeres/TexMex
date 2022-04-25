@@ -103,7 +103,7 @@ namespace Player
                 //print("There are no more clones to be spawned");
             }
         }
-        public void AlternativeSwitch(int switchValue) {
+        public void AlternativeSwitch(int switchValue) { // bug When spawning new clones, it doesnt switch to the newly spawned clone
             previousSelectedMain = selectedMain;
             if (switchValue + selectedMain > mainClones.Count-1) {
                 selectedMain = 0;
