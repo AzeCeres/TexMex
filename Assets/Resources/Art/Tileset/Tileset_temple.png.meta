@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a8551746c4ffd4d318cd71bdf8dab114
+guid: 08f32431a808247f6b25b437e80c48a9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,11 +116,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tileset_temple_0
+      name: Tileset_temple 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 288
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -130,18 +130,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 803d1a2182281db44a477423c17ab01a
-      internalID: 1040970376
+      spriteID: 1fd62cb0ffe88469c99c7cf91ebaa5b9
+      internalID: -10146321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_1
+      name: Tileset_temple 1_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 288
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -151,18 +151,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaee2ee40a201204ab3efb84bf41a4ce
-      internalID: -1314849317
+      spriteID: bddc2aabf41a649e2bc3535e492b1140
+      internalID: 1596603694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_2
+      name: Tileset_temple 1_2
       rect:
         serializedVersion: 2
         x: 64
-        y: 288
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -172,18 +172,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adea3ed4546a6ff49899e2199cc79c16
-      internalID: -638942157
+      spriteID: c5302cba2b56f4d4f85e23cd5a3e7efc
+      internalID: 2011058000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_3
+      name: Tileset_temple 1_3
       rect:
         serializedVersion: 2
         x: 96
-        y: 288
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -193,18 +193,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a253ad4a9874ae449ad967e9a2c751d3
-      internalID: -1989953820
+      spriteID: bf4f5db5e83d04d1a91d693fa7be167a
+      internalID: 777608257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_4
+      name: Tileset_temple 1_4
       rect:
         serializedVersion: 2
         x: 128
-        y: 288
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -214,18 +214,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 929983c474e9cbf4db838500639cbcaa
-      internalID: 1852198813
+      spriteID: 97b9a8b966bc04319a9fc93c63311a0d
+      internalID: 804543040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_5
+      name: Tileset_temple 1_5
       rect:
         serializedVersion: 2
         x: 160
-        y: 288
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -235,18 +235,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a350aeb2b4d3cb4390a2a8507342f6e
-      internalID: 1074809941
+      spriteID: e81256f6084e542b58f795ff9eb4bcf9
+      internalID: -212859370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_6
+      name: Tileset_temple 1_6
       rect:
         serializedVersion: 2
-        x: 224
-        y: 288
+        x: 288
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -256,39 +256,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3869daef1bd8a0b47901e97085b3d923
-      internalID: -77155667
+      spriteID: 04e17bdd0e98e42709db286366d33d35
+      internalID: -1195078506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_7
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83db89a8c5045b84682fa7918af9313a
-      internalID: 703338786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_8
+      name: Tileset_temple 1_7
       rect:
         serializedVersion: 2
         x: 320
-        y: 288
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -298,18 +277,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90c74c2080d47c340990cfc71c68edb0
-      internalID: 2088828532
+      spriteID: 669b9603c19244aea93b5aadc52aaca7
+      internalID: 24274572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_9
+      name: Tileset_temple 1_8
       rect:
         serializedVersion: 2
         x: 352
-        y: 288
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -319,18 +298,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98de9784159bb9c47a4ac4730370139a
-      internalID: -59059609
+      spriteID: 3655dc5bd32d64efaaa1bd1ed0886421
+      internalID: -34488075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_10
+      name: Tileset_temple 1_9
       rect:
         serializedVersion: 2
         x: 384
-        y: 288
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -340,18 +319,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a52731513163875459ebf144ec833fed
-      internalID: -1294692234
+      spriteID: 8b434856683c145a29c4ce0024424763
+      internalID: -1953412474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_11
+      name: Tileset_temple 1_10
       rect:
         serializedVersion: 2
         x: 416
-        y: 288
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -361,18 +340,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00b62f8347251bd459f01348d5a30aac
-      internalID: -1847514016
+      spriteID: 928a1d3dc261c4969ba4fb219cd79866
+      internalID: 1843770981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_12
+      name: Tileset_temple 1_11
       rect:
         serializedVersion: 2
         x: 448
-        y: 288
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -382,18 +361,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a44ef9cb3156fe4cb925eecb6d68358
-      internalID: 439489243
+      spriteID: 08f73274ff98d4789aebe1e04d9ca34c
+      internalID: -1507965882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_13
+      name: Tileset_temple 1_12
       rect:
         serializedVersion: 2
         x: 480
-        y: 288
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -403,102 +382,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20ebec3c4ab359444a874d8f6b50857a
-      internalID: 979095212
+      spriteID: 7128dd3cdafa046ff87815477935a4f4
+      internalID: 1346591962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_14
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbdfaa68dd4367f468c51382af3ab879
-      internalID: 1125014064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_15
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78c83a2b9b5e7a645ac32d5255a5123b
-      internalID: 374755718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_16
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b98a32653525e08499349f8a287e941d
-      internalID: -1292143293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_17
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b076ec639bda249429c381ba699ed027
-      internalID: 1727586346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_18
+      name: Tileset_temple 1_13
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -508,18 +403,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f66707740a6484d42abf2f00cd81d62c
-      internalID: 558482077
+      spriteID: a8cbab72675f042a988e432fa381071f
+      internalID: -162496717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_19
+      name: Tileset_temple 1_14
       rect:
         serializedVersion: 2
         x: 64
-        y: 256
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -529,18 +424,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfb502ece7bb15843a3c852efca5a31d
-      internalID: -1947429799
+      spriteID: c42fc739dc77e4afd8093b4164b14bca
+      internalID: 2037839830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_20
+      name: Tileset_temple 1_15
       rect:
         serializedVersion: 2
         x: 128
-        y: 256
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -550,18 +445,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bb8a139dd91b2f488b59b737a082eda
-      internalID: -1193483719
+      spriteID: ae6cc809dda754a14a60cd70c5c6a28a
+      internalID: 860066039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_21
+      name: Tileset_temple 1_16
       rect:
         serializedVersion: 2
-        x: 224
-        y: 256
+        x: 288
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -571,39 +466,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c17bb1f87e308994b99b307676c6ea86
-      internalID: -795987869
+      spriteID: cac2b453514b04778be384fd54ec2c9a
+      internalID: -900895732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_22
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d92e1e22f8811eb469b501fe04df7e77
-      internalID: -665131640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_23
+      name: Tileset_temple 1_17
       rect:
         serializedVersion: 2
         x: 320
-        y: 256
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -613,18 +487,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1ee80d41f213de468c26bc41dc3b240
-      internalID: -152079807
+      spriteID: 40e2102ae1a964c4eaa59ff3bbb160a0
+      internalID: 842232231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_24
+      name: Tileset_temple 1_18
       rect:
         serializedVersion: 2
         x: 352
-        y: 256
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -634,39 +508,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4e27189b4b8297498d9638217956dc6
-      internalID: -1081964767
+      spriteID: 0114d901f206e42ac8a1a7313af48df5
+      internalID: 553723600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_25
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5007328f3ca6a7648ab27a13737a54b6
-      internalID: -857761731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_26
+      name: Tileset_temple 1_19
       rect:
         serializedVersion: 2
         x: 416
-        y: 256
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -676,18 +529,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2426e2fc2f5f3a49ae30013c59eaacc
-      internalID: 482798442
+      spriteID: 552c08b9024064a5ebf0bd889aa40eb1
+      internalID: -1207812338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_27
+      name: Tileset_temple 1_20
       rect:
         serializedVersion: 2
         x: 448
-        y: 256
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -697,18 +550,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a866eab403ec4534ea84c6b3180ff7f4
-      internalID: 1388913237
+      spriteID: 6bea1f17da95947ec8f1aac3b4729193
+      internalID: -1544429836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_28
+      name: Tileset_temple 1_21
       rect:
         serializedVersion: 2
         x: 480
-        y: 256
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -718,81 +571,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de0a0ba531ee669499617bcc6b3f7bbb
-      internalID: -1212731655
+      spriteID: e5cd7582644a04c42b7019980751e3d9
+      internalID: 1630108922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_29
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d59c9a4f53971824885468b115a4589e
-      internalID: 1304786005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_30
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e7979fb1f468c54ebf9e0709dc78705
-      internalID: 1652247317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_31
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 387de5526fb8d1f429a1a08ccb7713cd
-      internalID: -184905857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_32
+      name: Tileset_temple 1_22
       rect:
         serializedVersion: 2
         x: 0
-        y: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -802,18 +592,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 152a4d8e76fa94344ab8ce04e21452d7
-      internalID: -673721552
+      spriteID: 1bff694517f104219b7c7cf0585f187e
+      internalID: 2011198948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_33
+      name: Tileset_temple 1_23
       rect:
         serializedVersion: 2
         x: 32
-        y: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -823,18 +613,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ba3673e30a83f044bfc49fb18bd1ce0
-      internalID: 787555970
+      spriteID: 9b13bd88a667c4673a07ac405dc856e2
+      internalID: -1997160907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_34
+      name: Tileset_temple 1_24
       rect:
         serializedVersion: 2
         x: 64
-        y: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -844,18 +634,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0aa1c379ff176349bffaec006311587
-      internalID: -591900165
+      spriteID: 2ab60ce140a5d4b05876e0cd56e287c8
+      internalID: -910923358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_35
+      name: Tileset_temple 1_25
       rect:
         serializedVersion: 2
         x: 96
-        y: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -865,18 +655,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 791375b9cc915a744b12a69adf55c085
-      internalID: 70300478
+      spriteID: 1c7d268db7f674169a84c6e90d5d810a
+      internalID: 1145521787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_36
+      name: Tileset_temple 1_26
       rect:
         serializedVersion: 2
         x: 128
-        y: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -886,18 +676,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03373318cbc7c164686582d81eca0cd4
-      internalID: -625035789
+      spriteID: 5518836336ffb42b7a0dae26f1592405
+      internalID: 1353175638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_37
+      name: Tileset_temple 1_27
       rect:
         serializedVersion: 2
         x: 160
-        y: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -907,18 +697,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6124673f45017354bb15dcbec10c99ef
-      internalID: 445001401
+      spriteID: 81901973914ae43b3a113c35735a4421
+      internalID: 24092929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_38
+      name: Tileset_temple 1_28
       rect:
         serializedVersion: 2
         x: 192
-        y: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -928,18 +718,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14b80b9ca3b9fbd45beaf71c73c95293
-      internalID: 587294609
+      spriteID: b5da69ab275bb431082adbe3adf095a8
+      internalID: 1401696687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_39
+      name: Tileset_temple 1_29
       rect:
         serializedVersion: 2
         x: 224
-        y: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -949,18 +739,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a612fae423449494c8029d0ce1996f47
-      internalID: 1818403826
+      spriteID: 7dd50921bcf5d4632bfdfe5ca24bc085
+      internalID: -1988450240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_40
+      name: Tileset_temple 1_30
       rect:
         serializedVersion: 2
         x: 256
-        y: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -970,18 +760,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef52f25a65ff42e44ab425ea75788058
-      internalID: -1591221485
+      spriteID: 0ef481c445a9e464092e062163695574
+      internalID: 1059104914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_41
+      name: Tileset_temple 1_31
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2e5112a20114755a56a0fded3404dc
+      internalID: -1573370438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_32
       rect:
         serializedVersion: 2
         x: 320
-        y: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -991,18 +802,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e19b6d18b1a5a34184e254083b8f6b9
-      internalID: -61360351
+      spriteID: fea8f8624f91b485caae64c3a168f349
+      internalID: -1088255743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_42
+      name: Tileset_temple 1_33
       rect:
         serializedVersion: 2
         x: 352
-        y: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -1012,18 +823,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3bee4a5450b8b649a6860b0e5d3eeb1
-      internalID: 1287178201
+      spriteID: 27d42818671b447f4a0cdbb4655e3cc9
+      internalID: -47200162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_43
+      name: Tileset_temple 1_34
       rect:
         serializedVersion: 2
         x: 384
-        y: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -1033,18 +844,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 897803ca3f3a985489d2aaa104299f0f
-      internalID: -131123413
+      spriteID: 268c025764c5746a4b48e2f5250dd96c
+      internalID: 591658122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_44
+      name: Tileset_temple 1_35
       rect:
         serializedVersion: 2
         x: 416
-        y: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -1054,18 +865,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d89176f7180d97348b2c82713834a0bc
-      internalID: 214496371
+      spriteID: 629c6bd2c343b4d8e8b6594548c773ad
+      internalID: -1212709296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_45
+      name: Tileset_temple 1_36
       rect:
         serializedVersion: 2
         x: 448
-        y: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -1075,17 +886,2264 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a2bcfe226656fe4ea4a4480e7c5205f
-      internalID: -1008592373
+      spriteID: 3836940a40a094c63bbb111219c23e5f
+      internalID: 601761781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_46
+      name: Tileset_temple 1_37
       rect:
         serializedVersion: 2
         x: 480
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b5cd2b1ee9e4846a0123cd0c32c06e
+      internalID: 1329996484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bfcb2753e054fd5a50c7b55b8272ca
+      internalID: 1259189592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5a2b91c655a4144afda679debdd691
+      internalID: 1725961841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76fb363cabe64b33b03fc0d0fe3bdcb
+      internalID: -258033404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a10f15f457144ebcae3985c49e07dd4
+      internalID: -1644774872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad42f789b7a4a40939f5750c14ffb26f
+      internalID: -178665777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94517e7e4def490b8d445f96700413d
+      internalID: -529140312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca2dc67971a444b0badd385b72bdef6
+      internalID: -1525791923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_45
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8618e5fb3af8461f82774ea6f1c8dd7
+      internalID: 1755377304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f862e1c9590744ea5b19c87d5b3ee587
+      internalID: 1050287834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4a6b76d688e462dbaebafe11756992
+      internalID: -1422374926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_48
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f2d4abc030c424b8ab9849e54c1032
+      internalID: 1933925265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_49
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f760cd3f57e10453e8dbca9c4964a13b
+      internalID: 1686046676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_50
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8d26ab1b8674ab5a23168b5bfff547
+      internalID: 713285204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b833dd7ccaa4e6babb9fd13794253d
+      internalID: 683726473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa600fdd294f4deb8b9ba31d2f12f56
+      internalID: 25844220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab97cedc9b1054038ba5de178f70391f
+      internalID: 553425779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13dd81a4b3014d13a4f6af77be5dd26
+      internalID: 1364741800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13f9ce551aeb4257aa3074a1b9abc82
+      internalID: -1962393173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_56
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871d20015276a45f5946b616247dbb79
+      internalID: 1746723806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_57
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af3a6a40788d49d8ab606c36aa11126
+      internalID: -17704746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_58
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08c2ee44224f4bedba4c2355970d3be
+      internalID: -1641801566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_59
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316e169637cd84f5c9d0a518e9cf6d86
+      internalID: -411538410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_60
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47d1404bff7947f4ad60b57b5bb2b0b
+      internalID: -1563513897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92988f1ef5a284517a113c299ab00663
+      internalID: -1721912696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_62
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7389fcad2f44e4939bf45d6664206856
+      internalID: 1324087530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_63
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4121cfa3843d414992acac588c0a3c3
+      internalID: -1302416691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_64
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa0a8c2c5c114c9e8579779b1152380
+      internalID: 198897892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_65
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5459fbe928b814fe3909f615e1015f49
+      internalID: 501200186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dc1ceb73d674c449a19d6af3f3e686
+      internalID: -843319920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_67
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6742b5897a84e558240ee905f4ac44
+      internalID: 167858089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86531f97ef5634af4a0aa1578a7030ba
+      internalID: -672733062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_69
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa92edb50ea848cc8ddaa60727dee5f
+      internalID: -252217991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_70
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4cd4d54fb4d4c2a8a06c83beaff008
+      internalID: 39283620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_71
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cb98e7340124d739e16dd397f92549
+      internalID: 1681268608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a8f4c13b707490f8e561cd611b1cce
+      internalID: -761934689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_73
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435cd9bdacf8f4fbe959ba857c423294
+      internalID: -2001204817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d970cb2e930f04fb9b3300adf403b33a
+      internalID: 1472971882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_75
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb1cb03f0b1d4fd6b7710c5b63620df
+      internalID: -1617213837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_76
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abe07f19a224494aa23ea275d47031d
+      internalID: -296250663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_77
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41a354cc27564b49b80e41d13e8e375
+      internalID: 1721492050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_78
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4cdae2fb1854b8a9a99c6034f32d49
+      internalID: -955730819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_79
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6864588093db14e4d85bc119b352a160
+      internalID: -1263135499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_80
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2156aa1069848568bb302eef3aecf1
+      internalID: 1908478759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beec1849a743a48bbb5b728ddda951fe
+      internalID: -1944843521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21464f3f3183d4113bcb63836d8d013e
+      internalID: 1085676872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_83
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15e17efc80ea4f9f89de7f19432b128
+      internalID: 1368116202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_84
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b990b5415f8e242aabc8c5006d2784e2
+      internalID: 763347950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_85
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4046c7bc542347f6b37fa9692ff1893
+      internalID: 1790385303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_86
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d806644c69f924e2d89b65ed0566784d
+      internalID: -613910154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_87
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414197dca91ea4520ac49ead64935a49
+      internalID: -764735192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_88
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bec128589b34ac698851ef264dcff8
+      internalID: 442470303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_89
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95ca940cace14d0fba0a1b309049314
+      internalID: -1307467560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_90
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b81190164d3d49bba37c26d5e45a9de
+      internalID: -851750546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_91
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5000521665c304c9f8a8dee95861baa7
+      internalID: -505539631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_92
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98e8204da6ac4ddc955d186f7768a3b
+      internalID: 473099015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19ae8504ad6c487db44e8856d7e3888
+      internalID: -1232169432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_94
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbd1a271a46f45ccbea2be1d098d56c
+      internalID: -1298238782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_95
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ccf44775c8344d998569d4dcdeed57
+      internalID: 1441013336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080ad89f81f9248cbbcb0176d06092d5
+      internalID: -1219344726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad44da0c70f84994b8e045057c86dc5
+      internalID: -701125147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffef1f60a047440d922062145be2232
+      internalID: 968462838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35103af234d1744eca365b3e2fa5e49c
+      internalID: 1915720154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_100
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf9c62866d2a4009a6d4193e80d55ea
+      internalID: -1244207982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_101
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e6d81f151b446adbc88301100c1bc7
+      internalID: 177624554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_102
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca511dc34ef93449b92bd61a75f8f76b
+      internalID: -1369532080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_103
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958c42c27f4124f3d9af6e2328bf9eab
+      internalID: -857433111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_104
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291a2cd949cff41fbad7e840e6da823f
+      internalID: 435641607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_105
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe960d6a5b64d4cb29611c05e53e0744
+      internalID: -2136318654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_106
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85237a531a0354bb384682df4768c99a
+      internalID: 633346362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_107
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f02f6edb095a4bc4ab92f5b02538ee1
+      internalID: 1696175039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_108
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e503c9591dbb4864832c230d37a180c
+      internalID: -1126415983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_109
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f232e319fdf5844cea1f1c6ec90d2478
+      internalID: 533051302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a542c65b416134f6ca414d0f634e51b6
+      internalID: -1824816180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_111
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07749ef24847c4a21a7c413e811621c9
+      internalID: -2040428583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_112
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0f34e49249645f5964f741ed7a7454
+      internalID: -1616651356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_113
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd486d2ec56b40cfbfb79e28f0333d9
+      internalID: 410888972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_114
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415d2d8d4dc3743a4a99ef64250d0e4a
+      internalID: -1897825290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_115
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42714c59f8184148993eb589aec063f
+      internalID: -1618252490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_116
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01ab8df56274452ebcec3892a49bc83
+      internalID: -1341726723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_117
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a5d849651c2461482f61f5371a43eb
+      internalID: -282053057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_118
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4338e15fbab52444eaf69a1553d71d33
+      internalID: -812054852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_119
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e080d1393b007428d84b3dd20851158b
+      internalID: 1996205148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_120
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d0e0ffda5de4788b5c0c0ab8e6eea9
+      internalID: 127527630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8c6c1ea3b05445a9a4450bcca25fc5
+      internalID: 528536592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_122
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db5f6eb6a2804a20b6d9c2d4a6dfebe
+      internalID: 1258665112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_123
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6771bdc0ae4f42c19a3fc2ad8444040
+      internalID: 1078552935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_124
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37131916b8eb3415dab87f665d346914
+      internalID: -1295159592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_125
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9338d83b3ba4758a524ada6f5cbcfe
+      internalID: -1522472255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_126
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc93af6b1d3b34a7c9a7a8b80e56fc88
+      internalID: -868390306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_127
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4661909e8af29486b936528a6741347a
+      internalID: 1824410077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_128
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb1ade31989b429fa0e6356272ba74b
+      internalID: 1657421859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_129
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbb3c5db91f241b68f1b9fc24e76423
+      internalID: 1138533272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_130
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf05017db1fc466489f3a92a9d9948a
+      internalID: 862472000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_131
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d20f1e8f23741f7acbc1b13cfa9475
+      internalID: 811702661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_132
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8eb650e06a84e26af5c085b6d03881
+      internalID: -1501486587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_133
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673971aa02f074b26ae679d2e330d901
+      internalID: -1333648290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_134
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551d617dd80034ea18b95345a2e89517
+      internalID: -394528541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_135
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18946fba3652a46978e66c8ce2e80926
+      internalID: -1624573837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad1a99eb18e348a78498e59393254d7
+      internalID: 741771220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_137
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fc3a2f8d5134456932b94a431c468d
+      internalID: -1702810006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_138
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525afe97894324b3890bdcec7d651050
+      internalID: -432325682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_139
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c737cce68e64956a81dff39ecc4eab
+      internalID: 311155903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_140
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74d5489ef46e4570900f361d1e5d567
+      internalID: 1850367858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_141
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c378ab63666a4c1d86cf21da52d5bec
+      internalID: 604636141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_142
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a649674839049fe97e8161faf95acd
+      internalID: 1560267070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_143
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b333d11d0014c08930e610250b1a00
+      internalID: -898838416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_144
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 224
         width: 32
         height: 32
@@ -1096,18 +3154,291 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fadbeaa607a24e4bbf96afbb9c19a02
-      internalID: -136566165
+      spriteID: b86052c9f1f604f30b4eb51ac0791f80
+      internalID: 1759562604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_47
+      name: Tileset_temple 1_145
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26364a1449c0b4d078a3577c9d17b261
+      internalID: 64913796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_146
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe0e1cd325644fc3aed9876ad4a7a63
+      internalID: 92849037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_147
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7531a0a9717428ba72c9845c0e39f3
+      internalID: 580036550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_148
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df5df8150e3d4608b4c352affc20e3c
+      internalID: 1577819370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_149
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3102708d12774c54aab63a3b7e94b24
+      internalID: -1884456800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_150
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7b3220b92d94a5c92624df55a64754
+      internalID: -1332138920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_151
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fca047a56e445888e4f6e1ea175d79
+      internalID: 1914652972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36b9f0b366ca43f8b838c38f0cfdfc5
+      internalID: 639328686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_153
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bddc4c636f744c48807b0bbeef3f128
+      internalID: 1540112613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_154
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7b522ddd2ae4e5aba29add5ebb9a35
+      internalID: -444541955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_155
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a2105dd7767478581d435ffead2246
+      internalID: 1663257755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_156
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43597e96828a3412895361f5ef0dc3b2
+      internalID: 847584074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_157
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66855ae0773144024a51b83bb8af90ee
+      internalID: 1189758246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_158
       rect:
         serializedVersion: 2
         x: 512
-        y: 224
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -1117,18 +3448,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d45176035dfce7c4ca7956250bac38df
-      internalID: 1900153872
+      spriteID: 2a597cd7eaef843368edd23921a6bda9
+      internalID: -1458787832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_48
+      name: Tileset_temple 1_159
       rect:
         serializedVersion: 2
         x: 544
-        y: 224
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -1138,18 +3469,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92c23523a0e39a84f885af537ae39b1b
-      internalID: 411807947
+      spriteID: 2c07edd1996ae4b2dbbd30285d146ce1
+      internalID: 2137302087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_49
+      name: Tileset_temple 1_160
       rect:
         serializedVersion: 2
         x: 576
-        y: 224
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -1159,18 +3490,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5b8f19f2b3623041abb75455b6ac1f1
-      internalID: 1954512253
+      spriteID: 01ff81bf922fb4550b169bcabafaff07
+      internalID: -1104749894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_50
+      name: Tileset_temple 1_161
       rect:
         serializedVersion: 2
         x: 608
-        y: 224
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -1180,18 +3511,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9009d51593b7969449756eb57ec29917
-      internalID: -2050022449
+      spriteID: 5d996426dd65b49a19facec6e19490d0
+      internalID: -1037050185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_51
+      name: Tileset_temple 1_162
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1201,18 +3532,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97ae874aba1afd24a818f2b20f4e5f67
-      internalID: 68393468
+      spriteID: 680fa91a991424f58a579601adf2c2ad
+      internalID: -784841923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_52
+      name: Tileset_temple 1_163
       rect:
         serializedVersion: 2
         x: 32
-        y: 192
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1222,18 +3553,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6deb054710147d45b1c6dc3960edd62
-      internalID: 1888289918
+      spriteID: cd2080fef1ea740ca9a5027cd270fa4c
+      internalID: -179638396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_53
+      name: Tileset_temple 1_164
       rect:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1243,123 +3574,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bb66536caf669345852c237c38b71c5
-      internalID: 1890968944
+      spriteID: ec0d9970b503941ff9a173aa7904759d
+      internalID: -1865809975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_54
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27aeccef3a05e3241851372a60256f1d
-      internalID: -1943665342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_55
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e05af34e02e1ea4fba44f53c9e9f5a8
-      internalID: 213488277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_56
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a51133e423ee6a4e9a1a1356e8740a0
-      internalID: 1524786780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_57
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20f0fd07b92211341ab8a148987a30d6
-      internalID: -62631371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_58
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8fee95353f71b243b45566ea76b25a2
-      internalID: -1413977545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_59
+      name: Tileset_temple 1_165
       rect:
         serializedVersion: 2
         x: 256
-        y: 192
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1369,18 +3595,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa94b1a5a6de5c34db9b9c001b7ffaae
-      internalID: -322683232
+      spriteID: faecd8d8a0ac049f083ef25cf96c04c7
+      internalID: 119953230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_60
+      name: Tileset_temple 1_166
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26c2748f184746f3a2e955959911789
+      internalID: 1398534220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_167
       rect:
         serializedVersion: 2
         x: 320
-        y: 192
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1390,18 +3637,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c97cee8336bb254898fae0679b3428c
-      internalID: -49151543
+      spriteID: 3a0f5a920d1dc4559a9e78765332b9c5
+      internalID: -1061472465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_61
+      name: Tileset_temple 1_168
       rect:
         serializedVersion: 2
         x: 352
-        y: 192
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1411,18 +3658,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ed1bfb781e92ea48aacea6b4346de23
-      internalID: 2024379920
+      spriteID: ea972a44c02bd4095bfaf73cf3030641
+      internalID: 807168964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_62
+      name: Tileset_temple 1_169
       rect:
         serializedVersion: 2
         x: 384
-        y: 192
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1432,18 +3679,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9c791389e0c6584ba98addbf8a58a00
-      internalID: 602646091
+      spriteID: b297e352ab4d8440f85c13e4eed83375
+      internalID: 1836840296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_63
+      name: Tileset_temple 1_170
       rect:
         serializedVersion: 2
         x: 416
-        y: 192
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1453,18 +3700,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dab3f7aaa1b8fd4382a567587c3f4fa
-      internalID: -316599101
+      spriteID: ad8fffc2ec3b141ed84dea10d3696a50
+      internalID: 1138866576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_64
+      name: Tileset_temple 1_171
       rect:
         serializedVersion: 2
-        x: 448
-        y: 192
+        x: 480
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1474,18 +3721,60 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe53a81156e7a68499fbb2f6795bc078
-      internalID: 463606972
+      spriteID: 9050ec7527b6448bf9ab1fbbf26e9164
+      internalID: -1148685861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_65
+      name: Tileset_temple 1_172
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87730fcaa9f2f46cc9ba8bd57070787b
+      internalID: -153203127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_173
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac8c787687b042a0bcc0448dcda6b6b
+      internalID: 70225345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_174
       rect:
         serializedVersion: 2
         x: 576
-        y: 192
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -1495,38 +3784,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ff2a49276f9540439751f9fb917b47d
-      internalID: 801852310
+      spriteID: 81afbee9f0a7c49e089802ae76323531
+      internalID: 1256048296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_66
+      name: Tileset_temple 1_175
       rect:
         serializedVersion: 2
         x: 608
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bfa7cfd8cd5acde4d9091edf87742568
-      internalID: -2005448790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_67
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 160
         width: 32
         height: 32
@@ -1537,287 +3805,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12a280cd6b42a0644afdb41c75bbe9fa
-      internalID: 924480616
+      spriteID: e158e3da4ec644d6784bb6991f5f25cc
+      internalID: -1567738328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_68
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c362cc2e3bc5764aa10786bdccc4583
-      internalID: -924359151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_69
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50c8d5c71e0d349468a043e9af87fe67
-      internalID: -615371756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_70
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ca63502eed06f946b9ebc4e6fc8aed0
-      internalID: 768298187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_71
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85f8310f6d6367444aecba317bef2349
-      internalID: 155862653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_72
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bda629690cf3ae47952e07bcc0e75d8
-      internalID: -795922756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_73
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ac755a0bb2947746914f5bea99da124
-      internalID: -963905678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_74
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec426ad6372e81a489a5c2c422f70cb0
-      internalID: 627699495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_75
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6c415f76d2a36f45a31e9c46a5564ae
-      internalID: -1481371546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_76
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b3101cd68bfeb94696866920a421555
-      internalID: 1295166745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_77
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 975ead2f33dcd12439c786b890fe59bd
-      internalID: 1609733664
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_78
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 059ca66cfa6f2b04c92ec38631352ca6
-      internalID: 218328944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_79
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5eb81f4cc6725d4f96e50219ecfae51
-      internalID: 1351753599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_80
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d583eed3f6b4df5479dbc8e73dac8d58
-      internalID: -102056346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_81
+      name: Tileset_temple 1_176
       rect:
         serializedVersion: 2
         x: 0
@@ -1831,14 +3826,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd98d7a25b3470d499faa08f193095ea
-      internalID: 574873690
+      spriteID: c5a0ae3bc48b94d7295c527802a78c2a
+      internalID: 1503731562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_82
+      name: Tileset_temple 1_177
       rect:
         serializedVersion: 2
         x: 32
@@ -1852,14 +3847,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1585f0eae24c16d4a9fa37039e9b6f6e
-      internalID: 2028442816
+      spriteID: e128309531ef34771b09b8e3c2e468e6
+      internalID: 389375756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_83
+      name: Tileset_temple 1_178
       rect:
         serializedVersion: 2
         x: 64
@@ -1873,98 +3868,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f13dc6657aa81c1418352985816136ed
-      internalID: -1613577991
+      spriteID: 0fe5888554dfd48bf9993021d2cd04f6
+      internalID: -1255540165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_84
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4680a09d633bdd942a70eb6c162ba22b
-      internalID: -211952039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_85
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: beb51e2d82969154e9a5edd3b37816de
-      internalID: -1417453702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_86
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7ef91c5a94900c4eae20a459e9bed4b
-      internalID: 1661281770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_87
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a18ee2badc77b434982bef0a0c1a97a9
-      internalID: 860851858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_88
+      name: Tileset_temple 1_179
       rect:
         serializedVersion: 2
         x: 256
@@ -1978,14 +3889,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77822e9457c8883468be9d8a506e06cb
-      internalID: -1755173659
+      spriteID: 789e9f13803ab4cf1874b2a62319dba0
+      internalID: -2103922548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_89
+      name: Tileset_temple 1_180
       rect:
         serializedVersion: 2
         x: 288
@@ -1999,14 +3910,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 376caf9b50238d6438415c9b0f1b0fb1
-      internalID: -430436635
+      spriteID: 34cfdb6afdac24ce484bd48b51406ed0
+      internalID: 458790329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_90
+      name: Tileset_temple 1_181
       rect:
         serializedVersion: 2
         x: 320
@@ -2020,14 +3931,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ad08ca75011fb74d95bb6c3493a58fb
-      internalID: -2081437855
+      spriteID: 0f994093c159b4863b69f1037d16ecf1
+      internalID: 1539217940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_91
+      name: Tileset_temple 1_182
       rect:
         serializedVersion: 2
         x: 352
@@ -2041,14 +3952,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcbe16b6faddfee468af3dbb6888d6ee
-      internalID: 1929006062
+      spriteID: bf89a18cfe4aa431e9000f6ce1dfab63
+      internalID: -661746264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_92
+      name: Tileset_temple 1_183
       rect:
         serializedVersion: 2
         x: 384
@@ -2062,14 +3973,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62df3a0b86bd02d469a8d23690897b28
-      internalID: 2056878449
+      spriteID: cedf446309a204b2f8f8891fe81df37b
+      internalID: -1956158119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_93
+      name: Tileset_temple 1_184
       rect:
         serializedVersion: 2
         x: 416
@@ -2083,17 +3994,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8eeb56e3cdcfe64f83976fa27decdd6
-      internalID: -1459736300
+      spriteID: 3b82bb3cbe493459985a4d7ebedd0cd9
+      internalID: -288203670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_94
+      name: Tileset_temple 1_185
       rect:
         serializedVersion: 2
-        x: 448
+        x: 480
         y: 128
         width: 32
         height: 32
@@ -2104,18 +4015,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfe0eed9566b39e4b8bf5bc4399b19ab
-      internalID: 942699925
+      spriteID: 5d6297f511f804765a95bfe6f5c02365
+      internalID: -1385045378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_95
+      name: Tileset_temple 1_186
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 512
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -2125,18 +4036,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9923ca846af85a44beace03cacb0dfd
-      internalID: 1609573987
+      spriteID: 2ebac6a61cf7c4f34b0dd0d1bad22ff8
+      internalID: -1793106204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_96
+      name: Tileset_temple 1_187
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
+        x: 544
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -2146,14 +4057,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2aa207c9ef140af4ea0e0f755fc67456
-      internalID: -1764333977
+      spriteID: 5084278b931da45539d3e678f0432dbe
+      internalID: 1159103488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_97
+      name: Tileset_temple 1_188
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f86e13a68f5b454c9601549bbde161a
+      internalID: -1956318666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_189
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cedd849c9b4419da4761322b467d36
+      internalID: 777719230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_190
       rect:
         serializedVersion: 2
         x: 64
@@ -2167,119 +4120,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb463d48a0093b44ea4832f4461dd4fd
-      internalID: 1296391083
+      spriteID: 875f18402026844c7b3e1801d72ce7b1
+      internalID: 240929628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_98
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97b614cd9f6796640a8b3c229a552f4e
-      internalID: 1038448949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_99
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94a79cf69e46ca448a39c8a1cd08ceac
-      internalID: -1219898520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_100
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fcbdf9b1aedca2c4bacf93bc8d3c6f1c
-      internalID: 1875065918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_101
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26ce11e489e2da4488cbe3855907bec8
-      internalID: 1039613023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_102
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c57f239821d4554b8a03d72c6cce8d2
-      internalID: 1121581027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_103
+      name: Tileset_temple 1_191
       rect:
         serializedVersion: 2
         x: 256
@@ -2293,17 +4141,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e4624e22c929a3479cc72b51304aace
-      internalID: 1555488189
+      spriteID: 0784b94b85dec46e592bea9f3244f79a
+      internalID: -1493369574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_104
+      name: Tileset_temple 1_192
       rect:
         serializedVersion: 2
-        x: 288
+        x: 480
         y: 96
         width: 32
         height: 32
@@ -2314,119 +4162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 321728e1c1551f040a313da5e0dbeb92
-      internalID: 123522365
+      spriteID: aa92618f8ffff4caea02e3729d4727c6
+      internalID: 661689301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_105
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1eb2c4731015b3d43922c80758a58d53
-      internalID: 273301414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_106
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a25c85bea06e5e3438f5e297c9ec61c5
-      internalID: -1434677741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_107
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f663f30f037402b4eae51c53638c895f
-      internalID: -1825349453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_108
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f27c47bbdf8a1f84e9d2b3961b3d744b
-      internalID: -1753094519
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_109
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 333a66a755599b64885981559a3097dd
-      internalID: -1181319677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_110
+      name: Tileset_temple 1_193
       rect:
         serializedVersion: 2
         x: 512
@@ -2440,14 +4183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a9648a10770d684ebf949f6989ca495
-      internalID: -414038190
+      spriteID: 524b0e4573ba64add93f148349fbcb72
+      internalID: 1373364723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_111
+      name: Tileset_temple 1_194
       rect:
         serializedVersion: 2
         x: 544
@@ -2461,14 +4204,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d51977c9f05fc9b40a334063da0b5961
-      internalID: 672839211
+      spriteID: cd4c01422ea93444eb7be94ac76f1114
+      internalID: -433490604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_112
+      name: Tileset_temple 1_195
       rect:
         serializedVersion: 2
         x: 576
@@ -2482,18 +4225,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83fc71dc38b3e3747a31b5880188b1d1
-      internalID: -1162860216
+      spriteID: 9863e6b37745c4d58a491427ecfabd4c
+      internalID: 620034756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_113
+      name: Tileset_temple 1_196
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 608
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -2503,35 +4246,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc2dc936c0df81644a7cdb06d871c4a0
-      internalID: 1298370508
+      spriteID: 76db10b7a871742f09af4e4c81f3029e
+      internalID: -1690906095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_114
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32c9d6117242851459c45fa30d78e3c6
-      internalID: 1867582625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_115
+      name: Tileset_temple 1_197
       rect:
         serializedVersion: 2
         x: 64
@@ -2545,14 +4267,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a9297c8354f4a4479c10cc1617a708e
-      internalID: -1471336800
+      spriteID: bd246d2b51ff747eba447c55da959403
+      internalID: -773184584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_116
+      name: Tileset_temple 1_198
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4e094a745fc4da6ac88c6c63c5dd0e
+      internalID: 217261676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_199
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c20ee1cf86734f15944be20a3fed644
+      internalID: 1094645629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_200
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5dee860302c4ffda8999fd8f97db74
+      internalID: 1745393259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_temple 1_201
       rect:
         serializedVersion: 2
         x: 192
@@ -2566,14 +4351,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f463e3def92b94418857bf159938c51
-      internalID: 1809664187
+      spriteID: a68897ad6a4de4007a3527c5d668468f
+      internalID: 164586202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_117
+      name: Tileset_temple 1_202
       rect:
         serializedVersion: 2
         x: 224
@@ -2587,14 +4372,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db2a6f1ed5b98bb41aaf46a643826696
-      internalID: -1761841819
+      spriteID: 4bea9748344f54157ab89105b09b2870
+      internalID: -780372121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_118
+      name: Tileset_temple 1_203
       rect:
         serializedVersion: 2
         x: 256
@@ -2608,17 +4393,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9ff14a331282314bb0666a121a3ea48
-      internalID: -679808361
+      spriteID: a4371fd9cb125444b95962938b4a027a
+      internalID: 365734625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_119
+      name: Tileset_temple 1_204
       rect:
         serializedVersion: 2
-        x: 288
+        x: 480
         y: 64
         width: 32
         height: 32
@@ -2629,119 +4414,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d782184e0e2f20b4685370ba3087fe68
-      internalID: 811966980
+      spriteID: d4f54d5e91f504dd589cea0a936c10ba
+      internalID: 1271208712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_120
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2741d05a024404499aa7685c1fcc575
-      internalID: -1331286790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_121
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec1a1aae3f779c44a9bf545339020d11
-      internalID: -1644752628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_122
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c3ec2f4be4bf234685ab309d63f7ff9
-      internalID: -528287364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_123
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc15d29525f13524facfed9de1508aa9
-      internalID: 1592936206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_124
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ceb00f940bbeed40973924191505c20
-      internalID: -2017291207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_125
+      name: Tileset_temple 1_205
       rect:
         serializedVersion: 2
         x: 512
@@ -2755,14 +4435,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8725f073a3d874148b4e9560534ba4f3
-      internalID: -1564329937
+      spriteID: 72d48a3b1bc8d401b870f869f987ebdb
+      internalID: -569928662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_126
+      name: Tileset_temple 1_206
       rect:
         serializedVersion: 2
         x: 544
@@ -2776,14 +4456,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 522ecb7d0a491d84eac36aaeb0b89590
-      internalID: -1675904756
+      spriteID: 4ec4ee1466d8d4780a85825184874892
+      internalID: -7248470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_127
+      name: Tileset_temple 1_207
       rect:
         serializedVersion: 2
         x: 576
@@ -2797,18 +4477,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6597f308f5bbd914b8a37fbd2cbff935
-      internalID: -1081776500
+      spriteID: aadb7cfe4d8394d03a12f0ad35df5e1d
+      internalID: 1002335850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_128
+      name: Tileset_temple 1_208
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 608
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -2818,35 +4498,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaa541767119cc442910bce937d22f8d
-      internalID: 1235457184
+      spriteID: 1ae4b0983bb7a496aaf814131e338505
+      internalID: 656207581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_129
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 459bd4b655b41064fa153467ba018a2a
-      internalID: -1407827231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_130
+      name: Tileset_temple 1_209
       rect:
         serializedVersion: 2
         x: 64
@@ -2860,14 +4519,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19e196c7850151141a1fee6d131635a4
-      internalID: -1253927599
+      spriteID: 32eafe42228d64a0b91f4e5fe2ce1539
+      internalID: -293545252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_131
+      name: Tileset_temple 1_210
       rect:
         serializedVersion: 2
         x: 96
@@ -2881,14 +4540,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bef0297dca6a2404f88ffd81fad028c9
-      internalID: 1084689255
+      spriteID: e6d89a27b5308437caded6ed9fb7ef2e
+      internalID: -223416072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_132
+      name: Tileset_temple 1_211
       rect:
         serializedVersion: 2
         x: 128
@@ -2902,14 +4561,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26e0f2a421c13fd4cb7027409eba31be
-      internalID: 2119168269
+      spriteID: 8eaaaa439f4214b8e9d473003e2a1744
+      internalID: -1695794076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_133
+      name: Tileset_temple 1_212
       rect:
         serializedVersion: 2
         x: 160
@@ -2923,17 +4582,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4075efa0715a99a49b6ed3a05f0a1672
-      internalID: 1586025747
+      spriteID: 2e12c474d438844bdad760248991842b
+      internalID: 1267547446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_134
+      name: Tileset_temple 1_213
       rect:
         serializedVersion: 2
-        x: 288
+        x: 192
         y: 32
         width: 32
         height: 32
@@ -2944,17 +4603,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec6f9fa672552fe4491e79e05bce73b5
-      internalID: 1482657088
+      spriteID: 1813c7feca14d44a9a003dada285050d
+      internalID: -1700456674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_135
+      name: Tileset_temple 1_214
       rect:
         serializedVersion: 2
-        x: 320
+        x: 224
         y: 32
         width: 32
         height: 32
@@ -2965,17 +4624,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5902a8c8a24bfa48afe37c1a0ee7420
-      internalID: 711416216
+      spriteID: d1806155e1a484424bb7688384b8b1e6
+      internalID: 965002123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_temple_136
+      name: Tileset_temple 1_215
       rect:
         serializedVersion: 2
-        x: 352
+        x: 256
         y: 32
         width: 32
         height: 32
@@ -2986,323 +4645,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58f240f572109da4284cf8fc1068e855
-      internalID: 98257597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_137
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbfe5387eb9cbc7469b01a90074f0965
-      internalID: -334386823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_138
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d5d108c882f5dc40933dbeff4746f72
-      internalID: -1955335766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_139
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a371db3483e7b9a4d82bf9e7826e2994
-      internalID: 1702502443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_140
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74ddf54f9242e4b4ba1eaf8b6ac9a1c5
-      internalID: -2080352117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_141
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2575bf6a1a3862748ad1c544e64ae7cc
-      internalID: 278174997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_142
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3274c4803bb4b74895a0ad4c63126d2
-      internalID: -93064472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_143
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e407ee440dd7574895745ad53c24735
-      internalID: -1002591203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_144
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 612f4cf39874af442adb4d6aeca25e7b
-      internalID: -1032224069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_145
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 480c5edb1492c6341bfafb1642c77bfe
-      internalID: -1504229788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_146
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78e8c2a5c695f784fbe9bb826b402b3c
-      internalID: 1195163602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_147
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c144c5991adb024b9063357843708cd
-      internalID: -530179387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_148
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22b3ce0ce46a3a648ab6349b90092c81
-      internalID: -371880875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_149
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23808a7096d3884459229d783c273882
-      internalID: -1586940247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_150
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28df1bd6e45555c44bffb068f1f10242
-      internalID: 1394865839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_temple_151
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05c42633949751146be8c1ee8bbfcd17
-      internalID: -1822588625
+      spriteID: 05e803305f00a4abfaa152817711a49e
+      internalID: -435325375
       vertices: []
       indices: 
       edges: []
@@ -3311,165 +4655,229 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tileset_temple_17: 1727586346
-      Tileset_temple_109: -1181319677
-      Tileset_temple_78: 218328944
-      Tileset_temple_96: -1764333977
-      Tileset_temple_29: 1304786005
-      Tileset_temple_116: 1809664187
-      Tileset_temple_135: 711416216
-      Tileset_temple_2: -638942157
-      Tileset_temple_4: 1852198813
-      Tileset_temple_126: -1675904756
-      Tileset_temple_150: 1394865839
-      Tileset_temple_144: -1032224069
-      Tileset_temple_20: -1193483719
-      Tileset_temple_32: -673721552
-      Tileset_temple_113: 1298370508
-      Tileset_temple_27: 1388913237
-      Tileset_temple_76: 1295166745
-      Tileset_temple_33: 787555970
-      Tileset_temple_117: -1761841819
-      Tileset_temple_26: 482798442
-      Tileset_temple_98: 1038448949
-      Tileset_temple_6: -77155667
-      Tileset_temple_34: -591900165
-      Tileset_temple_138: -1955335766
-      Tileset_temple_74: 627699495
-      Tileset_temple_60: -49151543
-      Tileset_temple_136: 98257597
-      Tileset_temple_146: 1195163602
-      Tileset_temple_53: 1890968944
-      Tileset_temple_83: -1613577991
-      Tileset_temple_118: -679808361
-      Tileset_temple_18: 558482077
-      Tileset_temple_46: -136566165
-      Tileset_temple_38: 587294609
-      Tileset_temple_54: -1943665342
-      Tileset_temple_84: -211952039
-      Tileset_temple_105: 273301414
-      Tileset_temple_7: 703338786
-      Tileset_temple_82: 2028442816
-      Tileset_temple_50: -2050022449
-      Tileset_temple_1: -1314849317
-      Tileset_temple_142: -93064472
-      Tileset_temple_104: 123522365
-      Tileset_temple_130: -1253927599
-      Tileset_temple_120: -1331286790
-      Tileset_temple_69: -615371756
-      Tileset_temple_119: 811966980
-      Tileset_temple_139: 1702502443
-      Tileset_temple_37: 445001401
-      Tileset_temple_67: 924480616
-      Tileset_temple_91: 1929006062
-      Tileset_temple_143: -1002591203
-      Tileset_temple_16: -1292143293
-      Tileset_temple_127: -1081776500
-      Tileset_temple_89: -430436635
-      Tileset_temple_41: -61360351
-      Tileset_temple_123: 1592936206
-      Tileset_temple_23: -152079807
-      Tileset_temple_106: -1434677741
-      Tileset_temple_56: 1524786780
-      Tileset_temple_57: -62631371
-      Tileset_temple_14: 1125014064
-      Tileset_temple_59: -322683232
-      Tileset_temple_40: -1591221485
-      Tileset_temple_5: 1074809941
-      Tileset_temple_31: -184905857
-      Tileset_temple_44: 214496371
-      Tileset_temple_10: -1294692234
-      Tileset_temple_71: 155862653
-      Tileset_temple_94: 942699925
-      Tileset_temple_81: 574873690
-      Tileset_temple_110: -414038190
-      Tileset_temple_112: -1162860216
-      Tileset_temple_129: -1407827231
-      Tileset_temple_131: 1084689255
-      Tileset_temple_133: 1586025747
-      Tileset_temple_97: 1296391083
-      Tileset_temple_72: -795922756
-      Tileset_temple_87: 860851858
-      Tileset_temple_99: -1219898520
-      Tileset_temple_115: -1471336800
-      Tileset_temple_11: -1847514016
-      Tileset_temple_62: 602646091
-      Tileset_temple_64: 463606972
-      Tileset_temple_30: 1652247317
-      Tileset_temple_42: 1287178201
-      Tileset_temple_70: 768298187
-      Tileset_temple_100: 1875065918
-      Tileset_temple_13: 979095212
-      Tileset_temple_125: -1564329937
-      Tileset_temple_21: -795987869
-      Tileset_temple_47: 1900153872
-      Tileset_temple_52: 1888289918
-      Tileset_temple_73: -963905678
-      Tileset_temple_8: 2088828532
-      Tileset_temple_122: -528287364
-      Tileset_temple_19: -1947429799
-      Tileset_temple_68: -924359151
-      Tileset_temple_25: -857761731
-      Tileset_temple_66: -2005448790
-      Tileset_temple_88: -1755173659
-      Tileset_temple_92: 2056878449
-      Tileset_temple_147: -530179387
-      Tileset_temple_58: -1413977545
-      Tileset_temple_43: -131123413
-      Tileset_temple_128: 1235457184
-      Tileset_temple_140: -2080352117
-      Tileset_temple_35: 70300478
-      Tileset_temple_111: 672839211
-      Tileset_temple_124: -2017291207
-      Tileset_temple_3: -1989953820
-      Tileset_temple_39: 1818403826
-      Tileset_temple_77: 1609733664
-      Tileset_temple_102: 1121581027
-      Tileset_temple_80: -102056346
-      Tileset_temple_75: -1481371546
-      Tileset_temple_151: -1822588625
-      Tileset_temple_141: 278174997
-      Tileset_temple_103: 1555488189
-      Tileset_temple_48: 411807947
-      Tileset_temple_0: 1040970376
-      Tileset_temple_15: 374755718
-      Tileset_temple_49: 1954512253
-      Tileset_temple_107: -1825349453
-      Tileset_temple_114: 1867582625
-      Tileset_temple_93: -1459736300
-      Tileset_temple_85: -1417453702
-      Tileset_temple_121: -1644752628
-      Tileset_temple_149: -1586940247
-      Tileset_temple_132: 2119168269
-      Tileset_temple_134: 1482657088
-      Tileset_temple_51: 68393468
-      Tileset_temple_55: 213488277
-      Tileset_temple_148: -371880875
-      Tileset_temple_101: 1039613023
-      Tileset_temple_137: -334386823
-      Tileset_temple_145: -1504229788
-      Tileset_temple_79: 1351753599
-      Tileset_temple_63: -316599101
-      Tileset_temple_61: 2024379920
-      Tileset_temple_95: 1609573987
-      Tileset_temple_24: -1081964767
-      Tileset_temple_22: -665131640
-      Tileset_temple_45: -1008592373
-      Tileset_temple_86: 1661281770
-      Tileset_temple_12: 439489243
-      Tileset_temple_28: -1212731655
-      Tileset_temple_65: 801852310
-      Tileset_temple_90: -2081437855
-      Tileset_temple_108: -1753094519
-      Tileset_temple_9: -59059609
-      Tileset_temple_36: -625035789
+      Tileset_temple 1_184: -288203670
+      Tileset_temple 1_3: 777608257
+      Tileset_temple 1_55: -1962393173
+      Tileset_temple 1_11: -1507965882
+      Tileset_temple 1_89: -1307467560
+      Tileset_temple 1_92: 473099015
+      Tileset_temple 1_53: 553425779
+      Tileset_temple 1_15: 860066039
+      Tileset_temple 1_6: -1195078506
+      Tileset_temple 1_106: 633346362
+      Tileset_temple 1_154: -444541955
+      Tileset_temple 1_13: -162496717
+      Tileset_temple 1_134: -394528541
+      Tileset_temple 1_90: -851750546
+      Tileset_temple 1_146: 92849037
+      Tileset_temple 1_47: -1422374926
+      Tileset_temple 1_2: 2011058000
+      Tileset_temple 1_93: -1232169432
+      Tileset_temple 1_176: 1503731562
+      Tileset_temple 1_43: -529140312
+      Tileset_temple 1_66: -843319920
+      Tileset_temple 1_210: -223416072
+      Tileset_temple 1_138: -432325682
+      Tileset_temple 1_45: 1755377304
+      Tileset_temple 1_48: 1933925265
+      Tileset_temple 1_35: -1212709296
+      Tileset_temple 1_168: 807168964
+      Tileset_temple 1_191: -1493369574
+      Tileset_temple 1_193: 1373364723
+      Tileset_temple 1_94: -1298238782
+      Tileset_temple 1_100: -1244207982
+      Tileset_temple 1_30: 1059104914
+      Tileset_temple 1_172: -153203127
+      Tileset_temple 1_120: 127527630
+      Tileset_temple 1_84: 763347950
+      Tileset_temple 1_75: -1617213837
+      Tileset_temple 1_140: 1850367858
+      Tileset_temple 1_51: 683726473
+      Tileset_temple 1_122: 1258665112
+      Tileset_temple 1_24: -910923358
+      Tileset_temple 1_117: -282053057
+      Tileset_temple 1_203: 365734625
+      Tileset_temple 1_158: -1458787832
+      Tileset_temple 1_23: -1997160907
+      Tileset_temple 1_118: -812054852
+      Tileset_temple 1_161: -1037050185
+      Tileset_temple 1_162: -784841923
+      Tileset_temple 1_52: 25844220
+      Tileset_temple 1_67: 167858089
+      Tileset_temple 1_85: 1790385303
+      Tileset_temple 1_91: -505539631
+      Tileset_temple 1_14: 2037839830
+      Tileset_temple 1_46: 1050287834
+      Tileset_temple 1_133: -1333648290
+      Tileset_temple 1_204: 1271208712
+      Tileset_temple 1_7: 24274572
+      Tileset_temple 1_5: -212859370
+      Tileset_temple 1_8: -34488075
+      Tileset_temple 1_171: -1148685861
+      Tileset_temple 1_10: 1843770981
+      Tileset_temple 1_194: -433490604
+      Tileset_temple 1_37: 1329996484
+      Tileset_temple 1_144: 1759562604
+      Tileset_temple 1_40: -258033404
+      Tileset_temple 1_86: -613910154
+      Tileset_temple 1_26: 1353175638
+      Tileset_temple 1_102: -1369532080
+      Tileset_temple 1_95: 1441013336
+      Tileset_temple 1_126: -868390306
+      Tileset_temple 1_74: 1472971882
+      Tileset_temple 1_124: -1295159592
+      Tileset_temple 1_185: -1385045378
+      Tileset_temple 1_16: -900895732
+      Tileset_temple 1_152: 639328686
+      Tileset_temple 1_173: 70225345
+      Tileset_temple 1_165: 119953230
+      Tileset_temple 1_180: 458790329
+      Tileset_temple 1_112: -1616651356
+      Tileset_temple 1_17: 842232231
+      Tileset_temple 1_33: -47200162
+      Tileset_temple 1_115: -1618252490
+      Tileset_temple 1_64: 198897892
+      Tileset_temple 1_81: -1944843521
+      Tileset_temple 1_42: -178665777
+      Tileset_temple 1_18: 553723600
+      Tileset_temple 1_97: -701125147
+      Tileset_temple 1_147: 580036550
+      Tileset_temple 1_214: 965002123
+      Tileset_temple 1_132: -1501486587
+      Tileset_temple 1_215: -435325375
+      Tileset_temple 1_131: 811702661
+      Tileset_temple 1_69: -252217991
+      Tileset_temple 1_130: 862472000
+      Tileset_temple 1_25: 1145521787
+      Tileset_temple 1_137: -1702810006
+      Tileset_temple 1_49: 1686046676
+      Tileset_temple 1_22: 2011198948
+      Tileset_temple 1_105: -2136318654
+      Tileset_temple 1_208: 656207581
+      Tileset_temple 1_211: -1695794076
+      Tileset_temple 1_197: -773184584
+      Tileset_temple 1_27: 24092929
+      Tileset_temple 1_129: 1138533272
+      Tileset_temple 1_188: -1956318666
+      Tileset_temple 1_150: -1332138920
+      Tileset_temple 1_149: -1884456800
+      Tileset_temple 1_155: 1663257755
+      Tileset_temple 1_72: -761934689
+      Tileset_temple 1_0: -10146321
+      Tileset_temple 1_79: -1263135499
+      Tileset_temple 1_135: -1624573837
+      Tileset_temple 1_157: 1189758246
+      Tileset_temple 1_196: -1690906095
+      Tileset_temple 1_60: -1563513897
+      Tileset_temple 1_83: 1368116202
+      Tileset_temple 1_110: -1824816180
+      Tileset_temple 1_111: -2040428583
+      Tileset_temple 1_198: 217261676
+      Tileset_temple 1_58: -1641801566
+      Tileset_temple 1_73: -2001204817
+      Tileset_temple 1_59: -411538410
+      Tileset_temple 1_101: 177624554
+      Tileset_temple 1_63: -1302416691
+      Tileset_temple 1_19: -1207812338
+      Tileset_temple 1_107: 1696175039
+      Tileset_temple 1_206: -7248470
+      Tileset_temple 1_153: 1540112613
+      Tileset_temple 1_164: -1865809975
+      Tileset_temple 1_77: 1721492050
+      Tileset_temple 1_145: 64913796
+      Tileset_temple 1_57: -17704746
+      Tileset_temple 1_160: -1104749894
+      Tileset_temple 1_96: -1219344726
+      Tileset_temple 1_104: 435641607
+      Tileset_temple 1_174: 1256048296
+      Tileset_temple 1_205: -569928662
+      Tileset_temple 1_61: -1721912696
+      Tileset_temple 1_80: 1908478759
+      Tileset_temple 1_202: -780372121
+      Tileset_temple 1_139: 311155903
+      Tileset_temple 1_123: 1078552935
+      Tileset_temple 1_4: 804543040
+      Tileset_temple 1_195: 620034756
+      Tileset_temple 1_29: -1988450240
+      Tileset_temple 1_213: -1700456674
+      Tileset_temple 1_207: 1002335850
+      Tileset_temple 1_62: 1324087530
+      Tileset_temple 1_87: -764735192
+      Tileset_temple 1_56: 1746723806
+      Tileset_temple 1_142: 1560267070
+      Tileset_temple 1_189: 777719230
+      Tileset_temple 1_121: 528536592
+      Tileset_temple 1_109: 533051302
+      Tileset_temple 1_181: 1539217940
+      Tileset_temple 1_99: 1915720154
+      Tileset_temple 1_36: 601761781
+      Tileset_temple 1_20: -1544429836
+      Tileset_temple 1_39: 1725961841
+      Tileset_temple 1_114: -1897825290
+      Tileset_temple 1_127: 1824410077
+      Tileset_temple 1_116: -1341726723
+      Tileset_temple 1_108: -1126415983
+      Tileset_temple 1_167: -1061472465
+      Tileset_temple 1_125: -1522472255
+      Tileset_temple 1_156: 847584074
+      Tileset_temple 1_28: 1401696687
+      Tileset_temple 1_175: -1567738328
+      Tileset_temple 1_9: -1953412474
+      Tileset_temple 1_119: 1996205148
+      Tileset_temple 1_178: -1255540165
+      Tileset_temple 1_103: -857433111
+      Tileset_temple 1_143: -898838416
+      Tileset_temple 1_98: 968462838
+      Tileset_temple 1_34: 591658122
+      Tileset_temple 1_169: 1836840296
+      Tileset_temple 1_70: 39283620
+      Tileset_temple 1_21: 1630108922
+      Tileset_temple 1_148: 1577819370
+      Tileset_temple 1_82: 1085676872
+      Tileset_temple 1_128: 1657421859
+      Tileset_temple 1_179: -2103922548
+      Tileset_temple 1_71: 1681268608
+      Tileset_temple 1_192: 661689301
+      Tileset_temple 1_209: -293545252
+      Tileset_temple 1_187: 1159103488
+      Tileset_temple 1_76: -296250663
+      Tileset_temple 1_170: 1138866576
+      Tileset_temple 1_199: 1094645629
+      Tileset_temple 1_31: -1573370438
+      Tileset_temple 1_212: 1267547446
+      Tileset_temple 1_177: 389375756
+      Tileset_temple 1_186: -1793106204
+      Tileset_temple 1_166: 1398534220
+      Tileset_temple 1_32: -1088255743
+      Tileset_temple 1_190: 240929628
+      Tileset_temple 1_41: -1644774872
+      Tileset_temple 1_38: 1259189592
+      Tileset_temple 1_163: -179638396
+      Tileset_temple 1_159: 2137302087
+      Tileset_temple 1_1: 1596603694
+      Tileset_temple 1_113: 410888972
+      Tileset_temple 1_78: -955730819
+      Tileset_temple 1_68: -672733062
+      Tileset_temple 1_201: 164586202
+      Tileset_temple 1_88: 442470303
+      Tileset_temple 1_136: 741771220
+      Tileset_temple 1_182: -661746264
+      Tileset_temple 1_151: 1914652972
+      Tileset_temple 1_44: -1525791923
+      Tileset_temple 1_183: -1956158119
+      Tileset_temple 1_141: 604636141
+      Tileset_temple 1_54: 1364741800
+      Tileset_temple 1_200: 1745393259
+      Tileset_temple 1_65: 501200186
+      Tileset_temple 1_12: 1346591962
+      Tileset_temple 1_50: 713285204
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
