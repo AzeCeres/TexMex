@@ -222,8 +222,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cd2b916cf044163911129b70d8043f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioVariationArray: {fileID: 11400000, guid: 1b7c32d39d812f24396c47ca80478c6a, type: 2}
-  audioVariationPitch: {fileID: 11400000, guid: 0ecc0b8cbe0ac3941a1f78d22158d0f3, type: 2}
 --- !u!82 &24460656
 AudioSource:
   m_ObjectHideFlags: 0
@@ -333,6 +331,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   footStepAudio: {fileID: 0}
-  cloneCreateAudio: {fileID: 0}
-  cloneSwitchAudio: {fileID: 0}
-  cloneDeathAudio: {fileID: 0}
+  cloneCreateAudio: {fileID: 11400000, guid: 0d19274d3d23f834eafea8d843ab54f5, type: 2}
+  cloneSwitchAudio: {fileID: 11400000, guid: c670266ef7ec59a4790304c1700a748c, type: 2}
+  cloneDeathAudio: {fileID: 11400000, guid: b5e3e8a3deabdd04ca10bd209c713147, type: 2}
+  cloneDeathBarkLaser: {fileID: 11400000, guid: 406efea88b2c2ad409dd49e7a08929c4, type: 2}
+  cloneDeathBarkDart: {fileID: 11400000, guid: ec3beaf96507eab46b22c1b1fd44d7cb, type: 2}
