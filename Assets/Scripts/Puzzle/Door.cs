@@ -1,45 +1,36 @@
+using System.ComponentModel;
+using JetBrains.Annotations;
 using UnityEngine;
 namespace Puzzle
 {
     public class Door : MonoBehaviour
     {
-        [SerializeField] private Button[] button;
+        //[HideInInspector]
+        [CanBeNull] public Wire wire;
         public bool inverted;
-        private bool _mOpen;
-        private BoxCollider2D _mDoorCollider;
-        private SpriteRenderer _mDoorRenderer;
-        private void Awake()
-        {
-            _mDoorCollider = GetComponentInChildren<BoxCollider2D>();
-            _mDoorRenderer = GetComponentInChildren<SpriteRenderer>();
+        private bool m_Open;
+        private BoxCollider2D m_DoorCollider;
+        private SpriteRenderer m_DoorRenderer;
+        private void Awake() {
+            m_DoorCollider = GetComponent<BoxCollider2D>();
+            m_DoorRenderer = GetComponent<SpriteRenderer>();
+            //print(m_DoorCollider);
         }
-        private void Update()
-        {
+        private void Update() {
             Open();
         }
-        private void Open()
-        {
-            int activeCount = 0;
-            for (int i = 0; i < button.Length; i++)
-            {
-                if (button[i].active)
-                {
-                    activeCount++;
-                }
-                _mOpen = activeCount == button.Length;
-            }
-            if (_mOpen && !inverted || !_mOpen && inverted)
-            {
-                _mDoorRenderer.enabled = false;
-                if (_mDoorCollider == null) return;
-                _mDoorCollider.enabled = false;
-            }
-            else //if (m_Open && inverted || m_Open && inverted)
-            {
-                _mDoorRenderer.enabled = true;
-                if (_mDoorCollider == null) return;
-                _mDoorCollider.enabled = true;
-            }
+        private void Open(){
+            if (wire == null) {
+                throw new WarningException(name + " is not connected by a wire, please connect it");
+            } if (wire.active && !inverted || !wire.active && inverted) {
+                m_DoorRenderer.enabled = false;
+                if (m_DoorCollider == null) return;
+                m_DoorCollider.enabled = false;
+            } else { 
+                m_DoorRenderer.enabled = true;
+                m_DoorCollider.enabled = true;
+            } 
+               
         }
     }
 }

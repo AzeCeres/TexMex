@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1743221442921629215}
   - component: {fileID: 1743221442921629200}
   - component: {fileID: 1743221442921629201}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlayerController
   m_TagString: PlayerController
   m_Icon: {fileID: 0}
@@ -131,6 +131,8 @@ MonoBehaviour:
   secondClones: []
   selectedMain: 0
   selectedSecond: 1
+  alternativeControls: 1
+  maxClones: 2
 --- !u!1 &1743221443229384568
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,9 +145,9 @@ GameObject:
   - component: {fileID: 1743221443229384550}
   - component: {fileID: 1743221443229384551}
   - component: {fileID: 1743221443229384548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SecondBody
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -205,7 +207,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 150
+  m_SortingOrder: 100
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.737547, g: 1, b: 0.43867922, a: 1}
   m_FlipX: 0
@@ -266,9 +268,9 @@ GameObject:
   - component: {fileID: 1743221443401410189}
   - component: {fileID: 1743221443401410190}
   - component: {fileID: 1743221443401410187}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SecondBodyClone
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -328,7 +330,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 150
+  m_SortingOrder: 100
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.514151, g: 1, b: 0.9621401, a: 1}
   m_FlipX: 0
@@ -389,9 +391,9 @@ GameObject:
   - component: {fileID: 1743221443741479898}
   - component: {fileID: 1743221443741479899}
   - component: {fileID: 1743221443741479896}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MainBody
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -451,7 +453,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 150
+  m_SortingOrder: 100
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0.2971698, b: 0.2971698, a: 1}
   m_FlipX: 0
@@ -512,9 +514,9 @@ GameObject:
   - component: {fileID: 1743221443831494831}
   - component: {fileID: 1743221443831494816}
   - component: {fileID: 1743221443831494829}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MainBodyClone
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -574,7 +576,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 150
+  m_SortingOrder: 100
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0.79876006, b: 0.3254717, a: 1}
   m_FlipX: 0

@@ -1,23 +1,27 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 namespace Player
-{
-    public class Split : MonoBehaviour 
-    {
+{ public class Split : MonoBehaviour {
     
         public GameObject[] clones;
         public bool[] activeClones = new bool[4];
 
         //todo remove serialize field after troubleshooting
-        [SerializeField] public List<GameObject> mainClones = new List<GameObject>(2);
+        [SerializeField] public List<GameObject> mainClones = new List<GameObject>(4);
         [SerializeField] public List<GameObject> secondClones = new List<GameObject>(2);
         [SerializeField] public int selectedMain;
         [SerializeField] public int selectedSecond = 1;
-
+        private string[] test = new string[1];
+        //in settings, switch alternative controls over to true to activate single stick controls 
+        public bool alternativeControls = false;
+        [Range(1,4)][SerializeField] private int maxClones = 4;
+        private int previousSelectedMain = 0;
+        
         private void Update() {
             OopsProtection();
+            AlternativeControlsCheck();
         }
+        //todo put in max clones, that is possible per stage. Done for alternative controls
         public void MainSplit() {
             if (mainClones.Count == 2 && secondClones.Count > 0) {
                 SwitchMain();
@@ -52,9 +56,7 @@ namespace Player
         }
 
         public void SpawnClone(int selected, List<GameObject> cloneGroup, GameObject sourceClone ) {
-        
-            for (int i = 0; i < activeClones.Length; i++)
-            {
+            for (int i = 0; i < activeClones.Length; i++) {
                 if (activeClones[i])
                     continue;
                 //todo move them in front of the player, making sure theres space there.
@@ -67,34 +69,66 @@ namespace Player
         }
         private void SwitchMain() => selectedMain = selectedMain == 0 ? 1 : 0;
         private void SwitchSecond() => selectedSecond = selectedSecond == 0 ? 1 : 0;
-
         private void OopsProtection() {
-            if (secondClones.Count == 1) {
-                selectedSecond = 0;
-            }
-            if (mainClones.Count == 1) {
-                selectedMain = 0;
+            if (secondClones.Count-1 < selectedSecond) {
+                selectedSecond = secondClones.Count-1;
+            } if (mainClones.Count-1 < selectedMain) {
+                selectedMain = mainClones.Count-1;
             }
         }
-        //todo; function for killing clone, changing who's selected
-
+        void AlternativeControlsCheck() {
+            switch (alternativeControls) {
+                case true: {
+                    for (int i = 0; i < secondClones.Count; i++) {
+                        mainClones.Add(secondClones[i]);
+                        secondClones.Remove(secondClones[i]);
+                    }
+                    break;
+                } case false: {
+                    for (int i = 0; i < mainClones.Count; i++) {
+                        if (mainClones.Count >= 3) {
+                            secondClones.Add(mainClones[i]);
+                            mainClones.Remove(mainClones[i]);
+                        }
+                    }
+                    break;
+                }
+            }
+        }
+        public void AlternativeSplit() {
+            if (mainClones.Count < maxClones) {
+                SpawnClone(selectedMain, mainClones, mainClones[selectedMain]);
+                AlternativeSwitch(1);
+            } else {
+                //print("There are no more clones to be spawned");
+            }
+        }
+        public void AlternativeSwitch(int switchValue) {
+            previousSelectedMain = selectedMain;
+            if (switchValue + selectedMain > mainClones.Count-1) {
+                selectedMain = 0;
+            } else if (switchValue + selectedMain < 0) {
+                selectedMain = mainClones.Count-1;
+            } else {
+                selectedMain += switchValue;
+            }
+        }
         public void KillClone(GameObject cloneToKill) {
-            for (int i = 0; i < clones.Length; i++)
-            {
+            for (int i = 0; i < clones.Length; i++) {
                 if (clones[i] != cloneToKill)
-                    continue;
+                    continue;   
                 clones[i].SetActive(false);
                 activeClones[i] = false;
                 for (int j = 0; j < mainClones.Count; j++) {
-
                     if (mainClones[j] == cloneToKill) {
                         mainClones.Remove(mainClones[j]);
+                        if (alternativeControls && previousSelectedMain <= mainClones.Count - 1) {
+                            selectedMain = previousSelectedMain;
+                        }
                     }
                 }
                 for (int j = 0; j < secondClones.Count; j++) {
-
-                    if (secondClones[j] == cloneToKill)
-                    {
+                    if (secondClones[j] == cloneToKill) {
                         secondClones.Remove(secondClones[j]);
                     }
                 }
