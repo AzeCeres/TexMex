@@ -5,12 +5,12 @@ using UnityEngine.InputSystem;
 
 public class TimerLineTest : MonoBehaviour
 {
-    private Animator testAnimator;
+    private Animator _testAnimator;
     public GameObject[] lines;
     // Start is called before the first frame update
     void Start()
     {
-        testAnimator = GetComponent<Animator>();
+        _testAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class TimerLineTest : MonoBehaviour
     {
         if (Keyboard.current.fKey.wasPressedThisFrame)
         {
-            testAnimator.Play("TimerLineTest");
+            _testAnimator.Play("TimerLineTest");
         }
     }
     //put all lines in array or list and chain them that way
