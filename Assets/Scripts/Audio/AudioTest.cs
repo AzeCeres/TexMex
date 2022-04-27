@@ -4,29 +4,36 @@ using UnityEngine.InputSystem;
 
 namespace Audio
 {
-    [RequireComponent(typeof(AudioSource))]
+    [RequireComponent(typeof(PlayerAudio))]
     public class AudioTest : MonoBehaviour
     {
-        [SerializeField] private AudioVariation audioVariationArray;
-        [SerializeField] private AudioVariation audioVariationPitch;
-
-        private AudioSource _audioSource;
+        private PlayerAudio _playerAudio;
 
         private void Start()
         {
-            _audioSource = GetComponent<AudioSource>();
+            _playerAudio = GetComponent<PlayerAudio>();
         }
 
         private void Update()
         {
             if (Keyboard.current.aKey.wasPressedThisFrame)
             {
-                audioVariationArray.PlayAudio(_audioSource);
+                _playerAudio.PlayCloneCreateAudio();
             }
 
             if (Keyboard.current.sKey.wasPressedThisFrame)
             {
-                audioVariationPitch.PlayAudio(_audioSource);
+                _playerAudio.PlayCloneSwitchAudio();
+            }
+
+            if (Keyboard.current.dKey.wasPressedThisFrame)
+            {
+                _playerAudio.PlayCloneDeathAudio(CauseOfDeath.Dart);
+            }
+
+            if (Keyboard.current.qKey.wasPressedThisFrame)
+            {
+                _playerAudio.PlayCloneDeathAudio(CauseOfDeath.Laser);
             }
         }
     }
