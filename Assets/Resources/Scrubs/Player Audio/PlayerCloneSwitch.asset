@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9284ab8264494d77892f4d0d6a22c114, type: 3}
-  m_Name: CloneDeathAudio
+  m_Name: PlayerCloneSwitch
   m_EditorClassIdentifier: 
   pitchLowerBound: 0.75
-  pitchUpperBound: 1.75
-  audioClip: {fileID: 8300000, guid: 376fed264063f5640a5f46f63a107b3b, type: 3}
+  pitchUpperBound: 1.25
+  audioClip: {fileID: 8300000, guid: 65391ec854dc665408468bdf3fe5f57d, type: 3}
