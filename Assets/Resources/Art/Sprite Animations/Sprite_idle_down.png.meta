@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b3c3b548830a440cad25b3ac836ac15
+guid: 5533d3cf5c72e45b0b517888c9e9841a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,358 +116,337 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: god walk up_0
+      name: Sprite_idle_down_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2763b6b928364883a953366ec4eac45
-      internalID: -1912396988
+      spriteID: 731c707b7f83448de9ddedd074af9dbd
+      internalID: 1051777453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: god walk up_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97a47a44bbb41437481ce2fb5d6da6ae
-      internalID: 353835727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: god walk up_2
+      name: Sprite_idle_down_1
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0524e52140aa4a0794c9cfc03556736
-      internalID: -1523263335
+      spriteID: 05d35081ac1a3490abd31c1e1efdf75d
+      internalID: 1027902569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: god walk up_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8b15f881446c41f7817d995f9cd622d
-      internalID: 371900518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: god walk up_4
+      name: Sprite_idle_down_2
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2da4f571451914ecf8a5f2357b1462f3
-      internalID: -1630848414
+      spriteID: fc06a9af1734b492480eb46dfc6da977
+      internalID: 2054024249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: god walk up_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1fb2a924318043449437bb5b160bc61
-      internalID: 923259497
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: god walk up_6
+      name: Sprite_idle_down_3
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5fcea11f94194368bbaf49cb02f8d86
-      internalID: -768367403
+      spriteID: 26abf4baa85f24a2aa686451b9882900
+      internalID: -1972366391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: god walk up_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d9a0a19e019740cfb4438850caadfb5
-      internalID: -1117285595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: god walk up_8
+      name: Sprite_idle_down_4
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3515eb2ce9b584f79a5846356d352f3c
-      internalID: 1551783642
+      spriteID: 8d8ed242517e24709ba39488aeb06251
+      internalID: -1264688230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: god walk up_9
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 801cbebf2ff194bd4bec8dc40d8fa7b1
-      internalID: -602255106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: god walk up_10
+      name: Sprite_idle_down_5
       rect:
         serializedVersion: 2
         x: 320
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6d57eb76c88940299d647977194e189
-      internalID: 663825861
+      spriteID: 08da49f21fb94438b82f3b07c2f06a41
+      internalID: -1304008686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: god walk up_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff3e69d17aca54a60a412d9905676def
-      internalID: 563919684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: god walk up_12
+      name: Sprite_idle_down_6
       rect:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b0195486d7bc414e849291ced28f0b3
-      internalID: -401133669
+      spriteID: 9000ace4418354b32a42f0b6593c2d42
+      internalID: 1826704406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: god walk up_13
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 657275f53590e428eb823b50ec43ce1b
-      internalID: -451206171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: god walk up_14
+      name: Sprite_idle_down_7
       rect:
         serializedVersion: 2
         x: 448
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e68ae8a37653d490aa8a101d12eb9b15
-      internalID: 1194722698
+      spriteID: 5ad9fca363bdd4750804fc40eb590ef5
+      internalID: 2052466129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: god walk up_15
+      name: Sprite_idle_down_8
       rect:
         serializedVersion: 2
-        x: 480
+        x: 512
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6294d088e2434f2c96e601930a0683c
-      internalID: -273496002
+      spriteID: 98453a6bfbec7445fa17db2a5d11127b
+      internalID: -1169191844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: god walk up_16
+      name: Sprite_idle_down_9
       rect:
         serializedVersion: 2
-        x: 480
+        x: 576
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 897ba0ccf620747e9ade21e697c42df3
-      internalID: 727995555
+      spriteID: 26ca66dc3d06645fc91c565b160c29f4
+      internalID: -1544030060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_idle_down_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bbdd9a8ab664af0a132577ba6ef396
+      internalID: -1582633915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_idle_down_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3e6ca2cae0546af8d33fff1013f572
+      internalID: 2134277149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_idle_down_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934961dd683a54bb9924c380f7f16029
+      internalID: -748335751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_idle_down_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa92ea962b0b6488389856e213539a04
+      internalID: -984320201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_idle_down_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff892374c2d304844b673b7426c7a669
+      internalID: -1886235303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_idle_down_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b339d825c3ec4a5e81af5bb864621aa
+      internalID: 1614370230
       vertices: []
       indices: 
       edges: []
@@ -483,23 +462,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      god walk up_6: -768367403
-      god walk up_8: 1551783642
-      god walk up_11: 563919684
-      god walk up_5: 923259497
-      god walk up_10: 663825861
-      god walk up_16: 727995555
-      god walk up_1: 353835727
-      god walk up_3: 371900518
-      god walk up_13: -451206171
-      god walk up_4: -1630848414
-      god walk up_7: -1117285595
-      god walk up_12: -401133669
-      god walk up_0: -1912396988
-      god walk up_14: 1194722698
-      god walk up_15: -273496002
-      god walk up_9: -602255106
-      god walk up_2: -1523263335
+      Sprite_idle_down_0: 1051777453
+      Sprite_idle_down_15: 1614370230
+      Sprite_idle_down_8: -1169191844
+      Sprite_idle_down_12: -748335751
+      Sprite_idle_down_3: -1972366391
+      Sprite_idle_down_10: -1582633915
+      Sprite_idle_down_13: -984320201
+      Sprite_idle_down_1: 1027902569
+      Sprite_idle_down_4: -1264688230
+      Sprite_idle_down_9: -1544030060
+      Sprite_idle_down_11: 2134277149
+      Sprite_idle_down_7: 2052466129
+      Sprite_idle_down_5: -1304008686
+      Sprite_idle_down_2: 2054024249
+      Sprite_idle_down_6: 1826704406
+      Sprite_idle_down_14: -1886235303
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
