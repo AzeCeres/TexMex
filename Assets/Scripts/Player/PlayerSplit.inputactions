@@ -367,10 +367,10 @@
                 {
                     "name": "",
                     "id": "ab96d2f3-8119-42d5-800f-0ef77ebab748",
-                    "path": "<Keyboard>/e",
+                    "path": "<Keyboard>/f",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "AlternativeSplit",
                     "isComposite": false,
                     "isPartOfComposite": false

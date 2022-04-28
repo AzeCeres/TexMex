@@ -26,7 +26,6 @@ namespace Player
             if (mainClones.Count == 2 && secondClones.Count > 0) {
                 SwitchMain();
             }
-            //todo make it so you can switch clone even if both seconds are dead? or switch one of them over to be a second instead
             //if only 1 active clone, add second, become SelectedSecond (run SecondSplit?) and return;
             else if (mainClones.Count >= 1 && secondClones.Count == 0) {
                 SpawnClone(selectedSecond, secondClones, mainClones[selectedMain]);
@@ -98,12 +97,12 @@ namespace Player
         public void AlternativeSplit() {
             if (mainClones.Count < maxClones) {
                 SpawnClone(selectedMain, mainClones, mainClones[selectedMain]);
-                AlternativeSwitch(1);
+                AlternativeSwitch(-10);
             } else {
                 //print("There are no more clones to be spawned");
             }
         }
-        public void AlternativeSwitch(int switchValue) { // bug When spawning new clones, it doesnt switch to the newly spawned clone
+        public void AlternativeSwitch(int switchValue) { 
             previousSelectedMain = selectedMain;
             if (switchValue + selectedMain > mainClones.Count-1) {
                 selectedMain = 0;
@@ -121,7 +120,7 @@ namespace Player
                 activeClones[i] = false;
                 for (int j = 0; j < mainClones.Count; j++) {
                     if (mainClones[j] == cloneToKill) {
-                        mainClones.Remove(mainClones[j]);
+                        mainClones.Remove(mainClones[j]); //todo//send death to animator, make the character uncontrollable during//Start animation , then have the animation call this script
                         if (alternativeControls && previousSelectedMain <= mainClones.Count - 1) {
                             selectedMain = previousSelectedMain;
                         }
