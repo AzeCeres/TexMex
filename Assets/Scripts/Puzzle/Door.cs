@@ -1,20 +1,29 @@
 using System.ComponentModel;
 using JetBrains.Annotations;
 using UnityEngine;
-namespace Puzzle
-{
-    public class Door : MonoBehaviour
-    {
+using UnityEngine.Tilemaps;
+using Component = UnityEngine.Component;
+
+namespace Puzzle {
+    public class Door : MonoBehaviour {
         //[HideInInspector]
         [CanBeNull] public Wire wire;
         public bool inverted;
         private bool m_Open;
-        private BoxCollider2D m_DoorCollider;
-        private SpriteRenderer m_DoorRenderer;
+        private Component m_DoorCollider;
+        private Component m_DoorRenderer;
         private void Awake() {
-            m_DoorCollider = GetComponent<BoxCollider2D>();
-            m_DoorRenderer = GetComponent<SpriteRenderer>();
-            //print(m_DoorCollider);
+            if (TryGetComponent(out TilemapCollider2D tilemap)) {
+                m_DoorCollider = tilemap;
+            }else if (TryGetComponent(out BoxCollider2D boxCollider)) {
+                m_DoorCollider = boxCollider;
+            }
+            if (TryGetComponent(out TilemapRenderer tmRenderer)){
+                m_DoorRenderer = tmRenderer;
+            }
+            else if (TryGetComponent(out SpriteRenderer sRenderer)) {
+                m_DoorRenderer = sRenderer;
+            }
         }
         private void Update() {
             Open();
@@ -23,12 +32,12 @@ namespace Puzzle
             if (wire == null) {
                 throw new WarningException(name + " is not connected by a wire, please connect it");
             } if (wire.active && !inverted || !wire.active && inverted) {
-                m_DoorRenderer.enabled = false;
+                m_DoorRenderer.gameObject.SetActive(false);
                 if (m_DoorCollider == null) return;
-                m_DoorCollider.enabled = false;
+                m_DoorCollider.gameObject.SetActive(false);
             } else { 
-                m_DoorRenderer.enabled = true;
-                m_DoorCollider.enabled = true;
+                m_DoorRenderer.gameObject.SetActive(true);
+                m_DoorCollider.gameObject.SetActive(true);
             } 
                
         }

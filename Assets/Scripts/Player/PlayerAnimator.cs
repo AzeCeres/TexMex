@@ -4,7 +4,7 @@ namespace Player
     public class PlayerAnimator : MonoBehaviour {
         private Animator m_Animator;
         private Rigidbody2D m_RigidBody;
-        private float minSpeedToChange = 0.5f;
+        private float minSpeedToChange = 0.8f;
         private Split split;
         private bool dead;
         private enum Direction {
@@ -38,16 +38,12 @@ namespace Player
                     break;
             }
             void Idle() {
-                print("Idle State");
                 if (!(m_RigidBody.velocity.magnitude > 0.3f)) return;
                 states = State.Walk;
-                print("Switched to Walk State");
             }
             void Walk() {
-                print("Walk State");
                 if (!(m_RigidBody.velocity.magnitude < 0.3f)) return;
                 states = State.Idle;
-                print("Switched to Idle State");
             }
             DirectionCheck(states);
         }
@@ -103,30 +99,20 @@ namespace Player
                 }   
                 PlayAnimation(state, directions);
             }
-            void Right()
-            {
-                if (localVel.x >= minSpeedToChange && localVel.x >= Mathf.Abs(localVel.y))
-                {
+            void Right() {
+                if (localVel.x >= minSpeedToChange && localVel.x >= Mathf.Abs(localVel.y)) {
                     directions = Direction.Right;
-                }
-                else if (localVel.y >= minSpeedToChange && localVel.y >= Mathf.Abs(localVel.x))
-                {
+                }else if (localVel.y >= minSpeedToChange && localVel.y >= Mathf.Abs(localVel.x)) {
                     directions = Direction.Up;
-                }
-                else if (-localVel.y >= minSpeedToChange && -localVel.y >= Mathf.Abs(localVel.x))
-                {
+                }else if (-localVel.y >= minSpeedToChange && -localVel.y >= Mathf.Abs(localVel.x)) {
                     directions = Direction.Down;
-                }
-                else if (-localVel.x >= minSpeedToChange && -localVel.x >= Mathf.Abs(localVel.y))
-                {
+                }else if (-localVel.x >= minSpeedToChange && -localVel.x >= Mathf.Abs(localVel.y)) {
                     directions = Direction.Left;
                 }
                 PlayAnimation(state, directions);
             }
         }
-        private void PlayAnimation(State state, Direction direction)
-        {
-            print(state + " " + direction);
+        private void PlayAnimation(State state, Direction direction) {
             states = state;
             directions = direction;
             switch (state) {

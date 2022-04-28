@@ -24,7 +24,7 @@ namespace Puzzle
                 }
             }
         }   
-        private void Update() {
+        private void Update() { 
             if (ActivityCheck())
                 Active();
             else
@@ -59,7 +59,7 @@ namespace Puzzle
                 if (other.gameObject != puzzleObjects[i])
                     continue;
                 if (other.gameObject.TryGetComponent(out Door door)) {
-                    door.wire = this;
+                    door.wire = this; //Not working? or not entering eachothers triggers
                 } if (other.gameObject.TryGetComponent(out LaserShooter laser)) {
                     laser.wire = this;
                 } if (other.gameObject.TryGetComponent(out WireConnector wireCon))
