@@ -19,15 +19,17 @@ namespace Player {
         }
         private State states;
         private void Awake() {
-            split = GetComponent<Split>();
+            split = GetComponentInParent<Split>();
             m_RigidBody = GetComponent<Rigidbody2D>();
             m_Animator = GetComponentInParent<Animator>();
         }
         private void Update() {
+            if (dead) return;
+            
             StateCheck();
-            if (dead) StopControl();
         }
         public void UpdateAnimator(Vector2 moVector) {
+            if (dead) return;
             // var localVel = transform.InverseTransformDirection(m_RigidBody.velocity);
             m_Animator.SetFloat("moveX", moVector.x);
             m_Animator.SetFloat("moveY", moVector.y);
@@ -157,18 +159,15 @@ namespace Player {
                     break;
             }
         }
-        private Vector2 deathSpot;
         public void Death() {
+            if (dead) return;
             m_Animator.Play("death");
             dead = true;
-            deathSpot = transform.position;
-        }
-        void StopControl() {
-            Vector2.MoveTowards(transform.position, deathSpot, 3 * Time.deltaTime);
-            m_RigidBody.velocity = Vector2.up * 0;
-        }
-        public void Die() {
             split.KillClone(gameObject);
+        }
+        
+        public void Die() {
+            split.DeActivateClone(gameObject);
             dead = false;
         }
     }

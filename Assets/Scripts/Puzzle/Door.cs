@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel;
 using JetBrains.Annotations;
 using UnityEngine;
@@ -19,16 +20,21 @@ namespace Puzzle {
             if (transform.childCount > 0) 
                 doorBeam = transform.GetChild(0).GetComponent<SpriteRenderer>();
         }
+        private void Start() {
+            if (inverted) {
+                Opened();
+            }
+        }
         private void Update() {
             Open();
         }
         private void Open(){
             if (wire == null) {
                 throw new WarningException(name + " is not connected by a wire, please connect it");
-            } if (wire.active && !inverted && !wasActive|| !wire.active && inverted && wasActive) {
+            } if (wire.active && !inverted && !wasActive || !wire.active && inverted && wasActive) {
                 Opened();
                 print("DeActivated");
-            } else if (!wire.active && !inverted && wasActive|| wire.active && inverted && !wasActive){ 
+            } else if (!wire.active && !inverted && wasActive || wire.active && inverted && !wasActive){ 
                 Closed();
                 print("Closed");
             }
@@ -38,7 +44,7 @@ namespace Puzzle {
             //todo Sound and Particles
             m_DoorAnimator.Play(open.name);
             if (m_DoorCollider == null) return;
-            m_DoorCollider.enabled = false;
+            Invoke(nameof(TurnOffCollider), 0.9f);
             if (doorBeam == null) return;
             doorBeam.enabled = true;
         }
@@ -48,6 +54,9 @@ namespace Puzzle {
             m_DoorCollider.enabled = true;
             if (doorBeam == null) return;
             doorBeam.enabled = false;
+        }
+        public void TurnOffCollider() {
+            m_DoorCollider.enabled = false;
         }
     }
 }
