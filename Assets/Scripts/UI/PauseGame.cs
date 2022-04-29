@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Build.Content;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 public class PauseGame : MonoBehaviour
@@ -10,6 +11,8 @@ public class PauseGame : MonoBehaviour
     [SerializeField] private InputAction pauseButton;
     [SerializeField] private GameObject[] pauseMenu;
     [SerializeField] private GameObject settingsMenu;
+    [SerializeField] private EventSystem eventSystem;
+    [SerializeField] private GameObject resumeButton;
 
     private bool paused = false;
 
@@ -44,6 +47,7 @@ public class PauseGame : MonoBehaviour
             }
             pauseMenu[0].SetActive(true);
             settingsMenu.SetActive(false);
+            eventSystem.SetSelectedGameObject(resumeButton);
         }
         else
         {

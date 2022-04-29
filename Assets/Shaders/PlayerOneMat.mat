@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: testcolor
+  m_Name: PlayerOneMat
   m_Shader: {fileID: -6465566751694194690, guid: 83a15abe8cf7f9247b6e17f250dc45b7, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []

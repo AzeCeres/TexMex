@@ -12,20 +12,23 @@ public class ColourPicker : MonoBehaviour
     private RectTransform Rect;
 
     private Texture2D colorTexture;
-
-    public Material colorTestMaterial;
+    private SettingsController _settingsController;
+    
+    public Material playerOneMaterial;
+    public Material playerTwoMaterial;
+    public Material playerThreeMaterial;
 
     public Color colorPickerColor;
 
     public Color savedColorPickerColor;
-    // Start is called before the first frame update
+    
     void Start()
     {
         Rect = GetComponent<RectTransform>();
         colorTexture = GetComponent<Image>().mainTexture as Texture2D;
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         Vector2 delta;
@@ -64,14 +67,36 @@ public class ColourPicker : MonoBehaviour
     {
         if (colorObject == 1)
         {
-            //put things here for the spesific color picker thingy
+            savedColorPickerColor = colorPickerColor;
+            colourDebugText.color = savedColorPickerColor;
+            //Saves color as string
+            PlayerPrefs.SetString("PlayerOneColor",ColorUtility.ToHtmlStringRGBA(savedColorPickerColor));
+            
         }
-        savedColorPickerColor = colorPickerColor;
-        colourDebugText.color = savedColorPickerColor;
-        //Saves color as string
-        PlayerPrefs.SetString("PlayerOneColor",ColorUtility.ToHtmlStringRGBA(savedColorPickerColor));
-        
-        colorTestMaterial.SetColor("_Color", savedColorPickerColor);
+        else if (colorObject == 2)
+        {
+            savedColorPickerColor = colorPickerColor;
+            colourDebugText.color = savedColorPickerColor;
+            //Saves color as string
+            PlayerPrefs.SetString("PlayerTwoColor",ColorUtility.ToHtmlStringRGBA(savedColorPickerColor));
+            
+        }
+    }
+
+    public void OnResetColorPicker(int colorObejct)
+    {
+        if (colorObejct == 1)
+        {
+            playerOneMaterial.SetColor("_Color", _settingsController.player1Default);
+        }
+        else if (colorObejct == 2)
+        {
+            playerTwoMaterial.SetColor("_Color", _settingsController.player2Default);
+        }
+        else if (colorObejct == 3)
+        {
+            playerThreeMaterial.SetColor("_Color", _settingsController.player3Default);
+        }
     }
     
     //Loads the color from playerprefs

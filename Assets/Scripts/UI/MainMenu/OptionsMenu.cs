@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class OptionsMenu : MonoBehaviour
@@ -16,12 +17,21 @@ public class OptionsMenu : MonoBehaviour
     [SerializeField] private GameObject[] controlsMenus;
     
     [SerializeField] private GameObject[] accessibilityMenus;
+    
+    //Used so you can hit B to go back
+    [SerializeField] private InputAction backButtonKey;
 
 
 //Ensures that the main options menu always appears first no matter what we enable or disable in the editor.
     private void OnEnable()
     {
         MainOptionsMenu();
+        backButtonKey.Enable();
+    }
+
+    private void OnDisable()
+    {
+        backButtonKey.Disable();
     }
 
     // Update is called once per frame
@@ -161,6 +171,10 @@ public class OptionsMenu : MonoBehaviour
         settingsController.playerVolume = PlayerPrefs.GetFloat("PlayerVolume");
     }
     #endregion
-    
+
+    public void BackKey()
+    {
+
+    }
     
 }
