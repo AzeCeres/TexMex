@@ -3000,6 +3000,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14b9d9a31df1dd245b5dc5cad4fb24ce, type: 3}
+--- !u!1 &1621909214 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1710480636740349836, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
+  m_PrefabInstance: {fileID: 1505185933}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1621909220
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621909214}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9f078f76d7420174ea6f593614bb8319, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!50 &1773559132
 Rigidbody2D:
   serializedVersion: 4
@@ -3292,10 +3317,6 @@ PrefabInstance:
     - target: {fileID: 2047350251426080374, guid: 2a97a072f7f575e46ba0e857bbf71f3a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3152150668439271468, guid: 2a97a072f7f575e46ba0e857bbf71f3a, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a97a072f7f575e46ba0e857bbf71f3a, type: 3}
