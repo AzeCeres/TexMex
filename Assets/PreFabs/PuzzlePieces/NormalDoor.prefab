@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeDoor: {fileID: 21300000, guid: 848a98f7ce7b846c1b7ef1c3393b3b98, type: 3}
   deActivatedDoor: {fileID: 21300000, guid: a24b5d09a4a24484bb21fbde4ca6d651, type: 3}
-  openedDoor: {fileID: 21300000, guid: ac907d8838b4147658588656474c9afb, type: 3}
+  openedDoor: {fileID: 21300000, guid: 8f7845d02a6304f05bd7ff01ace67bad, type: 3}
   wire: {fileID: 0}
   inverted: 0
 --- !u!61 &6336983259912450574

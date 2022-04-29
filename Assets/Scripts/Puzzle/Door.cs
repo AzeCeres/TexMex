@@ -8,6 +8,7 @@ namespace Puzzle {
         [SerializeField] private Sprite deActivatedDoor;
         [SerializeField] private Sprite openedDoor;
         [HideInInspector][CanBeNull] public Wire wire;
+        [CanBeNull] [SerializeField] private SpriteRenderer doorBeam;
         public bool inverted;
         private bool m_Open;
         private BoxCollider2D m_DoorCollider;
@@ -16,6 +17,8 @@ namespace Puzzle {
         private void Awake() {
             m_DoorCollider = GetComponent<BoxCollider2D>();
             m_DoorRenderer = GetComponent<SpriteRenderer>();
+            if (transform.childCount > 0) 
+                doorBeam = transform.GetChild(0).GetComponent<SpriteRenderer>();
         }
         private void Update() {
             Open();
@@ -42,12 +45,15 @@ namespace Puzzle {
             m_DoorRenderer.sprite = openedDoor;
             if (m_DoorCollider == null) return;
             m_DoorCollider.enabled = false;
+            if (doorBeam == null) return;
+            doorBeam.enabled = true;
         }
-        private void Closed()
-        {
+        private void Closed() {
             //todo Sound and Particles
-            m_DoorRenderer.sprite = activeDoor;
+            m_DoorRenderer.sprite = activeDoor; 
             m_DoorCollider.enabled = true;
+            if (doorBeam == null) return;
+            doorBeam.enabled = false;
         }
     }
 }
