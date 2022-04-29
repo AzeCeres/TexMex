@@ -6,6 +6,7 @@ namespace Puzzle {
     public class Door : MonoBehaviour {
         [SerializeField] private Sprite activeDoor;
         [SerializeField] private Sprite deActivatedDoor;
+        [SerializeField] private Sprite openedDoor;
         [HideInInspector][CanBeNull] public Wire wire;
         public bool inverted;
         private bool m_Open;
@@ -29,7 +30,6 @@ namespace Puzzle {
                 Closed();
                 print("Closed");
             }
-            print("wire.active = " + wire.active + " wasActive = " + wasActive);
             wasActive = wire.active;
         }
         private void DeActivated() {
@@ -39,7 +39,7 @@ namespace Puzzle {
         }
         private void Opened() {
             //todo Sound and Particles
-            m_DoorRenderer.enabled = false;
+            m_DoorRenderer.sprite = openedDoor;
             if (m_DoorCollider == null) return;
             m_DoorCollider.enabled = false;
         }
@@ -47,7 +47,6 @@ namespace Puzzle {
         {
             //todo Sound and Particles
             m_DoorRenderer.sprite = activeDoor;
-            m_DoorRenderer.enabled = true;
             m_DoorCollider.enabled = true;
         }
     }
