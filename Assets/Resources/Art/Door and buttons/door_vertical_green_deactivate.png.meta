@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 95bbc63cf2ef4404aa2bd57c87776374
+guid: 8154eac3c3e37487091bc20b13aec027
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: door_purple_deactivate_0
+      name: door_vertical_green_deactivate_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 96
-        height: 64
+        width: 32
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b356ff7f0610046ac9b235c8c7072eb2
-      internalID: 1368811455
+      spriteID: 94b979b04c0fc4f518f85b2c31d7bf5c
+      internalID: 1776636447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_purple_deactivate_1
+      name: door_vertical_green_deactivate_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef37f158082fe4d998a6af939eae3023
+      internalID: 994481682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_vertical_green_deactivate_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5750844b74394e94b1a58a361d6cef2
+      internalID: 1699593014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_vertical_green_deactivate_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 96
-        height: 64
+        width: 32
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +193,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab741b52a6d5c4a06903ff760b067063
-      internalID: 560002150
+      spriteID: 4b2020741f5464b3eb65a81da94de9c2
+      internalID: -1373086151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_purple_deactivate_2
+      name: door_vertical_green_deactivate_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df83d2e7ef084c8f82fe828c4932372
+      internalID: 1504599200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_vertical_green_deactivate_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3113c9d7a68449895628d703cfcd4d
+      internalID: -1227839377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_vertical_green_deactivate_6
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 96
-        height: 64
+        width: 32
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +256,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b1eca462d8e848d386baebde8e61f1b
-      internalID: 154376686
+      spriteID: fa8d58001b0aa465f8ce5e1ec0119fb3
+      internalID: -1100880787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_purple_deactivate_3
+      name: door_vertical_green_deactivate_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26132bd2758e94d708a0f3b0071eb34c
+      internalID: 1339326661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_vertical_green_deactivate_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc8f635af17c42bbbe5dbcfdf91f80d
+      internalID: 2085203196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_vertical_green_deactivate_9
       rect:
         serializedVersion: 2
         x: 288
         y: 0
-        width: 96
-        height: 64
+        width: 32
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +319,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9131a3c1c7a074f3fb36223482dccdf8
-      internalID: 2137153722
+      spriteID: 7e5514eb7350c45d6921aa44f28e54ac
+      internalID: -423318099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_purple_deactivate_4
+      name: door_vertical_green_deactivate_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a26a14b20cd4f6cbb24b34b4a0abbe
+      internalID: 1717640762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_vertical_green_deactivate_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f34679aa57b04f4296750faf091bf2c
+      internalID: -1053049471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_vertical_green_deactivate_12
       rect:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 96
-        height: 64
+        width: 32
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +382,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9717ed182f65a497f8a7211fdf14be0c
-      internalID: 1410975977
+      spriteID: 074511c3c7fd24e1297b43ea9505e827
+      internalID: 1873145903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_purple_deactivate_5
+      name: door_vertical_green_deactivate_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad82b418d1d4249a7ba02d6ad971a275
+      internalID: -794118663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_vertical_green_deactivate_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24654584ac1344ac976fe769e531c23
+      internalID: -612683234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_vertical_green_deactivate_15
       rect:
         serializedVersion: 2
         x: 480
         y: 0
-        width: 96
-        height: 64
+        width: 32
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +445,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2e131feada994d9ab8c4ebe2a02a5c0
-      internalID: 2006236620
+      spriteID: 93660d8cc04434e599a39d9446cb29d6
+      internalID: -1333608520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_purple_deactivate_6
+      name: door_vertical_green_deactivate_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c6b23882e7b464091cbbd1e9231bfd
+      internalID: -1200180735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_vertical_green_deactivate_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d070786d456946aa919c98cdf738889
+      internalID: 2123287039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_vertical_green_deactivate_18
       rect:
         serializedVersion: 2
         x: 576
         y: 0
-        width: 96
-        height: 64
+        width: 32
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +508,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 308250bebb7224110a6567a945d2437f
-      internalID: -1885899512
+      spriteID: 8ff2ba0d16bb04556b5c2c5459361678
+      internalID: 1859482978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_purple_deactivate_7
+      name: door_vertical_green_deactivate_19
       rect:
         serializedVersion: 2
-        x: 672
+        x: 608
         y: 0
-        width: 96
-        height: 64
+        width: 32
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,260 +529,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f80369d6cd9ba483eb2595894ef13320
-      internalID: -681638483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_purple_deactivate_8
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 96
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f6a3e599f08f48c58d663e5f3ee7a9d
-      internalID: -931115143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_purple_deactivate_9
-      rect:
-        serializedVersion: 2
-        x: 864
-        y: 0
-        width: 96
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0d29831a8d0749ff859198e5e4e6fce
-      internalID: 1067896909
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_purple_deactivate_10
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 0
-        width: 96
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5ccb8e2522464bed9771f28f97ec449
-      internalID: 604726808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_purple_deactivate_11
-      rect:
-        serializedVersion: 2
-        x: 1056
-        y: 0
-        width: 96
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4df4615922814320b0ce3d812bfc52b
-      internalID: 1492940012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_purple_deactivate_12
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 0
-        width: 96
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1d70a2de09e8497082afb5e611f86d3
-      internalID: 1229427294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_purple_deactivate_13
-      rect:
-        serializedVersion: 2
-        x: 1248
-        y: 0
-        width: 96
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 734442197a47b4e64b46ded32280c099
-      internalID: 1646256522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_purple_deactivate_14
-      rect:
-        serializedVersion: 2
-        x: 1344
-        y: 0
-        width: 96
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 425d473cf28ad4cb4acc5155ca07d15e
-      internalID: -372230669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_purple_deactivate_15
-      rect:
-        serializedVersion: 2
-        x: 1440
-        y: 0
-        width: 96
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5cf4caf08c924b249834a8a93b38af6
-      internalID: -1229167100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_purple_deactivate_16
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 96
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfdc28fbdb9c34be9bc40d6c84d6e045
-      internalID: 1444043649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_purple_deactivate_17
-      rect:
-        serializedVersion: 2
-        x: 1632
-        y: 0
-        width: 96
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c69331f6cf395406a8fb2e7ab2952ca3
-      internalID: 1971643561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_purple_deactivate_18
-      rect:
-        serializedVersion: 2
-        x: 1728
-        y: 0
-        width: 96
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc236cd48db864f8da6d4328b24162e3
-      internalID: 1147383141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: door_purple_deactivate_19
-      rect:
-        serializedVersion: 2
-        x: 1824
-        y: 0
-        width: 96
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47af03277b728489899510d1bf988ea9
-      internalID: 206235160
+      spriteID: b134814828eed460a848150aea96c4a8
+      internalID: 1906193977
       vertices: []
       indices: 
       edges: []
@@ -546,26 +546,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      door_purple_deactivate_11: 1492940012
-      door_purple_deactivate_9: 1067896909
-      door_purple_deactivate_8: -931115143
-      door_purple_deactivate_12: 1229427294
-      door_purple_deactivate_15: -1229167100
-      door_purple_deactivate_7: -681638483
-      door_purple_deactivate_2: 154376686
-      door_purple_deactivate_18: 1147383141
-      door_purple_deactivate_5: 2006236620
-      door_purple_deactivate_1: 560002150
-      door_purple_deactivate_10: 604726808
-      door_purple_deactivate_19: 206235160
-      door_purple_deactivate_6: -1885899512
-      door_purple_deactivate_14: -372230669
-      door_purple_deactivate_13: 1646256522
-      door_purple_deactivate_17: 1971643561
-      door_purple_deactivate_3: 2137153722
-      door_purple_deactivate_0: 1368811455
-      door_purple_deactivate_4: 1410975977
-      door_purple_deactivate_16: 1444043649
+      door_vertical_green_deactivate_5: -1227839377
+      door_vertical_green_deactivate_2: 1699593014
+      door_vertical_green_deactivate_11: -1053049471
+      door_vertical_green_deactivate_1: 994481682
+      door_vertical_green_deactivate_17: 2123287039
+      door_vertical_green_deactivate_19: 1906193977
+      door_vertical_green_deactivate_15: -1333608520
+      door_vertical_green_deactivate_18: 1859482978
+      door_vertical_green_deactivate_0: 1776636447
+      door_vertical_green_deactivate_4: 1504599200
+      door_vertical_green_deactivate_12: 1873145903
+      door_vertical_green_deactivate_9: -423318099
+      door_vertical_green_deactivate_6: -1100880787
+      door_vertical_green_deactivate_14: -612683234
+      door_vertical_green_deactivate_10: 1717640762
+      door_vertical_green_deactivate_13: -794118663
+      door_vertical_green_deactivate_16: -1200180735
+      door_vertical_green_deactivate_8: 2085203196
+      door_vertical_green_deactivate_3: -1373086151
+      door_vertical_green_deactivate_7: 1339326661
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
