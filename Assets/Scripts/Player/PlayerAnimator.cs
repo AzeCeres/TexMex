@@ -1,6 +1,5 @@
 using UnityEngine;
-namespace Player
-{
+namespace Player {
     public class PlayerAnimator : MonoBehaviour {
         private Animator m_Animator;
         private Rigidbody2D m_RigidBody;
@@ -66,7 +65,7 @@ namespace Player
             void Up() {
                 if (localVel.y >= minSpeedToChange && localVel.y >= Mathf.Abs(localVel.x)) {
                     directions = Direction.Up;
-                } else if (-localVel.y >= minSpeedToChange && -localVel.y >= Mathf.Abs(localVel.x)) {
+                } else if (localVel.y <= -minSpeedToChange && -localVel.y >= Mathf.Abs(localVel.x)) {
                     directions = Direction.Down;
                 } else if (-localVel.x >= minSpeedToChange && -localVel.x >= Mathf.Abs(localVel.y)) {
                     directions = Direction.Left;
@@ -113,6 +112,7 @@ namespace Player
             }
         }
         private void PlayAnimation(State state, Direction direction) {
+            if (dead) return;
             states = state;
             directions = direction;
             switch (state) {

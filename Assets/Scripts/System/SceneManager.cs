@@ -5,14 +5,14 @@ using Puzzle;
 using UnityEngine;
 namespace System { 
     public class SceneManager : MonoBehaviour {
-        private GameObject startPos;
+        private GameObject m_StartPos;
         private Split m_Split;
         [SerializeField] private List<Button> buttons = new List<Button>();
         [SerializeField] [CanBeNull] private List<Button> excludedButtons = new List<Button>();
         private void Start() {
             var obj = GameObject.FindGameObjectWithTag("PlayerController");
             m_Split = obj.GetComponent<Split>();
-            startPos = obj; 
+            m_StartPos = obj; 
             GetAllButtons();
         }
         void GetAllButtons() {
@@ -54,13 +54,13 @@ namespace System {
             }
         }
         public void CreateCheckpoint(Vector2 coordinates) {
-            startPos.transform.position = coordinates;
+            m_StartPos.transform.position = coordinates;
         }
         private void Reset() {
             for (int i = 0; i < buttons.Count; i++) {
                 buttons[i].active = false;
             }
-            m_Split.SpawnClone(0, m_Split.mainClones, startPos);
+            m_Split.SpawnClone(0, m_Split.mainClones, m_StartPos);
         }
         public void ChangeScene(string sceneName) {
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
