@@ -60845,9 +60845,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1491166369, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1743221442921629202, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
       propertyPath: m_Name
       value: PlayerController
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743221442921629202, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1743221442921629212, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
       propertyPath: m_RootOrder
@@ -60917,6 +60925,10 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1743221443229384568, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1743221443401410189, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
       propertyPath: m_Size.x
       value: 2
@@ -60933,6 +60945,10 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1743221443401410191, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1743221443741479898, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -60940,6 +60956,14 @@ PrefabInstance:
     - target: {fileID: 1743221443741479898, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743221443741479901, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743221443831494817, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1743221443831494831, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
       propertyPath: m_Size.x

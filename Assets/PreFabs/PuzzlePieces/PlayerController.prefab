@@ -204,9 +204,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a21ae789966f72841ac92beb78636dcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clones: []
+  clones:
+  - {fileID: 1743221443741479901}
+  - {fileID: 1743221443831494817}
+  - {fileID: 1743221443229384568}
+  - {fileID: 1743221443401410191}
   activeClones: 00000000
-  mainClones: []
+  mainClones:
+  - {fileID: 1743221443741479901}
   secondClones: []
   selectedMain: 0
   selectedSecond: 1
