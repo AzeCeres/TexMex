@@ -9,14 +9,13 @@ namespace Player {
         private Movement m_Movement;
         private Split m_Split;
         private PlayerInput m_InputManager;
-        private PlayerAnimator[] m_Animators;
+        [SerializeField]private PlayerAnimator[] m_Animators;
     
         private void Awake() {
             m_Movement = GetComponent<Movement>();
             m_Input = GetComponent<Input>();
             m_Split = GetComponent<Split>();
             m_InputManager = GetComponent<PlayerInput>();
-            m_Animators = GetComponentsInChildren<PlayerAnimator>();
         }
         private void Start() { //todo remove this function, its for testing
             m_InputManager.SwitchCurrentActionMap("AlternativePlayer");
