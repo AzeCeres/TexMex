@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
+
 ////TODO: localization support
 
 ////TODO: deal with composites that have parts bound in different control schemes
@@ -262,11 +263,20 @@ namespace UnityEngine.InputSystem.Samples.RebindUI
                 m_RebindOperation = null;
             }
 
+            //Disable the action before use
+            action.Disable();
+            
             // Configure the rebind.
             m_RebindOperation = action.PerformInteractiveRebinding(bindingIndex)
+                .WithControlsExcluding("<Mouse>/leftButton")
+                .WithControlsExcluding("<Mouse>/rightButton")
+                .WithControlsExcluding("<Mouse>/press")
+                .WithControlsExcluding("<Pointer>/position")
+                .WithCancelingThrough("<Keyboard>/escape")
                 .OnCancel(
                     operation =>
                     {
+                        action.Enable();
                         m_RebindStopEvent?.Invoke(this, operation);
                         m_RebindOverlay?.SetActive(false);
                         UpdateBindingDisplay();
@@ -275,8 +285,18 @@ namespace UnityEngine.InputSystem.Samples.RebindUI
                 .OnComplete(
                     operation =>
                     {
+                        action.Enable();
                         m_RebindOverlay?.SetActive(false);
                         m_RebindStopEvent?.Invoke(this, operation);
+
+                        if (CheckDuplicateBindings(action, bindingIndex, allCompositeParts))
+                        {
+                            action.RemoveBindingOverride(bindingIndex);
+                            CleanUp();
+                            PerformInteractiveRebind(action,bindingIndex,allCompositeParts);
+                            return;
+                        }
+                        
                         UpdateBindingDisplay();
                         CleanUp();
 
@@ -314,6 +334,37 @@ namespace UnityEngine.InputSystem.Samples.RebindUI
             m_RebindStartEvent?.Invoke(this, m_RebindOperation);
 
             m_RebindOperation.Start();
+        }
+
+        private bool CheckDuplicateBindings(InputAction action, int bindingIndex, bool allCompositeParts = false)
+        {
+            InputBinding newBinding = action.bindings[bindingIndex];
+            foreach (InputBinding binding in action.actionMap.bindings)
+            {
+                if (binding.action == action.bindings[bindingIndex].action)
+                {
+                    continue;
+                }
+
+                if (binding.effectivePath == newBinding.effectivePath)
+                {
+                    print("Duplicate binding found" + newBinding.effectivePath);
+                    return true;
+                }
+            }
+            //Check for duplicate composite binding
+            if (allCompositeParts)
+            {
+                for (int i = 1; i < bindingIndex; i++)
+                {
+                    if (action.bindings[i].effectivePath == newBinding.effectivePath)
+                    {
+                        print("Duplicate binding found" + newBinding.effectivePath);
+                        return true;
+                    }
+                }
+            }
+            return false;
         }
 
         protected void OnEnable()
@@ -420,14 +471,20 @@ namespace UnityEngine.InputSystem.Samples.RebindUI
             UpdateBindingDisplay();
         }
 
-        #endif
+        private void Start()
+        {
+            UpdateActionLabel();
+            UpdateBindingDisplay();
+        }
+
+#endif
 
         private void UpdateActionLabel()
         {
             if (m_ActionLabel != null)
             {
-                var action = m_Action?.action;
-                m_ActionLabel.text = action != null ? action.name : string.Empty;
+                //var action = m_Action?.action;
+                //m_ActionLabel.text = action != null ? action.name : string.Empty;
             }
         }
 
