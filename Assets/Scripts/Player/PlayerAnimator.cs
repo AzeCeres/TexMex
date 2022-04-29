@@ -157,11 +157,14 @@ namespace Player {
                     break;
             }
         }
+        private Vector2 deathSpot;
         public void Death() {
-            m_Animator.Play("player_death");
+            m_Animator.Play("death");
             dead = true;
+            deathSpot = transform.position;
         }
         void StopControl() {
+            Vector2.MoveTowards(transform.position, deathSpot, 3 * Time.deltaTime);
             m_RigidBody.velocity = Vector2.up * 0;
         }
         public void Die() {
