@@ -10,6 +10,7 @@ public class MainMenuManager : MonoBehaviour
     public SettingsController settingsController;
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private GameObject optionsMenu;
+    [SerializeField] private GameObject gameLogo;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +18,7 @@ public class MainMenuManager : MonoBehaviour
         MainMenu();
         GetPlayerPrefs();
     }
-    
+
 
     public void PlayGame()
     {
@@ -29,12 +30,14 @@ public class MainMenuManager : MonoBehaviour
     {
         mainMenu.SetActive(false);
         optionsMenu.SetActive(true);
+        gameLogo.SetActive(false);
     }
 
     public void MainMenu()
     {
         mainMenu.SetActive(true);
         optionsMenu.SetActive(false);
+        gameLogo.SetActive(true);
         //this is for testing the color saving to playeprefs
         GetPlayerPrefs();
     }
