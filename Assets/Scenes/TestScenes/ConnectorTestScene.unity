@@ -59698,7 +59698,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &371108304
 Transform:
   m_ObjectHideFlags: 0
@@ -59745,61 +59745,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 371108308}
-    m_ColliderPaths:
-    - - X: -7500100
-        Y: -10000041
-      - X: -7500041
-        Y: -10000100
-      - X: -2499959
-        Y: -10000100
-      - X: -2499900
-        Y: -10000041
-      - X: -2499900
-        Y: 41
-      - X: -2499959
-        Y: 100
-      - X: -2499900
-        Y: 100
-      - X: -2499900
-        Y: 10000041
-      - X: -2499959
-        Y: 10000100
-      - X: -2499900
-        Y: 10000100
-      - X: -2499900
-        Y: 20000041
-      - X: -2499959
-        Y: 20000100
-      - X: -2499900
-        Y: 20000100
-      - X: -2499900
-        Y: 30000041
-      - X: -2499959
-        Y: 30000100
-      - X: -7500041
-        Y: 30000100
-      - X: -7500100
-        Y: 30000041
-      - X: -7500100
-        Y: 20000100
-      - X: -7500041
-        Y: 20000100
-      - X: -7500100
-        Y: 20000041
-      - X: -7500100
-        Y: 10000100
-      - X: -7500041
-        Y: 10000100
-      - X: -7500100
-        Y: 10000041
-      - X: -7500100
-        Y: 100
-      - X: -7500041
-        Y: 100
-      - X: -7500100
-        Y: 41
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -0.2500252, y: -1.00001}
@@ -61336,7 +61282,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1710480637370009938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61513,7 +61459,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 606469788592159150, guid: 019b5ffa77e186c4ab69c41242317017, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2643872728751304736, guid: 019b5ffa77e186c4ab69c41242317017, type: 3}
       propertyPath: m_RootOrder
@@ -61557,6 +61503,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2643872728751304736, guid: 019b5ffa77e186c4ab69c41242317017, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220651524477202993, guid: 019b5ffa77e186c4ab69c41242317017, type: 3}
+      propertyPath: sceneIndex
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
