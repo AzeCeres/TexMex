@@ -13,5 +13,8 @@ namespace System {
             }
             m_SceneManager.ChangeScene(sceneIndex);
         }
+        public void SceneSwitch(int sceneIndex) {
+            m_SceneManager.ChangeScene(sceneIndex);
+        }
     }
 }
