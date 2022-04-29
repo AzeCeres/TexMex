@@ -327,9 +327,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 24460651}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c99ad2d4eb04467b3f08d152528dac5, type: 3}
+  m_Script: {fileID: 11500000, guid: b958cf53945a2be4f8cd85cbd229da87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserFire: {fileID: 8300000, guid: 376fed264063f5640a5f46f63a107b3b, type: 3}
-  laserIdle: {fileID: 8300000, guid: f396a82752551dd42bef9fa67f2e0c97, type: 3}
-  startActive: 1
+  footStepAudio: {fileID: 0}
+  cloneCreateAudio: {fileID: 11400000, guid: 0d19274d3d23f834eafea8d843ab54f5, type: 2}
+  cloneSwitchAudio: {fileID: 11400000, guid: c670266ef7ec59a4790304c1700a748c, type: 2}
+  cloneDeathAudio: {fileID: 11400000, guid: b5e3e8a3deabdd04ca10bd209c713147, type: 2}
+  cloneDeathBarkLaser: {fileID: 11400000, guid: 406efea88b2c2ad409dd49e7a08929c4, type: 2}
+  cloneDeathBarkDart: {fileID: 11400000, guid: ec3beaf96507eab46b22c1b1fd44d7cb, type: 2}
