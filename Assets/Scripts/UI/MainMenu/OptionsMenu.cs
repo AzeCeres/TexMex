@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,8 +13,9 @@ public class OptionsMenu : MonoBehaviour
     [SerializeField] private GameObject[] optionsMenus;
     [SerializeField] private Slider[] volumeSliders;
     
+    [SerializeField] private GameObject[] controlsMenus;
 
-
+//Ensures that the main options menu always appears first no matter what we enable or disable in the editor.
     private void OnEnable()
     {
         MainOptionsMenu();
@@ -30,6 +32,7 @@ public class OptionsMenu : MonoBehaviour
         optionsMenus[0].SetActive(true);
     }
 
+    //Opens volume menu. Called from UI button
     public void VolumeMenu()
     {
         foreach (var i in optionsMenus)
@@ -37,10 +40,49 @@ public class OptionsMenu : MonoBehaviour
             i.SetActive(false);
         }
         optionsMenus[1].SetActive(true);
+        //Saves volume from SettingsController to playerprefs, then sets the slider values accordingly
+        //Doing this instead of getting info right from the scrub to avoid unexplainable bug
         SaveVolume();
         SetSliderValue();
     }
+    
+    public void ControlsMenu()
+    {
+        foreach (var i in optionsMenus)
+        {
+            i.SetActive(false);
+        }
+        optionsMenus[2].SetActive(true);
+        foreach (var p in controlsMenus)
+        {
+            p.SetActive(false);
+        }
+        controlsMenus[0].SetActive(true);
+    }
 
+    #region Controls Options
+    public void KeyboardControlsMenu()
+    {
+        foreach (var i in controlsMenus)
+        {
+            i.SetActive(false);
+        }
+        controlsMenus[1].SetActive(true);
+    }
+    public void GamepadControlsMenu()
+    {
+        foreach (var i in controlsMenus)
+        {
+            i.SetActive(false);
+        }
+        controlsMenus[2].SetActive(true);
+    }
+
+
+    #endregion
+
+    #region Volume Options
+    //Called from unity slider value change
     public void SetVolume()
     {
         settingsController.masterVolume = volumeSliders[0].value;
@@ -49,6 +91,7 @@ public class OptionsMenu : MonoBehaviour
         settingsController.playerVolume = volumeSliders[3].value;
     }
 
+    //Sets the slider values
     private void SetSliderValue()
     {
         volumeSliders[0].value = PlayerPrefs.GetFloat("MasterVolume");
@@ -57,6 +100,7 @@ public class OptionsMenu : MonoBehaviour
         volumeSliders[3].value = PlayerPrefs.GetFloat("PlayerVolume");
     }
 
+    //Saves volume to player prefs. Called from UI button
     public void SaveVolume()
     {
         PlayerPrefs.SetFloat("MasterVolume", settingsController.masterVolume);
@@ -65,8 +109,10 @@ public class OptionsMenu : MonoBehaviour
         PlayerPrefs.SetFloat("PlayerVolume", settingsController.playerVolume);
     }
     
+    //Sets volume back to what it was before volume change. Called from UI button
     public void VolumeBackButton()
     {
+        //Sets volume to 100 if there are no playerprefs saved.
         if (!PlayerPrefs.HasKey("MasterVolume"))
         {
             settingsController.masterVolume = 100;
@@ -75,9 +121,13 @@ public class OptionsMenu : MonoBehaviour
             settingsController.playerVolume = 100;
             return;
         }
+        //Scrub loads volume from player prefs
         settingsController.masterVolume = PlayerPrefs.GetFloat("MasterVolume");
         settingsController.musicVolume = PlayerPrefs.GetFloat("MusicVolume");
         settingsController.environmentVolume = PlayerPrefs.GetFloat("EnvironmentVolume");
         settingsController.playerVolume = PlayerPrefs.GetFloat("PlayerVolume");
     }
+    #endregion
+    
+    
 }
