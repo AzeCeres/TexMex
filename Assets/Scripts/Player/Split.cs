@@ -11,9 +11,12 @@ namespace Player
         //todo remove serialize field after troubleshooting
         //[HideInInspector]
         [SerializeField] public List<GameObject> mainClones = new List<GameObject>(4);
-        [HideInInspector][SerializeField] public List<GameObject> secondClones = new List<GameObject>(2);
-        [HideInInspector][SerializeField] public int selectedMain;
-        [HideInInspector][SerializeField] public int selectedSecond = 1;
+        //[HideInInspector]
+        [SerializeField] public List<GameObject> secondClones = new List<GameObject>(2);
+        //[HideInInspector]
+        [SerializeField] public int selectedMain;
+        //[HideInInspector]
+        [SerializeField] public int selectedSecond = 1;
         private string[] test = new string[1];
         //in settings, switch alternative controls over to true to activate single stick controls 
         public bool alternativeControls = true;
@@ -77,6 +80,8 @@ namespace Player
             } if (mainClones.Count-1 < selectedMain) {
                 selectedMain = mainClones.Count-1;
             }
+            if (selectedMain < 0)
+                selectedMain = 0;
         }
         void AlternativeControlsCheck() {
             switch (alternativeControls) {

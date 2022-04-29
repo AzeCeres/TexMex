@@ -56,7 +56,8 @@ namespace Puzzle {
             doorBeam.enabled = false;
         }
         public void TurnOffCollider() {
-            m_DoorCollider.enabled = false;
+            if (wire.active && inverted || !wire.active && !inverted) return;
+                m_DoorCollider.enabled = false;
         }
     }
 }
