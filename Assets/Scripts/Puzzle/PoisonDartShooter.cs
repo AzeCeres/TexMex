@@ -5,7 +5,6 @@ namespace Puzzle
 {
     public class PoisonDartShooter : MonoBehaviour
     {
-        [SerializeField] private AnimationClip poisonDartShoot;
         [SerializeField] private Direction direction = Direction.Down;
 
         [SerializeField] private float shootDelay = 1f;
@@ -14,8 +13,9 @@ namespace Puzzle
 
         [SerializeField] private GameObject animationObject;
 
-        private Animation _animation;
+        private Animator _animator;
         private Vector2 _shootDirection;
+        private Vector2 _dartSpawnPosition;
         private Quaternion _lookDirection;
 
         private float _shootDelayTimer;
@@ -31,7 +31,7 @@ namespace Puzzle
 
         private void Start()
         {
-            _animation = animationObject.GetComponent<Animation>();
+            _animator = animationObject.GetComponent<Animator>();
 
             switch (direction)
             {
@@ -39,24 +39,29 @@ namespace Puzzle
                     _shootDirection = Vector2.up;
                     animationObject.transform.position = Vector2.up;
                     _lookDirection = Quaternion.Euler(0, 0, 90);
+                    _dartSpawnPosition = transform.position + new Vector3(0f, 1f, 0f);
                     break;
                 case Direction.Down:
                     _shootDirection = Vector2.down;
                     animationObject.transform.position = Vector2.down;
                     _lookDirection = Quaternion.Euler(0, 0, -90);
+                    _dartSpawnPosition = transform.position + new Vector3(0f, -1f, 0f);
                     break;
                 case Direction.Left:
                     _shootDirection = Vector2.left;
                     animationObject.transform.position = Vector2.left;
                     _lookDirection = Quaternion.Euler(0, 0, 0);
+                    _dartSpawnPosition = transform.position + new Vector3(1f, 0f, 0f);
                     break;
                 case Direction.Right:
                     _shootDirection = Vector2.right;
                     animationObject.transform.position = Vector2.right;
                     _lookDirection = Quaternion.Euler(0, 0, 180);
+                    _dartSpawnPosition = transform.position + new Vector3(-1f, 0f, 0f);
                     break;
             }
 
+            animationObject.transform.position = _dartSpawnPosition;
             animationObject.transform.rotation = _lookDirection;
         }
 
@@ -70,11 +75,13 @@ namespace Puzzle
             if (Time.time < _shootDelayTimer) return;
             var hitObject = Physics2D.Raycast(transform.position, _shootDirection);
 
-
-            if (hitObject.transform.CompareTag("Player"))
+            if (hitObject.collider != null)
             {
-                _shootDelayTimer = Time.time + shootDelay;
-                _hasShot = false;
+                if (hitObject.transform.CompareTag("Player"))
+                {
+                    _shootDelayTimer = Time.time + shootDelay;
+                    _hasShot = false;
+                }
             }
 
             if (_hasShot) return;
@@ -84,8 +91,7 @@ namespace Puzzle
 
         private void ShootDart()
         {
-            _animation.clip = poisonDartShoot;
-            _animation.Play();
+            _animator.Play("dart_origin_animation");
 
             Instantiate(dart, transform.position, _lookDirection);
         }

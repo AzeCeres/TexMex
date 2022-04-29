@@ -1,26 +1,24 @@
-using System;
 using Player;
 using UnityEngine;
 
 namespace Puzzle
 {
-    [RequireComponent(typeof(Animation))]
+    [RequireComponent(typeof(Animator))]
     [RequireComponent(typeof(Rigidbody2D))]
     public class PoisonDart : MonoBehaviour
     {
         [SerializeField] private float moveSpeed = 10f;
         [SerializeField] private AnimationClip hitAnimation;
 
-        private Animation _animation;
+        private Animator _animator;
         private Rigidbody2D _rigidbody;
         private Split _split;
 
         private void Start()
         {
-            _animation = GetComponent<Animation>();
-            _animation.Play();
+            _animator = GetComponent<Animator>();
             _rigidbody = GetComponent<Rigidbody2D>();
-            _rigidbody.AddForce(new Vector2(moveSpeed, 0f), ForceMode2D.Impulse);
+            _rigidbody.AddForce(transform.right * moveSpeed, ForceMode2D.Impulse);
 
             var obj = GameObject.FindGameObjectWithTag("PlayerController");
             _split = obj.GetComponent<Split>();
@@ -32,11 +30,17 @@ namespace Puzzle
             {
                 _split.KillClone(col.gameObject);
             }
+            _animator.Play("dart_contact_animation");
         }
 
         private void DestroySelf()
         {
             Destroy(this);
+        }
+
+        private void PlayDartFlyingAnimation()
+        {
+
         }
     }
 }
