@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -56,7 +52,14 @@ public class PauseGame : MonoBehaviour
             {
                 i.SetActive(false);
             }
+            settingsMenu.SetActive(false);
         }
+    }
+
+    public void BackToPauseMenu()
+    {
+        settingsMenu.SetActive(false);
+        pauseMenu[0].SetActive(true);
     }
 
     public void OptionsButton()

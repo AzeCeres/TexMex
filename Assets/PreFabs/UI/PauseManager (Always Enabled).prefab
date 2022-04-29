@@ -669,6 +669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6823268427144477587}
   - component: {fileID: 6823268427144477588}
+  - component: {fileID: 7177590192960904890}
   m_Layer: 0
   m_Name: PauseManager (Always Enabled)
   m_TagString: Untagged
@@ -735,6 +736,19 @@ MonoBehaviour:
   settingsMenu: {fileID: 0}
   eventSystem: {fileID: 0}
   resumeButton: {fileID: 6823268427316690096}
+--- !u!114 &7177590192960904890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6823268427144477589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d13ba89e1e66d4190299561cd41412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  excludedButtons: []
 --- !u!1 &6823268427316690096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1260,9 +1274,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
-        m_MethodName: MainMenu
+      - m_Target: {fileID: 6823268427144477588}
+        m_TargetAssemblyTypeName: PauseGame, Assembly-CSharp
+        m_MethodName: Pause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1272,9 +1286,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 6823268427144477588}
-        m_TargetAssemblyTypeName: PauseGame, Assembly-CSharp
-        m_MethodName: Pause
+      - m_Target: {fileID: 7177590192960904890}
+        m_TargetAssemblyTypeName: System.SceneManager, Assembly-CSharp
+        m_MethodName: QuitToMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
