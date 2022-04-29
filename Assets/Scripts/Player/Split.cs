@@ -1,9 +1,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 namespace Player
-{ public class Split : MonoBehaviour {
-    
-        //[HideInInspector] 
+{ [RequireComponent(typeof(PlayerAudio))]
+    public class Split : MonoBehaviour {
+
+        //[HideInInspector]
         public GameObject[] clones;
         //[HideInInspector]
         public bool[] activeClones = new bool[4];
@@ -15,11 +16,18 @@ namespace Player
         [HideInInspector][SerializeField] public int selectedMain;
         [HideInInspector][SerializeField] public int selectedSecond = 1;
         private string[] test = new string[1];
-        //in settings, switch alternative controls over to true to activate single stick controls 
+        //in settings, switch alternative controls over to true to activate single stick controls
         public bool alternativeControls = true;
         [Range(1,4)][SerializeField] private int maxClones = 4;
         private int previousSelectedMain = 0;
-        
+
+        private PlayerAudio _mPlayerAudio;
+
+        private void Start()
+        {
+            _mPlayerAudio = GetComponent<PlayerAudio>();
+        }
+
         private void Update() {
             OopsProtection();
             AlternativeControlsCheck();
@@ -53,7 +61,7 @@ namespace Player
             else if (secondClones.Count == 1 && mainClones.Count > 0) {
                 SpawnClone(selectedSecond, secondClones, secondClones[selectedSecond]);
                 SwitchSecond();
-            } 
+            }
             //if both, nothing happens
         }
 
@@ -63,7 +71,7 @@ namespace Player
                     continue;
                 //todo move them in front of the player, making sure theres space there.
                 activeClones[i] = true;
-                clones[i].transform.position = sourceClone.transform.position; 
+                clones[i].transform.position = sourceClone.transform.position;
                 clones[i].SetActive(true);
                 cloneGroup.Add(clones[i]);
                 return;
@@ -98,6 +106,7 @@ namespace Player
             }
         }
         public void AlternativeSplit() {
+            _mPlayerAudio.PlayCloneCreateAudio();
             if (mainClones.Count < maxClones) {
                 SpawnClone(selectedMain, mainClones, mainClones[selectedMain]);
                 AlternativeSwitch(-10);
@@ -105,7 +114,8 @@ namespace Player
                 //print("There are no more clones to be spawned");
             }
         }
-        public void AlternativeSwitch(int switchValue) { 
+        public void AlternativeSwitch(int switchValue) {
+            _mPlayerAudio.PlayCloneSwitchAudio();
             previousSelectedMain = selectedMain;
             if (switchValue + selectedMain > mainClones.Count-1) {
                 selectedMain = 0;
@@ -116,9 +126,11 @@ namespace Player
             }
         }
         public void KillClone(GameObject cloneToKill) {
+            _mPlayerAudio.PlayCloneDeathAudio();
+
             for (int i = 0; i < clones.Length; i++) {
                 if (clones[i] != cloneToKill)
-                    continue;   
+                    continue;
                 clones[i].SetActive(false);
                 activeClones[i] = false;
                 for (int j = 0; j < mainClones.Count; j++) {
