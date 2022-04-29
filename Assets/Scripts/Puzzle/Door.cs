@@ -1,45 +1,53 @@
+using System.ComponentModel;
+using JetBrains.Annotations;
 using UnityEngine;
-namespace Puzzle
-{
-    public class Door : MonoBehaviour
-    {
-        [SerializeField] private Button[] button;
+
+namespace Puzzle {
+    public class Door : MonoBehaviour {
+        [SerializeField] private AnimationClip open;
+        [SerializeField] private AnimationClip close;
+        [HideInInspector][CanBeNull] public Wire wire;
+        [CanBeNull] private SpriteRenderer doorBeam;
         public bool inverted;
-        private bool _mOpen;
-        private BoxCollider2D _mDoorCollider;
-        private SpriteRenderer _mDoorRenderer;
-        private void Awake()
-        {
-            _mDoorCollider = GetComponentInChildren<BoxCollider2D>();
-            _mDoorRenderer = GetComponentInChildren<SpriteRenderer>();
+        private bool m_Open;
+        private BoxCollider2D m_DoorCollider;
+        private Animator m_DoorAnimator;
+        private bool wasActive;
+        private void Awake() {
+            m_DoorCollider = GetComponent<BoxCollider2D>();
+            m_DoorAnimator = GetComponent<Animator>();
+            if (transform.childCount > 0) 
+                doorBeam = transform.GetChild(0).GetComponent<SpriteRenderer>();
         }
-        private void Update()
-        {
+        private void Update() {
             Open();
         }
-        private void Open()
-        {
-            int activeCount = 0;
-            for (int i = 0; i < button.Length; i++)
-            {
-                if (button[i].active)
-                {
-                    activeCount++;
-                }
-                _mOpen = activeCount == button.Length;
+        private void Open(){
+            if (wire == null) {
+                throw new WarningException(name + " is not connected by a wire, please connect it");
+            } if (wire.active && !inverted && !wasActive|| !wire.active && inverted && wasActive) {
+                Opened();
+                print("DeActivated");
+            } else if (!wire.active && !inverted && wasActive|| wire.active && inverted && !wasActive){ 
+                Closed();
+                print("Closed");
             }
-            if (_mOpen && !inverted || !_mOpen && inverted)
-            {
-                _mDoorRenderer.enabled = false;
-                if (_mDoorCollider == null) return;
-                _mDoorCollider.enabled = false;
-            }
-            else //if (m_Open && inverted || m_Open && inverted)
-            {
-                _mDoorRenderer.enabled = true;
-                if (_mDoorCollider == null) return;
-                _mDoorCollider.enabled = true;
-            }
+            wasActive = wire.active;
+        }
+        private void Opened() {
+            //todo Sound and Particles
+            m_DoorAnimator.Play(open.name);
+            if (m_DoorCollider == null) return;
+            m_DoorCollider.enabled = false;
+            if (doorBeam == null) return;
+            doorBeam.enabled = true;
+        }
+        private void Closed() {
+            //todo Sound and Particles
+            m_DoorAnimator.Play(close.name); 
+            m_DoorCollider.enabled = true;
+            if (doorBeam == null) return;
+            doorBeam.enabled = false;
         }
     }
 }
