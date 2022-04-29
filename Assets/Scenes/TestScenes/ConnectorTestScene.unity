@@ -61511,6 +61511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndOfLevelTrigger
       objectReference: {fileID: 0}
+    - target: {fileID: 606469788592159150, guid: 019b5ffa77e186c4ab69c41242317017, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2643872728751304736, guid: 019b5ffa77e186c4ab69c41242317017, type: 3}
       propertyPath: m_RootOrder
       value: 18
