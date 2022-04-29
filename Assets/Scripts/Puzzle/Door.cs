@@ -4,19 +4,18 @@ using UnityEngine;
 
 namespace Puzzle {
     public class Door : MonoBehaviour {
-        [SerializeField] private Sprite activeDoor;
-        [SerializeField] private Sprite deActivatedDoor;
-        [SerializeField] private Sprite openedDoor;
+        [SerializeField] private AnimationClip open;
+        [SerializeField] private AnimationClip close;
         [HideInInspector][CanBeNull] public Wire wire;
-        [CanBeNull] [SerializeField] private SpriteRenderer doorBeam;
+        [CanBeNull] private SpriteRenderer doorBeam;
         public bool inverted;
         private bool m_Open;
         private BoxCollider2D m_DoorCollider;
-        private SpriteRenderer m_DoorRenderer;
+        private Animator m_DoorAnimator;
         private bool wasActive;
         private void Awake() {
             m_DoorCollider = GetComponent<BoxCollider2D>();
-            m_DoorRenderer = GetComponent<SpriteRenderer>();
+            m_DoorAnimator = GetComponent<Animator>();
             if (transform.childCount > 0) 
                 doorBeam = transform.GetChild(0).GetComponent<SpriteRenderer>();
         }
@@ -27,7 +26,7 @@ namespace Puzzle {
             if (wire == null) {
                 throw new WarningException(name + " is not connected by a wire, please connect it");
             } if (wire.active && !inverted && !wasActive|| !wire.active && inverted && wasActive) {
-                DeActivated();
+                Opened();
                 print("DeActivated");
             } else if (!wire.active && !inverted && wasActive|| wire.active && inverted && !wasActive){ 
                 Closed();
@@ -35,14 +34,9 @@ namespace Puzzle {
             }
             wasActive = wire.active;
         }
-        private void DeActivated() {
-            //todo Sound and Particles
-            m_DoorRenderer.sprite = deActivatedDoor;
-            Invoke("Opened", 0.15f);
-        }
         private void Opened() {
             //todo Sound and Particles
-            m_DoorRenderer.sprite = openedDoor;
+            m_DoorAnimator.Play(open.name);
             if (m_DoorCollider == null) return;
             m_DoorCollider.enabled = false;
             if (doorBeam == null) return;
@@ -50,7 +44,7 @@ namespace Puzzle {
         }
         private void Closed() {
             //todo Sound and Particles
-            m_DoorRenderer.sprite = activeDoor; 
+            m_DoorAnimator.Play(close.name); 
             m_DoorCollider.enabled = true;
             if (doorBeam == null) return;
             doorBeam.enabled = false;

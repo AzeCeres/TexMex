@@ -209,14 +209,14 @@ MonoBehaviour:
   - {fileID: 1743221443831494817}
   - {fileID: 1743221443229384568}
   - {fileID: 1743221443401410191}
-  activeClones: 00000000
+  activeClones: 01000000
   mainClones:
   - {fileID: 1743221443741479901}
   secondClones: []
   selectedMain: 0
   selectedSecond: 1
   alternativeControls: 1
-  maxClones: 4
+  maxClones: 3
 --- !u!1 &1743221443229384568
 GameObject:
   m_ObjectHideFlags: 0

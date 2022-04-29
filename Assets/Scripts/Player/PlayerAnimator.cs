@@ -43,12 +43,12 @@ namespace Player {
             }
             void Idle() {
                 m_Animator.Play("Idle"); //todo // change to hashing
-                if (!(m_RigidBody.velocity.magnitude > 0.3f)) return;
+                if (!(m_RigidBody.velocity.magnitude > 0.4f)) return;
                 states = State.Walk;
             }
             void Walk() {
                 m_Animator.Play("Walk");
-                if (!(m_RigidBody.velocity.magnitude < 0.3f)) return;
+                if (!(m_RigidBody.velocity.magnitude < 0.4f)) return;
                 states = State.Idle;
             }
             //DirectionCheck(states);

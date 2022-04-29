@@ -5,7 +5,8 @@ namespace Player
     
         //[HideInInspector] 
         public GameObject[] clones;
-        [HideInInspector] public bool[] activeClones = new bool[4];
+        //[HideInInspector]
+        public bool[] activeClones = new bool[4];
 
         //todo remove serialize field after troubleshooting
         //[HideInInspector]

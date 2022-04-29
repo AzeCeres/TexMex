@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 6336983259912450573}
   - component: {fileID: 6336983259912450574}
   - component: {fileID: 6336983259912450575}
+  - component: {fileID: 4066269297863465846}
   m_Layer: 0
   m_Name: NormalDoor
   m_TagString: Puzzle
@@ -184,9 +185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7035cfc0c7ab61e4cab984366f8e94c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeDoor: {fileID: 21300000, guid: 848a98f7ce7b846c1b7ef1c3393b3b98, type: 3}
-  deActivatedDoor: {fileID: 21300000, guid: a24b5d09a4a24484bb21fbde4ca6d651, type: 3}
-  openedDoor: {fileID: 21300000, guid: 8f7845d02a6304f05bd7ff01ace67bad, type: 3}
+  open: {fileID: 7400000, guid: 78eae1b11d35549fb9cae0dc35c60a3d, type: 2}
+  close: {fileID: 7400000, guid: 6adc9a3a43bae4ab19e4312a08768475, type: 2}
   wire: {fileID: 0}
   doorBeam: {fileID: 0}
   inverted: 0
@@ -237,3 +237,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &4066269297863465846
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6336983259912450568}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fac36dada0a85c445a9326ceb13dcd8b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
