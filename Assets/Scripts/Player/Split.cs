@@ -118,9 +118,7 @@ namespace Player
         public void KillClone(GameObject cloneToKill) {
             for (int i = 0; i < clones.Length; i++) {
                 if (clones[i] != cloneToKill)
-                    continue;   
-                clones[i].SetActive(false);
-                activeClones[i] = false;
+                    continue;
                 for (int j = 0; j < mainClones.Count; j++) {
                     if (mainClones[j] == cloneToKill) {
                         mainClones.Remove(mainClones[j]); //todo//send death to animator, make the character uncontrollable during//Start animation , then have the animation call this script
@@ -134,6 +132,14 @@ namespace Player
                         secondClones.Remove(secondClones[j]);
                     }
                 }
+            }
+        }
+        public void DeActivateClone(GameObject cloneToKill) {
+            for (int i = 0; i < clones.Length; i++) {
+                if (clones[i] != cloneToKill)
+                    continue;
+                clones[i].SetActive(false);
+                activeClones[i] = false;
             }
         }
     }
