@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: logo_menu_animation
+  m_Name: frog_animation
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 1625655488, guid: d25cc5b8a081b439b83860b197d39088, type: 3}
+      value: {fileID: -1555004830, guid: 61096c99468ac467ba31b221aa8b3cfc, type: 3}
     - time: 0.083333336
-      value: {fileID: -712487560, guid: d25cc5b8a081b439b83860b197d39088, type: 3}
+      value: {fileID: 1570960229, guid: 61096c99468ac467ba31b221aa8b3cfc, type: 3}
     - time: 0.16666667
-      value: {fileID: 1279222093, guid: d25cc5b8a081b439b83860b197d39088, type: 3}
+      value: {fileID: 1380006835, guid: 61096c99468ac467ba31b221aa8b3cfc, type: 3}
     - time: 0.25
-      value: {fileID: 853860493, guid: d25cc5b8a081b439b83860b197d39088, type: 3}
+      value: {fileID: -1911289116, guid: 61096c99468ac467ba31b221aa8b3cfc, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,10 +46,10 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 1625655488, guid: d25cc5b8a081b439b83860b197d39088, type: 3}
-    - {fileID: -712487560, guid: d25cc5b8a081b439b83860b197d39088, type: 3}
-    - {fileID: 1279222093, guid: d25cc5b8a081b439b83860b197d39088, type: 3}
-    - {fileID: 853860493, guid: d25cc5b8a081b439b83860b197d39088, type: 3}
+    - {fileID: -1555004830, guid: 61096c99468ac467ba31b221aa8b3cfc, type: 3}
+    - {fileID: 1570960229, guid: 61096c99468ac467ba31b221aa8b3cfc, type: 3}
+    - {fileID: 1380006835, guid: 61096c99468ac467ba31b221aa8b3cfc, type: 3}
+    - {fileID: -1911289116, guid: 61096c99468ac467ba31b221aa8b3cfc, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
