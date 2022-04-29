@@ -17,7 +17,7 @@ public class OptionsMenu : MonoBehaviour
     [SerializeField] private GameObject[] controlsMenus;
     
     [SerializeField] private GameObject[] accessibilityMenus;
-    
+
 
 
 //Ensures that the main options menu always appears first no matter what we enable or disable in the editor.
