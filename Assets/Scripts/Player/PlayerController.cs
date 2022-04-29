@@ -9,12 +9,14 @@ namespace Player {
         private Movement m_Movement;
         private Split m_Split;
         private PlayerInput m_InputManager;
+        private PlayerAnimator[] m_Animators;
     
         private void Awake() {
             m_Movement = GetComponent<Movement>();
             m_Input = GetComponent<Input>();
             m_Split = GetComponent<Split>();
             m_InputManager = GetComponent<PlayerInput>();
+            m_Animators = GetComponentsInChildren<PlayerAnimator>();
         }
         private void Start() { //todo remove this function, its for testing
             m_InputManager.SwitchCurrentActionMap("AlternativePlayer");
@@ -28,6 +30,13 @@ namespace Player {
             m_Split.AlternativeSwitch(intInputValue);
         }
         private void FixedUpdate() {
+            foreach (var animator in m_Animators) {
+                if (animator.gameObject != m_Split.clones[m_Split.selectedMain].gameObject)
+                    continue;
+                if (m_Input.moveMainVector.x == 0 && m_Input.moveMainVector.y == 0) 
+                    return;
+                animator.UpdateAnimator(m_Input.moveMainVector);
+            }
             m_Movement.MoveMain(m_Input.moveMainVector);
             m_Movement.MoveSecond(m_Input.moveSecondVector);
         }
