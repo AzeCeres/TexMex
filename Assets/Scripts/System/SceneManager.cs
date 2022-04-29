@@ -3,7 +3,6 @@ using JetBrains.Annotations;
 using Player;
 using Puzzle;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 namespace System { 
     public class SceneManager : MonoBehaviour {
         private GameObject m_StartPos;
@@ -62,6 +61,12 @@ namespace System {
                 buttons[i].active = false;
             }
             m_Split.SpawnClone(0, m_Split.mainClones, m_StartPos);
+        }
+        public void QuitApplication() {
+            UnityEngine.Application.Quit();
+        }
+        public void QuitToMainMenu() {
+            ChangeScene(0);
         }
         public void ChangeScene(int sceneIndex) {
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneIndex);
