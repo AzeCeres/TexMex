@@ -3,17 +3,17 @@ using UnityEngine;
 namespace Player
 { public class Split : MonoBehaviour {
     
-        public GameObject[] clones;
-        public bool[] activeClones = new bool[4];
+        [HideInInspector] public GameObject[] clones;
+        [HideInInspector] public bool[] activeClones = new bool[4];
 
         //todo remove serialize field after troubleshooting
-        [SerializeField] public List<GameObject> mainClones = new List<GameObject>(4);
-        [SerializeField] public List<GameObject> secondClones = new List<GameObject>(2);
-        [SerializeField] public int selectedMain;
-        [SerializeField] public int selectedSecond = 1;
+        [HideInInspector][SerializeField] public List<GameObject> mainClones = new List<GameObject>(4);
+        [HideInInspector][SerializeField] public List<GameObject> secondClones = new List<GameObject>(2);
+        [HideInInspector][SerializeField] public int selectedMain;
+        [HideInInspector][SerializeField] public int selectedSecond = 1;
         private string[] test = new string[1];
         //in settings, switch alternative controls over to true to activate single stick controls 
-        public bool alternativeControls = false;
+        public bool alternativeControls = true;
         [Range(1,4)][SerializeField] private int maxClones = 4;
         private int previousSelectedMain = 0;
         
@@ -26,7 +26,6 @@ namespace Player
             if (mainClones.Count == 2 && secondClones.Count > 0) {
                 SwitchMain();
             }
-            //todo make it so you can switch clone even if both seconds are dead? or switch one of them over to be a second instead
             //if only 1 active clone, add second, become SelectedSecond (run SecondSplit?) and return;
             else if (mainClones.Count >= 1 && secondClones.Count == 0) {
                 SpawnClone(selectedSecond, secondClones, mainClones[selectedMain]);
@@ -98,12 +97,12 @@ namespace Player
         public void AlternativeSplit() {
             if (mainClones.Count < maxClones) {
                 SpawnClone(selectedMain, mainClones, mainClones[selectedMain]);
-                AlternativeSwitch(1);
+                AlternativeSwitch(-10);
             } else {
                 //print("There are no more clones to be spawned");
             }
         }
-        public void AlternativeSwitch(int switchValue) {
+        public void AlternativeSwitch(int switchValue) { 
             previousSelectedMain = selectedMain;
             if (switchValue + selectedMain > mainClones.Count-1) {
                 selectedMain = 0;
@@ -121,7 +120,7 @@ namespace Player
                 activeClones[i] = false;
                 for (int j = 0; j < mainClones.Count; j++) {
                     if (mainClones[j] == cloneToKill) {
-                        mainClones.Remove(mainClones[j]);
+                        mainClones.Remove(mainClones[j]); //todo//send death to animator, make the character uncontrollable during//Start animation , then have the animation call this script
                         if (alternativeControls && previousSelectedMain <= mainClones.Count - 1) {
                             selectedMain = previousSelectedMain;
                         }

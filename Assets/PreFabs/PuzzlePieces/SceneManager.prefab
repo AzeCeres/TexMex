@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4727770667984326505}
   m_Layer: 0
   m_Name: SceneManager
-  m_TagString: Untagged
+  m_TagString: SceneManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,4 +44,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77ec66ce96df76468904987bbaf0ab6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buttons: []
