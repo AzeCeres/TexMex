@@ -163,5 +163,4 @@ public class OptionsMenu : MonoBehaviour
         settingsController.playerVolume = PlayerPrefs.GetFloat("PlayerVolume");
     }
     #endregion
-
 }
