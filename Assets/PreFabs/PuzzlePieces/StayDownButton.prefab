@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2313908522667172116}
   - component: {fileID: 2313908522667172123}
   - component: {fileID: 3832606981926586583}
+  - component: {fileID: 8488115817761746357}
   m_Layer: 2
   m_Name: StayDownButton
   m_TagString: Button
@@ -116,8 +117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   staysDown: 1
-  pressed: {fileID: 21300000, guid: 953dd72d770454a34b19b8416b6cd687, type: 3}
-  dePressed: {fileID: 21300000, guid: cad2a2e2e77c64c5c85be8823e2c0390, type: 3}
+  press: {fileID: 7400000, guid: d2a6cf4d06bcc4cf8aedc73ed8078a83, type: 2}
+  dePress: {fileID: 7400000, guid: 3f15da441140745518a0cfb09895a000, type: 2}
   color: {r: 0, g: 0, b: 0, a: 0}
   active: 0
 --- !u!50 &3832606981926586583
@@ -141,3 +142,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 3
+--- !u!95 &8488115817761746357
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2313908522667172122}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f89a6a5b16391cf42a5d48b03e795de2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

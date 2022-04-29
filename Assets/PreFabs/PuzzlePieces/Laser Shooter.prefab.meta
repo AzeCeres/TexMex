@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/PreFabs/PuzzlePieces/Laser Shooter.prefab.meta
 guid: 4f98bffcc409195448fcbcf04bfb6bfb
+========
+guid: 42ee88bb96228d44cb04b44e776d4a2d
+>>>>>>>> origin/Puzzle-2:Assets/PreFabs/PuzzlePieces/MapGrid.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

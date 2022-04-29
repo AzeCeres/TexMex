@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1710480636740349826}
   - component: {fileID: 1710480636740349837}
   - component: {fileID: -7257660855572448852}
+  - component: {fileID: 7295446780056634891}
   m_Layer: 2
   m_Name: NormalButton
   m_TagString: Button
@@ -116,8 +117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   staysDown: 0
-  pressed: {fileID: 21300000, guid: 796b738dc00d04f859bbb7c485e89c84, type: 3}
-  dePressed: {fileID: 21300000, guid: 8316724d436cf41c082975480e1406a0, type: 3}
+  press: {fileID: 7400000, guid: 22ab4a2959e334aeaa27729606b0a91a, type: 2}
+  dePress: {fileID: 7400000, guid: 6d2953dbedd484eef87936485b21c4f1, type: 2}
   color: {r: 0, g: 0, b: 0, a: 0}
   active: 0
 --- !u!50 &-7257660855572448852
@@ -141,3 +142,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 3
+--- !u!95 &7295446780056634891
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710480636740349836}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f89a6a5b16391cf42a5d48b03e795de2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

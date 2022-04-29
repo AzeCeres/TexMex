@@ -3,15 +3,15 @@ namespace Puzzle
 //todo // Collect colour from Accessibility settings, store colour, and have it be inheritable
 { public class Button : MonoBehaviour {
         [SerializeField] private bool staysDown;
-        [SerializeField] private Sprite pressed;
-        [SerializeField] private Sprite dePressed;
+        [SerializeField] private AnimationClip press;
+        [SerializeField] private AnimationClip dePress;
         public Color color;
         public bool active;
         private int m_InsideCount;
         private bool m_WasActive = false;
-        private SpriteRenderer m_Renderer;
+        private Animator m_Animator;
         private void Awake() {
-            m_Renderer = GetComponent<SpriteRenderer>();
+            m_Animator = GetComponent<Animator>();
         }
         private void OnTriggerEnter2D(Collider2D other) {
             if(!other.gameObject.CompareTag("Player")) return;
@@ -33,11 +33,13 @@ namespace Puzzle
         }
         void Activate() {
             //todo Sound and Particles
-            m_Renderer.sprite = pressed;
+            m_Animator.Play(press.name);
+            print(press.name);
         }
         void DeActivate() {
             //todo Sound and Particles
-            m_Renderer.sprite = dePressed;
+            m_Animator.Play(dePress.name);
+            print(dePress.name);
         }
     }
 }

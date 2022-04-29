@@ -27,6 +27,11 @@ namespace Player {
             StateCheck();
             if (dead) StopControl();
         }
+        public void UpdateAnimator(Vector2 moVector) {
+            // var localVel = transform.InverseTransformDirection(m_RigidBody.velocity);
+            m_Animator.SetFloat("moveX", moVector.x);
+            m_Animator.SetFloat("moveY", moVector.y);
+        }
         private void StateCheck() {
             switch (states) {
                 case State.Idle:
@@ -37,14 +42,16 @@ namespace Player {
                     break;
             }
             void Idle() {
-                if (!(m_RigidBody.velocity.magnitude > 0.3f)) return;
+                m_Animator.Play("Idle"); //todo // change to hashing
+                if (!(m_RigidBody.velocity.magnitude > 0.4f)) return;
                 states = State.Walk;
             }
             void Walk() {
-                if (!(m_RigidBody.velocity.magnitude < 0.3f)) return;
+                m_Animator.Play("Walk");
+                if (!(m_RigidBody.velocity.magnitude < 0.4f)) return;
                 states = State.Idle;
             }
-            DirectionCheck(states);
+            //DirectionCheck(states);
         }
         private void DirectionCheck(State state) {
             var localVel = transform.InverseTransformDirection(m_RigidBody.velocity);

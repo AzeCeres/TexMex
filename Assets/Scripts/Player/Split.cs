@@ -3,11 +3,14 @@ using UnityEngine;
 namespace Player
 { public class Split : MonoBehaviour {
     
-        [HideInInspector] public GameObject[] clones;
-        [HideInInspector] public bool[] activeClones = new bool[4];
+        //[HideInInspector] 
+        public GameObject[] clones;
+        //[HideInInspector]
+        public bool[] activeClones = new bool[4];
 
         //todo remove serialize field after troubleshooting
-        [HideInInspector][SerializeField] public List<GameObject> mainClones = new List<GameObject>(4);
+        //[HideInInspector]
+        [SerializeField] public List<GameObject> mainClones = new List<GameObject>(4);
         [HideInInspector][SerializeField] public List<GameObject> secondClones = new List<GameObject>(2);
         [HideInInspector][SerializeField] public int selectedMain;
         [HideInInspector][SerializeField] public int selectedSecond = 1;

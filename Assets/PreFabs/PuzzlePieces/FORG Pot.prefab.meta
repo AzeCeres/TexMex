@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/PreFabs/PuzzlePieces/FORG Pot.prefab.meta
 guid: 162e9ade2818ba5478081b334d1aacf2
+========
+guid: 4f98bffcc409195448fcbcf04bfb6bfb
+>>>>>>>> origin/Puzzle-2:Assets/PreFabs/PuzzlePieces/Laser Shooter.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
