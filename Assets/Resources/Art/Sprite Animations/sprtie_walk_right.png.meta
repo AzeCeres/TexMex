@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1bc1b72757c3a40be8e869609e6e60a8
+guid: 4fcec90cf941f4a818cd074169968a11
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite_idle_right_0
+      name: sprtie_walk_right_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eb89cddb0c2f43f89430a4ba2e4d035
-      internalID: -995053332
+      spriteID: 5c15404a347684020a3c88fa00bb4c3d
+      internalID: -1039930318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_idle_right_1
+      name: sprtie_walk_right_1
       rect:
         serializedVersion: 2
         x: 64
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee7930b42c27f4283996597fa7a8340e
-      internalID: -1816634479
+      spriteID: 999ccb1e2d3b94b06b45f713a20245e7
+      internalID: 1699301971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_idle_right_2
+      name: sprtie_walk_right_2
       rect:
         serializedVersion: 2
         x: 128
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76c1cb0a609d544579b1afb1b21763fa
-      internalID: 803000605
+      spriteID: 391a42e93a7c042ad9cc8bf0bdb0b108
+      internalID: 597751390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_idle_right_3
+      name: sprtie_walk_right_3
       rect:
         serializedVersion: 2
         x: 192
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c838749bb1b2448079a049191e5dddd8
-      internalID: 273865021
+      spriteID: 5cef5ca4e3e47446fbddcf47dc5622d4
+      internalID: -801018671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_idle_right_4
+      name: sprtie_walk_right_4
       rect:
         serializedVersion: 2
         x: 256
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3fdac0d86d30415c833019b5f5fad23
-      internalID: 1589062018
+      spriteID: 5a44165bec77042168c9d47e9e4f697a
+      internalID: -902756280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_idle_right_5
+      name: sprtie_walk_right_5
       rect:
         serializedVersion: 2
         x: 320
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81e132aaaba6d45e19b811cf4e96a743
-      internalID: 2130633707
+      spriteID: 50a351fdb0cc146d983e89798148f203
+      internalID: -1308087337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_idle_right_6
+      name: sprtie_walk_right_6
       rect:
         serializedVersion: 2
         x: 384
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 917fae6ff04be4fb4b6ea83700f15b62
-      internalID: 176060030
+      spriteID: 232913c1e6f2e4b7c96e1dd9d1ff7935
+      internalID: 805142645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_idle_right_7
+      name: sprtie_walk_right_7
       rect:
         serializedVersion: 2
         x: 448
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4c334bbb038d42e0ac0f0c8f6855f40
-      internalID: -656780034
+      spriteID: c605cfecb77074fbe95f47101a79e760
+      internalID: -1779680864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_idle_right_8
+      name: sprtie_walk_right_8
       rect:
         serializedVersion: 2
         x: 512
@@ -298,14 +298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 431a1da279037462794c5b27201a0c9a
-      internalID: -1193462910
+      spriteID: 6807f6a4c6f3b4bd781c480c4a6540fb
+      internalID: 1250591165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_idle_right_9
+      name: sprtie_walk_right_9
       rect:
         serializedVersion: 2
         x: 576
@@ -319,14 +319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0fb59b0408b8408dba48fbbf4f14eea
-      internalID: 1323278990
+      spriteID: 4424dbb5d596349aa89d11b6422dceee
+      internalID: -241313225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_idle_right_10
+      name: sprtie_walk_right_10
       rect:
         serializedVersion: 2
         x: 640
@@ -340,14 +340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49cd8b529f7da4e068aa6c6d58c887ec
-      internalID: -112019242
+      spriteID: 5fc62c395d25d4f76bfed911f2d483d1
+      internalID: -1145180203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_idle_right_11
+      name: sprtie_walk_right_11
       rect:
         serializedVersion: 2
         x: 704
@@ -361,92 +361,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6d98250bbe424763bb866e19ed6d10f
-      internalID: 1387095777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite_idle_right_12
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b539b8395f60a490cb8f2da0d7a28774
-      internalID: 779712443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite_idle_right_13
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 588ed6bca75434902b5ec6cc8be5202c
-      internalID: 1842386513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite_idle_right_14
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa79fef69f48d4dfc85c6a5b1ea15e1d
-      internalID: -1134349273
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite_idle_right_15
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a05f7874d46e4766851c8ae638ca698
-      internalID: -372230124
+      spriteID: 8bce5f3297cd04b1cac8e45d1aa23fa9
+      internalID: 471435948
       vertices: []
       indices: 
       edges: []
@@ -462,22 +378,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sprite_idle_right_1: -1816634479
-      sprite_idle_right_7: -656780034
-      sprite_idle_right_8: -1193462910
-      sprite_idle_right_15: -372230124
-      sprite_idle_right_5: 2130633707
-      sprite_idle_right_14: -1134349273
-      sprite_idle_right_0: -995053332
-      sprite_idle_right_6: 176060030
-      sprite_idle_right_9: 1323278990
-      sprite_idle_right_3: 273865021
-      sprite_idle_right_10: -112019242
-      sprite_idle_right_13: 1842386513
-      sprite_idle_right_12: 779712443
-      sprite_idle_right_4: 1589062018
-      sprite_idle_right_2: 803000605
-      sprite_idle_right_11: 1387095777
+      sprtie_walk_right_4: -902756280
+      sprtie_walk_right_10: -1145180203
+      sprtie_walk_right_8: 1250591165
+      sprtie_walk_right_7: -1779680864
+      sprtie_walk_right_11: 471435948
+      sprtie_walk_right_3: -801018671
+      sprtie_walk_right_9: -241313225
+      sprtie_walk_right_6: 805142645
+      sprtie_walk_right_5: -1308087337
+      sprtie_walk_right_2: 597751390
+      sprtie_walk_right_1: 1699301971
+      sprtie_walk_right_0: -1039930318
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
