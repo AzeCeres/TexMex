@@ -52,7 +52,7 @@ MonoBehaviour:
   open: {fileID: 7400000, guid: deacc15af99cc419294bf3d74581e774, type: 2}
   close: {fileID: 7400000, guid: 33d8bddbfc2f4466590d2e39b0a13bbd, type: 2}
   wire: {fileID: 0}
-  inverted: 0
+  inverted: 1
 --- !u!212 &5815974282818677967
 SpriteRenderer:
   m_ObjectHideFlags: 0
