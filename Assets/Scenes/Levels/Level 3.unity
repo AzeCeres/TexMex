@@ -94298,6 +94298,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1699124790270941856, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
+      propertyPath: maxClones
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699124790270941856, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
       propertyPath: activeClones.Array.size
       value: 2
       objectReference: {fileID: 0}
