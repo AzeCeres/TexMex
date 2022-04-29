@@ -330,9 +330,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b958cf53945a2be4f8cd85cbd229da87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  footStepAudio: {fileID: 0}
+  footStepAudio: {fileID: 11400000, guid: 905ef0b12d7ec58418ab08e51d2b0104, type: 2}
   cloneCreateAudio: {fileID: 11400000, guid: 0d19274d3d23f834eafea8d843ab54f5, type: 2}
-  cloneSwitchAudio: {fileID: 11400000, guid: c670266ef7ec59a4790304c1700a748c, type: 2}
+  cloneSwitchAudio: {fileID: 11400000, guid: 90c2cc0bf837a0049b7e05e1498f8206, type: 2}
   cloneDeathAudio: {fileID: 11400000, guid: b5e3e8a3deabdd04ca10bd209c713147, type: 2}
   cloneDeathBarkLaser: {fileID: 11400000, guid: 406efea88b2c2ad409dd49e7a08929c4, type: 2}
   cloneDeathBarkDart: {fileID: 11400000, guid: ec3beaf96507eab46b22c1b1fd44d7cb, type: 2}

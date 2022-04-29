@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69faeda1906747fe8c74a6448ecc2b4a, type: 3}
+  m_Name: PoisonDartShoot
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: cd65a23f6d770f845acf0bac13efda2b, type: 3}
+  - {fileID: 8300000, guid: c431f1f96d2aee14ab6418da59c463b9, type: 3}
+  pitchLowerBound: 0.75
+  pitchUpperBound: 1.25
