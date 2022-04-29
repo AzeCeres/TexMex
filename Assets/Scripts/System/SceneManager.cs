@@ -7,7 +7,7 @@ namespace System {
     public class SceneManager : MonoBehaviour {
         private GameObject m_StartPos;
         private Split m_Split;
-        [SerializeField] private List<Button> buttons = new List<Button>();
+        private List<Button> buttons = new List<Button>();
         [SerializeField] [CanBeNull] private List<Button> excludedButtons = new List<Button>();
         private void Start() {
             var obj = GameObject.FindGameObjectWithTag("PlayerController");

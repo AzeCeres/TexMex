@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4727770667984326504}
-  - component: {fileID: 4727770667984326505}
+  - component: {fileID: 6144788197143073595}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: SceneManager
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4727770667984326505
+--- !u!114 &6144788197143073595
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,6 +41,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4727770667984326510}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d77ec66ce96df76468904987bbaf0ab6, type: 3}
+  m_Script: {fileID: 11500000, guid: 06d13ba89e1e66d4190299561cd41412, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  excludedButtons: []
