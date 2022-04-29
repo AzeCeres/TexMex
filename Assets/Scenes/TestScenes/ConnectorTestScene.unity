@@ -60853,10 +60853,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerController
       objectReference: {fileID: 0}
-    - target: {fileID: 1743221442921629202, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 1743221442921629212, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -60902,10 +60898,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1743221442921629213, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
-      propertyPath: m_Actions
-      value: 
-      objectReference: {fileID: -944628639613478452, guid: 048577376d80405479afc0f8b3fdde08, type: 3}
-    - target: {fileID: 1743221442921629213, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
       propertyPath: m_DefaultActionMap
       value: Player
       objectReference: {fileID: 0}
@@ -60949,10 +60941,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 1743221443741479898, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -2029208090, guid: 5533d3cf5c72e45b0b517888c9e9841a, type: 3}
     - target: {fileID: 1743221443741479898, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
