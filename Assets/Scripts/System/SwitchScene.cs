@@ -11,6 +11,7 @@ namespace System {
             if (sceneIndex <= -1) {
                 throw new Exception("Yo, u kinda forgot to set a scene, which means the player won't progress");
             }
+            if(!other.gameObject.CompareTag("Player")) return;
             m_SceneManager.ChangeScene(sceneIndex);
         }
     }

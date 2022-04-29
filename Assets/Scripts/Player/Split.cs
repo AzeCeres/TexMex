@@ -80,8 +80,8 @@ namespace Player
             } if (mainClones.Count-1 < selectedMain) {
                 selectedMain = mainClones.Count-1;
             }
-            if (selectedMain < 0)
-                selectedMain = 0;
+            if (mainClones.Count == 1)
+                 selectedMain = 0;
         }
         void AlternativeControlsCheck() {
             switch (alternativeControls) {
