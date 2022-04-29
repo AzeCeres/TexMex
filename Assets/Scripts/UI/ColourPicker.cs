@@ -7,12 +7,11 @@ using UnityEngine.UI;
 
 public class ColourPicker : MonoBehaviour
 {
-    public TMP_Text colourDebugText;
 
     private RectTransform Rect;
 
     private Texture2D colorTexture;
-    private SettingsController _settingsController;
+    [SerializeField] private SettingsController _settingsController;
     
     public Material playerOneMaterial;
     public Material playerTwoMaterial;
@@ -60,7 +59,7 @@ public class ColourPicker : MonoBehaviour
 
         colorPickerColor = colorTexture.GetPixel(texX, texY);
         //colourDebugText.color = colorPickerColor;
-        colourDebugText.text = debug;
+        //colourDebugText.text = debug;
     }
 
     public void OnClickColorPicker(int colorObject)
@@ -68,7 +67,8 @@ public class ColourPicker : MonoBehaviour
         if (colorObject == 1)
         {
             savedColorPickerColor = colorPickerColor;
-            colourDebugText.color = savedColorPickerColor;
+            _settingsController.player1Color = savedColorPickerColor;
+            _settingsController.SetPlayerOneColor();
             //Saves color as string
             PlayerPrefs.SetString("PlayerOneColor",ColorUtility.ToHtmlStringRGBA(savedColorPickerColor));
             
@@ -76,7 +76,21 @@ public class ColourPicker : MonoBehaviour
         else if (colorObject == 2)
         {
             savedColorPickerColor = colorPickerColor;
-            colourDebugText.color = savedColorPickerColor;
+            _settingsController.player2Color = savedColorPickerColor;
+            _settingsController.SetPlayerTwoColor();
+            //playerTwoMaterial.SetColor("_Color", savedColorPickerColor);
+            
+            //Saves color as string
+            PlayerPrefs.SetString("PlayerTwoColor",ColorUtility.ToHtmlStringRGBA(savedColorPickerColor));
+            
+        }
+        else if (colorObject == 3)
+        {
+            savedColorPickerColor = colorPickerColor;
+            _settingsController.player3Color = savedColorPickerColor;
+            _settingsController.SetPlayerThreeColor();
+            //playerTwoMaterial.SetColor("_Color", savedColorPickerColor);
+            
             //Saves color as string
             PlayerPrefs.SetString("PlayerTwoColor",ColorUtility.ToHtmlStringRGBA(savedColorPickerColor));
             
@@ -88,14 +102,17 @@ public class ColourPicker : MonoBehaviour
         if (colorObejct == 1)
         {
             playerOneMaterial.SetColor("_Color", _settingsController.player1Default);
+            PlayerPrefs.DeleteKey("PlayerOneColor");
         }
         else if (colorObejct == 2)
         {
             playerTwoMaterial.SetColor("_Color", _settingsController.player2Default);
+            PlayerPrefs.DeleteKey("PlayerTwoColor");
         }
         else if (colorObejct == 3)
         {
             playerThreeMaterial.SetColor("_Color", _settingsController.player3Default);
+            PlayerPrefs.DeleteKey("PlayerThreeColor");
         }
     }
     

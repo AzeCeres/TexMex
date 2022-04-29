@@ -47,8 +47,23 @@ public class MainMenuManager : MonoBehaviour
         settingsController.musicVolume = PlayerPrefs.GetFloat("MusicVolume");
         settingsController.environmentVolume = PlayerPrefs.GetFloat("EnvironmentVolume");
         settingsController.playerVolume = PlayerPrefs.GetFloat("PlayerVolume");
-        
-        ColorUtility.TryParseHtmlString("#" + PlayerPrefs.GetString("PlayerOneColor"), out settingsController.player1Color);
+        if (PlayerPrefs.HasKey("PlayerOneColor"))
+        {
+            ColorUtility.TryParseHtmlString("#" + PlayerPrefs.GetString("PlayerOneColor"), out settingsController.player1Color);
+            settingsController.SetPlayerOneColor();
+        }
+
+        if (PlayerPrefs.HasKey("PlayerTwoColor"))
+        {
+            ColorUtility.TryParseHtmlString("#" + PlayerPrefs.GetString("PlayerTwoColor"), out settingsController.player2Color);
+            settingsController.SetPlayerTwoColor();
+        }
+
+        if (PlayerPrefs.HasKey("PlayerThreeColor"))
+        {
+            ColorUtility.TryParseHtmlString("#" + PlayerPrefs.GetString("PlayerThreeColor"), out settingsController.player3Color);
+            settingsController.SetPlayerThreeColor();
+        }
     }
 
     public void QuitGame()

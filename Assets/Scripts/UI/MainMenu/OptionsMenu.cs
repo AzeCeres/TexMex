@@ -164,9 +164,4 @@ public class OptionsMenu : MonoBehaviour
     }
     #endregion
 
-    public void BackKey()
-    {
-
-    }
-    
 }

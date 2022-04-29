@@ -28,6 +28,22 @@ public class SettingsController : ScriptableObject
     
     //add more here as needed
 
+    public Material playerOneMaterial;
+    public Material playerTwoMaterial;
+    public Material playerThreeMaterial;
     #endregion
+
+    public void SetPlayerOneColor()
+    {
+        playerOneMaterial.SetColor("_Color", player1Color);
+    }
+    public void SetPlayerTwoColor()
+    {
+        playerTwoMaterial.SetColor("_Color", player2Color);
+    }
+    public void SetPlayerThreeColor()
+    {
+        playerThreeMaterial.SetColor("_Color", player3Color);
+    }
 }
 
