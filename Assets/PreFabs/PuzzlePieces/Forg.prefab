@@ -168,6 +168,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   frogSpeed: 5
-  rotateSpeed: 200
+  rotateSpeed: -20
   behaviour: 0
   timer: 0
