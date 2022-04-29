@@ -3,6 +3,8 @@ namespace Puzzle
 //todo // Collect colour from Accessibility settings, store colour, and have it be inheritable
 { public class Button : MonoBehaviour {
         [SerializeField] private bool staysDown;
+        [SerializeField] private Sprite pressed;
+        [SerializeField] private Sprite dePressed;
         public Color color;
         public bool active;
         private int m_InsideCount;
@@ -31,11 +33,11 @@ namespace Puzzle
         }
         void Activate() {
             //todo Sound and Particles
-            m_Renderer.enabled = false;
+            m_Renderer.sprite = pressed;
         }
         void DeActivate() {
             //todo Sound and Particles
-            m_Renderer.enabled = true;
+            m_Renderer.sprite = dePressed;
         }
     }
 }
