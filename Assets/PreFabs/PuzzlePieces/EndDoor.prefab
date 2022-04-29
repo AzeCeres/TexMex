@@ -185,8 +185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7035cfc0c7ab61e4cab984366f8e94c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  open: {fileID: 7400000, guid: b5f03a72ed7584cdf85ae487801def4c, type: 2}
-  close: {fileID: 7400000, guid: 60e41e1ab26bb4e52bdc1dfe577cef56, type: 2}
+  open: {fileID: 7400000, guid: b03c538f9d3744127839e5ae06ed3eed, type: 2}
+  close: {fileID: 7400000, guid: 88901fb0216c84b7183fff8a95db73b5, type: 2}
   wire: {fileID: 0}
   inverted: 0
 --- !u!61 &4676457727345577691
