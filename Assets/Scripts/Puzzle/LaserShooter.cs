@@ -14,6 +14,7 @@ namespace Puzzle {
         [Tooltip("Button can be left as empty, the shooter will then be considered always active. otherwise, if a button is connected the laser will only fire when a button is pressed, or opposite when its inverted")]
         [HideInInspector] [CanBeNull]public Wire wire;
         [SerializeField] private LayerMask whatToHit, playerLayer;
+        [SerializeField] private bool up;
         // private void Awake() {
         //     var gameObjects = FindObjectsOfType<GameObject>();
         //     foreach (var t in gameObjects) {
@@ -33,14 +34,32 @@ namespace Puzzle {
             }
         }
         private void FireLaser() {
-            if (Physics2D.Raycast(transform.position, transform.right)) {
-                RaycastHit2D hit = Physics2D.Raycast(startPoint.position, transform.right, whatToHit);
+            if (up && Physics2D.Raycast(transform.position, transform.up)){
+                print("shooting up");
+                RaycastHit2D hit = Physics2D.Raycast(startPoint.position, transform.up, whatToHit);
                 if (hit.transform.gameObject.layer == 6) {
                     var animator = hit.transform.gameObject.GetComponent<PlayerAnimator>();
                     animator.Death();
                 }   
                 DrawRay(startPoint.position, hit.point); 
-            } else {
+                
+            }else if(up) {
+                DrawRay(startPoint.position, startPoint.transform.up * maxDistance);
+                print("shooting up, but not hitting anything");
+                
+            }
+            else if(!up && Physics2D.Raycast(transform.position, transform.right)) {
+                print("shooting right");
+                RaycastHit2D hit = Physics2D.Raycast(startPoint.position, transform.right, whatToHit);
+                if (hit.transform.gameObject.layer == 6) {
+                    var animator = hit.transform.gameObject.GetComponent<PlayerAnimator>();
+                    animator.Death();
+                    
+                }
+                
+                DrawRay(startPoint.position, hit.point); 
+            } else if(!up) {
+                print("shooting right but missing");
                 DrawRay(startPoint.position, startPoint.transform.right * maxDistance);
             }
         }
