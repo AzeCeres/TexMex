@@ -417,7 +417,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: fd4b1ed065b195e419b9bff0704bd202, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -482,6 +482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b652b90e8895448b0257b653eda764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dead: 0
 --- !u!70 &1257179241622640467
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -748,6 +749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b652b90e8895448b0257b653eda764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dead: 0
 --- !u!70 &8684133230860336741
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -843,7 +845,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: f87bcdd1f0720734d8ac023e68b3b912, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -908,6 +910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b652b90e8895448b0257b653eda764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dead: 0
 --- !u!70 &1663411034671948366
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1112,7 +1115,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 4adbcdd5c5b25be4ba5c189ce0d72132, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1177,6 +1180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b652b90e8895448b0257b653eda764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dead: 0
 --- !u!70 &6831188361739745752
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
