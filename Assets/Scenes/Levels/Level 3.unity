@@ -7290,7 +7290,7 @@ PrefabInstance:
     - target: {fileID: 6539461508865283282, guid: 646f9eea401d8244390ef7e85539ddf4, type: 3}
       propertyPath: backButtonObjects.Array.data[7]
       value: 
-      objectReference: {fileID: 1787138149}
+      objectReference: {fileID: 901038873}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 646f9eea401d8244390ef7e85539ddf4, type: 3}
 --- !u!1001 &127933383
@@ -87575,6 +87575,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6823268427316690096, guid: 62f419cacd3923d468eae33937cf0f62, type: 3}
   m_PrefabInstance: {fileID: 901038870}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &901038873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6823268428211354463, guid: 62f419cacd3923d468eae33937cf0f62, type: 3}
+  m_PrefabInstance: {fileID: 901038870}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &934472636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -95221,11 +95226,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1024623301162482943, guid: cf78ee2c2e8551843909d0dc6c35499e, type: 3}
   m_PrefabInstance: {fileID: 1787138144}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1787138149 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1024623302053430022, guid: cf78ee2c2e8551843909d0dc6c35499e, type: 3}
-  m_PrefabInstance: {fileID: 1787138144}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1787138150 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1024623300970995855, guid: cf78ee2c2e8551843909d0dc6c35499e, type: 3}
@@ -96098,6 +96098,10 @@ PrefabInstance:
     - target: {fileID: 7696553080602647155, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0000007748604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696553080602647155, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
