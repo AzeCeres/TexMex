@@ -22781,7 +22781,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  wire: []
   active: 0
 --- !u!66 &331951802
 CompositeCollider2D:
@@ -23167,7 +23166,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  wire: []
   active: 0
 --- !u!66 &423203316
 CompositeCollider2D:
@@ -30946,7 +30944,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  wire: []
   active: 0
 --- !u!66 &1992088287
 CompositeCollider2D:
@@ -31305,6 +31302,10 @@ PrefabInstance:
     - target: {fileID: 1743221443831494831, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
       propertyPath: m_SortingOrder
       value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 3142194834317335225, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
+      propertyPath: m_TrackedObjectOffset.x
+      value: -3.26
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}

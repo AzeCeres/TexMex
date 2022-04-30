@@ -1,17 +1,10 @@
 using Audio;
 using UnityEngine;
 
-public enum CauseOfDeath
-{
-    Laser,
-    Dart
-}
-
 [RequireComponent(typeof(AudioSource))]
 
 public class PlayerAudio : MonoBehaviour
 {
-    [SerializeField] private AudioVariation footStepAudio;
     [SerializeField] private AudioVariation cloneCreateAudio;
     [SerializeField] private AudioVariation cloneSwitchAudio;
     [Space]
@@ -21,8 +14,7 @@ public class PlayerAudio : MonoBehaviour
 
     private AudioSource _audioSource;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         _audioSource = GetComponent<AudioSource>();
     }
@@ -37,23 +29,9 @@ public class PlayerAudio : MonoBehaviour
         cloneSwitchAudio.PlayAudio(_audioSource);
     }
 
-    public void PlayCloneDeathAudio(CauseOfDeath causeOfDeath)
+    public void PlayCloneDeathAudio()
     {
         cloneDeathAudio.PlayAudio(_audioSource);
-
-        switch (causeOfDeath)
-        {
-            case CauseOfDeath.Laser:
-                cloneDeathBarkLaser.PlayAudio(_audioSource);
-                break;
-            case CauseOfDeath.Dart:
-                cloneDeathBarkDart.PlayAudio(_audioSource);
-                break;
-        }
-    }
-
-    private void PlayFootStepAudio()
-    {
-        footStepAudio.PlayAudio(_audioSource);
+        cloneDeathBarkDart.PlayAudio(_audioSource);
     }
 }
