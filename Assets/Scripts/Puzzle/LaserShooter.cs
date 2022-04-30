@@ -35,7 +35,6 @@ namespace Puzzle {
         }
         private void FireLaser() {
             if (up && Physics2D.Raycast(transform.position, transform.up)){
-                print("shooting up");
                 RaycastHit2D hit = Physics2D.Raycast(startPoint.position, transform.up, whatToHit);
                 if (hit.transform.gameObject.layer == 6) {
                     var animator = hit.transform.gameObject.GetComponent<PlayerAnimator>();
@@ -45,11 +44,9 @@ namespace Puzzle {
                 
             }else if(up) {
                 DrawRay(startPoint.position, startPoint.transform.up * maxDistance);
-                print("shooting up, but not hitting anything");
-                
+
             }
             else if(!up && Physics2D.Raycast(transform.position, transform.right)) {
-                print("shooting right");
                 RaycastHit2D hit = Physics2D.Raycast(startPoint.position, transform.right, whatToHit);
                 if (hit.transform.gameObject.layer == 6) {
                     var animator = hit.transform.gameObject.GetComponent<PlayerAnimator>();
@@ -59,7 +56,6 @@ namespace Puzzle {
                 
                 DrawRay(startPoint.position, hit.point); 
             } else if(!up) {
-                print("shooting right but missing");
                 DrawRay(startPoint.position, startPoint.transform.right * maxDistance);
             }
         }

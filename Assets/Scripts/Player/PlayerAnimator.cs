@@ -5,7 +5,7 @@ namespace Player {
         private Rigidbody2D m_RigidBody;
         private float minSpeedToChange = 0.8f;
         private Split split;
-        private bool dead;
+        [SerializeField] private bool dead;
         private enum Direction {
             Up,
             Down,
@@ -24,7 +24,16 @@ namespace Player {
             m_Animator = GetComponentInParent<Animator>();
         }
         private void Update() {
-            if (dead) return;
+            if (dead)
+            {
+                
+                for (int i = 0; i < split.mainClones.Count; i++) {
+                    if (gameObject == split.mainClones[i] && i == split.selectedMain) {
+                        dead = false;
+                    }
+                }
+                if (dead) return;
+            }
             
             StateCheck();
         }
@@ -167,8 +176,8 @@ namespace Player {
         }
         
         public void Die() {
-            split.DeActivateClone(gameObject);
             dead = false;
+            split.DeActivateClone(gameObject);
         }
     }
 }
