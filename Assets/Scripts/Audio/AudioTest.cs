@@ -16,25 +16,7 @@ namespace Audio
 
         private void Update()
         {
-            if (Keyboard.current.aKey.wasPressedThisFrame)
-            {
-                _playerAudio.PlayCloneCreateAudio();
-            }
 
-            if (Keyboard.current.sKey.wasPressedThisFrame)
-            {
-                _playerAudio.PlayCloneSwitchAudio();
-            }
-
-            if (Keyboard.current.dKey.wasPressedThisFrame)
-            {
-                _playerAudio.PlayCloneDeathAudio(CauseOfDeath.Dart);
-            }
-
-            if (Keyboard.current.qKey.wasPressedThisFrame)
-            {
-                _playerAudio.PlayCloneDeathAudio(CauseOfDeath.Laser);
-            }
         }
     }
 }

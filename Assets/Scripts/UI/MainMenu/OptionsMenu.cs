@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class OptionsMenu : MonoBehaviour
@@ -14,6 +15,12 @@ public class OptionsMenu : MonoBehaviour
     [SerializeField] private Slider[] volumeSliders;
     
     [SerializeField] private GameObject[] controlsMenus;
+    
+    [SerializeField] private GameObject[] accessibilityMenus;
+    
+    [SerializeField] private GameObject[] playerPreview;
+
+
 
 //Ensures that the main options menu always appears first no matter what we enable or disable in the editor.
     private void OnEnable()
@@ -59,6 +66,53 @@ public class OptionsMenu : MonoBehaviour
         }
         controlsMenus[0].SetActive(true);
     }
+    
+    public void AccessibilityMenu()
+    {
+        foreach (var i in optionsMenus)
+        {
+            i.SetActive(false);
+        }
+        optionsMenus[3].SetActive(true);
+        foreach (var p in accessibilityMenus)
+        {
+            p.SetActive(false);
+        }
+        accessibilityMenus[0].SetActive(true);
+        foreach (var i in playerPreview)
+        {
+            i.SetActive(false);
+        }
+    }
+
+    #region Accessibility Options
+    
+    
+    //The Color PickerMenus
+    public void ColorPickerMenu(int selectedMenu)
+    {
+        foreach (var i in accessibilityMenus)
+        {
+            i.SetActive(false);
+        }
+        accessibilityMenus[selectedMenu].SetActive(true);
+
+        if (selectedMenu == 1)
+        {
+            playerPreview[0].SetActive(true);
+        }
+        else if (selectedMenu == 2)
+        {
+            playerPreview[1].SetActive(true);
+        }
+        else if (selectedMenu == 3)
+        {
+            playerPreview[2].SetActive(true);
+        }
+    }
+    
+
+    #endregion
 
     #region Controls Options
     public void KeyboardControlsMenu()
@@ -128,6 +182,4 @@ public class OptionsMenu : MonoBehaviour
         settingsController.playerVolume = PlayerPrefs.GetFloat("PlayerVolume");
     }
     #endregion
-    
-    
 }
