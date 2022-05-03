@@ -1035,10 +1035,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pot
       objectReference: {fileID: 0}
-    - target: {fileID: 140556509812618113, guid: 33da269ca8aa542408da84c73267512c, type: 3}
-      propertyPath: potBreaking
-      value: 
-      objectReference: {fileID: 11400000, guid: 81240f81b2b14514fa598ad587403ef2, type: 2}
     - target: {fileID: 140556509812618125, guid: 33da269ca8aa542408da84c73267512c, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -19593,10 +19589,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1385785091058095042, guid: f76034b98741a0c4b8152f8a68d499f2, type: 3}
-      propertyPath: potBreaking
-      value: 
-      objectReference: {fileID: 11400000, guid: 81240f81b2b14514fa598ad587403ef2, type: 2}
     - target: {fileID: 1385785091058095070, guid: f76034b98741a0c4b8152f8a68d499f2, type: 3}
       propertyPath: m_Name
       value: Chonker
@@ -19654,10 +19646,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3507651153430005637, guid: 5ddd86f24da1d9c4e8747874622424de, type: 3}
-      propertyPath: potBreaking
-      value: 
-      objectReference: {fileID: 11400000, guid: 81240f81b2b14514fa598ad587403ef2, type: 2}
     - target: {fileID: 3507651153430005641, guid: 5ddd86f24da1d9c4e8747874622424de, type: 3}
       propertyPath: m_Name
       value: Chill_Pot
@@ -19674,18 +19662,6 @@ PrefabInstance:
     - target: {fileID: 7193698495972250615, guid: bddd5826f09f8ae4bb11e2400c796f08, type: 3}
       propertyPath: m_Name
       value: Jug
-      objectReference: {fileID: 0}
-    - target: {fileID: 7193698495972250617, guid: bddd5826f09f8ae4bb11e2400c796f08, type: 3}
-      propertyPath: potBreaking
-      value: 
-      objectReference: {fileID: 11400000, guid: 81240f81b2b14514fa598ad587403ef2, type: 2}
-    - target: {fileID: 7193698495972250617, guid: bddd5826f09f8ae4bb11e2400c796f08, type: 3}
-      propertyPath: pitchLowerBound
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7193698495972250617, guid: bddd5826f09f8ae4bb11e2400c796f08, type: 3}
-      propertyPath: pitchUpperBound
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7193698495972250618, guid: bddd5826f09f8ae4bb11e2400c796f08, type: 3}
       propertyPath: m_RootOrder
