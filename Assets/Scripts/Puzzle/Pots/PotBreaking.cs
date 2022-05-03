@@ -19,17 +19,18 @@ public class PotBreaking : MonoBehaviour
 
    private void OnTriggerEnter2D(Collider2D other)
     {
-       if (broken = false);
+        if (other.gameObject.CompareTag("Player"));
         {
-            breaking = true;
+            if (broken = false);
+            {
+                animator.Play("Pot_broken");
+                audio.PlayOneShot(potBreaking);
+                broken = true;
+                breaking = false;
+            }    
+            
         }
-        if (breaking)
-        {
-            animator.Play("Pot_broken");
-            audio.PlayOneShot(potBreaking);
-            broken = true;
-            breaking = false;
-        }
+        
         
     }
 }
