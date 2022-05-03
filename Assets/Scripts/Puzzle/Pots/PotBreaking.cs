@@ -7,14 +7,11 @@ public class PotBreaking : MonoBehaviour
 {
     private Animator animator;
     private AudioSource audio;
-    [SerializeField] private AudioClip potBreaking;
+    [SerializeField] private AudioVariation potBreaking;
     private bool broken = false;
     private SpriteRenderer renderer;
     [SerializeField] private Sprite pot_broken;
-    
-    [SerializeField] [Range(0f, 1f)] private float pitchLowerBound = 1f;
-    [SerializeField] [Range(1f, 2f)] private float pitchUpperBound = 1f;
-    
+
 
     private void Start()
     {
@@ -31,10 +28,7 @@ public class PotBreaking : MonoBehaviour
             
             if (broken == false)
             {
-                var pitch = Random.Range(pitchLowerBound, pitchUpperBound);
-                audio.pitch = pitch;
-                audio.PlayOneShot(potBreaking);
-                audio.pitch = 1f;
+                potBreaking.PlayAudio(audio);
             }
             broken = true;
         }
