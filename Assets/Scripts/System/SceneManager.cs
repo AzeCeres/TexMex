@@ -7,7 +7,7 @@ namespace System {
     public class SceneManager : MonoBehaviour {
         private GameObject m_StartPos;
         private Split m_Split;
-        private List<Button> buttons = new List<Button>();
+        [SerializeField]private List<Button> buttons = new List<Button>();
         [SerializeField] [CanBeNull] private List<Button> excludedButtons = new List<Button>();
         private void Start() {
             var obj = GameObject.FindGameObjectWithTag("PlayerController");
@@ -58,7 +58,7 @@ namespace System {
         }
         private void Reset() {
             for (int i = 0; i < buttons.Count; i++) {
-                buttons[i].active = false;
+                buttons[i].Reset();
             }
             m_Split.SpawnClone(0, m_Split.mainClones, m_StartPos);
         }

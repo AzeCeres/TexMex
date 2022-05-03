@@ -1,8 +1,8 @@
-using System;
 using System.ComponentModel;
 using Audio;
 using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 namespace Puzzle {
     [RequireComponent(typeof(AudioSource))]
@@ -18,8 +18,12 @@ namespace Puzzle {
         private Animator m_DoorAnimator;
         private AudioSource m_AudioSource;
         private bool wasActive;
+        [CanBeNull] private Light2D light2D;
+        private SpriteRenderer spriteRenderer;
 
         private void Awake() {
+            spriteRenderer = GetComponent<SpriteRenderer>();
+            light2D = GetComponentInChildren<Light2D>();
             m_DoorCollider = GetComponent<BoxCollider2D>();
             m_DoorAnimator = GetComponent<Animator>();
             m_AudioSource = GetComponent<AudioSource>();
@@ -29,7 +33,10 @@ namespace Puzzle {
         private void Start() {
             if (inverted) {
                 Opened();
-            }
+                LightOff();
+            } else
+                LightOn();
+            UpdateMaterial();
         }
         private void Update() {
             Open();
@@ -53,7 +60,6 @@ namespace Puzzle {
             if (m_DoorCollider == null) return;
             Invoke(nameof(TurnOffCollider), 0.9f);
             if (doorBeam == null) return;
-            doorBeam.enabled = true;
         }
         private void Closed() {
             //todo Sound and Particles
@@ -65,7 +71,17 @@ namespace Puzzle {
         }
         public void TurnOffCollider() {
             if (wire.active && inverted || !wire.active && !inverted) return;
-                m_DoorCollider.enabled = false;
+            m_DoorCollider.enabled = false;
+            doorBeam.enabled = true;
+        }
+        void UpdateMaterial() {
+            spriteRenderer.material.SetFloat("_Active",1f);
+        }
+        public void LightOff() {
+            light2D.enabled = false;
+        }
+        public void LightOn() {
+            light2D.enabled = true;
         }
     }
 }
