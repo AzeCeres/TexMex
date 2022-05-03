@@ -546,7 +546,7 @@ TextureImporter:
     weights: []
     secondaryTextures:
     - texture: {fileID: 2800000, guid: 8de36847dea6041889f0442a62eb5174, type: 3}
-      name: _emission
+      name: _Emission
     nameFileIdTable:
       door_vertical_blue_deactivate_19: 936610400
       door_vertical_blue_deactivate_14: 1511383030
