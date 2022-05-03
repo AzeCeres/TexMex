@@ -7,7 +7,7 @@ namespace Audio
     [RequireComponent(typeof(StudioEventEmitter))]
     public class MusicController : MonoBehaviour
     {
-        [SerializeField] private Split split;
+        private Split _split;
 
         private StudioEventEmitter _studioEventEmitter;
 
@@ -17,12 +17,13 @@ namespace Audio
         private void Start()
         {
             _studioEventEmitter = GetComponent<StudioEventEmitter>();
+            _split = FindObjectOfType<Split>();
         }
 
         private void Update()
         {
             _numberOfClones = 0;
-            foreach (var cloneSlot in split.activeClones)
+            foreach (var cloneSlot in _split.activeClones)
             {
                 if (cloneSlot)
                 {
@@ -30,7 +31,7 @@ namespace Audio
                 }
             }
 
-
+            _studioEventEmitter.SetParameter("Clone", _numberOfClones - 1);
         }
     }
 }
