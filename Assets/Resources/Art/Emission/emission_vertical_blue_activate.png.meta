@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 6f72accb7a8204d1c8aec86579acc6ec
+guid: a77caa73c739e4abba3934d6780f25bb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -51,9 +51,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -116,64 +116,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: button_blue_activatet_0
+      name: emission_vertical_blue_activate_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 32
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 394710e7ef819471ba39d8907daacaf7
-      internalID: 337789457
+      spriteID: fff4063a395ec478d9e68c1a3016444f
+      internalID: 1085586778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button_blue_activatet_1
+      name: emission_vertical_blue_activate_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
-        height: 32
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9028ff9ffb7964cbf9af8ae2c3b7e088
-      internalID: -119033083
+      spriteID: e2e036681bebf4e53aeb1b1b5e029c30
+      internalID: 387965533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button_blue_activatet_2
+      name: emission_vertical_blue_activate_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
-        height: 32
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0784f23d46294930b7e4986edf3f3f7
-      internalID: -1618505584
+      spriteID: 7b385cbb051dc4f5e87d26e182457bf1
+      internalID: -193601483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emission_vertical_blue_activate_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd02b1291dbd4a3d94c56ff036939c4
+      internalID: -283058719
       vertices: []
       indices: 
       edges: []
@@ -187,13 +208,12 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: 3a76484d6e3784ebcb0e57df63a108a9, type: 3}
-      name: _emission
+    secondaryTextures: []
     nameFileIdTable:
-      button_blue_activatet_0: 337789457
-      button_blue_activatet_1: -119033083
-      button_blue_activatet_2: -1618505584
+      emission_vertical_blue_activate_3: -283058719
+      emission_vertical_blue_activate_1: 387965533
+      emission_vertical_blue_activate_0: 1085586778
+      emission_vertical_blue_activate_2: -193601483
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

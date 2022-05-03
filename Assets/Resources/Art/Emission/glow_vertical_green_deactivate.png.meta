@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 6f72accb7a8204d1c8aec86579acc6ec
+guid: 27469c0551d5543269ba321f02e11899
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -51,9 +51,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -116,64 +116,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: button_blue_activatet_0
+      name: glow_vertical_green_deactivate_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 512
         y: 0
         width: 32
-        height: 32
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 394710e7ef819471ba39d8907daacaf7
-      internalID: 337789457
+      spriteID: 28d94459a028648e8acb7ad4922b61bc
+      internalID: -844859983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button_blue_activatet_1
+      name: glow_vertical_green_deactivate_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 544
         y: 0
         width: 32
-        height: 32
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9028ff9ffb7964cbf9af8ae2c3b7e088
-      internalID: -119033083
+      spriteID: 3cd8ac62f96c644b4bff5924229e5dcc
+      internalID: 1111627550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button_blue_activatet_2
+      name: glow_vertical_green_deactivate_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 576
         y: 0
         width: 32
-        height: 32
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0784f23d46294930b7e4986edf3f3f7
-      internalID: -1618505584
+      spriteID: bbe944b2d0c954c4fa86600e5a2284cb
+      internalID: -2090349692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glow_vertical_green_deactivate_3
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0490f3c1057aa4423992ab4e0ff06f01
+      internalID: 736996887
       vertices: []
       indices: 
       edges: []
@@ -187,13 +208,12 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: 3a76484d6e3784ebcb0e57df63a108a9, type: 3}
-      name: _emission
+    secondaryTextures: []
     nameFileIdTable:
-      button_blue_activatet_0: 337789457
-      button_blue_activatet_1: -119033083
-      button_blue_activatet_2: -1618505584
+      glow_vertical_green_deactivate_0: -844859983
+      glow_vertical_green_deactivate_1: 1111627550
+      glow_vertical_green_deactivate_2: -2090349692
+      glow_vertical_green_deactivate_3: 736996887
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

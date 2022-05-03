@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 6f72accb7a8204d1c8aec86579acc6ec
+guid: 90be111c337ac44988b731f36de2b0dc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -51,9 +51,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -116,64 +116,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: button_blue_activatet_0
+      name: emission_blue_deactivate_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1536
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 394710e7ef819471ba39d8907daacaf7
-      internalID: 337789457
+      spriteID: cca613100e0dc4b209df1f30322cab4c
+      internalID: 729054543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button_blue_activatet_1
+      name: emission_blue_deactivate_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 1632
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9028ff9ffb7964cbf9af8ae2c3b7e088
-      internalID: -119033083
+      spriteID: 630e7e1d9aaaf41dfabe2bee291e8153
+      internalID: 483478694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button_blue_activatet_2
+      name: emission_blue_deactivate_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 1728
         y: 0
-        width: 32
-        height: 32
+        width: 96
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0784f23d46294930b7e4986edf3f3f7
-      internalID: -1618505584
+      spriteID: 73b9f82ee4f6c46a2868b1889fce2154
+      internalID: 1308224286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emission_blue_deactivate_3
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf253cc34a504faba7d20cd90a35fda
+      internalID: 1251760857
       vertices: []
       indices: 
       edges: []
@@ -187,13 +208,12 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: 3a76484d6e3784ebcb0e57df63a108a9, type: 3}
-      name: _emission
+    secondaryTextures: []
     nameFileIdTable:
-      button_blue_activatet_0: 337789457
-      button_blue_activatet_1: -119033083
-      button_blue_activatet_2: -1618505584
+      emission_blue_deactivate_0: 729054543
+      emission_blue_deactivate_2: 1308224286
+      emission_blue_deactivate_3: 1251760857
+      emission_blue_deactivate_1: 483478694
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
