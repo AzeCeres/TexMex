@@ -186,7 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7035cfc0c7ab61e4cab984366f8e94c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  open: {fileID: 7400000, guid: b03c538f9d3744127839e5ae06ed3eed, type: 2}
+  open: {fileID: 7400000, guid: d4ba82317a507409ca684ba0d46effb5, type: 2}
   close: {fileID: 7400000, guid: 88901fb0216c84b7183fff8a95db73b5, type: 2}
   moveAudio: {fileID: 11400000, guid: 556120e4ddf1dbe46ac41a5e343b97ed, type: 2}
   wire: {fileID: 0}
