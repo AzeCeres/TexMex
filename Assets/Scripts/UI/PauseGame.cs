@@ -15,7 +15,7 @@ public class PauseGame : MonoBehaviour
     private void OnEnable()
     {
         pauseButton.Enable();
-        Cursor.visible = false;
+        Cursor.visible = false; 
     }
 
     private void OnDisable()

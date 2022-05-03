@@ -37,6 +37,7 @@ public class OptionsMenu : MonoBehaviour
             i.SetActive(false);
         }
         optionsMenus[0].SetActive(true);
+        Cursor.visible = true;
     }
 
     //Opens volume menu. Called from UI button
