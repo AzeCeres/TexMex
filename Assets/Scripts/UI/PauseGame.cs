@@ -15,6 +15,7 @@ public class PauseGame : MonoBehaviour
     private void OnEnable()
     {
         pauseButton.Enable();
+        Cursor.visible = false;
     }
 
     private void OnDisable()
@@ -37,6 +38,7 @@ public class PauseGame : MonoBehaviour
         if (paused)
         {
             Time.timeScale = 0;
+            Cursor.visible = false;
             foreach (var i in pauseMenu)
             {
                 i.SetActive(false);
@@ -53,6 +55,7 @@ public class PauseGame : MonoBehaviour
                 i.SetActive(false);
             }
             settingsMenu.SetActive(false);
+            Cursor.visible = true;
         }
     }
 
