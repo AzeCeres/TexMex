@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 3188179322582227197}
   - component: {fileID: 6514390119881416957}
   - component: {fileID: 824199075649070116}
+  - component: {fileID: 1431949605206470593}
   m_Layer: 6
   m_Name: PlayerController
   m_TagString: PlayerController
@@ -358,6 +359,23 @@ MonoBehaviour:
   cloneDeathAudio: {fileID: 11400000, guid: b5e3e8a3deabdd04ca10bd209c713147, type: 2}
   cloneDeathBarkLaser: {fileID: 11400000, guid: 406efea88b2c2ad409dd49e7a08929c4, type: 2}
   cloneDeathBarkDart: {fileID: 11400000, guid: ec3beaf96507eab46b22c1b1fd44d7cb, type: 2}
+--- !u!114 &1431949605206470593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743221442921629202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dffc6d7442013654f947e31056f9c0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clones:
+  - {fileID: 1743221443741479901}
+  - {fileID: 1743221443831494817}
+  - {fileID: 1743221443229384568}
+  layerHeight: 100
 --- !u!1 &1743221443229384568
 GameObject:
   m_ObjectHideFlags: 0
