@@ -180,20 +180,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
---- !u!114 &5935501 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349837, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
-  m_PrefabInstance: {fileID: 5935500}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 682531658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55b200c3e9e45c408c9fadcdbbe6f13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &5935502 stripped
+--- !u!4 &5935501 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349824, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1320103701956050033, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
   m_PrefabInstance: {fileID: 5935500}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &12963668
@@ -249,7 +238,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5094,7 +5083,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
 --- !u!4 &523693767 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1703792320556781528, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4882115894163031921, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
   m_PrefabInstance: {fileID: 523693766}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &577791087
@@ -5181,37 +5170,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &664792456 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349836, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
-  m_PrefabInstance: {fileID: 1567953763}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &682531658 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349836, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
-  m_PrefabInstance: {fileID: 5935500}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &682531662
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 682531658}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1001 &904723645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5270,7 +5228,7 @@ PrefabInstance:
     - target: {fileID: 8945994415257393365, guid: 24aed25e0d786b64f9df83c4361ba3ef, type: 3}
       propertyPath: button.Array.data[0]
       value: 
-      objectReference: {fileID: 1567953764}
+      objectReference: {fileID: 0}
     - target: {fileID: 8945994415257393366, guid: 24aed25e0d786b64f9df83c4361ba3ef, type: 3}
       propertyPath: m_Name
       value: DoorHorizontal (1)
@@ -5314,10 +5272,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1964872666}
-  - {fileID: 1567953765}
-  - {fileID: 1375833136}
-  - {fileID: 5935502}
+  - {fileID: 5935501}
+  - {fileID: 1375833135}
+  - {fileID: 1567953764}
+  - {fileID: 1964872665}
   m_Father: {fileID: 1923965581}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5750,7 +5708,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7517,11 +7475,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1152079698 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349836, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
-  m_PrefabInstance: {fileID: 1375833134}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1315259999
 GameObject:
   m_ObjectHideFlags: 0
@@ -7660,7 +7613,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7804,7 +7757,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  wire: []
   active: 0
 --- !u!1001 &1375833134
 PrefabInstance:
@@ -7863,43 +7815,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
---- !u!114 &1375833135 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349837, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
-  m_PrefabInstance: {fileID: 1375833134}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1152079698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55b200c3e9e45c408c9fadcdbbe6f13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1375833136 stripped
+--- !u!4 &1375833135 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349824, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1320103701956050033, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
   m_PrefabInstance: {fileID: 1375833134}
   m_PrefabAsset: {fileID: 0}
---- !u!50 &1375833139
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1152079698}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &1464168640
 GameObject:
   m_ObjectHideFlags: 0
@@ -7928,9 +7848,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1794463873}
-  - {fileID: 904723646}
   - {fileID: 523693767}
+  - {fileID: 904723646}
+  - {fileID: 1794463873}
   - {fileID: 69942059}
   m_Father: {fileID: 1923965581}
   m_RootOrder: 0
@@ -7992,43 +7912,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
---- !u!114 &1567953764 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349837, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
-  m_PrefabInstance: {fileID: 1567953763}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664792456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55b200c3e9e45c408c9fadcdbbe6f13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1567953765 stripped
+--- !u!4 &1567953764 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349824, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1320103701956050033, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
   m_PrefabInstance: {fileID: 1567953763}
   m_PrefabAsset: {fileID: 0}
---- !u!50 &1567953768
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664792456}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1001 &1574188289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8086,11 +7974,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
---- !u!1 &1580328314 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349836, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
-  m_PrefabInstance: {fileID: 1964872664}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1758517012
 GameObject:
   m_ObjectHideFlags: 0
@@ -8176,7 +8059,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -37811,7 +37694,7 @@ PrefabInstance:
     - target: {fileID: 1703792320556781529, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
       propertyPath: button.Array.data[0]
       value: 
-      objectReference: {fileID: 1375833135}
+      objectReference: {fileID: 0}
     - target: {fileID: 1703792320556781530, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
       propertyPath: m_Name
       value: DoorVertical
@@ -37820,7 +37703,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
 --- !u!4 &1794463873 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1703792320556781528, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4882115894163031921, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
   m_PrefabInstance: {fileID: 1794463872}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1810162393
@@ -37954,7 +37837,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  wire: []
   active: 0
 --- !u!66 &1930145741
 CompositeCollider2D:
@@ -38037,7 +37919,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -38266,7 +38148,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -38410,7 +38292,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  wire: []
   active: 0
 --- !u!1001 &1964872664
 PrefabInstance:
@@ -38485,43 +38366,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
---- !u!114 &1964872665 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349837, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
-  m_PrefabInstance: {fileID: 1964872664}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580328314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55b200c3e9e45c408c9fadcdbbe6f13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1964872666 stripped
+--- !u!4 &1964872665 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349824, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1320103701956050033, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
   m_PrefabInstance: {fileID: 1964872664}
   m_PrefabAsset: {fileID: 0}
---- !u!50 &1964872669
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580328314}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1001 &4468166392910994041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38642,19 +38491,19 @@ PrefabInstance:
     - target: {fileID: 4727770667984326505, guid: 14b9d9a31df1dd245b5dc5cad4fb24ce, type: 3}
       propertyPath: Buttons.Array.data[0]
       value: 
-      objectReference: {fileID: 5935501}
+      objectReference: {fileID: 0}
     - target: {fileID: 4727770667984326505, guid: 14b9d9a31df1dd245b5dc5cad4fb24ce, type: 3}
       propertyPath: Buttons.Array.data[1]
       value: 
-      objectReference: {fileID: 1964872665}
+      objectReference: {fileID: 0}
     - target: {fileID: 4727770667984326505, guid: 14b9d9a31df1dd245b5dc5cad4fb24ce, type: 3}
       propertyPath: Buttons.Array.data[2]
       value: 
-      objectReference: {fileID: 1567953764}
+      objectReference: {fileID: 0}
     - target: {fileID: 4727770667984326505, guid: 14b9d9a31df1dd245b5dc5cad4fb24ce, type: 3}
       propertyPath: Buttons.Array.data[3]
       value: 
-      objectReference: {fileID: 1375833135}
+      objectReference: {fileID: 0}
     - target: {fileID: 4727770667984326510, guid: 14b9d9a31df1dd245b5dc5cad4fb24ce, type: 3}
       propertyPath: m_Name
       value: SceneManager
@@ -38748,7 +38597,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  wire: []
   active: 0
 --- !u!66 &8300580023383275639
 CompositeCollider2D:
@@ -38818,7 +38666,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39144,7 +38992,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  wire: []
   active: 0
 --- !u!1839735485 &8300580024680395924
 Tilemap:
@@ -39424,7 +39271,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -180,20 +180,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
---- !u!114 &25777643 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349837, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
-  m_PrefabInstance: {fileID: 25777642}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55b200c3e9e45c408c9fadcdbbe6f13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &25777644 stripped
+--- !u!4 &25777643 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349824, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1320103701956050033, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
   m_PrefabInstance: {fileID: 25777642}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &86724694
@@ -271,8 +260,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1210318421}
   - {fileID: 830004185}
+  - {fileID: 1210318420}
   m_Father: {fileID: 1687944814}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -330,7 +319,7 @@ PrefabInstance:
     - target: {fileID: 1703792320556781529, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
       propertyPath: button.Array.data[0]
       value: 
-      objectReference: {fileID: 25777643}
+      objectReference: {fileID: 0}
     - target: {fileID: 1703792320556781530, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
       propertyPath: m_Name
       value: DoorVertical (1)
@@ -339,7 +328,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
 --- !u!4 &262264955 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1703792320556781528, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4882115894163031921, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
   m_PrefabInstance: {fileID: 262264954}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &377050094
@@ -449,7 +438,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  wire: []
   active: 0
 --- !u!66 &427657804
 CompositeCollider2D:
@@ -544,7 +532,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -728,7 +716,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 25777644}
+  - {fileID: 25777643}
   - {fileID: 262264955}
   m_Father: {fileID: 1687944814}
   m_RootOrder: 1
@@ -761,8 +749,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1478979261}
   - {fileID: 804706429}
+  - {fileID: 1478979260}
   m_Father: {fileID: 1687944814}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -877,7 +865,7 @@ PrefabInstance:
     - target: {fileID: 1703792320556781529, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
       propertyPath: button.Array.data[0]
       value: 
-      objectReference: {fileID: 1478979260}
+      objectReference: {fileID: 0}
     - target: {fileID: 1703792320556781530, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
       propertyPath: m_Name
       value: DoorVertical
@@ -886,7 +874,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
 --- !u!4 &804706429 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1703792320556781528, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4882115894163031921, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
   m_PrefabInstance: {fileID: 804706428}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &830004184
@@ -943,7 +931,7 @@ PrefabInstance:
     - target: {fileID: 1703792320556781529, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
       propertyPath: button.Array.data[0]
       value: 
-      objectReference: {fileID: 1210318420}
+      objectReference: {fileID: 0}
     - target: {fileID: 1703792320556781530, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
       propertyPath: m_Name
       value: DoorVertical (2)
@@ -952,7 +940,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
 --- !u!4 &830004185 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1703792320556781528, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4882115894163031921, guid: a1430a5763dc56d4683aac9d217a8be6, type: 3}
   m_PrefabInstance: {fileID: 830004184}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1060147816
@@ -1109,6 +1097,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &1170818110
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,7 +1168,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  wire: []
   active: 0
 --- !u!66 &1170818113
 CompositeCollider2D:
@@ -1254,7 +1262,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1432,20 +1440,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
---- !u!114 &1210318420 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349837, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
-  m_PrefabInstance: {fileID: 1210318419}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55b200c3e9e45c408c9fadcdbbe6f13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1210318421 stripped
+--- !u!4 &1210318420 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1710480636740349824, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1320103701956050033, guid: fd4eafb64af0f2a44a0d16016cbc245b, type: 3}
   m_PrefabInstance: {fileID: 1210318419}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1211009101
@@ -1501,7 +1498,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10227,10 +10224,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Buttons:
-  - {fileID: 1478979260}
-  - {fileID: 25777643}
-  - {fileID: 1210318420}
-  - {fileID: 1838319106}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1385428645
 GameObject:
   m_ObjectHideFlags: 0
@@ -10281,7 +10278,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  wire: []
   active: 0
 --- !u!66 &1385428648
 CompositeCollider2D:
@@ -10376,7 +10372,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10564,20 +10560,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46a554e6b40c48248a3ea0f22d638f3e, type: 3}
---- !u!114 &1478979260 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2313908522667172123, guid: 46a554e6b40c48248a3ea0f22d638f3e, type: 3}
-  m_PrefabInstance: {fileID: 1478979259}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55b200c3e9e45c408c9fadcdbbe6f13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1478979261 stripped
+--- !u!4 &1478979260 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 2313908522667172118, guid: 46a554e6b40c48248a3ea0f22d638f3e, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8694534424168686536, guid: 46a554e6b40c48248a3ea0f22d638f3e, type: 3}
   m_PrefabInstance: {fileID: 1478979259}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1687944813
@@ -10643,7 +10628,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1838319107}
+  - {fileID: 1838319106}
   - {fileID: 2046753547}
   m_Father: {fileID: 1687944814}
   m_RootOrder: 3
@@ -10763,7 +10748,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11867,20 +11852,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46a554e6b40c48248a3ea0f22d638f3e, type: 3}
---- !u!114 &1838319106 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2313908522667172123, guid: 46a554e6b40c48248a3ea0f22d638f3e, type: 3}
-  m_PrefabInstance: {fileID: 1838319105}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55b200c3e9e45c408c9fadcdbbe6f13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1838319107 stripped
+--- !u!4 &1838319106 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 2313908522667172118, guid: 46a554e6b40c48248a3ea0f22d638f3e, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8694534424168686536, guid: 46a554e6b40c48248a3ea0f22d638f3e, type: 3}
   m_PrefabInstance: {fileID: 1838319105}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1986151841
@@ -11994,7 +11968,7 @@ PrefabInstance:
     - target: {fileID: 8945994415257393365, guid: 24aed25e0d786b64f9df83c4361ba3ef, type: 3}
       propertyPath: button.Array.data[0]
       value: 
-      objectReference: {fileID: 1838319106}
+      objectReference: {fileID: 0}
     - target: {fileID: 8945994415257393366, guid: 24aed25e0d786b64f9df83c4361ba3ef, type: 3}
       propertyPath: m_Name
       value: DoorHorizontal
@@ -12059,7 +12033,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -41682,7 +41656,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  wire: []
   active: 0
 --- !u!66 &2127641185
 CompositeCollider2D:
@@ -41777,7 +41750,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
