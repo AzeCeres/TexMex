@@ -1,6 +1,7 @@
 using FMODUnity;
 using Player;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Audio
 {
@@ -18,6 +19,7 @@ namespace Audio
         {
             _studioEventEmitter = GetComponent<StudioEventEmitter>();
             _split = FindObjectOfType<Split>();
+            DontDestroyOnLoad(transform.parent);
         }
 
         private void Update()
@@ -32,6 +34,25 @@ namespace Audio
             }
 
             _studioEventEmitter.SetParameter("Clone", _numberOfClones - 1);
+
+            switch (SceneManager.GetActiveScene().name)
+            {
+                case "MainMenu":
+                    _studioEventEmitter.Stop();
+                    break;
+                case "Level 1":
+                    // _studioEventEmitter.Play();
+                    _studioEventEmitter.SetParameter("Region", 0);
+                    break;
+                case "Level 2":
+                    // _studioEventEmitter.Play();
+                    _studioEventEmitter.SetParameter("Region", 1);
+                    break;
+                case "Level 3":
+                    // _studioEventEmitter.Play();
+                    _studioEventEmitter.SetParameter("Region", 2);
+                    break;
+            }
         }
     }
 }

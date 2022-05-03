@@ -87387,6 +87387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 5507021844962567262, guid: e6dbbca0b2e4a5b499333aa43275fc3e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6dbbca0b2e4a5b499333aa43275fc3e, type: 3}
 --- !u!1001 &881698242
@@ -96486,7 +96490,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Left Bumper
+  m_Text: Left Shoulder
 --- !u!114 &552884477165769801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96690,7 +96694,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Right Bumper
+  m_Text: Right Shoulder
 --- !u!114 &552884478142651119
 MonoBehaviour:
   m_ObjectHideFlags: 0
