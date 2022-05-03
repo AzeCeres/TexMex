@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -120,7 +120,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 288
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec7c71fcb607b43f88c64d55547fce3a
-      internalID: 496574072
+      spriteID: 9f3760de3d22e4c6eab4f8a94c14beab
+      internalID: -123401132
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 288
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -151,8 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7de7b572ac1943be95322304ce3753c
-      internalID: 496329516
+      spriteID: 6f09cffede04042abad0acb3f7bca11f
+      internalID: -941928237
       vertices: []
       indices: 
       edges: []
@@ -162,7 +162,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 288
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -172,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdede2f0299c44edebc0c80849b986d6
-      internalID: -711890497
+      spriteID: 1dc72e7cf009047f7a0c26f7970e3567
+      internalID: 1717499408
       vertices: []
       indices: 
       edges: []
@@ -183,7 +183,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 288
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -193,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ca992b7007449f1929a4e8b359e0b7
-      internalID: 2066310238
+      spriteID: de93df8affacb41b3a56570e6872c954
+      internalID: 1932243647
       vertices: []
       indices: 
       edges: []
@@ -204,7 +204,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 288
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -214,8 +214,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d2d2f7f4a3464d08a0389e196abb5ab
-      internalID: 894641857
+      spriteID: 9362746ef21234bee9f38d55c5a39897
+      internalID: 2012758768
       vertices: []
       indices: 
       edges: []
@@ -225,7 +225,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 288
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -235,8 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad797ba9760a242a9abc3482c55bd661
-      internalID: 1660197540
+      spriteID: 0d47a77dc84094cfbad79c4ff66f8a53
+      internalID: 687545076
       vertices: []
       indices: 
       edges: []
@@ -246,7 +246,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 288
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -256,8 +256,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b44fd462ba27747628e60dd799ade1bb
-      internalID: 592245127
+      spriteID: 897ab6ec78225491290967e9a1637ddf
+      internalID: 1057849911
       vertices: []
       indices: 
       edges: []
@@ -267,7 +267,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 288
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -277,8 +277,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 817bb934f370846d89d3e0f3c4d53603
-      internalID: -847629653
+      spriteID: 9d642d75437dd49d291f752c9dc44bd1
+      internalID: 1179171962
       vertices: []
       indices: 
       edges: []
@@ -288,7 +288,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 288
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -298,8 +298,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61b7d7588c4504e559204868e8ed2d16
-      internalID: -279411519
+      spriteID: 61f05c9a30ee149df939d70019aa869b
+      internalID: 2114129087
       vertices: []
       indices: 
       edges: []
@@ -309,7 +309,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 256
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -319,8 +319,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21ee110fcdca6463a8623fdd9c9f9693
-      internalID: 1159383917
+      spriteID: 78f0cdb2c66704f918fe69bd1fa0fbd7
+      internalID: 1328829363
       vertices: []
       indices: 
       edges: []
@@ -330,7 +330,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 256
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -340,8 +340,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a99d220c1cbb046e98d4f069e5cddc07
-      internalID: 2109877688
+      spriteID: 6f83293126c1c4fcd8387138ed445681
+      internalID: 791947059
       vertices: []
       indices: 
       edges: []
@@ -351,7 +351,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 256
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -361,8 +361,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50b099434315d46b6a7c255c14af8958
-      internalID: -1905075798
+      spriteID: cd89786cb4a5949f4a7735fcb5a54d1b
+      internalID: 1719128904
       vertices: []
       indices: 
       edges: []
@@ -372,7 +372,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 256
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -382,8 +382,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3b5ebaaa466e433b9da920d5940b6c2
-      internalID: -1249084873
+      spriteID: 3713eb8c48b5b48bf82c72ded8a183d7
+      internalID: -1199118123
       vertices: []
       indices: 
       edges: []
@@ -393,7 +393,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 256
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -403,8 +403,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1f1f4c33847e4c94b5831d7b9853cf4
-      internalID: 491592789
+      spriteID: be4993869f9ee4c3c840f97a5ca203ba
+      internalID: -1616831953
       vertices: []
       indices: 
       edges: []
@@ -414,7 +414,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 256
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -424,8 +424,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39eeff824dfd64f928576c63c0ace850
-      internalID: 664470669
+      spriteID: ddc2bf059a8d9452b9007494da93fddf
+      internalID: 442613730
       vertices: []
       indices: 
       edges: []
@@ -435,7 +435,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 224
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -445,8 +445,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de0f29fb7065f4b67b3e0229a5ff9846
-      internalID: -793744041
+      spriteID: 3ec708e844b4a4749be913ad64eb8135
+      internalID: 2093556608
       vertices: []
       indices: 
       edges: []
@@ -456,7 +456,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 224
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -466,8 +466,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4393ea84b94c94a19a163252b42da955
-      internalID: 1113213209
+      spriteID: 3afb96bfeb57e43bb9ecad73b7b72ec1
+      internalID: 1541143645
       vertices: []
       indices: 
       edges: []
@@ -477,7 +477,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 224
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -487,8 +487,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e14ef107c48a4932be7a889b32522ca
-      internalID: -1410516352
+      spriteID: cfab18c05460942849c7181595116d11
+      internalID: -872514636
       vertices: []
       indices: 
       edges: []
@@ -498,7 +498,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 224
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -508,8 +508,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7beb0a7374f4e416bb3e21d7cc4c57bc
-      internalID: -564446665
+      spriteID: 9a8b3d7567a904c0f9ecb028c244be71
+      internalID: -2143205356
       vertices: []
       indices: 
       edges: []
@@ -519,7 +519,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 224
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -529,8 +529,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 586ad0daa8edf48f5b328c88f7503c1c
-      internalID: 2099965261
+      spriteID: cfa4e9ea1d6dc4576b25ad2bc66f0e98
+      internalID: -1031099153
       vertices: []
       indices: 
       edges: []
@@ -540,7 +540,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 224
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -550,8 +550,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cf4ac3b974b8415fabf9cfed77d1c79
-      internalID: -1864526616
+      spriteID: 76acdf8d1ce384ec4816ab7732a39b27
+      internalID: -1997673187
       vertices: []
       indices: 
       edges: []
@@ -561,7 +561,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 224
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -571,8 +571,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b66fad64335344e6865e887350f6447
-      internalID: 1769819076
+      spriteID: 96f46c6fde86f476f9a365bb4e2a2b70
+      internalID: -306770433
       vertices: []
       indices: 
       edges: []
@@ -582,7 +582,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 224
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -592,8 +592,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ea98e980b4e64983a129690b7349748
-      internalID: -933939231
+      spriteID: c9b0bf1062b064118b1a99eab20080fb
+      internalID: -231286631
       vertices: []
       indices: 
       edges: []
@@ -603,7 +603,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 224
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -613,8 +613,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3297fbc9b94f44b6f9a80d029bc035ab
-      internalID: -898493650
+      spriteID: 6752dda85a4384a56beb788afe0219b1
+      internalID: -2093070086
       vertices: []
       indices: 
       edges: []
@@ -624,7 +624,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -634,8 +634,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b2ea0a0dd9694a09aba0d699be5e9e1
-      internalID: 1102048744
+      spriteID: 28054735d1b1f42d6b33f2b018c84a2b
+      internalID: -2080068856
       vertices: []
       indices: 
       edges: []
@@ -645,7 +645,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 192
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -655,8 +655,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a2afa6f360e9411299a2b322917b8a4
-      internalID: 650024215
+      spriteID: c6fa2e18a4c5a4b6ea36886a3ede165b
+      internalID: -1286656205
       vertices: []
       indices: 
       edges: []
@@ -666,7 +666,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -676,8 +676,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4007fc230cd8b413ca1be6f348078c7d
-      internalID: 866758316
+      spriteID: 814a7c2a3e902422386f6a02b9dee165
+      internalID: -1269108233
       vertices: []
       indices: 
       edges: []
@@ -687,7 +687,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 192
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -697,8 +697,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 236b2c7002b294047a4ab71a070447ab
-      internalID: 2094296753
+      spriteID: 2ddb731d4c94041c88e2dc417519171e
+      internalID: 701201617
       vertices: []
       indices: 
       edges: []
@@ -708,7 +708,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 192
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -718,8 +718,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 270857750d4094fca97a2e82fe5b247d
-      internalID: 1653117127
+      spriteID: 020bd8d2e9496413d8cc5286e9561efe
+      internalID: -1258903631
       vertices: []
       indices: 
       edges: []
@@ -729,7 +729,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 192
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -739,8 +739,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5de7e0beddb624e4fa1e6e3d6e60852a
-      internalID: 1013472369
+      spriteID: 2a4adff836fea4464ba32e9ed6deb23f
+      internalID: 449548048
       vertices: []
       indices: 
       edges: []
@@ -750,7 +750,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 192
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -760,8 +760,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb7884cff19b24f339182c5c3a888063
-      internalID: -1035709760
+      spriteID: 4512035380336483aa552ce430d6b32c
+      internalID: -950716419
       vertices: []
       indices: 
       edges: []
@@ -771,468 +771,6 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 945799ad46ffa4a6690547b7ca006ce9
-      internalID: 919207843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_32
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 054efc7485b1c43fd91c06a2c69a0edf
-      internalID: 450243677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_33
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66059c494703644598fbb954eec66085
-      internalID: 1176507185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_34
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4227d1a6f9b8f47b792260b4dc8e3787
-      internalID: 1580431925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_35
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a388f6abb9864db488b6fc7990082e3
-      internalID: -1495316303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_36
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f81f686823e2443728ee655f56507fa2
-      internalID: -883299882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_37
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46795080ddd814bb1a5c596beb8b151f
-      internalID: -1206665542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_38
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f94500d49faa4151acf52fdab14108e
-      internalID: 158710621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_39
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d422d288cbcf44d5b01a8fafabef90b
-      internalID: 1315840415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_40
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02f63a8fea42c4b4eb9fd15cc913e1c9
-      internalID: 1462249972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_41
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd472ab2d2a8e452eb59599a45e1c53d
-      internalID: -1806792794
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_42
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f74674d2ea3d94a488a3e8454c96a41b
-      internalID: 835230393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_43
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82789191adfd640e2bcb24ae889eaabc
-      internalID: 125149616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_44
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 319c2bd2efb1048b5bf3621e4ac834c5
-      internalID: 576842596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_45
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9291393194c61463eb1a0874303eb072
-      internalID: 1942293865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_46
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c94838a818c64ea9971efdf16f91168
-      internalID: 1826936519
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_47
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b473cead7937426e9eeb2be605b31bb
-      internalID: -472495243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_48
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9153e0e8737734c0b81bd61d1cc31135
-      internalID: 1203021196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_49
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d297805d3e004882b306467a29b7268
-      internalID: -1282343744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_50
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00abd634106a9450d81415c98a521543
-      internalID: -1105161816
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_51
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01683313bf0914ab6906195fdaa73c58
-      internalID: -1615101240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_52
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 348b29e39ec3440caaa2dec259ce7652
-      internalID: -1533893127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_53
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 0
         width: 32
         height: 32
@@ -1243,50 +781,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1db14aabec0844b9094605f5d864fd9e
-      internalID: 598811254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_54
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6157cdaa1acc54d2dba1fd7b1f795274
-      internalID: 398974663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: emission_doors_wire_colour_55
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fbe3040f5fbb49fdb29745d27894e15
-      internalID: -1650543785
+      spriteID: ddf9f976fba7747f3b2a99e9d1ef4097
+      internalID: 1229208644
       vertices: []
       indices: 
       edges: []
@@ -1295,71 +791,47 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures:
-    - texture: {fileID: 2800000, guid: 44095ad2ba89e490394488b36e0f924a, type: 3}
-      name: _Emission
+    - texture: {fileID: 2800000, guid: fc0b7971462644741a43c56a03e892d6, type: 3}
+      name: _emission
     nameFileIdTable:
-      emission_doors_wire_colour_5: 1660197540
-      emission_doors_wire_colour_1: 496329516
-      emission_doors_wire_colour_21: 1769819076
-      emission_doors_wire_colour_28: 1653117127
-      emission_doors_wire_colour_27: 2094296753
-      emission_doors_wire_colour_6: 592245127
-      emission_doors_wire_colour_12: -1249084873
-      emission_doors_wire_colour_11: -1905075798
-      emission_doors_wire_colour_53: 598811254
-      emission_doors_wire_colour_45: 1942293865
-      emission_doors_wire_colour_17: -1410516352
-      emission_doors_wire_colour_29: 1013472369
-      emission_doors_wire_colour_0: 496574072
-      emission_doors_wire_colour_18: -564446665
-      emission_doors_wire_colour_10: 2109877688
-      emission_doors_wire_colour_30: -1035709760
-      emission_doors_wire_colour_38: 158710621
-      emission_doors_wire_colour_44: 576842596
-      emission_doors_wire_colour_51: -1615101240
-      emission_doors_wire_colour_16: 1113213209
-      emission_doors_wire_colour_33: 1176507185
-      emission_doors_wire_colour_36: -883299882
-      emission_doors_wire_colour_31: 919207843
-      emission_doors_wire_colour_13: 491592789
-      emission_doors_wire_colour_48: 1203021196
-      emission_doors_wire_colour_50: -1105161816
-      emission_doors_wire_colour_46: 1826936519
-      emission_doors_wire_colour_25: 650024215
-      emission_doors_wire_colour_49: -1282343744
-      emission_doors_wire_colour_39: 1315840415
-      emission_doors_wire_colour_4: 894641857
-      emission_doors_wire_colour_47: -472495243
-      emission_doors_wire_colour_7: -847629653
-      emission_doors_wire_colour_14: 664470669
-      emission_doors_wire_colour_55: -1650543785
-      emission_doors_wire_colour_37: -1206665542
-      emission_doors_wire_colour_9: 1159383917
-      emission_doors_wire_colour_24: 1102048744
-      emission_doors_wire_colour_23: -898493650
-      emission_doors_wire_colour_3: 2066310238
-      emission_doors_wire_colour_35: -1495316303
-      emission_doors_wire_colour_20: -1864526616
-      emission_doors_wire_colour_54: 398974663
-      emission_doors_wire_colour_15: -793744041
-      emission_doors_wire_colour_26: 866758316
-      emission_doors_wire_colour_8: -279411519
-      emission_doors_wire_colour_22: -933939231
-      emission_doors_wire_colour_42: 835230393
-      emission_doors_wire_colour_34: 1580431925
-      emission_doors_wire_colour_41: -1806792794
-      emission_doors_wire_colour_2: -711890497
-      emission_doors_wire_colour_43: 125149616
-      emission_doors_wire_colour_19: 2099965261
-      emission_doors_wire_colour_32: 450243677
-      emission_doors_wire_colour_40: 1462249972
-      emission_doors_wire_colour_52: -1533893127
+      emission_doors_wire_colour_4: 2012758768
+      emission_doors_wire_colour_5: 687545076
+      emission_doors_wire_colour_1: -941928237
+      emission_doors_wire_colour_21: -306770433
+      emission_doors_wire_colour_7: 1179171962
+      emission_doors_wire_colour_28: -1258903631
+      emission_doors_wire_colour_14: 442613730
+      emission_doors_wire_colour_27: 701201617
+      emission_doors_wire_colour_6: 1057849911
+      emission_doors_wire_colour_9: 1328829363
+      emission_doors_wire_colour_11: 1719128904
+      emission_doors_wire_colour_24: -2080068856
+      emission_doors_wire_colour_12: -1199118123
+      emission_doors_wire_colour_17: -872514636
+      emission_doors_wire_colour_3: 1932243647
+      emission_doors_wire_colour_0: -123401132
+      emission_doors_wire_colour_23: -2093070086
+      emission_doors_wire_colour_29: 449548048
+      emission_doors_wire_colour_18: -2143205356
+      emission_doors_wire_colour_20: -1997673187
+      emission_doors_wire_colour_10: 791947059
+      emission_doors_wire_colour_30: -950716419
+      emission_doors_wire_colour_15: 2093556608
+      emission_doors_wire_colour_26: -1269108233
+      emission_doors_wire_colour_8: 2114129087
+      emission_doors_wire_colour_22: -231286631
+      emission_doors_wire_colour_16: 1541143645
+      emission_doors_wire_colour_2: 1717499408
+      emission_doors_wire_colour_31: 1229208644
+      emission_doors_wire_colour_19: -1031099153
+      emission_doors_wire_colour_13: -1616831953
+      emission_doors_wire_colour_25: -1286656205
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
