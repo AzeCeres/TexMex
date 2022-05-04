@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.ComponentModel;
 using JetBrains.Annotations;
 using Player;
 using Puzzle;
@@ -7,10 +6,9 @@ using UnityEngine;
 namespace System { 
     public class SceneManager : MonoBehaviour {
         private GameObject m_StartPos;
-        [CanBeNull]private Split m_Split;
-        [SerializeField]private List<Button> buttons = new List<Button>();
+        private Split m_Split;
+        private List<Button> buttons = new List<Button>();
         [SerializeField] [CanBeNull] private List<Button> excludedButtons = new List<Button>();
-        private bool hasWarned = false;
         private void Start() {
             var obj = GameObject.FindGameObjectWithTag("PlayerController");
             m_Split = obj.GetComponent<Split>();
@@ -43,13 +41,7 @@ namespace System {
             }
         }
         private void Update() {
-            if (m_Split != null) 
-                CheckPlayer();
-            else {
-                if (hasWarned) return;
-                throw new WarningException("PlayerController might be missing or not have the right tag!");
-                hasWarned = true;
-            }
+            CheckPlayer();
         }
         void CheckPlayer() {
             var count = 0;
@@ -66,7 +58,7 @@ namespace System {
         }
         private void Reset() {
             for (int i = 0; i < buttons.Count; i++) {
-                buttons[i].Reset();
+                buttons[i].active = false;
             }
             m_Split.SpawnClone(0, m_Split.mainClones, m_StartPos);
         }

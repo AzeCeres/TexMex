@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4727770667984326504}
   - component: {fileID: 6144788197143073595}
+  - component: {fileID: 7337539777969383863}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: SceneManager
@@ -45,3 +46,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   excludedButtons: []
+--- !u!114 &7337539777969383863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4727770667984326510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb691345065466388c27b9148ad8445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 11400000, guid: d72249eaf5fa55b43bbb5713e869aa5d, type: 2}
+  audioMixer: {fileID: 24100000, guid: d5a088a7968c13748968edc42de1292d, type: 2}

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pitchLowerBound: 0.75
   pitchUpperBound: 1.75
-  audioClip: {fileID: 8300000, guid: 84958e7112f43594d9d2cc626fe8b1c9, type: 3}
+  audioClip: {fileID: 8300000, guid: 27784abd90e385a4da45c0d4425cd5ae, type: 3}
