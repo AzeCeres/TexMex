@@ -3133,6 +3133,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1024623302179866331, guid: cf78ee2c2e8551843909d0dc6c35499e, type: 3}
+      propertyPath: gamepadCursor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024623302179866331, guid: cf78ee2c2e8551843909d0dc6c35499e, type: 3}
       propertyPath: playerPreview.Array.size
       value: 3
       objectReference: {fileID: 0}

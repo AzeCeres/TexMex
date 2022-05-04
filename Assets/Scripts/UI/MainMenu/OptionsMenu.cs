@@ -19,6 +19,7 @@ public class OptionsMenu : MonoBehaviour
     [SerializeField] private GameObject[] accessibilityMenus;
     
     [SerializeField] private GameObject[] playerPreview;
+    [SerializeField] private GameObject gamepadCursor;
 
 
 
@@ -84,6 +85,7 @@ public class OptionsMenu : MonoBehaviour
         {
             i.SetActive(false);
         }
+        gamepadCursor.SetActive(false);
     }
 
     #region Accessibility Options
@@ -97,6 +99,7 @@ public class OptionsMenu : MonoBehaviour
             i.SetActive(false);
         }
         accessibilityMenus[selectedMenu].SetActive(true);
+        gamepadCursor.SetActive(true);
 
         if (selectedMenu == 1)
         {
