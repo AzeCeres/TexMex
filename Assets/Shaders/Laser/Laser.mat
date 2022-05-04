@@ -34,10 +34,14 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Laser:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 77f5975c617fb47d5a1b15d0f2fbb502, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LaserTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -57,5 +61,7 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    - _ScrollSpeed: 1
+    m_Colors:
+    - _Color: {r: 357.81622, g: 101.162704, b: 101.162704, a: 0}
   m_BuildTextureStacks: []
