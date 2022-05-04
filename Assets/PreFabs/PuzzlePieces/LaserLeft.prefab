@@ -113,6 +113,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
+  up: 0
 --- !u!120 &1042699024812887811
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -251,7 +252,7 @@ AudioSource:
   m_GameObject: {fileID: 1042699024812887820}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 7223503633340058956, guid: d5a088a7968c13748968edc42de1292d, type: 2}
   m_audioClip: {fileID: 8300000, guid: 8278e947d841af941b34afc1913de360, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.3
