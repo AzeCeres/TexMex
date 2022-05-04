@@ -83,7 +83,7 @@ MonoBehaviour:
   LoadEvent: 1
   UnloadEvent: 2
   Banks:
-  - Aztec Game
+  - Desktop/Aztec Game
   CollisionTag: 
   PreloadSamples: 0
 --- !u!114 &4836019256946830589
@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9daf1c7bbb5d49d6b5969a4d515a189d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings: {fileID: 11400000, guid: d72249eaf5fa55b43bbb5713e869aa5d, type: 2}
 --- !u!1 &5507021844962567262
 GameObject:
   m_ObjectHideFlags: 0

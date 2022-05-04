@@ -18,21 +18,38 @@ namespace Audio
         private static int _roomNumber;
         private int _numberOfClones;
 
-        private Bus _volume;
+        private Bus _masterVolume;
+        private Bus _musicVolume;
 
         private void Start()
         {
             _studioEventEmitter = GetComponent<StudioEventEmitter>();
             _split = FindObjectOfType<Split>();
             DontDestroyOnLoad(transform.parent);
-            _volume = RuntimeManager.GetBus("bus:/Master/Reverb");
+            _masterVolume = RuntimeManager.GetBus("bus:/Master");
+            _musicVolume = RuntimeManager.GetBus("bus:/Master/Music");
         }
 
         private void Update()
         {
-            _volume.setVolume(settings.musicVolume - settings.masterVolume);
+            UpdateVolume();
             UpdateCloneCount();
             UpdateRegionNumber();
+        }
+
+        private float Map(float input, float lowerInput, float upperInput, float lowerOutput, float upperOutput)
+        {
+            return ((input - lowerInput) / (upperInput - lowerInput))
+                * (upperOutput - lowerOutput) + lowerOutput;
+        }
+
+        private void UpdateVolume()
+        {
+            var masterVolume = Map(settings.masterVolume, -80f, 0f, 0f, 1f);
+            
+
+            _masterVolume.setVolume(masterVolume);
+            _musicVolume.setVolume(settings.musicVolume);
         }
 
         private void UpdateRegionNumber()
