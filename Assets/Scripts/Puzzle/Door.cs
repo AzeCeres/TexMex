@@ -34,7 +34,8 @@ namespace Puzzle {
         private void Update() {
             Open();
         }
-        private void Open(){
+        private void Open()
+        {
             if (wire == null) {
                 throw new WarningException(name + " is not connected by a wire, please connect it");
             } if (wire.active && !inverted && !wasActive || !wire.active && inverted && wasActive) {
@@ -48,7 +49,6 @@ namespace Puzzle {
         }
         private void Opened() {
             //todo Sound and Particles
-            moveAudio.PlayAudio(m_AudioSource);
             m_DoorAnimator.Play(open.name);
             if (m_DoorCollider == null) return;
             Invoke(nameof(TurnOffCollider), 0.9f);
@@ -56,8 +56,8 @@ namespace Puzzle {
             doorBeam.enabled = true;
         }
         private void Closed() {
+            print("Attempting close");
             //todo Sound and Particles
-            moveAudio.PlayAudio(m_AudioSource);
             m_DoorAnimator.Play(close.name);
             m_DoorCollider.enabled = true;
             if (doorBeam == null) return;
@@ -66,6 +66,10 @@ namespace Puzzle {
         public void TurnOffCollider() {
             if (wire.active && inverted || !wire.active && !inverted) return;
                 m_DoorCollider.enabled = false;
+        }
+
+        private void PlayDoorMoveAnimation() {
+            moveAudio.PlayAudio(m_AudioSource);
         }
     }
 }
