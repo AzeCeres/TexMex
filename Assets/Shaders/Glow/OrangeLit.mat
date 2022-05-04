@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EmissionLit
+  m_Name: OrangeLit
   m_Shader: {fileID: -6465566751694194690, guid: 5e66b0155125c1f4c8ece5e47ff7917d, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -44,5 +44,5 @@ Material:
     m_Floats:
     - _Active: 0
     m_Colors:
-    - _Color: {r: 0, g: 1.1292222, b: 0.9932426, a: 0.36862746}
+    - _Color: {r: 2.3766873, g: 0.50844556, b: 0, a: 0.36862746}
   m_BuildTextureStacks: []
