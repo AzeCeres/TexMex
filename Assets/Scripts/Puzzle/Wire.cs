@@ -2,15 +2,28 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.Tilemaps;
 namespace Puzzle {
     public class Wire : MonoBehaviour {
         [HideInInspector][CanBeNull] public Button button;
-        //[SerializeField][CanBeNull] private Wire[] wire;
         [CanBeNull] private WireConnector m_WireConnector;
+        
         public bool active;
-        // [SerializeField] private Color inActiveColor;
-        // [CanBeNull] public Color color;
         private readonly List<GameObject> m_PuzzleObjects = new List<GameObject>(), m_Buttons = new List<GameObject>();
+        
+        [CanBeNull] private Light2D light2D;
+        private TilemapRenderer wiRenderer;
+        private void Awake() {
+            wiRenderer = GetComponent<TilemapRenderer>();
+            light2D = GetComponentInChildren<Light2D>();
+        }
+        void UpdateMaterial() {
+            wiRenderer.material.SetFloat("_Active", active ? 1f : 0f);
+        }
+        void UpdateLight() {
+            light2D.enabled = active;
+        }
         private void Start() {
             GameObject[] gameObjects = UnityEngine.Object.FindObjectsOfType<GameObject>();
             foreach (var go in gameObjects) {
@@ -21,8 +34,16 @@ namespace Puzzle {
                     m_Buttons.Add(go);
                 }
             }
+            UpdateMaterial();
+            if (light2D != null) {
+                UpdateLight();
+            }
         }   
         private void Update() { 
+            UpdateMaterial();
+            if (light2D != null) {
+                UpdateLight();
+            }
             if (ActivityCheck())
                 Active();
             else
