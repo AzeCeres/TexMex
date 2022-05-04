@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Audio;
 using UnityEngine;
 
-public class PotBreaking : MonoBehaviour
+public class PotBreakingScript : MonoBehaviour
 {
     private Animator animator;
     private AudioSource audio;

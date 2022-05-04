@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7193698495972250618}
   - component: {fileID: 7193698495972250619}
   - component: {fileID: 7193698495972250616}
-  - component: {fileID: 7193698495972250617}
   - component: {fileID: 7193698495972250621}
   m_Layer: 0
   m_Name: Jug
@@ -103,20 +102,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.047290444}
   serializedVersion: 2
   m_Radius: 0.32344902
---- !u!114 &7193698495972250617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7193698495972250615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfb22d9891e4ee249a12ab3ea46cd2d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  potBreaking: {fileID: 11400000, guid: 81240f81b2b14514fa598ad587403ef2, type: 2}
-  pot_broken: {fileID: 21300000, guid: d06a9c2e485fd498eadaaf2872ff1e57, type: 3}
 --- !u!82 &7193698495972250621
 AudioSource:
   m_ObjectHideFlags: 0
