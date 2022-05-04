@@ -1,7 +1,6 @@
 using JetBrains.Annotations;
 using Player;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
 namespace Puzzle {
     public class LaserShooter : MonoBehaviour {
         // private PlayerAnimator[] cloneAnimators;
@@ -16,11 +15,14 @@ namespace Puzzle {
         [HideInInspector] [CanBeNull]public Wire wire;
         [SerializeField] private LayerMask whatToHit, playerLayer;
         [SerializeField] private bool up;
-
-        private Light2D Light2D;
-        private void Awake() {
-            Light2D = GetComponentInChildren<Light2D>();
-        }
+        // private void Awake() {
+        //     var gameObjects = FindObjectsOfType<GameObject>();
+        //     foreach (var t in gameObjects) {
+        //         if (!t.CompareTag("PlayerController"))
+        //             continue;
+        //         cloneAnimators = t.GetComponentsInChildren<PlayerAnimator>();
+        //     }
+        // }
         private void Update() {
             if (wire == null) {
                 FireLaser();
@@ -49,6 +51,7 @@ namespace Puzzle {
                 if (hit.transform.gameObject.layer == 6) {
                     var animator = hit.transform.gameObject.GetComponent<PlayerAnimator>();
                     animator.Death();
+                    
                 }
                 
                 DrawRay(startPoint.position, hit.point); 
@@ -59,14 +62,10 @@ namespace Puzzle {
         private void DrawRay(Vector2 startPos, Vector2 endPos) {
             lineRenderer.SetPosition(0, startPos);
             lineRenderer.SetPosition(1, endPos);
-            var distance = Vector2.Distance(startPos, endPos);
-            Light2D.pointLightOuterRadius = distance+0.5f;
-            Light2D.enabled = true;
         }
         private void DontDrawRay() {
             lineRenderer.SetPosition(0, startPoint.position);
             lineRenderer.SetPosition(1, startPoint.position);
-            Light2D.enabled = false;
         }
     }
 }
