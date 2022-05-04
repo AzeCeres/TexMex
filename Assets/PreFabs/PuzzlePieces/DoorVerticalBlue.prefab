@@ -166,8 +166,6 @@ MonoBehaviour:
   moveAudio: {fileID: 11400000, guid: 556120e4ddf1dbe46ac41a5e343b97ed, type: 2}
   wire: {fileID: 0}
   inverted: 1
-  light2D: {fileID: 0}
-  spriteRenderer: {fileID: 0}
 --- !u!212 &5815974282818677967
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -206,8 +204,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -786562479
+  m_SortingLayer: 2
   m_SortingOrder: 90
   m_Sprite: {fileID: -1254632694, guid: b5ad8c4bf0ccf4ff48934962a2d55e2e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

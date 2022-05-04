@@ -41,7 +41,6 @@ namespace Puzzle {
         }   
         private void Update() { 
             UpdateMaterial();
-            print(light2D == null);
             if (light2D != null) {
                 UpdateLight();
             }
