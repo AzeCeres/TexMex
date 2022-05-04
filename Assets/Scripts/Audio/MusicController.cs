@@ -1,3 +1,4 @@
+using FMOD.Studio;
 using FMODUnity;
 using Player;
 using UnityEngine;
@@ -8,6 +9,8 @@ namespace Audio
     [RequireComponent(typeof(StudioEventEmitter))]
     public class MusicController : MonoBehaviour
     {
+        [SerializeField] private SettingsController settings;
+        
         private Split _split;
 
         private StudioEventEmitter _studioEventEmitter;
@@ -15,26 +18,25 @@ namespace Audio
         private static int _roomNumber;
         private int _numberOfClones;
 
+        private Bus _volume;
+
         private void Start()
         {
             _studioEventEmitter = GetComponent<StudioEventEmitter>();
             _split = FindObjectOfType<Split>();
             DontDestroyOnLoad(transform.parent);
+            _volume = RuntimeManager.GetBus("bus:/Master/Reverb");
         }
 
         private void Update()
         {
-            _numberOfClones = 0;
-            foreach (var cloneSlot in _split.activeClones)
-            {
-                if (cloneSlot)
-                {
-                    _numberOfClones += 1;
-                }
-            }
+            _volume.setVolume(settings.musicVolume - settings.masterVolume);
+            UpdateCloneCount();
+            UpdateRegionNumber();
+        }
 
-            _studioEventEmitter.SetParameter("Clone", _numberOfClones - 1);
-
+        private void UpdateRegionNumber()
+        {
             switch (SceneManager.GetActiveScene().name)
             {
                 case "MainMenu":
@@ -53,6 +55,19 @@ namespace Audio
                     _studioEventEmitter.SetParameter("Region", 2);
                     break;
             }
+        }
+
+        private void UpdateCloneCount()
+        {
+            _numberOfClones = 0;
+            foreach (var cloneSlot in _split.activeClones)
+            {
+                if (cloneSlot)
+                {
+                    _numberOfClones += 1;
+                }
+            }
+            _studioEventEmitter.SetParameter("Clone", _numberOfClones - 1);
         }
     }
 }

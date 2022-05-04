@@ -62,6 +62,7 @@ MonoBehaviour:
     Data4: 2034494275
   Banks:
   - {fileID: -3706583784136185573}
+  - {fileID: -4974612246092023867}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -94,6 +95,24 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 1
   Labels: []
+  Exists: 1
+--- !u!114 &-4974612246092023867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Aztec Game.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Resources/Audio/Music/Desktop/Aztec Game.bank
+  Name: Desktop/Aztec Game
+  StudioPath: bank:/Aztec Game
+  lastModified: 637872580298437834
+  FileSizes: []
   Exists: 1
 --- !u!114 &-4861901389836053839
 MonoBehaviour:
@@ -134,7 +153,7 @@ MonoBehaviour:
   Path: Assets/Resources/Audio/Music/Aztec Game.bank
   Name: Aztec Game
   StudioPath: bank:/Aztec Game
-  lastModified: 637871690792766673
+  lastModified: 637872576716150610
   FileSizes: []
   Exists: 1
 --- !u!114 &-2870798975838645706
@@ -220,15 +239,17 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 4946018213431721079}
   - {fileID: -3706583784136185573}
+  - {fileID: -4974612246092023867}
   EditorEvents:
   - {fileID: -6251345330356324691}
   - {fileID: 7924742541918922256}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3706583784136185573}
+  - {fileID: -4974612246092023867}
   StringsBanks:
   - {fileID: 4946018213431721079}
-  cacheTime: 637871690792796583
+  cacheTime: 637872580298497687
   cacheVersion: 10
 --- !u!114 &564315801408519312
 MonoBehaviour:
@@ -322,7 +343,7 @@ MonoBehaviour:
   Path: Assets/Resources/Audio/Music/Aztec Game.strings.bank
   Name: Aztec Game.strings
   StudioPath: bank:/Aztec Game.strings
-  lastModified: 637871690792796583
+  lastModified: 637872576716190495
   FileSizes:
   - Name: 
     Value: 912
@@ -424,6 +445,7 @@ MonoBehaviour:
     Data4: 1548887415
   Banks:
   - {fileID: -3706583784136185573}
+  - {fileID: -4974612246092023867}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
