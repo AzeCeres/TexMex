@@ -46,15 +46,3 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Floor
-    uniqueID: 407180759
-    locked: 0
-  - name: Wall
-    uniqueID: 3508404817
-    locked: 0
-  - name: Player
-    uniqueID: 1585535059
-    locked: 0
-  - name: Other
-    uniqueID: 3535807751
-    locked: 0
