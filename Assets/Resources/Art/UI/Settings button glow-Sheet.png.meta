@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 338982d7d9e8a3e47af922bed9476a4f
+guid: e2772a1463f25499887ee3685657ba69
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,295 +116,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Settings button glow-Sheet_0
+      name: emission_logicgate_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d04d190276d4564b5a3be8659ba7aa
+      internalID: -379112047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emission_logicgate_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b1e11b8ecc54e979ba85f6abfd66c4
+      internalID: 144924285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emission_logicgate_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f382f4f164aeb43dd88c952f552a93d5
+      internalID: -571899879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emission_logicgate_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7eda9c53d0e45819162e3ed39ec9a5
+      internalID: -1451560119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emission_logicgate_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2381461212ff1409cb3124d6e2d90922
+      internalID: 441611993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emission_logicgate_5
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 225
-        height: 90
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a812b5bfcbadbe4e985a64fb982073a
-      internalID: -931535220
+      spriteID: 9b22398d0588f413e930f2badfb76e00
+      internalID: 706186270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Settings button glow-Sheet_1
+      name: emission_logicgate_6
       rect:
         serializedVersion: 2
-        x: 225
+        x: 32
         y: 0
-        width: 225
-        height: 90
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cf999b3751de1845bba431153272b21
-      internalID: -340480714
+      spriteID: 53de598e060c443b8b51b0c8384604f3
+      internalID: 2135034594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Settings button glow-Sheet_2
+      name: emission_logicgate_7
       rect:
         serializedVersion: 2
-        x: 450
+        x: 64
         y: 0
-        width: 225
-        height: 90
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 514638e54c98c34438d381da01363424
-      internalID: 422727482
+      spriteID: 245563ecc27874bb1943d607fb1ac9fc
+      internalID: -1786071140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Settings button glow-Sheet_3
+      name: emission_logicgate_8
       rect:
         serializedVersion: 2
-        x: 675
+        x: 96
         y: 0
-        width: 225
-        height: 90
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 261ef00052fb7a84a99b78a091193dc0
-      internalID: 1649757996
+      spriteID: 1b5205141b86c45fab8b66187d950838
+      internalID: -1231981959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Settings button glow-Sheet_4
+      name: emission_logicgate_9
       rect:
         serializedVersion: 2
-        x: 900
+        x: 128
         y: 0
-        width: 225
-        height: 90
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e94a6175d3987b145a7cb2a2b36af8b3
-      internalID: 790550569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Settings button glow-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 1125
-        y: 0
-        width: 225
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4c7702188990a04bb10e77b77b175cb
-      internalID: -1634618162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Settings button glow-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 0
-        width: 225
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17628a96c5ab9404781a539a200d130a
-      internalID: -1163556128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Settings button glow-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 1575
-        y: 0
-        width: 225
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 772abed31a0dc004791e69022784dae8
-      internalID: -1742724413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Settings button glow-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 1800
-        y: 0
-        width: 225
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3471164faf8917640a27283d52f85dc3
-      internalID: -1436108512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Settings button glow-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 2025
-        y: 0
-        width: 225
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e74acd2fad00e1046b497156ad7e34b6
-      internalID: -1163523032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Settings button glow-Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 2250
-        y: 0
-        width: 225
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e767b71f8fd31d45ab85799aaddd65d
-      internalID: 2057875553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Settings button glow-Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 2475
-        y: 0
-        width: 225
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28ad7f0b2e383a541adcdac9e8889174
-      internalID: -293660309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Settings button glow-Sheet_12
-      rect:
-        serializedVersion: 2
-        x: 2700
-        y: 0
-        width: 225
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb12ae5a7f9baf84b9c5c5ffc3d0005d
-      internalID: -687588833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Settings button glow-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 2925
-        y: 0
-        width: 225
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69f2dc57d231de64aa8f4555100fc8c6
-      internalID: -1215578216
+      spriteID: 8b08cbb4a2ed840b6881a51acc68148a
+      internalID: 899071504
       vertices: []
       indices: 
       edges: []
@@ -418,22 +334,22 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 098e2ab91b8734119911a8f4b86661c8, type: 3}
+      name: _Emission
+    - texture: {fileID: 2800000, guid: e12ee8a5a326c4d4d9b55626927d8d4e, type: 3}
+      name: _NormalMap
     nameFileIdTable:
-      Settings button glow-Sheet_13: -1215578216
-      Settings button glow-Sheet_0: -931535220
-      Settings button glow-Sheet_7: -1742724413
-      Settings button glow-Sheet_4: 790550569
-      Settings button glow-Sheet_1: -340480714
-      Settings button glow-Sheet_3: 1649757996
-      Settings button glow-Sheet_6: -1163556128
-      Settings button glow-Sheet_8: -1436108512
-      Settings button glow-Sheet_10: 2057875553
-      Settings button glow-Sheet_5: -1634618162
-      Settings button glow-Sheet_12: -687588833
-      Settings button glow-Sheet_11: -293660309
-      Settings button glow-Sheet_2: 422727482
-      Settings button glow-Sheet_9: -1163523032
+      emission_logicgate_6: 2135034594
+      emission_logicgate_9: 899071504
+      emission_logicgate_7: -1786071140
+      emission_logicgate_4: 441611993
+      emission_logicgate_1: 144924285
+      emission_logicgate_8: -1231981959
+      emission_logicgate_5: 706186270
+      emission_logicgate_3: -1451560119
+      emission_logicgate_2: -571899879
+      emission_logicgate_0: -379112047
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
