@@ -2673,7 +2673,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Right Shoulder
+  m_Text: Right Bumper
 --- !u!1 &2391216014180535862
 GameObject:
   m_ObjectHideFlags: 0
@@ -3153,7 +3153,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Left Shoulder
+  m_Text: Left Bumper
 --- !u!1 &2391216015445492013
 GameObject:
   m_ObjectHideFlags: 0
@@ -4234,10 +4234,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 3101283685526654823}
   m_HandleRect: {fileID: 3101283686582637858}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 100
-  m_WholeNumbers: 1
-  m_Value: 100
+  m_MinValue: -80
+  m_MaxValue: 0
+  m_WholeNumbers: 0
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -5258,10 +5258,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 3101283686926396691}
   m_HandleRect: {fileID: 3101283686336919869}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 100
-  m_WholeNumbers: 1
-  m_Value: 100
+  m_MinValue: -80
+  m_MaxValue: 0
+  m_WholeNumbers: 0
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -7295,6 +7295,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  gamepadCursor: {fileID: 0}
+  gamepadManager: {fileID: 0}
 --- !u!1 &3101283685653386854
 GameObject:
   m_ObjectHideFlags: 0
@@ -11761,9 +11763,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 3101283685531371833}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 100
-  m_WholeNumbers: 1
-  m_Value: 100
+  m_MaxValue: 1
+  m_WholeNumbers: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -12611,10 +12613,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 3101283685490048128}
   m_HandleRect: {fileID: 3101283686505298724}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 100
-  m_WholeNumbers: 1
-  m_Value: 100
+  m_MinValue: -80
+  m_MaxValue: 0
+  m_WholeNumbers: 0
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
