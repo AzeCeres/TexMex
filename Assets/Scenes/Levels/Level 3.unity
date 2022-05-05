@@ -87339,6 +87339,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2538802345800418886, guid: e6dbbca0b2e4a5b499333aa43275fc3e, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5507021844962567256, guid: e6dbbca0b2e4a5b499333aa43275fc3e, type: 3}
+      propertyPath: orthographic size
+      value: 1.5859375
+      objectReference: {fileID: 0}
     - target: {fileID: 5507021844962567259, guid: e6dbbca0b2e4a5b499333aa43275fc3e, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -95856,7 +95864,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7563796181846805703, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 2.4535866
+      value: 1.776575
       objectReference: {fileID: 0}
     - target: {fileID: 7696553080602647155, guid: 6d2e857b282fb8d44896917ac8230646, type: 3}
       propertyPath: m_LocalPosition.x
