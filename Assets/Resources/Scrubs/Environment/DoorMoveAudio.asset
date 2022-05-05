@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9284ab8264494d77892f4d0d6a22c114, type: 3}
   m_Name: DoorMoveAudio
   m_EditorClassIdentifier: 
-  pitchLowerBound: 0.75
-  pitchUpperBound: 1.25
+  pitchLowerBound: 0.5
+  pitchUpperBound: 1.5
   audioClip: {fileID: 8300000, guid: 802f39a77ba57da498dc7f6af98141ea, type: 3}
