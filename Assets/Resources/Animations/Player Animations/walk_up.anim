@@ -118,8 +118,22 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.060606062
+    functionName: PlayWalkParticle
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.3030303
     functionName: PlayFootStepAudio
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.3030303
+    functionName: PlayWalkParticle
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

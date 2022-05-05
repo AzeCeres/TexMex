@@ -13,6 +13,7 @@ public class GamepadCursor : MonoBehaviour
     [SerializeField] private float cursorSpeed = 1000f;
     [SerializeField] private RectTransform canvasRectTransform;
     [SerializeField] private float padding = 35f;
+    [SerializeField] private PlayerInput playerController;
 
     private bool previousMouseState;
     private Mouse virtualMouse;
@@ -23,6 +24,11 @@ public class GamepadCursor : MonoBehaviour
     private const string mouseScheme = "Keyboard&Mouse";
     private void OnEnable()
     {
+        Time.timeScale = 1;
+        if (playerController != null)
+        {
+            playerController.enabled = false;
+        }
         currentMouse = Mouse.current;
         if (virtualMouse == null)
         {
@@ -48,12 +54,18 @@ public class GamepadCursor : MonoBehaviour
 
     private void OnDisable()
     {
+        Time.timeScale = 0;
         if (virtualMouse !=null && virtualMouse.added)
         {
             InputSystem.RemoveDevice(virtualMouse);
         }
         InputSystem.onAfterUpdate += UpdateMotion;
         playerInput.onControlsChanged -= OnControlsChanged;
+        
+        if (playerController != null)
+        {
+            playerController.enabled = true;
+        }
     }
 
     private void UpdateMotion()
