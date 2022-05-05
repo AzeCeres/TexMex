@@ -166,8 +166,6 @@ MonoBehaviour:
   moveAudio: {fileID: 11400000, guid: 556120e4ddf1dbe46ac41a5e343b97ed, type: 2}
   wire: {fileID: 0}
   inverted: 0
-  light2D: {fileID: 0}
-  spriteRenderer: {fileID: 0}
 --- !u!61 &5458278933675575903
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -235,7 +233,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2fc388278e1c32e409b5c0e672daa640, type: 2}
+  - {fileID: 2100000, guid: 20016696e49737344a67022865914eff, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
