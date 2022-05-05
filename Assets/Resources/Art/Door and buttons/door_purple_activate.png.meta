@@ -547,6 +547,8 @@ TextureImporter:
     secondaryTextures:
     - texture: {fileID: 2800000, guid: 49e690c86a0764fc9a84302dfa9c9236, type: 3}
       name: _Emission
+    - texture: {fileID: 2800000, guid: a6b1837b7e0411349bf2090b13af8fff, type: 3}
+      name: _NormalMap
     nameFileIdTable:
       door_purple_activate_19: 1251682555
       door_purple_activate_8: -348142900
