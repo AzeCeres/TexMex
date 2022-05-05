@@ -139,6 +139,7 @@ MonoBehaviour:
     Data3: -47346016
     Data4: 1548887415
   Banks:
+  - {fileID: 9018674784640902691}
   - {fileID: 1343087790835590699}
   IsStream: 1
   Is3D: 1
@@ -314,17 +315,21 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 5032761442369400749}
   - {fileID: 1343087790835590699}
+  - {fileID: 4016643570342344734}
+  - {fileID: 9018674784640902691}
   EditorEvents:
   - {fileID: 7767833105098467665}
   - {fileID: -5036265820317852055}
-  EditorParameters: []
+  EditorParameters:
+  - {fileID: 4256676247884012617}
+  - {fileID: 706373013836303275}
   MasterBanks:
   - {fileID: 1343087790835590699}
+  - {fileID: 9018674784640902691}
   StringsBanks:
-  - {fileID: 5032761442369400749}
-  cacheTime: 637873002614392378
+  - {fileID: 4016643570342344734}
+  cacheTime: 637873569802955452
   cacheVersion: 10
 --- !u!114 &564315801408519312
 MonoBehaviour:
@@ -355,6 +360,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 120000
+--- !u!114 &706373013836303275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Clone
+  m_EditorClassIdentifier: 
+  Name: Clone
+  StudioPath: parameter:/Clone
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 1795211351
+    data2: 1266980248
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &1343087790835590699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,7 +399,7 @@ MonoBehaviour:
   Path: Assets/Resources/Audio/Music/Desktop/Aztec Game.bank
   Name: Aztec Game
   StudioPath: bank:/Aztec Game
-  lastModified: 637873002614362432
+  lastModified: 637873569802925529
   FileSizes: []
   Exists: 1
 --- !u!114 &1752261001203185075
@@ -421,6 +450,50 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &4016643570342344734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Aztec Game.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Resources/Audio/Music/Aztec Game.strings.bank
+  Name: Aztec Game.strings
+  StudioPath: bank:/Aztec Game.strings
+  lastModified: 637873489631683735
+  FileSizes:
+  - Name: 
+    Value: 912
+  Exists: 1
+--- !u!114 &4256676247884012617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Region
+  m_EditorClassIdentifier: 
+  Name: Region
+  StudioPath: parameter:/Region
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 3849462054
+    data2: 1284153453
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &4946018213431721079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -440,26 +513,6 @@ MonoBehaviour:
   FileSizes:
   - Name: 
     Value: 912
-  Exists: 1
---- !u!114 &5032761442369400749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Aztec Game.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Resources/Audio/Music/Desktop/Aztec Game.strings.bank
-  Name: Aztec Game.strings
-  StudioPath: bank:/Aztec Game.strings
-  lastModified: 637873002614392378
-  FileSizes:
-  - Name: 
-    Value: 1008
   Exists: 1
 --- !u!114 &6234142702465933926
 MonoBehaviour:
@@ -576,6 +629,7 @@ MonoBehaviour:
     Data3: 2093907353
     Data4: 2034494275
   Banks:
+  - {fileID: 9018674784640902691}
   - {fileID: 1343087790835590699}
   IsStream: 1
   Is3D: 1
@@ -668,4 +722,22 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 1
   Labels: []
+  Exists: 1
+--- !u!114 &9018674784640902691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Aztec Game.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Resources/Audio/Music/Aztec Game.bank
+  Name: Aztec Game
+  StudioPath: bank:/Aztec Game
+  lastModified: 637873489631653816
+  FileSizes: []
   Exists: 1
