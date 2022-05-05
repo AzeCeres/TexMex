@@ -59,16 +59,12 @@ namespace Puzzle {
             //todo Sound and Particles
             moveAudio.PlayAudio(m_AudioSource);
             m_DoorAnimator.Play(open.name);
-            if (m_DoorCollider == null) return;
-            Invoke(nameof(TurnOffCollider), 0.9f);
-            if (doorBeam == null) return;
         }
         private void Closed() {
             //todo Sound and Particles
             moveAudio.PlayAudio(m_AudioSource);
             m_DoorAnimator.Play(close.name);
             m_DoorCollider.enabled = true;
-            if (doorBeam == null) return;
             doorBeam.enabled = false;
         }
         public void TurnOffCollider() {
@@ -87,6 +83,9 @@ namespace Puzzle {
         }
         public void FinishedOpening() {
             opening = false;
+            if (wire.active && inverted || !wire.active && !inverted) return;
+            m_DoorCollider.enabled = false;
+            doorBeam.enabled = true;
         }
         public void FinishedClosing() {
             closing = false;

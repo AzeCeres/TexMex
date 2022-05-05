@@ -47,8 +47,8 @@ namespace System {
                 CheckPlayer();
             else {
                 if (hasWarned) return;
-                throw new WarningException("PlayerController might be missing or not have the right tag!");
                 hasWarned = true;
+                throw new WarningException("PlayerController might be missing or not have the right tag!");
             }
         }
         void CheckPlayer() {

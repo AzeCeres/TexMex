@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using JetBrains.Annotations;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.Tilemaps;
@@ -12,17 +13,19 @@ namespace Puzzle {
         public bool active;
         private readonly List<GameObject> m_PuzzleObjects = new List<GameObject>(), m_Buttons = new List<GameObject>();
         
-        [CanBeNull] private Light2D light2D;
+        [CanBeNull] private Light2D[] lights;
         private TilemapRenderer wiRenderer;
         private void Awake() {
             wiRenderer = GetComponent<TilemapRenderer>();
-            light2D = GetComponentInChildren<Light2D>();
+            lights = GetComponentsInChildren<Light2D>();
         }
         void UpdateMaterial() {
             wiRenderer.material.SetFloat("_Active", active ? 1f : 0f);
         }
         void UpdateLight() {
-            light2D.enabled = active;
+            foreach (var light in lights) {
+                light.enabled = active;
+            }
         }
         private void Start() {
             GameObject[] gameObjects = UnityEngine.Object.FindObjectsOfType<GameObject>();
@@ -35,13 +38,13 @@ namespace Puzzle {
                 }
             }
             UpdateMaterial();
-            if (light2D != null) {
+            if (lights != null) {
                 UpdateLight();
             }
         }   
         private void Update() { 
             UpdateMaterial();
-            if (light2D != null) {
+            if (lights != null) {
                 UpdateLight();
             }
             if (ActivityCheck())

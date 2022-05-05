@@ -306,14 +306,14 @@ MonoBehaviour:
   - {fileID: 1743221443831494817}
   - {fileID: 1743221443229384568}
   - {fileID: 1743221443401410191}
-  activeClones: 01000000
+  activeClones: 0100
   mainClones:
   - {fileID: 1743221443741479901}
   secondClones: []
   selectedMain: 0
   selectedSecond: 1
   alternativeControls: 1
-  maxClones: 3
+  maxClones: 2
 --- !u!114 &3188179322582227197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -729,8 +729,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.005288292, y: -0.54}
-  m_Size: {x: 0.77, y: 0.43}
+  m_Offset: {x: 0.005288292, y: -0.42}
+  m_Size: {x: 0.77, y: 0.58}
   m_Direction: 1
 --- !u!114 &2053911319
 MonoBehaviour:
@@ -747,7 +747,7 @@ MonoBehaviour:
   m_ShadowGroup: 0
   m_ComponentVersion: 1
   m_HasRenderer: 1
-  m_UseRendererSilhouette: 1
+  m_UseRendererSilhouette: 0
   m_CastsShadows: 1
   m_SelfShadows: 0
   m_ApplyToSortingLayers: 00000000
@@ -951,7 +951,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743221443741479901}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.55, y: -4.25, z: 0}
+  m_LocalPosition: {x: -0.64, y: -4.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1059,8 +1059,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.005288292, y: -0.54}
-  m_Size: {x: 0.77, y: 0.43}
+  m_Offset: {x: 0.005288292, y: -0.42}
+  m_Size: {x: 0.77, y: 0.58}
   m_Direction: 1
 --- !u!95 &1369369232
 Animator:
@@ -1206,7 +1206,7 @@ MonoBehaviour:
   m_ShadowGroup: 0
   m_ComponentVersion: 1
   m_HasRenderer: 1
-  m_UseRendererSilhouette: 1
+  m_UseRendererSilhouette: 0
   m_CastsShadows: 1
   m_SelfShadows: 0
   m_ApplyToSortingLayers: 00000000
@@ -1219,7 +1219,7 @@ MonoBehaviour:
   - {x: 0.03192766, y: -0.7838702, z: 0}
   m_ShapePathHash: -705971874
   m_Mesh: {fileID: 0}
-  m_InstanceId: -707346
+  m_InstanceId: -473916
 --- !u!1 &1743221443831494817
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,8 +1489,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.005288292, y: -0.54}
-  m_Size: {x: 0.77, y: 0.43}
+  m_Offset: {x: 0.005288292, y: -0.42}
+  m_Size: {x: 0.77, y: 0.58}
   m_Direction: 1
 --- !u!114 &1622624563
 MonoBehaviour:
@@ -1507,7 +1507,7 @@ MonoBehaviour:
   m_ShadowGroup: 0
   m_ComponentVersion: 1
   m_HasRenderer: 1
-  m_UseRendererSilhouette: 1
+  m_UseRendererSilhouette: 0
   m_CastsShadows: 1
   m_SelfShadows: 0
   m_ApplyToSortingLayers: 00000000
@@ -1789,7 +1789,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4661377102377085447}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00000059604645, y: 0, z: -10}
+  m_LocalPosition: {x: 0.00000059604645, y: 0.00000047683716, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

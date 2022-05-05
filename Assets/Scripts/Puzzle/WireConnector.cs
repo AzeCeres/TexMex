@@ -48,22 +48,21 @@ namespace Puzzle
                     foreach (var w in wires) {
                         if (w.active)
                             activeWires++;
-                        
-                        if (activeWires >= 1) {
+                        if (activeWires == wires.Count) {
+                            active = true;
                             symbols[0].material.SetFloat(s_Active, 1f );
+                            symbols[1].material.SetFloat(s_Active, 1f );
+                            GreenLight();
+                        } else if (activeWires == 1) {
+                            symbols[0].material.SetFloat(s_Active, 1f );
+                            symbols[1].material.SetFloat(s_Active, 0f );
+                            NoLight();
                         } else {
                             symbols[0].material.SetFloat(s_Active, 0f );
                             symbols[1].material.SetFloat(s_Active, 0f );
                             NoLight();
                         }
-                        if (activeWires == wires.Count)
-                        {
-                            active = true;
-                            symbols[1].material.SetFloat(s_Active, 1f );
-                            GreenLight();
-                        }
                     }
-                    
                 } else if (orGate) {
                     symbols[2].enabled = true;
                     foreach (var w in wires) {
