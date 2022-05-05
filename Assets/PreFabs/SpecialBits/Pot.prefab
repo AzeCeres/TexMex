@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 80
   m_Sprite: {fileID: 21300000, guid: 0676b9fc286374414a62fd5e839e0336, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   potBreaking: {fileID: 11400000, guid: 81240f81b2b14514fa598ad587403ef2, type: 2}
-  pot_broken: {fileID: 21300000, guid: d06a9c2e485fd498eadaaf2872ff1e57, type: 3}
+  pot_broken: {fileID: 21300000, guid: 5e80d24f48ee14556870bd7a28089765, type: 3}
 --- !u!82 &140556509812618126
 AudioSource:
   m_ObjectHideFlags: 0

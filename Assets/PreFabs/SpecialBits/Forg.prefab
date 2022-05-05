@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 940695a1ab5a74e4abead615835a52ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frogSpeed: 5
+  frogSpeed: 3
   rotateSpeed: -20
   behaviour: 0
   timer: 0

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7193698495972250619}
   - component: {fileID: 7193698495972250616}
   - component: {fileID: 7193698495972250621}
+  - component: {fileID: 4911512639405767595}
   m_Layer: 0
   m_Name: Jug
   m_TagString: Untagged
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 80
   m_Sprite: {fileID: 21300000, guid: 83323270d44484cfbb90e0e4e6157ad3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -198,3 +199,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4911512639405767595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7193698495972250615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb22d9891e4ee249a12ab3ea46cd2d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potBreaking: {fileID: 11400000, guid: 81240f81b2b14514fa598ad587403ef2, type: 2}
+  pot_broken: {fileID: 21300000, guid: 3b9fd9f1aefe94424bff85484ab3bb12, type: 3}
