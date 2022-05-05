@@ -22,6 +22,7 @@ public class OptionsMenu : MonoBehaviour
     [SerializeField] private GameObject[] playerPreview;
     [SerializeField] private GameObject gamepadCursor;
     [SerializeField] private GameObject gamepadManager;
+    [SerializeField] private Toggle randomToggle;
 
 
 
@@ -90,6 +91,7 @@ public class OptionsMenu : MonoBehaviour
         }
         gamepadCursor.SetActive(false);
         gamepadManager.SetActive(false);
+        randomToggle.isOn = settingsController.randomColor;
     }
 
     #region Accessibility Options
@@ -119,8 +121,11 @@ public class OptionsMenu : MonoBehaviour
             playerPreview[2].SetActive(true);
         }
     }
-    
 
+    public void ToggleRandomColor()
+    {
+        settingsController.randomColor = !settingsController.randomColor;
+    }
     #endregion
 
     #region Controls Options
