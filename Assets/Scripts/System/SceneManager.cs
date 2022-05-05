@@ -1,19 +1,29 @@
+using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
 using Player;
-using Puzzle;
 using UnityEngine;
+using UnityEngine.UI;
+using Button = Puzzle.Button;
+
 namespace System { 
     public class SceneManager : MonoBehaviour {
         private GameObject m_StartPos;
         private Split m_Split;
         private List<Button> buttons = new List<Button>();
         [SerializeField] [CanBeNull] private List<Button> excludedButtons = new List<Button>();
+        [SerializeField] private Image fadeImage;
+        
         private void Start() {
             var obj = GameObject.FindGameObjectWithTag("PlayerController");
             m_Split = obj.GetComponent<Split>();
             m_StartPos = obj; 
             GetAllButtons();
+            
+            if (fadeImage != null)
+            {
+                StartCoroutine(FadeFromColor());
+            }
         }
         void GetAllButtons() {
             GameObject[] gameObjects = UnityEngine.Object.FindObjectsOfType<GameObject>();
@@ -70,6 +80,20 @@ namespace System {
         }
         public void ChangeScene(int sceneIndex) {
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneIndex);
+        }
+        
+        IEnumerator FadeFromColor()
+        {
+            Color color = fadeImage.color;
+            for (float alpha = 1f; alpha > -1f; alpha -= 0.1f)
+            {
+                color.a = alpha;
+                fadeImage.color = color;
+                
+                print(color.a);
+                
+                yield return new WaitForSeconds(.1f);
+            }
         }
     }
 }
