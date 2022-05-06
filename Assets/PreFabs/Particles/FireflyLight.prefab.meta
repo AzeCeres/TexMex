@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/PreFabs/Particles/FireflyLight.prefab.meta
 guid: af4cab6e1cfb3194c8ea7403757d915d
 PrefabImporter:
+========
+guid: ed18a38a4681cd4438b7a253ec995f22
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> 2a820cf122edfabb3eeedfb0b0dac8d4087ad224:Assets/Resources/Art/Tileset/new deco/Materials.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
