@@ -6,9 +6,11 @@ using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.Tilemaps;
 namespace Puzzle {
-    public class Wire : MonoBehaviour {
-        [HideInInspector][CanBeNull] public Button button;
-        [CanBeNull] private WireConnector m_WireConnector;
+    public class Wire : MonoBehaviour
+    { 
+        //[HideInInspector]
+        [CanBeNull] public Button button;
+        [SerializeField][CanBeNull] private WireConnector m_WireConnector;
         
         public bool active;
         private readonly List<GameObject> m_PuzzleObjects = new List<GameObject>(), m_Buttons = new List<GameObject>();
@@ -83,13 +85,20 @@ namespace Puzzle {
                 if (other.gameObject != m_PuzzleObjects[i])
                     continue;
                 if (other.gameObject.TryGetComponent(out Door door)) {
-                    door.wire = this; //Not working? or not entering eachothers triggers
+                    door.wire = this;
                 } if (other.gameObject.TryGetComponent(out LaserShooter laser)) {
                     laser.wire = this;
-                } if (other.gameObject.TryGetComponent(out WireConnector wireCon))
-                {
-                    m_WireConnector = wireCon;
-                    wireCon.wires.Add(this);
+                } if (other.gameObject.TryGetComponent(out WireConnector wireCon)) {
+                    
+                    if(button == null )
+                        m_WireConnector = wireCon;
+                    else {
+                        wireCon.wires.Add(this);
+                    }
+                    if (m_WireConnector != null) {
+                        wireCon.wires.Add(this);
+                        return;
+                    }
                 }
             }
         }

@@ -132,15 +132,13 @@ namespace Player
         }
         public void KillClone(GameObject cloneToKill) {
             _mPlayerAudio.PlayCloneDeathAudio();
-
             for (int i = 0; i < clones.Length; i++) {
                 if (clones[i] != cloneToKill)
                     continue;
-                clones[i].SetActive(false);
                 activeClones[i] = false;
                 for (int j = 0; j < mainClones.Count; j++) {
                     if (mainClones[j] == cloneToKill) {
-                        mainClones.Remove(mainClones[j]); //todo//send death to animator, make the character uncontrollable during//Start animation , then have the animation call this script
+                        mainClones.Remove(mainClones[j]); 
                         if (alternativeControls && previousSelectedMain <= mainClones.Count - 1) {
                             selectedMain = previousSelectedMain;
                         }

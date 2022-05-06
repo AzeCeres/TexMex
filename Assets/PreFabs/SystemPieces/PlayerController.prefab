@@ -288,6 +288,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
+  m_Rb:
+  - {fileID: 1743221443741479899}
+  - {fileID: 1743221443831494816}
+  - {fileID: 1743221443229384551}
+  - {fileID: 1743221443401410190}
   drag: 15
 --- !u!114 &1699124790270941856
 MonoBehaviour:
@@ -306,7 +311,7 @@ MonoBehaviour:
   - {fileID: 1743221443831494817}
   - {fileID: 1743221443229384568}
   - {fileID: 1743221443401410191}
-  activeClones: 0100
+  activeClones: 01000000
   mainClones:
   - {fileID: 1743221443741479901}
   secondClones: []
