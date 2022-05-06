@@ -93,7 +93,7 @@ namespace Puzzle {
         public void FinishedClosing() {
             closing = false;
         }
-        private void PlayDoorMoveAnimation() {
+        private void PlayDoorMoveAudio() {
             moveAudio.PlayAudio(m_AudioSource);
         }
     }
