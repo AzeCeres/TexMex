@@ -30,7 +30,7 @@ namespace Player {
         }
         private void FixedUpdate() {
             foreach (var animator in m_Animators) {
-                if (animator.gameObject != m_Split.clones[m_Split.selectedMain].gameObject)
+                if (animator.gameObject != m_Split.mainClones[m_Split.selectedMain].gameObject)
                     continue;
                 if (m_Input.moveMainVector.x == 0 && m_Input.moveMainVector.y == 0) 
                     return;

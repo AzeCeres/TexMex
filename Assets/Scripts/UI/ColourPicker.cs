@@ -21,6 +21,7 @@ public class ColourPicker : MonoBehaviour
 
     public Color savedColorPickerColor;
     
+    
     void Start()
     {
         Rect = GetComponent<RectTransform>();

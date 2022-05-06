@@ -18,6 +18,9 @@ public class OptionsMenu : MonoBehaviour
     
     [SerializeField] private GameObject[] accessibilityMenus;
     
+    [SerializeField] private GameObject[] playerPreview;
+    [SerializeField] private GameObject gamepadCursor;
+
 
 
 //Ensures that the main options menu always appears first no matter what we enable or disable in the editor.
@@ -35,6 +38,7 @@ public class OptionsMenu : MonoBehaviour
             i.SetActive(false);
         }
         optionsMenus[0].SetActive(true);
+        Cursor.visible = true;
     }
 
     //Opens volume menu. Called from UI button
@@ -77,6 +81,11 @@ public class OptionsMenu : MonoBehaviour
             p.SetActive(false);
         }
         accessibilityMenus[0].SetActive(true);
+        foreach (var i in playerPreview)
+        {
+            i.SetActive(false);
+        }
+        gamepadCursor.SetActive(false);
     }
 
     #region Accessibility Options
@@ -90,6 +99,20 @@ public class OptionsMenu : MonoBehaviour
             i.SetActive(false);
         }
         accessibilityMenus[selectedMenu].SetActive(true);
+        gamepadCursor.SetActive(true);
+
+        if (selectedMenu == 1)
+        {
+            playerPreview[0].SetActive(true);
+        }
+        else if (selectedMenu == 2)
+        {
+            playerPreview[1].SetActive(true);
+        }
+        else if (selectedMenu == 3)
+        {
+            playerPreview[2].SetActive(true);
+        }
     }
     
 
@@ -163,5 +186,4 @@ public class OptionsMenu : MonoBehaviour
         settingsController.playerVolume = PlayerPrefs.GetFloat("PlayerVolume");
     }
     #endregion
-
 }

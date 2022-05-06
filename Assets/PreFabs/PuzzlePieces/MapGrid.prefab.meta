@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/PreFabs/PuzzlePieces/MapGrid.prefab.meta
 guid: 42ee88bb96228d44cb04b44e776d4a2d
+========
+guid: dffd446b7af02254bb73d3d6188ff38c
+>>>>>>>> origin/Puzzle-2:Assets/PreFabs/PuzzlePieces/NormalDoor.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

@@ -42,13 +42,11 @@ namespace Puzzle
             //todo Sound and Particles
             pressAudio.PlayAudio(m_AudioSource);
             m_Animator.Play(press.name);
-            print(press.name);
         }
         void DeActivate() {
             //todo Sound and Particles
             dePressAudio.PlayAudio(m_AudioSource);
             m_Animator.Play(dePress.name);
-            print(dePress.name);
         }
     }
 }

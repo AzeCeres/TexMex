@@ -12,9 +12,12 @@ namespace Player
         //todo remove serialize field after troubleshooting
         //[HideInInspector]
         [SerializeField] public List<GameObject> mainClones = new List<GameObject>(4);
-        [HideInInspector][SerializeField] public List<GameObject> secondClones = new List<GameObject>(2);
-        [HideInInspector][SerializeField] public int selectedMain;
-        [HideInInspector][SerializeField] public int selectedSecond = 1;
+        //[HideInInspector]
+        [SerializeField] public List<GameObject> secondClones = new List<GameObject>(2);
+        //[HideInInspector]
+        [SerializeField] public int selectedMain;
+        //[HideInInspector]
+        [SerializeField] public int selectedSecond = 1;
         private string[] test = new string[1];
         //in settings, switch alternative controls over to true to activate single stick controls
         public bool alternativeControls = true;
@@ -85,6 +88,8 @@ namespace Player
             } if (mainClones.Count-1 < selectedMain) {
                 selectedMain = mainClones.Count-1;
             }
+            if (mainClones.Count == 1)
+                 selectedMain = 0;
         }
         void AlternativeControlsCheck() {
             switch (alternativeControls) {
@@ -127,15 +132,13 @@ namespace Player
         }
         public void KillClone(GameObject cloneToKill) {
             _mPlayerAudio.PlayCloneDeathAudio();
-
             for (int i = 0; i < clones.Length; i++) {
                 if (clones[i] != cloneToKill)
                     continue;
-                clones[i].SetActive(false);
                 activeClones[i] = false;
                 for (int j = 0; j < mainClones.Count; j++) {
                     if (mainClones[j] == cloneToKill) {
-                        mainClones.Remove(mainClones[j]); //todo//send death to animator, make the character uncontrollable during//Start animation , then have the animation call this script
+                        mainClones.Remove(mainClones[j]); 
                         if (alternativeControls && previousSelectedMain <= mainClones.Count - 1) {
                             selectedMain = previousSelectedMain;
                         }
@@ -146,6 +149,14 @@ namespace Player
                         secondClones.Remove(secondClones[j]);
                     }
                 }
+            }
+        }
+        public void DeActivateClone(GameObject cloneToKill) {
+            for (int i = 0; i < clones.Length; i++) {
+                if (clones[i] != cloneToKill)
+                    continue;
+                clones[i].SetActive(false);
+                activeClones[i] = false;
             }
         }
     }

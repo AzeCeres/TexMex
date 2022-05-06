@@ -4,10 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - SceneManager
-  - PlayerController
   - Puzzle
+  - Door
   - Button
+  - PlayerController
+  - SceneManager
   layers:
   - Default
   - TransparentFX

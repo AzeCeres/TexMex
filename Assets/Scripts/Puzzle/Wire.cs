@@ -1,16 +1,34 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using JetBrains.Annotations;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.Tilemaps;
 namespace Puzzle {
-    public class Wire : MonoBehaviour {
-        [HideInInspector][CanBeNull] public Button button;
-        //[SerializeField][CanBeNull] private Wire[] wire;
-        [CanBeNull] private WireConnector m_WireConnector;
+    public class Wire : MonoBehaviour
+    { 
+        //[HideInInspector]
+        [CanBeNull] public Button button;
+        [SerializeField][CanBeNull] private WireConnector m_WireConnector;
+        
         public bool active;
-        // [SerializeField] private Color inActiveColor;
-        // [CanBeNull] public Color color;
         private readonly List<GameObject> m_PuzzleObjects = new List<GameObject>(), m_Buttons = new List<GameObject>();
+        
+        [CanBeNull] private Light2D[] lights;
+        private TilemapRenderer wiRenderer;
+        private void Awake() {
+            wiRenderer = GetComponent<TilemapRenderer>();
+            lights = GetComponentsInChildren<Light2D>();
+        }
+        void UpdateMaterial() {
+            wiRenderer.material.SetFloat("_Active", active ? 1f : 0f);
+        }
+        void UpdateLight() {
+            foreach (var light in lights) {
+                light.enabled = active;
+            }
+        }
         private void Start() {
             GameObject[] gameObjects = UnityEngine.Object.FindObjectsOfType<GameObject>();
             foreach (var go in gameObjects) {
@@ -21,8 +39,16 @@ namespace Puzzle {
                     m_Buttons.Add(go);
                 }
             }
+            UpdateMaterial();
+            if (lights != null) {
+                UpdateLight();
+            }
         }   
         private void Update() { 
+            UpdateMaterial();
+            if (lights != null) {
+                UpdateLight();
+            }
             if (ActivityCheck())
                 Active();
             else
@@ -59,13 +85,20 @@ namespace Puzzle {
                 if (other.gameObject != m_PuzzleObjects[i])
                     continue;
                 if (other.gameObject.TryGetComponent(out Door door)) {
-                    door.wire = this; //Not working? or not entering eachothers triggers
+                    door.wire = this;
                 } if (other.gameObject.TryGetComponent(out LaserShooter laser)) {
                     laser.wire = this;
-                } if (other.gameObject.TryGetComponent(out WireConnector wireCon))
-                {
-                    m_WireConnector = wireCon;
-                    wireCon.wires.Add(this);
+                } if (other.gameObject.TryGetComponent(out WireConnector wireCon)) {
+                    
+                    if(button == null )
+                        m_WireConnector = wireCon;
+                    else {
+                        wireCon.wires.Add(this);
+                    }
+                    if (m_WireConnector != null) {
+                        wireCon.wires.Add(this);
+                        return;
+                    }
                 }
             }
         }
