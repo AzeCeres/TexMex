@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Resources/Audio/Music/Aztec Game.bank.meta
+guid: ccb239cad4e9c1a4d8026c7340983464
+========
 guid: cc28a60ad008d499eb09108a4f4d9276
 folderAsset: yes
+>>>>>>>> art-import:Assets/Resources/Art/Tileset/new deco.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

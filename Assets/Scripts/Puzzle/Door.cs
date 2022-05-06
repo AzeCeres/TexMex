@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel;
 using Audio;
 using JetBrains.Annotations;
@@ -19,7 +20,7 @@ namespace Puzzle {
         private Animator m_DoorAnimator;
         private AudioSource m_AudioSource;
         private bool wasActive;
-        private Light2D light2D;
+        [CanBeNull] private Light2D light2D;
         private SpriteRenderer spriteRenderer;
 
         private void Awake() {
@@ -58,22 +59,23 @@ namespace Puzzle {
         }
         private void Opened() {
             //todo Sound and Particles
-            print("opened");
-            moveAudio.PlayAudio(m_AudioSource);
             m_DoorAnimator.Play(open.name);
+            if (m_DoorCollider == null) return;
+            Invoke(nameof(TurnOffCollider), 0.9f);
+            if (doorBeam == null) return;
+            doorBeam.enabled = true;
         }
         private void Closed() {
+            print("Attempting close");
             //todo Sound and Particles
-            print("closed");
-            moveAudio.PlayAudio(m_AudioSource);
             m_DoorAnimator.Play(close.name);
             m_DoorCollider.enabled = true;
             doorBeam.enabled = false;
         }
         public void TurnOffCollider() {
             if (wire.active && inverted || !wire.active && !inverted) return;
-            m_DoorCollider.enabled = false;
-            doorBeam.enabled = true;
+                m_DoorCollider.enabled = false;
+                doorBeam.enabled = true;
         }
         void UpdateMaterial() {
             spriteRenderer.material.SetFloat("_Active",1f);
@@ -90,6 +92,9 @@ namespace Puzzle {
         }
         public void FinishedClosing() {
             closing = false;
+        }
+        private void PlayDoorMoveAnimation() {
+            moveAudio.PlayAudio(m_AudioSource);
         }
     }
 }

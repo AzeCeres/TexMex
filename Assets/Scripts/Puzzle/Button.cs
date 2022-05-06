@@ -11,7 +11,7 @@ namespace Puzzle
         [SerializeField] private AnimationClip dePress;
         [SerializeField] private AudioVariation pressAudio;
         [SerializeField] private AudioVariation dePressAudio;
-        //public Color color;
+        public Color color;
         public bool active;
         private int m_InsideCount;
         private bool m_WasActive = false;
