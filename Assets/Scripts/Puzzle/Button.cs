@@ -73,4 +73,4 @@ namespace Puzzle
             light2D.enabled = true;
         }
     }
-}
+}   
