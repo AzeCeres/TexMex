@@ -13,7 +13,7 @@ namespace System {
         private List<Button> buttons = new List<Button>();
         [SerializeField] [CanBeNull] private List<Button> excludedButtons = new List<Button>();
         [SerializeField] private Image fadeImage;
-        
+        private bool hasWarned = false;
         private void Start() {
             var obj = GameObject.FindGameObjectWithTag("PlayerController");
             m_Split = obj.GetComponent<Split>();
@@ -51,7 +51,13 @@ namespace System {
             }
         }
         private void Update() {
-            CheckPlayer();
+            if (m_Split != null) 
+                CheckPlayer();
+            else {
+                if (hasWarned) return;
+                throw new WarningException("PlayerController might be missing or not have the right tag!");
+                hasWarned = true;
+            }
         }
         void CheckPlayer() {
             var count = 0;
@@ -68,7 +74,7 @@ namespace System {
         }
         private void Reset() {
             for (int i = 0; i < buttons.Count; i++) {
-                buttons[i].active = false;
+                buttons[i].Reset();
             }
             m_Split.SpawnClone(0, m_Split.mainClones, m_StartPos);
         }

@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/MainMenu.unity.meta
 guid: 367acbdc88785cc46bd757d5faa1e197
+========
+guid: 34c5a15334530403e8707b7336d54576
+folderAsset: yes
+>>>>>>>> art-import:Assets/Resources/Animations/Tileset Animation/new deco animations.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

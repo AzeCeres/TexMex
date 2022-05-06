@@ -1,5 +1,7 @@
 using Audio;
+using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 namespace Puzzle
 //todo // Collect colour from Accessibility settings, store colour, and have it be inheritable
 { [RequireComponent(typeof(AudioSource))]
@@ -15,10 +17,22 @@ namespace Puzzle
         private bool m_WasActive = false;
         private Animator m_Animator;
         private AudioSource m_AudioSource;
-
+        
         private void Awake() {
             m_Animator = GetComponent<Animator>();
             m_AudioSource = GetComponent<AudioSource>();
+            spriteRenderer = GetComponent<SpriteRenderer>();
+            light2D = GetComponentInChildren<Light2D>();
+        }
+        [CanBeNull] private Light2D light2D;
+        private SpriteRenderer spriteRenderer;
+
+        private void Start() {
+            UpdateMaterial();
+            LightOn();
+        }
+        void UpdateMaterial() {
+            spriteRenderer.material.SetFloat("_Active",1f);
         }
         private void OnTriggerEnter2D(Collider2D other) {
             if(!other.gameObject.CompareTag("Player")) return;
@@ -38,17 +52,27 @@ namespace Puzzle
                 DeActivate();
             m_WasActive = active;
         }
-        void Activate() {
+        private void Activate() {
             //todo Sound and Particles
             pressAudio.PlayAudio(m_AudioSource);
             m_Animator.Play(press.name);
             print(press.name);
         }
-        void DeActivate() {
+        private void DeActivate() {
             //todo Sound and Particles
             dePressAudio.PlayAudio(m_AudioSource);
             m_Animator.Play(dePress.name);
             print(dePress.name);
+        }
+        public void Reset() {
+            m_InsideCount = 0;
+            m_Animator.Play(dePress.name);
+        }
+        public void LightOff() {
+            light2D.enabled = false;
+        }
+        public void LightOn() {
+            light2D.enabled = true;
         }
     }
 }

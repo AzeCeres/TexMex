@@ -21,33 +21,33 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 229867692, guid: ab33a18c0ca714ab1afc2b42051d120e, type: 3}
-    - time: 0.05263158
+    - time: 0.04
       value: {fileID: 1810238164, guid: ab33a18c0ca714ab1afc2b42051d120e, type: 3}
-    - time: 0.10526316
+    - time: 0.08
       value: {fileID: -627271954, guid: ab33a18c0ca714ab1afc2b42051d120e, type: 3}
-    - time: 0.15789473
+    - time: 0.12
       value: {fileID: -1805051765, guid: ab33a18c0ca714ab1afc2b42051d120e, type: 3}
-    - time: 0.21052632
+    - time: 0.16
       value: {fileID: -2027532108, guid: ab33a18c0ca714ab1afc2b42051d120e, type: 3}
-    - time: 0.2631579
+    - time: 0.2
       value: {fileID: 1815679125, guid: ab33a18c0ca714ab1afc2b42051d120e, type: 3}
-    - time: 0.31578946
+    - time: 0.24
       value: {fileID: 2003393524, guid: ab33a18c0ca714ab1afc2b42051d120e, type: 3}
-    - time: 0.36842105
+    - time: 0.28
       value: {fileID: 812016150, guid: ab33a18c0ca714ab1afc2b42051d120e, type: 3}
-    - time: 0.42105263
+    - time: 0.32
       value: {fileID: 106745447, guid: ab33a18c0ca714ab1afc2b42051d120e, type: 3}
-    - time: 0.47368422
+    - time: 0.36
       value: {fileID: -2026695605, guid: ab33a18c0ca714ab1afc2b42051d120e, type: 3}
-    - time: 0.5263158
+    - time: 0.4
       value: {fileID: -461356635, guid: ab33a18c0ca714ab1afc2b42051d120e, type: 3}
-    - time: 0.57894737
+    - time: 0.44
       value: {fileID: -149584082, guid: ab33a18c0ca714ab1afc2b42051d120e, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 19
+  m_SampleRate: 25
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -79,7 +79,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.6315789
+    m_StopTime: 0.48
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -99,15 +99,29 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.16666667
+  - time: 0.08
     functionName: PlayFootStepAudio
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.6666667
+  - time: 0.08
+    functionName: PlayWalkParticle
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.32
     functionName: PlayFootStepAudio
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.32
+    functionName: PlayWalkParticle
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

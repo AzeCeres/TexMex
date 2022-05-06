@@ -26,6 +26,12 @@ public class SettingsController : ScriptableObject
     public Color player3Default;
     public Color player3Color;
     
+    //This is for random color swapping. Just a setting you can enable for fun
+    public bool randomColor;
+    public List<Color> colorList = new List<Color>();
+    
+    
+    
     //add more here as needed
 
     public Material playerOneMaterial;

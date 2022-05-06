@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
@@ -19,6 +20,9 @@ public class OptionsMenu : MonoBehaviour
     [SerializeField] private GameObject[] accessibilityMenus;
     
     [SerializeField] private GameObject[] playerPreview;
+    [SerializeField] private GameObject gamepadCursor;
+    [SerializeField] private GameObject gamepadManager;
+    [SerializeField] private Toggle randomToggle;
 
 
 
@@ -37,6 +41,8 @@ public class OptionsMenu : MonoBehaviour
             i.SetActive(false);
         }
         optionsMenus[0].SetActive(true);
+        Cursor.visible = true;
+        gamepadCursor.SetActive(false);
     }
 
     //Opens volume menu. Called from UI button
@@ -83,6 +89,9 @@ public class OptionsMenu : MonoBehaviour
         {
             i.SetActive(false);
         }
+        gamepadCursor.SetActive(false);
+        gamepadManager.SetActive(false);
+        randomToggle.isOn = settingsController.randomColor;
     }
 
     #region Accessibility Options
@@ -96,6 +105,8 @@ public class OptionsMenu : MonoBehaviour
             i.SetActive(false);
         }
         accessibilityMenus[selectedMenu].SetActive(true);
+        gamepadCursor.SetActive(true);
+        gamepadManager.SetActive(true);
 
         if (selectedMenu == 1)
         {
@@ -110,8 +121,11 @@ public class OptionsMenu : MonoBehaviour
             playerPreview[2].SetActive(true);
         }
     }
-    
 
+    public void ToggleRandomColor()
+    {
+        settingsController.randomColor = !settingsController.randomColor;
+    }
     #endregion
 
     #region Controls Options

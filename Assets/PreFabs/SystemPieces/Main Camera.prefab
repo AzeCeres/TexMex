@@ -114,6 +114,8 @@ GameObject:
   - component: {fileID: -6328494622405546217}
   - component: {fileID: -550841135098123999}
   - component: {fileID: 7022775533014282083}
+  - component: {fileID: -3991455644964485058}
+  - component: {fileID: 1815372226}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -282,11 +284,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ComponentVersion: 1
-  m_AssetsPPU: 64
+  m_AssetsPPU: 96
   m_RefResolutionX: 1920
   m_RefResolutionY: 1080
   m_CropFrame: 0
-  m_GridSnapping: 0
+  m_GridSnapping: 1
   m_UpscaleRT: 0
   m_PixelSnapping: 0
   m_CropFrameX: 0
