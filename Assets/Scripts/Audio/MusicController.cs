@@ -1,3 +1,4 @@
+using System.Collections;
 using FMOD.Studio;
 using FMODUnity;
 using Player;
@@ -21,6 +22,8 @@ namespace Audio
         private Bus _masterVolume;
         private Bus _musicVolume;
 
+        private bool _fading;
+
         private void Start()
         {
             _studioEventEmitter = GetComponent<StudioEventEmitter>();
@@ -37,6 +40,11 @@ namespace Audio
             UpdateRegionNumber();
         }
 
+        public void FadeMusic()
+        {
+            _fading = true;
+        }
+
         private float Map(float input, float lowerInput, float upperInput, float lowerOutput, float upperOutput)
         {
             return ((input - lowerInput) / (upperInput - lowerInput))
@@ -47,29 +55,29 @@ namespace Audio
         {
             var masterVolume = Map(settings.masterVolume, -80f, 0f, 0f, 1f);
             
-
             _masterVolume.setVolume(masterVolume);
             _musicVolume.setVolume(settings.musicVolume);
         }
 
         private void UpdateRegionNumber()
         {
+            if (_fading) return;
             switch (SceneManager.GetActiveScene().name)
             {
                 case "MainMenu":
                     _studioEventEmitter.Stop();
                     break;
                 case "Level 1":
-                    // _studioEventEmitter.Play();
                     _studioEventEmitter.SetParameter("Region", 0);
                     break;
                 case "Level 2":
-                    // _studioEventEmitter.Play();
                     _studioEventEmitter.SetParameter("Region", 1);
                     break;
-                case "Level 3":
-                    // _studioEventEmitter.Play();
+                case "Level 3" when !_fading:
                     _studioEventEmitter.SetParameter("Region", 2);
+                    break;
+                case "Level 3" when _fading:
+                    _studioEventEmitter.SetParameter("Region", 3);
                     break;
             }
         }

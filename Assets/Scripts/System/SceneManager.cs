@@ -89,9 +89,7 @@ namespace System {
             {
                 color.a = alpha;
                 fadeImage.color = color;
-                
-                print(color.a);
-                
+
                 yield return new WaitForSeconds(.1f);
             }
         }
