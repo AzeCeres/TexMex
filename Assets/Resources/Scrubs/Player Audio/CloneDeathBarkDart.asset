@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: CloneDeathBarkDart
   m_EditorClassIdentifier: 
   audioClips:
-  - {fileID: 8300000, guid: c16515eea45bbbf42879043a886d297f, type: 3}
   - {fileID: 8300000, guid: a73ae3fceeddc9e439af8f40a1b9d55b, type: 3}
   - {fileID: 8300000, guid: 4f93e2156dd616a4982e65d9a983bf32, type: 3}
   - {fileID: 8300000, guid: 1718e06d923ef374a98182a8627d4f05, type: 3}

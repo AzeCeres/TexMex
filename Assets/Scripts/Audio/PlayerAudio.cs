@@ -9,7 +9,6 @@ public class PlayerAudio : MonoBehaviour
     [SerializeField] private AudioVariation cloneSwitchAudio;
     [Space]
     [SerializeField] private AudioVariation cloneDeathAudio;
-    [SerializeField] private AudioVariation cloneDeathBarkLaser;
     [SerializeField] private AudioVariation cloneDeathBarkDart;
 
     private AudioSource _audioSource;

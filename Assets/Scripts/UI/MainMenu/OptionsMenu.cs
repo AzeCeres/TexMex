@@ -19,6 +19,7 @@ public class OptionsMenu : MonoBehaviour
     [SerializeField] private GameObject[] accessibilityMenus;
     
     [SerializeField] private GameObject[] playerPreview;
+    [SerializeField] private GameObject gamepadCursor;
 
 
 
@@ -37,6 +38,7 @@ public class OptionsMenu : MonoBehaviour
             i.SetActive(false);
         }
         optionsMenus[0].SetActive(true);
+        Cursor.visible = true;
     }
 
     //Opens volume menu. Called from UI button
@@ -83,6 +85,7 @@ public class OptionsMenu : MonoBehaviour
         {
             i.SetActive(false);
         }
+        gamepadCursor.SetActive(false);
     }
 
     #region Accessibility Options
@@ -96,6 +99,7 @@ public class OptionsMenu : MonoBehaviour
             i.SetActive(false);
         }
         accessibilityMenus[selectedMenu].SetActive(true);
+        gamepadCursor.SetActive(true);
 
         if (selectedMenu == 1)
         {
