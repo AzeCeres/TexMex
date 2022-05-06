@@ -321,15 +321,7 @@ MonoBehaviour:
   Path: Assets/Resources/Audio/Music/Aztec Game.bank
   Name: Aztec Game
   StudioPath: bank:/Aztec Game
-<<<<<<< HEAD
-<<<<<<< HEAD
-  lastModified: 637872592001465385
-=======
   lastModified: 637873489631653816
->>>>>>> 2a820cf122edfabb3eeedfb0b0dac8d4087ad224
-=======
-  lastModified: 637873489631653816
->>>>>>> 2a820cf122edfabb3eeedfb0b0dac8d4087ad224
   FileSizes: []
   Exists: 1
 --- !u!114 &-954494186678292329
@@ -379,15 +371,7 @@ MonoBehaviour:
   - {fileID: -1100038225171649537}
   StringsBanks:
   - {fileID: 1587906907672123476}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  cacheTime: 637874449265375425
-=======
   cacheTime: 637874509139740392
->>>>>>> 2a820cf122edfabb3eeedfb0b0dac8d4087ad224
-=======
-  cacheTime: 637874509139740392
->>>>>>> 2a820cf122edfabb3eeedfb0b0dac8d4087ad224
   cacheVersion: 10
 --- !u!114 &564315801408519312
 MonoBehaviour:
@@ -433,15 +417,7 @@ MonoBehaviour:
   Path: Assets/Resources/Audio/Music/Desktop/Aztec Game.bank
   Name: Aztec Game
   StudioPath: bank:/Aztec Game
-<<<<<<< HEAD
-<<<<<<< HEAD
-  lastModified: 637874449265335411
-=======
   lastModified: 637874509139740392
->>>>>>> 2a820cf122edfabb3eeedfb0b0dac8d4087ad224
-=======
-  lastModified: 637874509139740392
->>>>>>> 2a820cf122edfabb3eeedfb0b0dac8d4087ad224
   FileSizes: []
   Exists: 1
 --- !u!114 &1587906907672123476
@@ -459,15 +435,7 @@ MonoBehaviour:
   Path: Assets/Resources/Audio/Music/Aztec Game.strings.bank
   Name: Aztec Game.strings
   StudioPath: bank:/Aztec Game.strings
-<<<<<<< HEAD
-<<<<<<< HEAD
-  lastModified: 637872592001495386
-=======
   lastModified: 637873489631683735
->>>>>>> 2a820cf122edfabb3eeedfb0b0dac8d4087ad224
-=======
-  lastModified: 637873489631683735
->>>>>>> 2a820cf122edfabb3eeedfb0b0dac8d4087ad224
   FileSizes:
   - Name: 
     Value: 912
