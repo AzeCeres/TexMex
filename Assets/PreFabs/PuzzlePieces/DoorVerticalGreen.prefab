@@ -166,6 +166,9 @@ MonoBehaviour:
   moveAudio: {fileID: 11400000, guid: 556120e4ddf1dbe46ac41a5e343b97ed, type: 2}
   wire: {fileID: 0}
   inverted: 0
+  m_Open: 0
+  opening: 0
+  closing: 0
 --- !u!61 &5458278933675575903
 BoxCollider2D:
   m_ObjectHideFlags: 0

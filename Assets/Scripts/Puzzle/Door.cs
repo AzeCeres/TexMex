@@ -10,15 +10,16 @@ namespace Puzzle {
         [SerializeField] private AnimationClip open;
         [SerializeField] private AnimationClip close;
         [SerializeField] private AudioVariation moveAudio;
-        [HideInInspector][CanBeNull] public Wire wire;
-        [CanBeNull] private SpriteRenderer doorBeam;
+        //[HideInInspector]
+        [CanBeNull] public Wire wire;
+        private SpriteRenderer doorBeam;
         public bool inverted;
-        private bool m_Open = false, opening = false, closing = false;
+        [SerializeField]private bool m_Open = false, opening = false, closing = false;
         private BoxCollider2D m_DoorCollider;
         private Animator m_DoorAnimator;
         private AudioSource m_AudioSource;
         private bool wasActive;
-        [CanBeNull] private Light2D light2D;
+        private Light2D light2D;
         private SpriteRenderer spriteRenderer;
 
         private void Awake() {
@@ -57,11 +58,13 @@ namespace Puzzle {
         }
         private void Opened() {
             //todo Sound and Particles
+            print("opened");
             moveAudio.PlayAudio(m_AudioSource);
             m_DoorAnimator.Play(open.name);
         }
         private void Closed() {
             //todo Sound and Particles
+            print("closed");
             moveAudio.PlayAudio(m_AudioSource);
             m_DoorAnimator.Play(close.name);
             m_DoorCollider.enabled = true;
@@ -83,9 +86,7 @@ namespace Puzzle {
         }
         public void FinishedOpening() {
             opening = false;
-            if (wire.active && inverted || !wire.active && !inverted) return;
-            m_DoorCollider.enabled = false;
-            doorBeam.enabled = true;
+            TurnOffCollider();
         }
         public void FinishedClosing() {
             closing = false;
