@@ -34,7 +34,6 @@ namespace Player {
                     continue;
                 if (m_Input.moveMainVector.x == 0 && m_Input.moveMainVector.y == 0) 
                     return;
-                animator.UpdateAnimator(m_Input.moveMainVector);
             }
             m_Movement.MoveMain(m_Input.moveMainVector);
             m_Movement.MoveSecond(m_Input.moveSecondVector);
