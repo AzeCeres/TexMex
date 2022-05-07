@@ -1,4 +1,3 @@
-using System;
 using System.ComponentModel;
 using Audio;
 using JetBrains.Annotations;
@@ -66,7 +65,6 @@ namespace Puzzle {
             doorBeam.enabled = true;
         }
         private void Closed() {
-            print("Attempting close");
             //todo Sound and Particles
             m_DoorAnimator.Play(close.name);
             m_DoorCollider.enabled = true;
