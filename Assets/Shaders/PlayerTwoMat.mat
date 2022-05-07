@@ -54,7 +54,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Color: {r: 0.09803922, g: 0.09803922, b: 0.09803922, a: 0.8862745}
+    - _Color: {r: 0.9490196, g: 0.9490196, b: 0.9490196, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
