@@ -62,21 +62,21 @@ namespace Audio
         private void UpdateRegionNumber()
         {
             if (_fading) return;
-            switch (SceneManager.GetActiveScene().name)
+            switch (SceneManager.GetActiveScene().buildIndex)
             {
-                case "MainMenu":
+                case 0:
                     _studioEventEmitter.Stop();
                     break;
-                case "Level 1":
+                case 1:
                     _studioEventEmitter.SetParameter("Region", 0);
                     break;
-                case "Level 2":
+                case 2:
                     _studioEventEmitter.SetParameter("Region", 1);
                     break;
-                case "Level 3" when !_fading:
+                case 3 when !_fading:
                     _studioEventEmitter.SetParameter("Region", 2);
                     break;
-                case "Level 3" when _fading:
+                case 3 when _fading:
                     _studioEventEmitter.SetParameter("Region", 3);
                     break;
             }
