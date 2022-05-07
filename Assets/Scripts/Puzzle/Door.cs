@@ -21,6 +21,7 @@ namespace Puzzle {
         private bool wasActive;
         [CanBeNull] private Light2D light2D;
         private SpriteRenderer spriteRenderer;
+        [SerializeField] private ParticleSystem openParticles, closeParticles, openingParticles, closingParticles;
 
         private void Awake() {
             spriteRenderer = GetComponent<SpriteRenderer>();
@@ -90,6 +91,24 @@ namespace Puzzle {
         }
         public void FinishedClosing() {
             closing = false;
+        }
+        public void PlayOpeningParticles()
+        {
+            openingParticles.Play();
+        }
+        public void PlayClosingParticles()
+        {
+            closingParticles.Play();
+        }
+        public void PlayCloseParticles()
+        {
+            closeParticles.Play();
+            closingParticles.Stop();
+        }
+        public void PlayOpenParticles()
+        {
+            openParticles.Play();
+            openingParticles.Stop();
         }
         private void PlayDoorMoveAudio() {
             moveAudio.PlayAudio(m_AudioSource);

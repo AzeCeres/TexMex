@@ -17,7 +17,8 @@ namespace Puzzle
         private bool m_WasActive = false;
         private Animator m_Animator;
         private AudioSource m_AudioSource;
-        
+        [SerializeField] private ParticleSystem buttonParticles;
+
         private void Awake() {
             m_Animator = GetComponent<Animator>();
             m_AudioSource = GetComponent<AudioSource>();
@@ -71,6 +72,10 @@ namespace Puzzle
         }
         public void LightOn() {
             light2D.enabled = true;
+        }
+        public void PlayParticle()
+        {
+            buttonParticles.Play();
         }
     }
 }   

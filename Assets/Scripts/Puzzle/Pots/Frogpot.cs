@@ -11,6 +11,7 @@ public class Frogpot : MonoBehaviour
     [SerializeField] private AudioVariation potBreaking;
     private bool broken = false;
     [SerializeField] private GameObject forg;
+    [SerializeField] private ParticleSystem potSmoke;
    
 
 
@@ -30,6 +31,7 @@ public class Frogpot : MonoBehaviour
             if (broken == false)
             {
                 potBreaking.PlayAudio(audio);
+                potSmoke.Play();
                 Instantiate(forg, transform.position, Quaternion.identity);
             }
             broken = true;
