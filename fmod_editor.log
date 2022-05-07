@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 00000242584E1B58 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000216D9D330F8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -21,6 +21,314 @@
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000216DE3C3F08
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000216DE3C3F08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000216DE3C0758
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000216DE3C0758
+[LOG] SystemI::createSound                     : filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 00000213C9A480A8 : node = 00000216DE0E4450
+[LOG] SystemI::createSound                     : add node to async list : head = 00000216DA60DC48.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000213C9A480A8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000216DE0E4560
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000216DE3C71A8 : node = 000002162C9F50C0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000216DA60DC48.  list count = 0
+[LOG] SystemI::createSound                     :     filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000216DE3CCCC8 : node = 000002162521EFA0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000216DA60DC48.  list count = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_room1', format=5, channels=2, frequency=48000, lengthbytes=395808, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000213C9A480A8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000216DE3C71A8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002162C9F51D0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_mallets_room1', format=5, channels=2, frequency=48000, lengthbytes=430528, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000216DE3C71A8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000216DE3CCCC8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002162521F0B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_mallets_room1_delay2', format=5, channels=2, frequency=48000, lengthbytes=455360, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000216DE3CCCC8
+[LOG] SoundI::release                          : aztecXDXD_mallets_room1_delay2 (00000216D3B25FB8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1_delay2 (00000215FEAB7BB8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1_delay2 (00000216DE3C3188)
+[LOG] SoundI::release                          : aztecXDXD_mallets_room1 (00000216D3B26828)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1 (00000215FEAB7A18)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1 (00000216DE3C3F08)
+[LOG] SoundI::release                          : aztecXDXD_room1 (00000216D3B25C58)
+[LOG] SoundI::release                          :     aztecXDXD_room1 (00000215FEAB7058)
+[LOG] SoundI::release                          :     aztecXDXD_room1 (00000216DE3C0758)
+[LOG] SystemI::createSound                     : filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000002162CF6F978 : node = 00000216DA74C820
+[LOG] SystemI::createSound                     : add node to async list : head = 00000216DA60DC48.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002162CF6F978
+[LOG] SystemI::createSound                     : filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSound                     :     setdata soundi = 000002162CF6E898 : node = 000002160128DA60
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000216DA60DC48.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000216DA74C930
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 000002162CF6E1D8 : node = 000002160128D060
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000216DA60DC48.  list count = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_room1', format=5, channels=2, frequency=48000, lengthbytes=395808, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002162CF6F978
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002162CF6E898
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002160128DB70
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_mallets_room1', format=5, channels=2, frequency=48000, lengthbytes=430528, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002162CF6E898
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002162CF6E1D8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002160128D170
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_mallets_room1_delay2', format=5, channels=2, frequency=48000, lengthbytes=455360, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002162CF6E1D8
+[LOG] SoundI::release                          : aztecXDXD_mallets_room1_delay2 (00000216DE3CCCC8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1_delay2 (000002162CA33778)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1_delay2 (00000213C9A47D48)
+[LOG] SoundI::release                          : aztecXDXD_mallets_room1 (00000216DE3C71A8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1 (000002162CA328D8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1 (00000213C9A479E8)
+[LOG] SoundI::release                          : aztecXDXD_room1 (00000213C9A480A8)
+[LOG] SoundI::release                          :     aztecXDXD_room1 (000002162CA32DB8)
+[LOG] SoundI::release                          :     aztecXDXD_room1 (00000213C9A47838)
+[LOG] SystemI::createSound                     : filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000002162CF6FCD8 : node = 000002160128D2E0
+[LOG] SystemI::createSound                     : add node to async list : head = 00000216DA60DC48.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002162CF6FCD8
+[LOG] SystemI::createSound                     : filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     setdata soundi = 000002162CF6E028 : node = 000002160128DCE0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000216DA60DC48.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002160128D3F0
+[LOG] SystemI::createSound                     :     filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     setdata soundi = 000002162CF6E6E8 : node = 000002160128D7E0
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000216DA60DC48.  list count = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_room1', format=5, channels=2, frequency=48000, lengthbytes=395808, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002162CF6FCD8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002162CF6E028
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002160128DDF0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_mallets_room1', format=5, channels=2, frequency=48000, lengthbytes=430528, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002162CF6E028
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002162CF6E6E8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002160128D8F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_mallets_room1_delay2', format=5, channels=2, frequency=48000, lengthbytes=455360, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002162CF6E6E8
+[LOG] SoundI::release                          : aztecXDXD_mallets_room1_delay2 (000002162CF6E1D8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1_delay2 (000002162C526338)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1_delay2 (00000216DDF55328)
+[LOG] SoundI::release                          : aztecXDXD_mallets_room1 (000002162CF6E898)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1 (000002162C5279F8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1 (00000216DDF565B8)
+[LOG] SoundI::release                          : aztecXDXD_room1 (000002162CF6F978)
+[LOG] SoundI::release                          :     aztecXDXD_room1 (000002162C522238)
+[LOG] SoundI::release                          :     aztecXDXD_room1 (00000216DDF54FC8)
+[LOG] SystemI::createSound                     : filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 00000216DDF54758 : node = 0000021414F8EA20
+[LOG] SystemI::createSound                     : add node to async list : head = 00000216DA60DC48.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000216DDF54758
+[LOG] SystemI::createSound                     : filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000216DDF55EF8 : node = 0000021414F8D8A0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000216DA60DC48.  list count = 0
+[LOG] SystemI::createSound                     :     filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     setdata soundi = 00000216DDF54FC8 : node = 0000021625F76A90
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000216DA60DC48.  list count = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000021414F8EB30
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_room1', format=5, channels=2, frequency=48000, lengthbytes=395808, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000216DDF54758
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000216DDF55EF8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000021414F8D9B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_mallets_room1', format=5, channels=2, frequency=48000, lengthbytes=430528, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000216DDF55EF8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000216DDF54FC8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000021625F76BA0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_mallets_room1_delay2', format=5, channels=2, frequency=48000, lengthbytes=455360, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000216DDF54FC8
+[LOG] SoundI::release                          : aztecXDXD_mallets_room1_delay2 (000002162CF6E6E8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1_delay2 (000002162C5283B8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1_delay2 (00000216DDF54248)
+[LOG] SoundI::release                          : aztecXDXD_mallets_room1 (000002162CF6E028)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1 (000002162C5298D8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1 (00000216DDF55B98)
+[LOG] SoundI::release                          : aztecXDXD_room1 (000002162CF6FCD8)
+[LOG] SoundI::release                          :     aztecXDXD_room1 (000002162C529738)
+[LOG] SoundI::release                          :     aztecXDXD_room1 (00000216DDF554D8)
+[LOG] SystemI::createSound                     : filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 00000216DDF55B98 : node = 0000021414DEE590
+[LOG] SystemI::createSound                     : add node to async list : head = 00000216DA60DC48.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000216DDF55B98
+[LOG] SystemI::createSound                     : filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     setdata soundi = 00000216DDF554D8 : node = 00000213CF149440
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000216DA60DC48.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     filename = Assets/Resources/Audio/Music/Aztec Game.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000021414DEE6A0
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 00000216DDF55688 : node = 00000213CF148F40
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000216DA60DC48.  list count = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_room1', format=5, channels=2, frequency=48000, lengthbytes=395808, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000216DDF55B98
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000216DDF554D8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000213CF149550
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_mallets_room1', format=5, channels=2, frequency=48000, lengthbytes=430528, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000216DDF554D8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000216DDF55688
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Resources/Audio/Music/Aztec Game.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5537472
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34496
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000213CF149050
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='aztecXDXD_mallets_room1_delay2', format=5, channels=2, frequency=48000, lengthbytes=455360, lengthpcm=1536000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000216DDF55688
+[LOG] SoundI::release                          : aztecXDXD_mallets_room1_delay2 (00000216DDF54FC8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1_delay2 (000002162C528898)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1_delay2 (00000216DDF565B8)
+[LOG] SoundI::release                          : aztecXDXD_mallets_room1 (00000216DDF55EF8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1 (000002162C5286F8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1 (00000216DDF56408)
+[LOG] SoundI::release                          : aztecXDXD_room1 (00000216DDF54758)
+[LOG] SoundI::release                          :     aztecXDXD_room1 (000002162C529F58)
+[LOG] SoundI::release                          :     aztecXDXD_room1 (00000216DDF55328)
+[LOG] SoundI::release                          : aztecXDXD_mallets_room1_delay2 (00000216DDF55688)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1_delay2 (000002162C67A0A8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1_delay2 (00000213C9A480A8)
+[LOG] SoundI::release                          : aztecXDXD_mallets_room1 (00000216DDF554D8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1 (000002162C67ADA8)
+[LOG] SoundI::release                          :     aztecXDXD_mallets_room1 (00000213C9A48408)
+[LOG] SoundI::release                          : aztecXDXD_room1 (00000216DDF55B98)
+[LOG] SoundI::release                          :     aztecXDXD_room1 (000002162C67AA68)
+[LOG] SoundI::release                          :     aztecXDXD_room1 (00000213C9A47D48)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -28,3 +336,5 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
