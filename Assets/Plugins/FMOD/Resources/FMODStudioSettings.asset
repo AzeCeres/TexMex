@@ -296,7 +296,6 @@ MonoBehaviour:
   Plugins: []
   MasterBanks:
   - Aztec Game
-  - Aztec Game
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1042699024812887811}
   - component: {fileID: 3541490310080822509}
   - component: {fileID: -2061931911077841782}
+  - component: {fileID: 7413876241516571407}
   m_Layer: 2
   m_Name: LaserLeft
   m_TagString: Puzzle
@@ -367,6 +368,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!58 &7413876241516571407
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042699024812887820}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.12}
+  serializedVersion: 2
+  m_Radius: 0.41
 --- !u!1 &1042699025979740187
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,7 +454,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1422999675222708148}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
@@ -445,9 +462,9 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.836
+  m_FalloffIntensity: 0.249
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 6
+  m_Intensity: 2
   m_LightVolumeIntensity: 0.23
   m_LightVolumeIntensityEnabled: 1
   m_ApplyToSortingLayers: 00000000d715451851021ed15358815e0725c0d2
@@ -494,10 +511,10 @@ MonoBehaviour:
   m_LocalBounds:
     m_Center: {x: 0, y: -0.00000011920929, z: 0}
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
-  m_PointLightInnerAngle: 2.3270845
-  m_PointLightOuterAngle: 3.956067
+  m_PointLightInnerAngle: 0
+  m_PointLightOuterAngle: 2
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 100
+  m_PointLightOuterRadius: 22.7
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
