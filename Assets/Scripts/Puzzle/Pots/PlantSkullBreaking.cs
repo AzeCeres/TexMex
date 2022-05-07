@@ -9,6 +9,7 @@ public class PlantSkullBreaking : MonoBehaviour
     private AudioSource audio;
     [SerializeField] private AudioVariation potBreaking;
     private bool broken = false;
+    [SerializeField] private ParticleSystem potSmoke;
    
 
 
@@ -26,6 +27,7 @@ public class PlantSkullBreaking : MonoBehaviour
             
             if (broken == false)
             {
+                potSmoke.Play();
                 potBreaking.PlayAudio(audio);
             }
             broken = true;
