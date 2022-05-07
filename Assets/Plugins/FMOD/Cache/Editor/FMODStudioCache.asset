@@ -1,8 +1,11 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &-7374297872641484771
 =======
+=======
+>>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
 --- !u!114 &-9129815580149802312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28,6 +31,9 @@ MonoBehaviour:
   Labels: []
   Exists: 1
 --- !u!114 &-7432426907343171038
+<<<<<<< HEAD
+>>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
+=======
 >>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47,8 +53,11 @@ MonoBehaviour:
   FileSizes: []
   Exists: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &-7022867369215387063
 =======
+=======
+>>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
 --- !u!114 &-6251345330356324691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,6 +89,9 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 120000
 --- !u!114 &-5648690456194468337
+<<<<<<< HEAD
+>>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
+=======
 >>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,10 +103,13 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: parameter:/LEVEL 2/Clone
   m_EditorClassIdentifier: 
   Name: Clone
 =======
+=======
+>>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
   m_Name: parameter:/LEVEL 1/Region
   m_EditorClassIdentifier: 
   Name: Region
@@ -108,9 +123,10 @@ MonoBehaviour:
     data1: 1795211351
     data2: 1266980248
   Type: 1
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
+<<<<<<< HEAD
 --- !u!114 &-4686858694643234378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,6 +181,9 @@ MonoBehaviour:
   Exists: 1
 --- !u!114 &-5192091655426030896
 >>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
+=======
+--- !u!114 &-5192091655426030896
+>>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -189,9 +208,108 @@ MonoBehaviour:
   Labels: []
   Exists: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &-404522223373021467
 =======
 --- !u!114 &-5036265820317852055
+>>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
+=======
+--- !u!114 &-5036265820317852055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Aztec Game/LEVEL 1
+  m_EditorClassIdentifier: 
+  Path: event:/Aztec Game/LEVEL 1
+  Guid:
+    Data1: -912737064
+    Data2: 1129515063
+    Data3: -47346016
+    Data4: 1548887415
+  Banks:
+  - {fileID: 1343087790835590699}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6893555707278565641}
+  - {fileID: -5192091655426030896}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 120000
+--- !u!114 &-4974612246092023867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Aztec Game.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Resources/Audio/Music/Desktop/Aztec Game.bank
+  Name: Desktop/Aztec Game
+  StudioPath: bank:/Aztec Game
+  lastModified: 637872580298437834
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4861901389836053839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LEVEL 2/Clone
+  m_EditorClassIdentifier: 
+  Name: Clone
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 1795211351
+    data2: 1266980248
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4817660059867439131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LEVEL 2/Region
+  m_EditorClassIdentifier: 
+  Name: Region
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 3849462054
+    data2: 1284153453
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3706583784136185573
 >>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,10 +400,17 @@ MonoBehaviour:
   Path: Assets/Resources/Audio/Music/Desktop/Aztec Game.bank
   Name: Desktop/Aztec Game
   StudioPath: bank:/Aztec Game
+<<<<<<< HEAD
   lastModified: 637872580298437834
   FileSizes: []
   Exists: 1
 --- !u!114 &-4861901389836053839
+=======
+  lastModified: 637872576716150610
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-2870798975838645706
+>>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -295,6 +420,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+<<<<<<< HEAD
   m_Name: parameter:/LEVEL 2/Clone
   m_EditorClassIdentifier: 
   Name: Clone
@@ -320,6 +446,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/LEVEL 2/Region
+=======
+  m_Name: parameter:/LEVEL 1/Region
+>>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
   m_EditorClassIdentifier: 
   Name: Region
   StudioPath: 
@@ -331,6 +460,7 @@ MonoBehaviour:
     data2: 1284153453
   Type: 1
   IsGlobal: 0
+<<<<<<< HEAD
   Labels: []
   Exists: 1
 --- !u!114 &-3706583784136185573
@@ -375,6 +505,8 @@ MonoBehaviour:
     data2: 1266980248
   Type: 1
   IsGlobal: 1
+=======
+>>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
   Labels: []
   Exists: 1
 --- !u!114 &4429018497182910577
@@ -855,4 +987,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+<<<<<<< HEAD
+>>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
+=======
 >>>>>>> 68e29cad4a91de86c5074e5cb8b436c048b9b35c
