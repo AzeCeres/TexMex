@@ -57,10 +57,18 @@ namespace Puzzle {
             }
         }
         private void DrawRay(Vector2 startPos, Vector2 endPos) {
-            lineRenderer.SetPosition(0, startPos);
-            lineRenderer.SetPosition(1, endPos);
             var distance = Vector2.Distance(startPos, endPos);
-            Light2D.pointLightOuterRadius = distance+0.5f;
+            if (up && startPos.y < endPos.y) {
+                lineRenderer.SetPosition(0, startPos);
+                lineRenderer.SetPosition(1, endPos + new Vector2(0, 0.5f));
+                Light2D.pointLightOuterRadius = distance+1f;
+            }else {
+                lineRenderer.SetPosition(0, startPos);
+                lineRenderer.SetPosition(1, endPos);
+                Light2D.pointLightOuterRadius = distance+0.5f;
+            }
+            
+            
             Light2D.enabled = true;
         }
         private void DontDrawRay() {
