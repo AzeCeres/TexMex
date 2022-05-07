@@ -37,97 +37,25 @@ namespace Player {
             
             StateCheck();
         }
-        public void UpdateAnimator(Vector2 moVector) {
-            if (dead) return;
-            // var localVel = transform.InverseTransformDirection(m_RigidBody.velocity);
-            m_Animator.SetFloat("moveX", moVector.x);
-            m_Animator.SetFloat("moveY", moVector.y);
-        }
-        private void StateCheck() {
-            switch (states) {
-                case State.Idle:
-                    Idle();
-                    break;
-                case State.Walk:
-                    Walk();
-                    break;
-            }
-            void Idle() {
-                m_Animator.Play("Idle"); //todo // change to hashing
-                if (!(m_RigidBody.velocity.magnitude > 0.4f)) return;
-                states = State.Walk;
-            }
-            void Walk() {
-                m_Animator.Play("Walk");
-                if (!(m_RigidBody.velocity.magnitude < 0.4f)) return;
-                states = State.Idle;
-            }
-            //DirectionCheck(states);
+        
+        private void StateCheck()
+        {
+            states = m_RigidBody.velocity.magnitude < 0.4f ? State.Idle : State.Walk;
+            DirectionCheck(states);
         }
         private void DirectionCheck(State state) {
             var localVel = transform.InverseTransformDirection(m_RigidBody.velocity);
-            switch (directions) {
-                case Direction.Up:
-                    Up();
-                    break;
-                case Direction.Down:
-                    Down();
-                    break;
-                case Direction.Left:
-                    Left();
-                    break;
-                case Direction.Right:
-                    Right();
-                    break;
-            }
-            void Up() {
-                if (localVel.y >= minSpeedToChange && localVel.y >= Mathf.Abs(localVel.x)) {
+            
+            if (localVel.y >= minSpeedToChange && localVel.y >= Mathf.Abs(localVel.x)) {
                     directions = Direction.Up;
-                } else if (localVel.y <= -minSpeedToChange && -localVel.y >= Mathf.Abs(localVel.x)) {
-                    directions = Direction.Down;
-                } else if (-localVel.x >= minSpeedToChange && -localVel.x >= Mathf.Abs(localVel.y)) {
-                    directions = Direction.Left;
-                } else if (localVel.x >= minSpeedToChange && localVel.x >= Mathf.Abs(localVel.y)) {
-                    directions = Direction.Right;
-                }
-                PlayAnimation(state, directions);
+            } else if (localVel.y <= -minSpeedToChange && -localVel.y >= Mathf.Abs(localVel.x)) {
+                directions = Direction.Down;
+            } else if (-localVel.x >= minSpeedToChange && -localVel.x >= Mathf.Abs(localVel.y)) {
+                directions = Direction.Left;
+            } else if (localVel.x >= minSpeedToChange && localVel.x >= Mathf.Abs(localVel.y)) {
+                directions = Direction.Right;
             }
-            void Down() {
-                if (-localVel.y >= minSpeedToChange && -localVel.y >= Mathf.Abs(localVel.x)) {
-                    directions = Direction.Down;
-                } else if (localVel.y >= minSpeedToChange && localVel.y >= Mathf.Abs(localVel.x)) {
-                    directions = Direction.Up;  
-                } else if (-localVel.x >= minSpeedToChange && -localVel.x >= Mathf.Abs(localVel.y)) {
-                    directions = Direction.Left;
-                } else if (localVel.x >= minSpeedToChange && localVel.x >= Mathf.Abs(localVel.y)) {
-                    directions = Direction.Right;
-                }
-                PlayAnimation(state, directions);
-            }
-            void Left() {
-                if (-localVel.x >= minSpeedToChange && -localVel.x >= Mathf.Abs(localVel.y)) {
-                    directions = Direction.Left;
-                } if (localVel.y >= minSpeedToChange && localVel.y >= Mathf.Abs(localVel.x)) {
-                    directions = Direction.Up;
-                } else if (-localVel.y >= minSpeedToChange && -localVel.y >= Mathf.Abs(localVel.x)) {
-                    directions = Direction.Down;
-                } else if (localVel.x >= minSpeedToChange && localVel.x >= Mathf.Abs(localVel.y)) {
-                    directions = Direction.Right;
-                }   
-                PlayAnimation(state, directions);
-            }
-            void Right() {
-                if (localVel.x >= minSpeedToChange && localVel.x >= Mathf.Abs(localVel.y)) {
-                    directions = Direction.Right;
-                }else if (localVel.y >= minSpeedToChange && localVel.y >= Mathf.Abs(localVel.x)) {
-                    directions = Direction.Up;
-                }else if (-localVel.y >= minSpeedToChange && -localVel.y >= Mathf.Abs(localVel.x)) {
-                    directions = Direction.Down;
-                }else if (-localVel.x >= minSpeedToChange && -localVel.x >= Mathf.Abs(localVel.y)) {
-                    directions = Direction.Left;
-                }
-                PlayAnimation(state, directions);
-            }
+            PlayAnimation(state, directions);
         }
         private void PlayAnimation(State state, Direction direction) {
             if (dead) return;
@@ -137,32 +65,32 @@ namespace Player {
                 case State.Idle:
                     switch (direction) {
                         case Direction.Up:
-                            m_Animator.Play("player_idle_up");
+                            m_Animator.Play("idle_up");
                             break;
                         case Direction.Down:
-                            m_Animator.Play("player_idle_down");
+                            m_Animator.Play("idle_down");
                             break;
                         case Direction.Left:
-                            m_Animator.Play("player_idle_left");
+                            m_Animator.Play("idle_left");
                             break;
                         case Direction.Right:
-                            m_Animator.Play("player_idle_right");
+                            m_Animator.Play("idle_right");
                             break;
                     }
                     break;
                 case State.Walk:
                     switch (direction) {
                         case Direction.Up:
-                            m_Animator.Play("player_walk_up");
+                            m_Animator.Play("walk_up");
                             break;
                         case Direction.Down:
-                            m_Animator.Play("player_walk_down");
+                            m_Animator.Play("walk_down");
                             break;
                         case Direction.Left:
-                            m_Animator.Play("player_walk_left");
+                            m_Animator.Play("walk_left");
                             break;
                         case Direction.Right:
-                            m_Animator.Play("player_walk_right");
+                            m_Animator.Play("walk_right");
                             break;
                     }
                     break;
