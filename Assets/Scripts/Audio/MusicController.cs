@@ -42,6 +42,7 @@ namespace Audio
 
         public void FadeMusic()
         {
+            print("Set fading");
             _fading = true;
         }
 
@@ -61,7 +62,6 @@ namespace Audio
 
         private void UpdateRegionNumber()
         {
-            if (_fading) return;
             switch (SceneManager.GetActiveScene().buildIndex)
             {
                 case 1:
