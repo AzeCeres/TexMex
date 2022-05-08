@@ -479,6 +479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RandomColorToggle
       objectReference: {fileID: 0}
+    - target: {fileID: 6893149958307073711, guid: 4057849a92c508649af9adde248f277e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7789665588584995214, guid: 4057849a92c508649af9adde248f277e, type: 3}
       propertyPath: m_Colors.m_NormalColor.b
       value: 0.61

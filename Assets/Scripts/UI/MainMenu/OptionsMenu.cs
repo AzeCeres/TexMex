@@ -91,7 +91,7 @@ public class OptionsMenu : MonoBehaviour
         }
         gamepadCursor.SetActive(false);
         gamepadManager.SetActive(false);
-        randomToggle.isOn = settingsController.randomColor;
+        settingsController.randomColor = false;
     }
 
     #region Accessibility Options
