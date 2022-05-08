@@ -11173,7 +11173,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Voice Actor OMG!!!!
+  m_text: Voice Actor
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
   m_sharedMaterial: {fileID: 5939300741769742600, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
