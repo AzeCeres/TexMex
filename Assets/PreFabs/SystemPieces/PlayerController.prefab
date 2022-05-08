@@ -21366,7 +21366,7 @@ MonoBehaviour:
     m_Radius: 3
   - m_Height: 0
     m_Radius: 3
-  - m_Height: 2.5
+  - m_Height: -2.5
     m_Radius: 3
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
@@ -31880,7 +31880,7 @@ MonoBehaviour:
     m_Radius: 3
   - m_Height: 0
     m_Radius: 3
-  - m_Height: 2.5
+  - m_Height: -2.5
     m_Radius: 3
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
@@ -32036,7 +32036,7 @@ MonoBehaviour:
     m_Radius: 3
   - m_Height: 0
     m_Radius: 3
-  - m_Height: 2.5
+  - m_Height: -2.5
     m_Radius: 3
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
@@ -32823,7 +32823,7 @@ MonoBehaviour:
   - {x: 0.03192766, y: -0.7838702, z: 0}
   m_ShapePathHash: -705971874
   m_Mesh: {fileID: 0}
-  m_InstanceId: -37924
+  m_InstanceId: 39430
 --- !u!114 &1911812059589485669
 MonoBehaviour:
   m_ObjectHideFlags: 0
