@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -21,6 +22,11 @@ public class PauseGame : MonoBehaviour
     private void OnDisable()
     {
         pauseButton.Disable();
+    }
+
+    private void Update()
+    {
+        print(paused);
     }
 
     private void Start()
@@ -54,8 +60,11 @@ public class PauseGame : MonoBehaviour
             {
                 i.SetActive(false);
             }
+            settingsMenu.GetComponent<OptionsMenu>().AccessibilityMenu();
+            print("Unpausing game");
             settingsMenu.SetActive(false);
             Cursor.visible = true;
+            Time.timeScale = 1;
         }
     }
 
