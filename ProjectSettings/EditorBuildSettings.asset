@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level 3 Rework.unity
     guid: 77260914a1c79bd428f43690e804d8e0
+  - enabled: 1
+    path: Assets/Scenes/Levels/Credits.unity
+    guid: d6ac3e462dd6d444ba322fc4179bbcec
   m_configObjects: {}
