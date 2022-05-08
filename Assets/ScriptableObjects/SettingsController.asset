@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23588a59b242d8f489b820f608efd612, type: 3}
   m_Name: SettingsController
   m_EditorClassIdentifier: 
-  masterVolume: 21
-  musicVolume: 74
-  environmentVolume: 27
-  playerVolume: 71
+  masterVolume: 0
+  musicVolume: 1
+  environmentVolume: 0
+  playerVolume: 0
   player1Default: {r: 0.99607843, g: 0.78431374, b: 0.13333334, a: 0}
-  player1Color: {r: 0.46236992, g: 0, b: 1, a: 0}
+  player1Color: {r: 0.9960785, g: 0.7843138, b: 0.13333334, a: 0}
   player2Default: {r: 0.99607843, g: 0.78431374, b: 0.13333334, a: 0}
-  player2Color: {r: 0, g: 1, b: 0.841815, a: 0}
+  player2Color: {r: 0.9960785, g: 0.7843138, b: 0.13333334, a: 0}
   player3Default: {r: 0.99607843, g: 0.78431374, b: 0.13333334, a: 0}
   player3Color: {r: 0.22516905, g: 0.29195717, b: 0.6509434, a: 0}
   randomColor: 0
