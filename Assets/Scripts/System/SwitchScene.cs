@@ -38,17 +38,19 @@ namespace System {
 
         private IEnumerator StartSceneTransition()
         {
-            print("Fading color");
-            yield return StartCoroutine(FadeToColor());
-
             if (finalLevel)
             {
                 _musicController.FadeMusic();
+                yield return StartCoroutine(FadeToColor());
 
                 for (int i = 0; i < 20; i++)
                 {
                     yield return new WaitForSeconds(1f);
                 }
+            }
+            else
+            {
+                yield return StartCoroutine(FadeToColor());
             }
             
             m_SceneManager.ChangeScene(sceneIndex);

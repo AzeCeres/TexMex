@@ -11,10 +11,10 @@ public class PotBreakingScript : MonoBehaviour
     private bool broken = false;
     private SpriteRenderer renderer;
     [SerializeField] private Sprite pot_broken;
+    [SerializeField] private ParticleSystem potSmoke;
 
 
-    private void Start()
-    {
+    private void Start() {
         renderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         audio = GetComponent<AudioSource>();
@@ -26,9 +26,9 @@ public class PotBreakingScript : MonoBehaviour
         {
             SpriteBroken();
             
-            if (broken == false)
-            {
+            if (broken == false) {
                 potBreaking.PlayAudio(audio);
+                potSmoke.Play();
             }
             broken = true;
         }

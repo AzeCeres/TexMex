@@ -272,7 +272,7 @@ MonoBehaviour:
   HasSourceProject: 0
   HasPlatforms: 0
   sourceProjectPath: 
-  sourceBankPath: Assets/Resources/Audio/Music
+  sourceBankPath: Assets/Resources/Audio/Music/Desktop
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 0
@@ -295,7 +295,6 @@ MonoBehaviour:
   RealChannelSettings: []
   Plugins: []
   MasterBanks:
-  - Aztec Game
   - Aztec Game
   Banks: []
   BanksToLoad: []
