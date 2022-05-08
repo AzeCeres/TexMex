@@ -1642,7 +1642,11 @@ MonoBehaviour:
   m_ShapePathHash: -705971874
   m_Mesh: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_InstanceId: -296910
+=======
+  m_InstanceId: 66228
+>>>>>>> c899cade971559383194a3e294e4a72dfd366950
 =======
   m_InstanceId: 66228
 >>>>>>> c899cade971559383194a3e294e4a72dfd366950
@@ -2765,7 +2769,11 @@ MonoBehaviour:
     LensShift: {x: 0, y: 0}
     GateFit: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SensorSize: {x: 1.7777778, y: 1}
+=======
+    m_SensorSize: {x: 1.7757939, y: 1}
+>>>>>>> c899cade971559383194a3e294e4a72dfd366950
 =======
     m_SensorSize: {x: 1.7757939, y: 1}
 >>>>>>> c899cade971559383194a3e294e4a72dfd366950
@@ -2804,7 +2812,11 @@ Transform:
   m_GameObject: {fileID: 4661377102377085447}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -0.000000027939677, y: 0.0000000037252903, z: -3}
+=======
+  m_LocalPosition: {x: 0, y: 0, z: -3}
+>>>>>>> c899cade971559383194a3e294e4a72dfd366950
 =======
   m_LocalPosition: {x: 0, y: 0, z: -3}
 >>>>>>> c899cade971559383194a3e294e4a72dfd366950
@@ -2849,7 +2861,11 @@ MonoBehaviour:
     LensShift: {x: 0, y: 0}
     GateFit: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SensorSize: {x: 1.7777778, y: 1}
+=======
+    m_SensorSize: {x: 1.7757939, y: 1}
+>>>>>>> c899cade971559383194a3e294e4a72dfd366950
 =======
     m_SensorSize: {x: 1.7757939, y: 1}
 >>>>>>> c899cade971559383194a3e294e4a72dfd366950
@@ -3626,7 +3642,11 @@ MonoBehaviour:
     LensShift: {x: 0, y: 0}
     GateFit: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SensorSize: {x: 1.7777778, y: 1}
+=======
+    m_SensorSize: {x: 1.7757939, y: 1}
+>>>>>>> c899cade971559383194a3e294e4a72dfd366950
 =======
     m_SensorSize: {x: 1.7757939, y: 1}
 >>>>>>> c899cade971559383194a3e294e4a72dfd366950
@@ -4206,7 +4226,11 @@ MonoBehaviour:
     LensShift: {x: 0, y: 0}
     GateFit: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SensorSize: {x: 1.7777778, y: 1}
+=======
+    m_SensorSize: {x: 1.7757939, y: 1}
+>>>>>>> c899cade971559383194a3e294e4a72dfd366950
 =======
     m_SensorSize: {x: 1.7757939, y: 1}
 >>>>>>> c899cade971559383194a3e294e4a72dfd366950
