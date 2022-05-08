@@ -1,9 +1,12 @@
+using System;
 using System.Collections;
 using FMOD.Studio;
 using FMODUnity;
 using Player;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using SceneManager = UnityEngine.SceneManagement.SceneManager;
+using STOP_MODE = FMOD.Studio.STOP_MODE;
 
 namespace Audio
 {
@@ -24,13 +27,25 @@ namespace Audio
 
         private bool _fading;
 
+        private int _sceneNumber;
+
+        private void Awake()
+        {
+            SceneManager.sceneLoaded += OnSceneLoaded;
+        }
+
         private void Start()
         {
             _studioEventEmitter = GetComponent<StudioEventEmitter>();
-            _split = FindObjectOfType<Split>();
             DontDestroyOnLoad(transform.parent);
             _masterVolume = RuntimeManager.GetBus("bus:/Master");
             _musicVolume = RuntimeManager.GetBus("bus:/Master/Music");
+        }
+
+        private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+        {
+            _split = FindObjectOfType<Split>();
+            _sceneNumber = SceneManager.GetActiveScene().buildIndex;
         }
 
         private void Update()
@@ -61,8 +76,7 @@ namespace Audio
 
         private void UpdateRegionNumber()
         {
-            if (_fading) return;
-            switch (SceneManager.GetActiveScene().buildIndex)
+            switch (_sceneNumber)
             {
                 case 1:
                     _studioEventEmitter.SetParameter("Region", 0);
@@ -77,14 +91,16 @@ namespace Audio
                     _studioEventEmitter.SetParameter("Region", 3);
                     break;
                 default:
-                    _studioEventEmitter.Stop();
+                    _masterVolume.stopAllEvents(STOP_MODE.IMMEDIATE);
                     break;
             }
         }
 
         private void UpdateCloneCount()
         {
-            _numberOfClones = 0;
+            if (_sceneNumber < 1 || _sceneNumber > 3) return;
+            
+            _numberOfClones = _sceneNumber - 1;
             foreach (var cloneSlot in _split.activeClones)
             {
                 if (cloneSlot)
