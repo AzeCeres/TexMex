@@ -48,6 +48,10 @@ namespace System {
                     yield return new WaitForSeconds(1f);
                 }
             }
+            else
+            {
+                yield return StartCoroutine(FadeToColor());
+            }
             
             m_SceneManager.ChangeScene(sceneIndex);
         }
