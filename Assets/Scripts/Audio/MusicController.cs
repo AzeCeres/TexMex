@@ -64,9 +64,6 @@ namespace Audio
             if (_fading) return;
             switch (SceneManager.GetActiveScene().buildIndex)
             {
-                case 0:
-                    _studioEventEmitter.Stop();
-                    break;
                 case 1:
                     _studioEventEmitter.SetParameter("Region", 0);
                     break;
@@ -78,6 +75,9 @@ namespace Audio
                     break;
                 case 3 when _fading:
                     _studioEventEmitter.SetParameter("Region", 3);
+                    break;
+                default:
+                    _studioEventEmitter.Stop();
                     break;
             }
         }
