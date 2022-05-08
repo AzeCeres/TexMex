@@ -1756,7 +1756,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1064270239}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 920964826}
+        m_TargetAssemblyTypeName: System.SceneManager, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1064270239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4312,6 +4324,10 @@ PrefabInstance:
     - target: {fileID: 1024623301057464595, guid: cf78ee2c2e8551843909d0dc6c35499e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.8056933
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024623301057464596, guid: cf78ee2c2e8551843909d0dc6c35499e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1024623301127992019, guid: cf78ee2c2e8551843909d0dc6c35499e, type: 3}
       propertyPath: m_LocalScale.x
