@@ -44,7 +44,7 @@ public class PauseGame : MonoBehaviour
         if (paused)
         {
             Time.timeScale = 0;
-            Cursor.visible = false;
+            Cursor.visible = true;
             foreach (var i in pauseMenu)
             {
                 i.SetActive(false);
@@ -63,7 +63,7 @@ public class PauseGame : MonoBehaviour
             settingsMenu.GetComponent<OptionsMenu>().AccessibilityMenu();
             print("Unpausing game");
             settingsMenu.SetActive(false);
-            Cursor.visible = true;
+            Cursor.visible = false;
             Time.timeScale = 1;
         }
     }
