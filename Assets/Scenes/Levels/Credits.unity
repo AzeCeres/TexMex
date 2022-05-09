@@ -448,10 +448,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Luna Tislevoll M\xE6land"
+  m_text: Luna Tislevoll Myland
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
-  m_sharedMaterial: {fileID: 4736840761788478382, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3497204cc91fdf24b8e4fb7b0857de26, type: 2}
+  m_sharedMaterial: {fileID: -8089094690813888721, guid: 3497204cc91fdf24b8e4fb7b0857de26, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2435,10 +2435,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Anders August Stav\xF8strand"
+  m_text: Anders August Stavzstrand
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
-  m_sharedMaterial: {fileID: 5939300741769742600, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3497204cc91fdf24b8e4fb7b0857de26, type: 2}
+  m_sharedMaterial: {fileID: -8089094690813888721, guid: 3497204cc91fdf24b8e4fb7b0857de26, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -49721,7 +49721,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.3333334, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -55768,10 +55768,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lotte R\xF8berg"
+  m_text: Lotte Rzberg
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
-  m_sharedMaterial: {fileID: 4736840761788478382, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3497204cc91fdf24b8e4fb7b0857de26, type: 2}
+  m_sharedMaterial: {fileID: -8089094690813888721, guid: 3497204cc91fdf24b8e4fb7b0857de26, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
