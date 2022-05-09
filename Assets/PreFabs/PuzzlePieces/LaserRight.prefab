@@ -46,7 +46,6 @@ GameObject:
   - component: {fileID: -9124413550265421841}
   - component: {fileID: 6814132385981818471}
   - component: {fileID: 4260309183578601328}
-  - component: {fileID: 8442152311496319565}
   m_Layer: 2
   m_Name: LaserRight
   m_TagString: Puzzle
@@ -416,18 +415,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.12}
   serializedVersion: 2
   m_Radius: 0.41
---- !u!114 &8442152311496319565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4468166393450175502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a42f8d9133e467d48b8bf4accf25318e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8268470428608616245
 GameObject:
   m_ObjectHideFlags: 0
