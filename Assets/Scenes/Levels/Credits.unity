@@ -448,10 +448,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Luna Tislevold M\xE6land"
+  m_text: Luna Tislevoll Myland
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
-  m_sharedMaterial: {fileID: 5939300741769742600, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3497204cc91fdf24b8e4fb7b0857de26, type: 2}
+  m_sharedMaterial: {fileID: -8089094690813888721, guid: 3497204cc91fdf24b8e4fb7b0857de26, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -793,7 +793,7 @@ GameObject:
   - component: {fileID: 218785734}
   - component: {fileID: 218785735}
   - component: {fileID: 218785736}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Main Camera
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2435,10 +2435,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Anders August Stav\xF8strand"
+  m_text: Anders August Stavzstrand
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
-  m_sharedMaterial: {fileID: 5939300741769742600, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3497204cc91fdf24b8e4fb7b0857de26, type: 2}
+  m_sharedMaterial: {fileID: -8089094690813888721, guid: 3497204cc91fdf24b8e4fb7b0857de26, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4904,6 +4904,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 106086153194216186, guid: 019b5ffa77e186c4ab69c41242317017, type: 3}
+      propertyPath: MinDistance
+      value: 1.3834305
+      objectReference: {fileID: 0}
     - target: {fileID: 606469788592159150, guid: 019b5ffa77e186c4ab69c41242317017, type: 3}
       propertyPath: m_Name
       value: EndOfLevelTrigger
@@ -4950,6 +4954,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2643872728751304736, guid: 019b5ffa77e186c4ab69c41242317017, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220651524477202993, guid: 019b5ffa77e186c4ab69c41242317017, type: 3}
+      propertyPath: sceneIndex
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8128454549189952038, guid: 019b5ffa77e186c4ab69c41242317017, type: 3}
@@ -5018,8 +5026,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Animator
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
-  m_sharedMaterial: {fileID: 5939300741769742600, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
+  m_sharedMaterial: {fileID: 4736840761788478382, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5100,6 +5108,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 173822019}
     m_Modifications:
+    - target: {fileID: 4468166393450175488, guid: 4f98bffcc409195448fcbcf04bfb6bfb, type: 3}
+      propertyPath: maxDistance
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468166393450175488, guid: 4f98bffcc409195448fcbcf04bfb6bfb, type: 3}
+      propertyPath: whatToHit.m_Bits
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468166393450175488, guid: 4f98bffcc409195448fcbcf04bfb6bfb, type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468166393450175489, guid: 4f98bffcc409195448fcbcf04bfb6bfb, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 4468166393450175490, guid: 4f98bffcc409195448fcbcf04bfb6bfb, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -5143,6 +5167,10 @@ PrefabInstance:
     - target: {fileID: 4468166393450175490, guid: 4f98bffcc409195448fcbcf04bfb6bfb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468166393450175491, guid: 4f98bffcc409195448fcbcf04bfb6bfb, type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4468166393450175502, guid: 4f98bffcc409195448fcbcf04bfb6bfb, type: 3}
       propertyPath: m_Name
@@ -5734,8 +5762,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Erle Sofie Moen
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
-  m_sharedMaterial: {fileID: 5939300741769742600, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
+  m_sharedMaterial: {fileID: 4736840761788478382, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -49693,7 +49721,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7771318, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -50069,8 +50097,8 @@ MonoBehaviour:
 
     and unity implementor'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
-  m_sharedMaterial: {fileID: 5939300741769742600, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
+  m_sharedMaterial: {fileID: 4736840761788478382, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -53713,7 +53741,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288610568}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -162, y: -51.1, z: -133.17209}
+  m_LocalPosition: {x: -168.4, y: -51.1, z: -133.17209}
   m_LocalScale: {x: 2.3267655, y: 2.3267655, z: 2.3267655}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53865,8 +53893,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Vera B. Jenssen
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
-  m_sharedMaterial: {fileID: 5939300741769742600, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
+  m_sharedMaterial: {fileID: 4736840761788478382, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -55607,8 +55635,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: UI Designer
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
-  m_sharedMaterial: {fileID: 5939300741769742600, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
+  m_sharedMaterial: {fileID: 4736840761788478382, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -55740,10 +55768,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lotte R\xF8berg"
+  m_text: Lotte Rzberg
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
-  m_sharedMaterial: {fileID: 5939300741769742600, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3497204cc91fdf24b8e4fb7b0857de26, type: 2}
+  m_sharedMaterial: {fileID: -8089094690813888721, guid: 3497204cc91fdf24b8e4fb7b0857de26, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -99697,8 +99725,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Illustrator and environmental artist
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
-  m_sharedMaterial: {fileID: 5939300741769742600, guid: 71d46e1662d725745b59e15289e63c27, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
+  m_sharedMaterial: {fileID: 4736840761788478382, guid: 16b0943435ba79149a58de5634b9decd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -107596,7 +107624,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &7850312414330005106
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -107819,7 +107847,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7850312414593426279
 RectTransform:
   m_ObjectHideFlags: 0
