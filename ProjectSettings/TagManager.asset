@@ -9,6 +9,7 @@ TagManager:
   - Button
   - PlayerController
   - SceneManager
+  - Pot
   layers:
   - Default
   - TransparentFX
