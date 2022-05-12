@@ -173,10 +173,10 @@ MonoBehaviour:
   m_Open: 0
   opening: 0
   closing: 0
-  openParticles: {fileID: 0}
-  closeParticles: {fileID: 0}
-  openingParticles: {fileID: 0}
-  closingParticles: {fileID: 0}
+  openParticles: {fileID: 1665155308361549053, guid: fc3c8da2fe7f4694eab827c09575f1bc, type: 3}
+  closeParticles: {fileID: 4163439718300574697, guid: 30c4fbc0ae0f2a04f97fc99e594ad7d1, type: 3}
+  openingParticles: {fileID: 1122822070948073904, guid: bf200738dabd2a3448c1ab29de3a8142, type: 3}
+  closingParticles: {fileID: 7606127403758262695, guid: bd5273238e93ade4e841d557dd6355ba, type: 3}
 --- !u!212 &5815974282818677967
 SpriteRenderer:
   m_ObjectHideFlags: 0

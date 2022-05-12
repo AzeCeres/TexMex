@@ -34,7 +34,7 @@ namespace Puzzle {
         private void FireLaser() {
             if (up && Physics2D.Raycast(transform.position, transform.up)){
                 RaycastHit2D hit = Physics2D.Raycast(startPoint.position, transform.up, whatToHit);
-                if (hit.transform.gameObject.layer == 6) {
+                if (hit.transform.gameObject.layer == 6 || hit.transform.gameObject.layer == 7) {
                     var animator = hit.transform.gameObject.GetComponent<PlayerAnimator>();
                     animator.Death();
                 }   
@@ -46,7 +46,7 @@ namespace Puzzle {
             }
             else if(!up && Physics2D.Raycast(transform.position, transform.right)) {
                 RaycastHit2D hit = Physics2D.Raycast(startPoint.position, transform.right, whatToHit);
-                if (hit.transform.gameObject.layer == 6) {
+                if (hit.transform.gameObject.layer == 6 || hit.transform.gameObject.layer == 7) {
                     var animator = hit.transform.gameObject.GetComponent<PlayerAnimator>();
                     animator.Death();
                 }

@@ -145,7 +145,7 @@ MonoBehaviour:
     m_Bits: 123
   playerLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 192
   up: 0
 --- !u!120 &4468166393450175489
 LineRenderer:

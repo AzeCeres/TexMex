@@ -1,11 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
-namespace Player
-{ [RequireComponent(typeof(PlayerAudio))]
+namespace Player { 
+    [RequireComponent(typeof(PlayerAudio))]
+    [RequireComponent(typeof(PlayerController))]
     public class Split : MonoBehaviour {
 
         //[HideInInspector]
         public GameObject[] clones;
+        [SerializeField] private PlayerLayerChanger[] _layerChanger;
         //[HideInInspector]
         public bool[] activeClones = new bool[4];
 
@@ -21,14 +23,13 @@ namespace Player
         private string[] test = new string[1];
         //in settings, switch alternative controls over to true to activate single stick controls
         public bool alternativeControls = true;
-        [Range(1,4)][SerializeField] private int maxClones = 4;
+        [Range(1,3)][SerializeField] private int maxClones = 3;
         private int previousSelectedMain = 0;
 
-        private PlayerAudio _mPlayerAudio;
+        private PlayerAudio _playerAudio;
 
-        private void Start()
-        {
-            _mPlayerAudio = GetComponent<PlayerAudio>();
+        private void Awake() {
+            _playerAudio = GetComponent<PlayerAudio>();
         }
 
         private void Update() {
@@ -67,16 +68,17 @@ namespace Player
             }
             //if both, nothing happens
         }
-
         public void SpawnClone(int selected, List<GameObject> cloneGroup, GameObject sourceClone ) {
             for (int i = 0; i < activeClones.Length; i++) {
                 if (activeClones[i])
                     continue;
                 //todo move them in front of the player, making sure theres space there.
                 activeClones[i] = true;
-                clones[i].transform.position = sourceClone.transform.position;
+                clones[i].transform.position = new Vector2(sourceClone.transform.position.x, 
+                    sourceClone.transform.position.y - 0.05f);
                 clones[i].SetActive(true);
                 cloneGroup.Add(clones[i]);
+                _layerChanger[i].ChangeLayerToNonCollision();
                 return;
             }
         }
@@ -111,7 +113,7 @@ namespace Player
             }
         }
         public void AlternativeSplit() {
-            _mPlayerAudio.PlayCloneCreateAudio();
+            _playerAudio.PlayCloneCreateAudio();
             if (mainClones.Count < maxClones) {
                 SpawnClone(selectedMain, mainClones, mainClones[selectedMain]);
                 AlternativeSwitch(-10);
@@ -120,7 +122,7 @@ namespace Player
             }
         }
         public void AlternativeSwitch(int switchValue) {
-            _mPlayerAudio.PlayCloneSwitchAudio();
+            _playerAudio.PlayCloneSwitchAudio();
             previousSelectedMain = selectedMain;
             if (switchValue + selectedMain > mainClones.Count-1) {
                 selectedMain = 0;
@@ -131,7 +133,7 @@ namespace Player
             }
         }
         public void KillClone(GameObject cloneToKill) {
-            _mPlayerAudio.PlayCloneDeathAudio();
+            _playerAudio.PlayCloneDeathAudio();
             for (int i = 0; i < clones.Length; i++) {
                 if (clones[i] != cloneToKill)
                     continue;
