@@ -92,6 +92,14 @@ namespace Player {
             }
             if (mainClones.Count == 1)
                  selectedMain = 0;
+            for (int i = 0; i < activeClones.Length; i++) {
+                if (activeClones[i]) return;
+                for (int j = 0; j < mainClones.Count; j++) {
+                    if (clones[i] == mainClones[j]) {
+                        mainClones.Remove(mainClones[j]);
+                    }
+                }
+            }
         }
         void AlternativeControlsCheck() {
             switch (alternativeControls) {
