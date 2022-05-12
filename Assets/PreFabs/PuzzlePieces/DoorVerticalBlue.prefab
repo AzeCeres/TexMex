@@ -170,6 +170,7 @@ MonoBehaviour:
   moveAudio: {fileID: 11400000, guid: 556120e4ddf1dbe46ac41a5e343b97ed, type: 2}
   wire: {fileID: 0}
   inverted: 1
+  _noAudioFirstOpen: 0
   m_Open: 0
   opening: 0
   closing: 0
@@ -305,7 +306,7 @@ AudioSource:
   m_GameObject: {fileID: 2244699366942160616}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 7223503633340058956, guid: d5a088a7968c13748968edc42de1292d, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.15

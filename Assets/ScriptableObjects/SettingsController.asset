@@ -17,7 +17,7 @@ MonoBehaviour:
   environmentVolume: 0
   playerVolume: 0
   player1Default: {r: 0.99607843, g: 0.78431374, b: 0.13333334, a: 0}
-  player1Color: {r: 0.9960785, g: 0.7843138, b: 0.13333334, a: 0}
+  player1Color: {r: 0.9960785, g: 0.7843138, b: 0.13333334, a: 1}
   player2Default: {r: 0.9686275, g: 0.6862745, b: 0.8745099, a: 0}
   player2Color: {r: 0.9686275, g: 0.6862745, b: 0.8745099, a: 1}
   player3Default: {r: 0.99607843, g: 0.78431374, b: 0.13333334, a: 0}
