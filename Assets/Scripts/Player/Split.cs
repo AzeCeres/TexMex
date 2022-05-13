@@ -27,6 +27,9 @@ namespace Player {
         private int previousSelectedMain = 0;
 
         private PlayerAudio _playerAudio;
+        
+        //Tutorial Bools
+        [HideInInspector] public bool hasSplit=false, hasSwitched=false, hasDied=false;
 
         private void Awake() {
             _playerAudio = GetComponent<PlayerAudio>();
@@ -121,15 +124,18 @@ namespace Player {
             }
         }
         public void AlternativeSplit() {
+            hasSplit = true;
             _playerAudio.PlayCloneCreateAudio();
             if (mainClones.Count < maxClones) {
                 SpawnClone(selectedMain, mainClones, mainClones[selectedMain]);
                 AlternativeSwitch(-10);
+                hasSwitched = false; // to avoid it removing the second tutorial
             } else {
                 //print("There are no more clones to be spawned");
             }
         }
         public void AlternativeSwitch(int switchValue) {
+            hasSwitched = true;
             _playerAudio.PlayCloneSwitchAudio();
             previousSelectedMain = selectedMain;
             if (switchValue + selectedMain > mainClones.Count-1) {
@@ -141,6 +147,7 @@ namespace Player {
             }
         }
         public void KillClone(GameObject cloneToKill) {
+            hasDied = true;
             _playerAudio.PlayCloneDeathAudio();
             for (int i = 0; i < clones.Length; i++) {
                 if (clones[i] != cloneToKill)

@@ -21,8 +21,7 @@ namespace System {
             m_StartPos = obj; 
             GetAllButtons();
             
-            if (fadeImage != null)
-            {
+            if (fadeImage != null) {
                 StartCoroutine(FadeFromColor());
             }
         }
@@ -89,8 +88,7 @@ namespace System {
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneIndex);
         }
         
-        IEnumerator FadeFromColor()
-        {
+        IEnumerator FadeFromColor() {
             Color color = fadeImage.color;
             for (float alpha = 1f; alpha > -1f; alpha -= 0.1f)
             {
