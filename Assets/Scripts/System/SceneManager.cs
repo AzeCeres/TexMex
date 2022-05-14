@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using JetBrains.Annotations;
 using Player;
+using Puzzle.Pots;
 using UnityEngine;
 using UnityEngine.UI;
 using Button = Puzzle.Button;
@@ -12,6 +13,8 @@ namespace System {
         private GameObject m_StartPos;
         private Split m_Split;
         private List<Button> buttons = new List<Button>();
+        [CanBeNull]private List<PotBreakingScript> pots = new List<PotBreakingScript>();
+        [CanBeNull]private List<PlantSkullBreaking> skullPots = new List<PlantSkullBreaking>();
         [SerializeField] [CanBeNull] private List<Button> excludedButtons = new List<Button>();
         [SerializeField] private Image fadeImage;
         private bool hasWarned = false;
@@ -19,23 +22,27 @@ namespace System {
             var obj = GameObject.FindGameObjectWithTag("PlayerController");
             m_Split = obj.GetComponent<Split>();
             m_StartPos = obj; 
-            GetAllButtons();
+            GetAllScripts();
             
             if (fadeImage != null) {
                 StartCoroutine(FadeFromColor());
             }
         }
-        void GetAllButtons() {
+        private void GetAllScripts() {
             GameObject[] gameObjects = UnityEngine.Object.FindObjectsOfType<GameObject>();
             foreach (var go in gameObjects) { 
                 if (go.CompareTag("Button")) {     
                     buttons.Add(go.GetComponent<Button>());
+                } if (go.CompareTag("Pot")) {
+                    pots.Add(go.GetComponent<PotBreakingScript>());
+                } if (go.CompareTag("SkullPlant")) {
+                    skullPots.Add(go.GetComponent<PlantSkullBreaking>());
                 }
             }
             if (excludedButtons == null) return;
             RemoveExcluded();
         }
-        void RemoveExcluded() {
+        private void RemoveExcluded() {
             List<int> excludedArray = new List<int>();
             foreach (var exButt in excludedButtons) {
                 for (var i = 0; i < buttons.Count; i++) {
@@ -75,6 +82,19 @@ namespace System {
         private void Reset() {
             for (int i = 0; i < buttons.Count; i++) {
                 buttons[i].Reset();
+            }
+            if (pots != null) {
+                for (int i = 0; i < pots.Count; i++)
+                {
+                    pots[i].Reset();
+                }
+            }
+            if (skullPots != null)
+            {
+                for (int i = 0; i < skullPots.Count; i++)
+                {
+                    skullPots[i].Reset();   
+                }
             }
             m_Split.SpawnClone(0, m_Split.mainClones, m_StartPos);
         }
