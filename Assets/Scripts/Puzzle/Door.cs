@@ -1,4 +1,3 @@
-using System;
 using System.ComponentModel;
 using Audio;
 using JetBrains.Annotations;
@@ -11,25 +10,29 @@ namespace Puzzle {
         [SerializeField] private AnimationClip open;
         [SerializeField] private AnimationClip close;
         [SerializeField] private AudioVariation moveAudio;
-        [HideInInspector][CanBeNull] public Wire wire;
-        [CanBeNull] private SpriteRenderer doorBeam;
+        //[HideInInspector]
+        [CanBeNull] public Wire wire;
+        private SpriteRenderer doorBeam;
         public bool inverted;
-        private bool m_Open;
-        private BoxCollider2D m_DoorCollider;
-        private Animator m_DoorAnimator;
-        private AudioSource m_AudioSource;
-        private bool wasActive;
-        [CanBeNull] private Light2D light2D;
-        private SpriteRenderer spriteRenderer;
+        public bool _noAudioFirstOpen = false;
+        [SerializeField]private bool m_Open = false, opening = false, closing = false;
+        private BoxCollider2D _doorCollider;
+        private Animator _doorAnimator;
+        private AudioSource _audioSource;
+        private bool _wasActive;
+        [CanBeNull] private Light2D _light2D;
+        private SpriteRenderer _spriteRenderer;
+        [SerializeField] private ParticleSystem openParticles, closeParticles, openingParticles, closingParticles;
 
         private void Awake() {
-            spriteRenderer = GetComponent<SpriteRenderer>();
-            light2D = GetComponentInChildren<Light2D>();
-            m_DoorCollider = GetComponent<BoxCollider2D>();
-            m_DoorAnimator = GetComponent<Animator>();
-            m_AudioSource = GetComponent<AudioSource>();
+            _spriteRenderer = GetComponent<SpriteRenderer>();
+            _light2D = GetComponentInChildren<Light2D>();
+            _doorCollider = GetComponent<BoxCollider2D>();
+            _doorAnimator = GetComponent<Animator>();
+            _audioSource = GetComponent<AudioSource>();
             if (transform.childCount > 0)
                 doorBeam = transform.GetChild(0).GetComponent<SpriteRenderer>();
+            _noAudioFirstOpen = inverted;
         }
         private void Start() {
             if (inverted) {
@@ -39,54 +42,63 @@ namespace Puzzle {
                 LightOn();
             UpdateMaterial();
         }
-        private void Update() {
-            Open();
-        }
+        private void Update() => Open();
         private void Open(){
             if (wire == null) {
                 throw new WarningException(name + " is not connected by a wire, please connect it");
-            } if (wire.active && !inverted && !wasActive || !wire.active && inverted && wasActive) {
-                Opened();
-                print("DeActivated");
-            } else if (!wire.active && !inverted && wasActive || wire.active && inverted && !wasActive){ 
-                Closed();
-                print("Closed");
             }
-            wasActive = wire.active;
+            if (opening || closing) return;
+            if (wire.active && !inverted && !_wasActive || !wire.active && inverted && _wasActive) {
+                opening = true;
+                Opened();
+            } else if (!wire.active && !inverted && _wasActive || wire.active && inverted && !_wasActive) {
+                closing = true;
+                Closed();
+            }
+            _wasActive = wire.active;
         }
         private void Opened() {
             //todo Sound and Particles
-            moveAudio.PlayAudio(m_AudioSource);
-            m_DoorAnimator.Play(open.name);
-            if (m_DoorCollider == null) return;
+            _doorAnimator.Play(open.name);
+            if (_doorCollider == null) return;
             Invoke(nameof(TurnOffCollider), 0.9f);
             if (doorBeam == null) return;
             doorBeam.enabled = true;
         }
         private void Closed() {
-            print("Attempting close");
             //todo Sound and Particles
-            m_DoorAnimator.Play(close.name);
-            m_DoorCollider.enabled = true;
-            if (doorBeam == null) return;
+            _doorAnimator.Play(close.name);
+            _doorCollider.enabled = true;
             doorBeam.enabled = false;
         }
         public void TurnOffCollider() {
             if (wire.active && inverted || !wire.active && !inverted) return;
-                m_DoorCollider.enabled = false;
+                _doorCollider.enabled = false;
                 doorBeam.enabled = true;
         }
-        void UpdateMaterial() {
-            spriteRenderer.material.SetFloat("_Active",1f);
+        void UpdateMaterial() => _spriteRenderer.material.SetFloat("_Active",1f);
+        public void LightOff() => _light2D.enabled = false;
+        public void LightOn() => _light2D.enabled = true;
+        public void FinishedOpening() {
+            opening = false;
+            TurnOffCollider();
         }
-        public void LightOff() {
-            light2D.enabled = false;
+        public void FinishedClosing() => closing = false;
+        public void PlayOpeningParticles() => openingParticles.Play();
+        public void PlayClosingParticles() => closingParticles.Play();
+        public void PlayCloseParticles() {
+            closeParticles.Play();
+            closingParticles.Stop();
         }
-        public void LightOn() {
-            light2D.enabled = true;
+        public void PlayOpenParticles() {
+            openParticles.Play();
+            openingParticles.Stop();
         }
-        private void PlayDoorMoveAnimation() {
-            moveAudio.PlayAudio(m_AudioSource);
+        private void PlayDoorMoveAudio() {
+            if (!_noAudioFirstOpen) {
+                moveAudio.PlayAudio(_audioSource);
+            }
+            _noAudioFirstOpen = false;
         }
     }
 }

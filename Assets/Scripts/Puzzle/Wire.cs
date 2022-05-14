@@ -5,24 +5,28 @@ using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.Tilemaps;
 namespace Puzzle {
-    public class Wire : MonoBehaviour {
-        [HideInInspector][CanBeNull] public Button button;
-        [CanBeNull] private WireConnector m_WireConnector;
+    public class Wire : MonoBehaviour
+    { 
+        //[HideInInspector]
+        [CanBeNull] public Button button;
+        [SerializeField][CanBeNull] private WireConnector m_WireConnector;
         
         public bool active;
         private readonly List<GameObject> m_PuzzleObjects = new List<GameObject>(), m_Buttons = new List<GameObject>();
         
-        [CanBeNull] private Light2D light2D;
+        [CanBeNull] private Light2D[] lights;
         private TilemapRenderer wiRenderer;
         private void Awake() {
             wiRenderer = GetComponent<TilemapRenderer>();
-            light2D = GetComponentInChildren<Light2D>();
+            lights = GetComponentsInChildren<Light2D>();
         }
         void UpdateMaterial() {
             wiRenderer.material.SetFloat("_Active", active ? 1f : 0f);
         }
         void UpdateLight() {
-            light2D.enabled = active;
+            foreach (var light in lights) {
+                light.enabled = active;
+            }
         }
         private void Start() {
             GameObject[] gameObjects = UnityEngine.Object.FindObjectsOfType<GameObject>();
@@ -35,14 +39,13 @@ namespace Puzzle {
                 }
             }
             UpdateMaterial();
-            if (light2D != null) {
+            if (lights != null) {
                 UpdateLight();
             }
         }   
         private void Update() { 
             UpdateMaterial();
-            print(light2D == null);
-            if (light2D != null) {
+            if (lights != null) {
                 UpdateLight();
             }
             if (ActivityCheck())
@@ -81,13 +84,20 @@ namespace Puzzle {
                 if (other.gameObject != m_PuzzleObjects[i])
                     continue;
                 if (other.gameObject.TryGetComponent(out Door door)) {
-                    door.wire = this; //Not working? or not entering eachothers triggers
+                    door.wire = this;
                 } if (other.gameObject.TryGetComponent(out LaserShooter laser)) {
                     laser.wire = this;
-                } if (other.gameObject.TryGetComponent(out WireConnector wireCon))
-                {
-                    m_WireConnector = wireCon;
-                    wireCon.wires.Add(this);
+                } if (other.gameObject.TryGetComponent(out WireConnector wireCon)) {
+                    
+                    if(button == null )
+                        m_WireConnector = wireCon;
+                    else {
+                        wireCon.wires.Add(this);
+                    }
+                    if (m_WireConnector != null) {
+                        wireCon.wires.Add(this);
+                        return;
+                    }
                 }
             }
         }

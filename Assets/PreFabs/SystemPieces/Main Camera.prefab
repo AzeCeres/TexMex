@@ -114,8 +114,6 @@ GameObject:
   - component: {fileID: -6328494622405546217}
   - component: {fileID: -550841135098123999}
   - component: {fileID: 7022775533014282083}
-  - component: {fileID: -3991455644964485058}
-  - component: {fileID: 1815372226}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -261,7 +259,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0

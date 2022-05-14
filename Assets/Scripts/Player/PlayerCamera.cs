@@ -9,14 +9,10 @@ namespace Player {
         private void Awake() {
             _split = GetComponent<Split>();
         }
-        private void Update()
-        {
+        private void Update() {
             UpdateCameraPriorities();
         }
-        
-
-        private void UpdateCameraPriorities()
-        {
+        private void UpdateCameraPriorities() {
             foreach (var camera in cameras)
                 camera.m_Priority = camera.transform.parent.gameObject == _split.mainClones[_split.selectedMain] ? 10 : 0;
         }

@@ -3,41 +3,31 @@ using UnityEngine.InputSystem;
 namespace Player {
     [RequireComponent(typeof(Split))]
     [RequireComponent(typeof(Movement))]
-    [RequireComponent(typeof(Input))]
     public class PlayerController : MonoBehaviour {
-        private Input m_Input;
-        private Movement m_Movement;
-        private Split m_Split;
-        private PlayerInput m_InputManager;
-        [SerializeField]private PlayerAnimator[] m_Animators;
+        private Input _input;
+        private Movement _movement;
+        private Split _split;
+        [SerializeField]private PlayerAnimator[] animators;
     
         private void Awake() {
-            m_Movement = GetComponent<Movement>();
-            m_Input = GetComponent<Input>();
-            m_Split = GetComponent<Split>();
-            m_InputManager = GetComponent<PlayerInput>();
+            _movement = GetComponent<Movement>();
+            _input = GetComponent<Input>();
+            _split = GetComponent<Split>();
         }
-        private void Start() { //todo remove this function, its for testing
-            m_InputManager.SwitchCurrentActionMap("AlternativePlayer");
-        }
-        //calls upon functions to split whenever buttons to split are pressed
-        void OnSplitMain(InputValue inputValue) => m_Split.MainSplit();
-        void OnSplitSecond(InputValue inputValue) => m_Split.SecondSplit();
-        void OnAlternativeSplit(InputValue inputValue) => m_Split.AlternativeSplit();
+        void OnAlternativeSplit(InputValue inputValue) => _split.AlternativeSplit();
         void OnAlternativeSwitch(InputValue inputValue) {
             var intInputValue = Mathf.RoundToInt(inputValue.Get<float>());
-            m_Split.AlternativeSwitch(intInputValue);
+            _split.AlternativeSwitch(intInputValue);
         }
         private void FixedUpdate() {
-            foreach (var animator in m_Animators) {
-                if (animator.gameObject != m_Split.mainClones[m_Split.selectedMain].gameObject)
+            foreach (var animator in animators) {
+                if (animator.gameObject != _split.mainClones[_split.selectedMain].gameObject)
                     continue;
-                if (m_Input.moveMainVector.x == 0 && m_Input.moveMainVector.y == 0) 
+                if (_input.moveMainVector.x == 0 && _input.moveMainVector.y == 0) 
                     return;
-                animator.UpdateAnimator(m_Input.moveMainVector);
             }
-            m_Movement.MoveMain(m_Input.moveMainVector);
-            m_Movement.MoveSecond(m_Input.moveSecondVector);
+            _movement.MoveMain(_input.moveMainVector);
+            //m_Movement.MoveSecond(m_Input.moveSecondVector);
         }
     }
 }

@@ -21,8 +21,7 @@ namespace System {
             m_StartPos = obj; 
             GetAllButtons();
             
-            if (fadeImage != null)
-            {
+            if (fadeImage != null) {
                 StartCoroutine(FadeFromColor());
             }
         }
@@ -56,8 +55,8 @@ namespace System {
                 CheckPlayer();
             else {
                 if (hasWarned) return;
-                throw new WarningException("PlayerController might be missing or not have the right tag!");
                 hasWarned = true;
+                throw new WarningException("PlayerController might be missing or not have the right tag!");
             }
         }
         void CheckPlayer() {
@@ -89,8 +88,7 @@ namespace System {
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneIndex);
         }
         
-        IEnumerator FadeFromColor()
-        {
+        IEnumerator FadeFromColor() {
             Color color = fadeImage.color;
             for (float alpha = 1f; alpha > -1f; alpha -= 0.1f)
             {

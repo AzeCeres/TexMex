@@ -3,7 +3,6 @@ using Audio;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.UI;
-
 namespace System {
     [RequireComponent(typeof(AudioSource))]
     public class SwitchScene : MonoBehaviour {
@@ -36,26 +35,22 @@ namespace System {
             StartCoroutine(StartSceneTransition());
         }
 
-        private IEnumerator StartSceneTransition()
-        {
-            print("Fading color");
-            yield return StartCoroutine(FadeToColor());
-
-            if (finalLevel)
-            {
+        private IEnumerator StartSceneTransition() {
+            if (finalLevel) {
                 _musicController.FadeMusic();
+                yield return StartCoroutine(FadeToColor());
 
-                for (int i = 0; i < 20; i++)
-                {
+                for (int i = 0; i < 20; i++) {
                     yield return new WaitForSeconds(1f);
                 }
+            } else {
+                yield return StartCoroutine(FadeToColor());
             }
             
             m_SceneManager.ChangeScene(sceneIndex);
         }
         
-        private IEnumerator FadeToColor()
-        {
+        private IEnumerator FadeToColor() {
             fadeImage.color = fadeColor;
             
             Color color = fadeImage.color;

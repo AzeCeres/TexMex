@@ -1,6 +1,7 @@
 using JetBrains.Annotations;
 using Player;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 namespace Puzzle {
     public class LaserShooter : MonoBehaviour {
         // private PlayerAnimator[] cloneAnimators;
@@ -15,14 +16,11 @@ namespace Puzzle {
         [HideInInspector] [CanBeNull]public Wire wire;
         [SerializeField] private LayerMask whatToHit, playerLayer;
         [SerializeField] private bool up;
-        // private void Awake() {
-        //     var gameObjects = FindObjectsOfType<GameObject>();
-        //     foreach (var t in gameObjects) {
-        //         if (!t.CompareTag("PlayerController"))
-        //             continue;
-        //         cloneAnimators = t.GetComponentsInChildren<PlayerAnimator>();
-        //     }
-        // }
+
+        private Light2D Light2D;
+        private void Awake() {
+            Light2D = GetComponentInChildren<Light2D>();
+        }
         private void Update() {
             if (wire == null) {
                 FireLaser();
@@ -36,7 +34,7 @@ namespace Puzzle {
         private void FireLaser() {
             if (up && Physics2D.Raycast(transform.position, transform.up)){
                 RaycastHit2D hit = Physics2D.Raycast(startPoint.position, transform.up, whatToHit);
-                if (hit.transform.gameObject.layer == 6) {
+                if (hit.transform.gameObject.layer == 6 || hit.transform.gameObject.layer == 7) {
                     var animator = hit.transform.gameObject.GetComponent<PlayerAnimator>();
                     animator.Death();
                 }   
@@ -48,10 +46,9 @@ namespace Puzzle {
             }
             else if(!up && Physics2D.Raycast(transform.position, transform.right)) {
                 RaycastHit2D hit = Physics2D.Raycast(startPoint.position, transform.right, whatToHit);
-                if (hit.transform.gameObject.layer == 6) {
+                if (hit.transform.gameObject.layer == 6 || hit.transform.gameObject.layer == 7) {
                     var animator = hit.transform.gameObject.GetComponent<PlayerAnimator>();
                     animator.Death();
-                    
                 }
                 
                 DrawRay(startPoint.position, hit.point); 
@@ -60,12 +57,24 @@ namespace Puzzle {
             }
         }
         private void DrawRay(Vector2 startPos, Vector2 endPos) {
-            lineRenderer.SetPosition(0, startPos);
-            lineRenderer.SetPosition(1, endPos);
+            var distance = Vector2.Distance(startPos, endPos);
+            if (up && startPos.y < endPos.y) {
+                lineRenderer.SetPosition(0, startPos);
+                lineRenderer.SetPosition(1, endPos + new Vector2(0, 0.5f));
+                Light2D.pointLightOuterRadius = distance+0.5f;
+            }else {
+                lineRenderer.SetPosition(0, startPos);
+                lineRenderer.SetPosition(1, endPos);
+                Light2D.pointLightOuterRadius = distance;
+            }
+            
+            
+            Light2D.enabled = true;
         }
         private void DontDrawRay() {
             lineRenderer.SetPosition(0, startPoint.position);
             lineRenderer.SetPosition(1, startPoint.position);
+            Light2D.enabled = false;
         }
     }
 }
