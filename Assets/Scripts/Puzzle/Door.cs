@@ -91,11 +91,16 @@ namespace Puzzle {
             openParticles.Play();
             openingParticles.Stop();
         }
-        private void PlayDoorMoveAudio() {
+        private void PlayDoorOpenAudio() {
             if (!_noAudioFirstOpen) {
-                DoorAudioController.PlayDoorAudio();
+                DoorAudioController.PlayDoorAudio(true);
             }
             _noAudioFirstOpen = false;
+        }
+
+        private void PlayDoorCloseAudio()
+        {
+            DoorAudioController.PlayDoorAudio(false);
         }
     }
 }
