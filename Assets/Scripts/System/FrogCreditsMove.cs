@@ -1,15 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
-public class FrogCreditsMove : MonoBehaviour
+namespace System
 {
-    [SerializeField] private float creditsMoveSpeed = 4f;
+    public class FrogCreditsMove : MonoBehaviour
+    {
+        [SerializeField] private float creditsMoveSpeed = 4f;
     
     
-    void Update()
+        void Update()
         {
             Vector3 creditsVelocity = Vector3.right * creditsMoveSpeed;
-                    transform.Translate(creditsVelocity * Time.deltaTime);
+            transform.Translate(creditsVelocity * Time.deltaTime);
         }
+    }
 }

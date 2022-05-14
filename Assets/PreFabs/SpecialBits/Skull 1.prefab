@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4911512639405767595}
   m_Layer: 0
   m_Name: Skull 1
-  m_TagString: Untagged
+  m_TagString: Pot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
