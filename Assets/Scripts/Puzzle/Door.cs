@@ -96,7 +96,7 @@ namespace Puzzle {
         }
         private void PlayDoorMoveAudio() {
             if (!_noAudioFirstOpen) {
-                moveAudio.PlayAudio(_audioSource);
+                // DoorAudioController.PlayDoorAudio();
             }
             _noAudioFirstOpen = false;
         }
