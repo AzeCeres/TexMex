@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/Levels/Credits.unity.meta
 guid: d6ac3e462dd6d444ba322fc4179bbcec
+========
+guid: a1ecdad68b557b9478dec5ca181dd91e
+>>>>>>>> Audio:Assets/Scenes/Levels/Level 3 Old.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

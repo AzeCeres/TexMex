@@ -14,8 +14,20 @@ namespace Audio
             var pitch = Random.Range(pitchLowerBound, pitchUpperBound);
             audioSource.pitch = pitch;
 
+            _nextClip = audioClip;
+
             audioSource.PlayOneShot(audioClip);
             audioSource.pitch = 1f;
+        }
+
+        public override float GetClipLength()
+        {
+            if (_nextClip == null)
+            {
+                _nextClip = audioClip;
+            }
+
+            return _nextClip.length;
         }
     }
 }
