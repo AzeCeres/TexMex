@@ -12,7 +12,7 @@ namespace System {
         private TMP_Text _textField;
         private bool _hasTaught = false;
         public bool isDeathTutorial, isSplitTutorial, isSwitchTutorial;
-        [CanBeNull] public TutorialText nextTutorial;
+        [CanBeNull] public GameObject nextTutorial;
         [SerializeField]private Split _split;
         [SerializeField]private int insideCount;
         private void Awake() {
@@ -21,16 +21,23 @@ namespace System {
         private void Start() {
             _textField.enabled = false;
         }
-        private void OnEnable() {
-            print("Enabled");
-            if (insideCount > 0) {
-                _finalTime = Time.realtimeSinceStartup + timeBeforeText;
-                _lingeredTime = _finalTime + textLingerTime;
+        private void LateUpdate()
+        {
+            if (isSplitTutorial && _split.hasSplit || isSwitchTutorial && _split.hasSwitched || isDeathTutorial && _split.hasDied) {
+                _textField.enabled = false;
+                _hasTaught = true;
+                if (nextTutorial != null)
+                    nextTutorial.SetActive(true);
             }
+        }
+        private void OnEnable() {
+            _finalTime = Time.realtimeSinceStartup + timeBeforeText;
+            _lingeredTime = _finalTime + textLingerTime;
         }
         private void OnTriggerEnter2D(Collider2D other) {
             if (!other.gameObject.CompareTag("Player")) return;
             insideCount++;
+            print(this.enabled);
             if (!this.enabled) return;
             if (_hasTaught) return;
             _finalTime = Time.realtimeSinceStartup + timeBeforeText;
@@ -39,14 +46,7 @@ namespace System {
         private void OnTriggerStay2D(Collider2D other) {
             if (!other.gameObject.CompareTag("Player")) return;
             print(name);
-            if (isSplitTutorial && _split.hasSplit || isSwitchTutorial && _split.hasSwitched || isDeathTutorial && _split.hasDied
-            ) {
-                _textField.enabled = false;
-                _hasTaught = true;
-                if (nextTutorial != null)
-                    nextTutorial.enabled = true;
-                return;
-            } if (Time.realtimeSinceStartup >= _finalTime) {
+            if (Time.realtimeSinceStartup >= _finalTime) {
                 SetText();
                 _hasTaught = true;
             } if (Time.realtimeSinceStartup >= _lingeredTime) {
@@ -57,7 +57,7 @@ namespace System {
             _textField.text = tutorialText;
             _textField.enabled = true;
             if (nextTutorial != null)
-                nextTutorial.enabled = true;
+                nextTutorial.SetActive(true);
         }
         private void OnTriggerExit2D(Collider2D other) {
             if (!other.gameObject.CompareTag("Player")) return;

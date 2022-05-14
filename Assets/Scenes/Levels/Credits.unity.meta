@@ -1,11 +1,10 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/PreFabs/Particles/WalkPS1.prefab.meta
-guid: 6c544ee6d16a502429f5890caa3e9df1
-PrefabImporter:
+<<<<<<<< HEAD:Assets/Scenes/TestScenes/Particle test scene.unity.meta
+guid: 17d06bcc085739c4380dd2b30c5e734a
 ========
 guid: d6ac3e462dd6d444ba322fc4179bbcec
-DefaultImporter:
 >>>>>>>> main:Assets/Scenes/Levels/Credits.unity.meta
+DefaultImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 

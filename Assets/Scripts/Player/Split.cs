@@ -6,18 +6,18 @@ namespace Player {
     [RequireComponent(typeof(PlayerController))]
     public class Split : MonoBehaviour {
         [Tooltip("All the clone gameObjects, the master list of the clones, used to check up against")]
-        public GameObject[] clones{ get; private set; }
+        public GameObject[] clones;
         [Tooltip("The layerChanger has to be in the same order as the Clone Array, Makes sure the clones are on different layers when they are spawned in")]
         [SerializeField] private PlayerLayerChanger[] layerChanger;
         [Tooltip("Bool version of the Clones, Indicates if they are alive or not")]
-        public bool[] activeClones{ get; private set; } = new bool[4];
+        public bool[] activeClones = new bool[4];
         [Tooltip("List of clones in the order they were spawned, not to be changed, fixed automatically")]
-        public List<GameObject> mainClones{ get; private set; } = new List<GameObject>(4); 
-        public List<GameObject> secondClones{ get; private set; } = new List<GameObject>(2);
+        public List<GameObject> mainClones = new List<GameObject>(4); 
+        //public List<GameObject> secondClones{ get; private set; } = new List<GameObject>(2);
         [Tooltip("The index of which mainClone is currently in use, not to be changed in editor")]
-        public int selectedMain { get; private set; }
-        [Tooltip("The index of which secondClone is currently in use, not to be changed in editor")]
-        public int selectedSecond { get; private set; }
+        public int selectedMain;
+        //[Tooltip("The index of which secondClone is currently in use, not to be changed in editor")]
+        //public int selectedSecond { get; private set; }
         // [Tooltip("Grandfathered option from when we were transitioning from a twin-stick system, Should always be on Until properly removed")]
         // public bool alternativeControls = true;
         [Tooltip("The amount of clones that can be active at once in the scene")]
@@ -46,9 +46,9 @@ namespace Player {
 
         private void OopsProtection() {
             //Checks if secondClones index is outside of the list, and rights it if it is.
-            if (secondClones.Count-1 < selectedSecond) {
-                selectedSecond = secondClones.Count-1;
-            }
+            // if (secondClones.Count-1 < selectedSecond) {
+            //     selectedSecond = secondClones.Count-1;
+            // }
             //Checks if mainClones index is outside of the list, and rights it if it is.
             if (mainClones.Count-1 < selectedMain) {
                 selectedMain = mainClones.Count-1;

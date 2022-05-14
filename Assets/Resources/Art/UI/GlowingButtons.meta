@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Resources/Art/UI/GlowingButtons.meta
 guid: a5843965035f17a4bb8f1c69b37284f2
-========
-guid: efc6cd6e0f7ffbe458b21196f0ace809
->>>>>>>> main:Assets/PreFabs/Particles.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

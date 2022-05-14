@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/PreFabs/Particles.meta
 guid: efc6cd6e0f7ffbe458b21196f0ace809
-========
-guid: ee9f70acad2a9de4daf42ab1264f20c7
->>>>>>>> main:Assets/PreFabs/Lights.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
