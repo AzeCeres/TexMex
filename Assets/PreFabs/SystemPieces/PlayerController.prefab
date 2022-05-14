@@ -5502,11 +5502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f4fc31cebf2344db0da3ed687b1231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Animators:
-  - {fileID: 1911812059589485675}
-  - {fileID: 1911812059584276747}
-  - {fileID: 1911812057998044379}
-  - {fileID: 1911812058287033701}
+  animators: []
 --- !u!114 &1911812059012502289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5520,7 +5516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 7
-  m_Rb:
+  rb:
   - {fileID: 1911812059589485674}
   - {fileID: 1911812059584276746}
   - {fileID: 1911812057998044378}
@@ -5543,7 +5539,7 @@ MonoBehaviour:
   - {fileID: 1911812059584276737}
   - {fileID: 1911812057998044369}
   - {fileID: 1911812058287033696}
-  _layerChanger:
+  layerChanger:
   - {fileID: 786181379}
   - {fileID: 786181378}
   - {fileID: 895430018}
@@ -5551,11 +5547,11 @@ MonoBehaviour:
   activeClones: 01000000
   mainClones:
   - {fileID: 1911812059589485665}
-  secondClones: []
   selectedMain: 0
-  selectedSecond: 1
-  alternativeControls: 1
   maxClones: 2
+  hasSplit: 0
+  hasSwitched: 0
+  hasDied: 0
 --- !u!114 &1911812059012502287
 MonoBehaviour:
   m_ObjectHideFlags: 0
