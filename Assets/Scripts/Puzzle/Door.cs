@@ -5,11 +5,9 @@ using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
 namespace Puzzle {
-    [RequireComponent(typeof(AudioSource))]
     public class Door : MonoBehaviour {
         [SerializeField] private AnimationClip open;
         [SerializeField] private AnimationClip close;
-        [SerializeField] private AudioVariation moveAudio;
         //[HideInInspector]
         [CanBeNull] public Wire wire;
         private SpriteRenderer doorBeam;
@@ -18,7 +16,6 @@ namespace Puzzle {
         [SerializeField]private bool m_Open = false, opening = false, closing = false;
         private BoxCollider2D _doorCollider;
         private Animator _doorAnimator;
-        private AudioSource _audioSource;
         private bool _wasActive;
         [CanBeNull] private Light2D _light2D;
         private SpriteRenderer _spriteRenderer;
@@ -29,7 +26,7 @@ namespace Puzzle {
             _light2D = GetComponentInChildren<Light2D>();
             _doorCollider = GetComponent<BoxCollider2D>();
             _doorAnimator = GetComponent<Animator>();
-            _audioSource = GetComponent<AudioSource>();
+            GetComponent<AudioSource>();
             if (transform.childCount > 0)
                 doorBeam = transform.GetChild(0).GetComponent<SpriteRenderer>();
             _noAudioFirstOpen = inverted;
@@ -96,7 +93,7 @@ namespace Puzzle {
         }
         private void PlayDoorMoveAudio() {
             if (!_noAudioFirstOpen) {
-                // DoorAudioController.PlayDoorAudio();
+                DoorAudioController.PlayDoorAudio();
             }
             _noAudioFirstOpen = false;
         }
