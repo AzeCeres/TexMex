@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 namespace Player { 
@@ -72,64 +73,66 @@ namespace Player {
             if (mainClones.Count < maxClones) {
                 SpawnClone(selectedMain, mainClones, mainClones[selectedMain]); //spawns a clone, Doesn't need the index any longer, But needs the list to add the new clone in,
                 //and the game object to get the position of the clone it wants to spawn at
-                AlternativeSwitch(-10); //switches so far back the alternativeSwitch function chooses to go to the very end of the list, ensuring it is always the last clone to be choosen
-                hasSwitched = false; // to avoid it removing the second tutorial
+                AlternativeSwitch(Int32.MinValue); //switches so far back the alternativeSwitch function chooses to go to the very end of the list,
+                                                   //ensuring it is always the newest clone that gets chosen
+                hasSwitched = false; // To avoid it removing the second tutorial in Level 1. Does nothing else.
             } else {
                 //print("There are no more clones to be spawned");
             }
         }
+        //Called from PlayerController, Switches to the next clone in the list. Can go  through the list in both directions, Having checks to keep the index inside the list lenght
         public void AlternativeSwitch(int switchValue) {
             hasSwitched = true; // for Tutorial purposes
             _playerAudio.PlayCloneSwitchAudio();
-            _previouslySelectedMain = selectedMain;
-            if (switchValue + selectedMain > mainClones.Count-1) {
+            _previouslySelectedMain = selectedMain; // Sets the index you had to be previously selected, as to be able to go back to the same clone you were in, when you die
+            if (switchValue + selectedMain > mainClones.Count-1) {//goes back to 0 if the current index + the value of the switch is higher than the amount of clones 
                 selectedMain = 0;
-            } else if (switchValue + selectedMain < 0) {
+            } else if (switchValue + selectedMain < 0) {// Goes to the max index of the list, if the index + switchValue are negative
                 selectedMain = mainClones.Count-1;
             } else {
-                selectedMain += switchValue;
+                selectedMain += switchValue; //otherwise it just adds the switchValue to the current index
             }
         }
         
         public void SpawnClone(int selected, List<GameObject> cloneGroup, GameObject sourceClone ) {
             for (int i = 0; i < activeClones.Length; i++) {
-                if (activeClones[i])
+                if (activeClones[i]) // "Returns" if the clone is already active
                     continue;
-                //todo move them in front of the player, making sure theres space there.
-                activeClones[i] = true;
+                activeClones[i] = true; // if the clone isn't active, it is set to be, as it is the one being spawned in.
                 clones[i].transform.position = new Vector2(sourceClone.transform.position.x, 
-                    sourceClone.transform.position.y - 0.05f);
-                clones[i].SetActive(true);
-                cloneGroup.Add(clones[i]);
-                layerChanger[i].ChangeLayerToNonCollision();
+                    sourceClone.transform.position.y - 0.05f); // sets the new clones position to that of the "Source clone", aka teh clone that was used when it was cloned
+                clones[i].SetActive(true); // Then it sets the clone of the same index's gameObject to active
+                cloneGroup.Add(clones[i]); // Adds the clone to the specified list
+                layerChanger[i].ChangeLayerToNonCollision(); // Changes the layer of the spawned clone,
+                                                             // so that the clones don't collide with each other before leaving each others colliders 
                 return;
             }
-        } 
-        
-        public void KillClone(GameObject cloneToKill) {
-            hasDied = true;
+        }
+        // Called from the animator script, removes the clone from the list, sets the clone to inactive
+        public void KillClone(GameObject cloneToKill) { 
+            hasDied = true; // For tutorial purposes, not used for anything else
             _playerAudio.PlayCloneDeathAudio();
-            for (int i = 0; i < clones.Length; i++) {
+            for (int i = 0; i < clones.Length; i++) { //loops through the clones, checking if they are the same as the cloneToKill
                 if (clones[i] != cloneToKill)
                     continue;
-                activeClones[i] = false;
+                activeClones[i] = false; //sets the clone to unActive
                 for (int j = 0; j < mainClones.Count; j++) {
-                    if (mainClones[j] == cloneToKill) {
-                        mainClones.Remove(mainClones[j]); 
-                        //Residue from when we wanted to switch between twinStick and singleStick
-                        if (//alternativeControls && 
-                            _previouslySelectedMain <= mainClones.Count - 1) {
-                            selectedMain = _previouslySelectedMain;
-                        }
+                    // Loops through all the mainClones to remove them out of the list of mainClones
+                    if (mainClones[j] != cloneToKill)// continues if its the wrong clone
+                        continue;
+                    mainClones.Remove(mainClones[j]); // removes the clone from the list
+                    if (/*alternativeControls && */ _previouslySelectedMain <= mainClones.Count - 1) {
+                        selectedMain = _previouslySelectedMain;
                     }
                 }
-                for (int j = 0; j < secondClones.Count; j++) {
-                    if (secondClones[j] == cloneToKill) {
-                        secondClones.Remove(secondClones[j]);
-                    }
-                }
+                // for (int j = 0; j < secondClones.Count; j++) {
+                //     if (secondClones[j] == cloneToKill) {
+                //         secondClones.Remove(secondClones[j]);
+                //     }
+                // }
             }
         }
+        //Called from the death animation, kills of the clone, turning the gameObject off
         public void DeActivateClone(GameObject cloneToKill) {
             for (int i = 0; i < clones.Length; i++) {
                 if (clones[i] != cloneToKill)

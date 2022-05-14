@@ -1,51 +1,42 @@
 using UnityEngine;
 namespace Player {
     public class Movement : MonoBehaviour {
-        private Split m_Split;
-        [SerializeField] private float moveSpeed = 5f;
-        private float m_MovementMultiplier = 10f;
-        [SerializeField]private Rigidbody2D[] m_Rb;
-        [SerializeField]private float drag = 5.5f;
-        //[SerializeField]private Rigidbody2D mainRB, secondRB;
+        private Split _split;
+        [Tooltip("The acceleration and max moveSpeed of the player character")]
+        [SerializeField] private float moveSpeed = 7f;
+        private float _movementMultiplier = 10f; // a multiplier to the moveSpeed in order to keep the numbers relatively low and manageable
+        [Tooltip("An array of the clones rigidbodies, it has to be in the same order as the clone list from split. Otherwise it will not work properly")]
+        [SerializeField]private Rigidbody2D[] rb;
+        [Tooltip("The amount of slowdown on the player. Contributes to how quickly the player stops moving after you stop pressing the direction")]
+        [SerializeField]private float drag = 15f;
         private void Awake() {
-            m_Split = GetComponent<Split>();
+            _split = GetComponent<Split>();
         }
-        // private void Start() {
-        //     for (var i = 0; i < m_Split.clones.Length; i++) {
-        //         var clone = m_Split.clones[i];
-        //         m_Rb[i] = clone.GetComponent<Rigidbody2D>();
-        //     }
-        // }
         private void FixedUpdate() {
-            Drag();
+            Drag(); // in fixed update to keep it moving at the same speed as the physicsSteps
         }
         private void Drag() {
-            for (int i = 0; i < m_Split.clones.Length; i++) {
-                if (m_Split.activeClones[i]) {
-                    Vector2 velocity = transform.InverseTransformDirection(m_Rb[i].velocity);
-                    float forceX = -drag * velocity.x;
-                    float forceZ = -drag * velocity.y;
-                    m_Rb[i].AddRelativeForce(new Vector2(forceX, forceZ));
+            for (int i = 0; i < _split.clones.Length; i++) { // Gets the velocity of every single clone, checks if they are active, and applies less drag to dead clones
+                Vector2 velocity = transform.InverseTransformDirection(rb[i].velocity);
+                float forceX;
+                float forceY;
+                if (_split.activeClones[i]) {
+                    forceX = -drag * velocity.x;
+                    forceY = -drag * velocity.y;
                 } else {
-                    Vector2 velocity = transform.InverseTransformDirection(m_Rb[i].velocity);
                     var deathDrag = drag / 2;
-                    float forceX = -deathDrag * velocity.x;
-                    float forceZ = -deathDrag * velocity.y;
-                    m_Rb[i].AddRelativeForce(new Vector2(forceX, forceZ));
+                    forceX = -deathDrag * velocity.x;
+                    forceY = -deathDrag * velocity.y;
                 }
+                rb[i].AddRelativeForce(new Vector2(forceX, forceY)); // adds "negative force" to the player, as to work as drag
             }
         }
+        // Called from PlayerController, The act of adding force in the direction gotten from the actionMap
         public void MoveMain(Vector2 moveVector) {
-            if (m_Split.mainClones.Count == 0) return;
+            if (_split.mainClones.Count == 0) return;
             //todo make it only happen once
-            var rb = m_Split.mainClones[m_Split.selectedMain].GetComponent<Rigidbody2D>();
-            rb.AddForce(moveVector.normalized * (moveSpeed * m_MovementMultiplier), ForceMode2D.Force);
-        }
-        public void MoveSecond(Vector2 moveVector) {
-            //todo make it only happen once
-            if (m_Split.secondClones.Count == 0) return;
-            var rb = m_Split.secondClones[m_Split.selectedSecond].GetComponent<Rigidbody2D>();
-            rb.AddForce(moveVector.normalized * (moveSpeed * m_MovementMultiplier), ForceMode2D.Force);
+            var mainRb = _split.mainClones[_split.selectedMain].GetComponent<Rigidbody2D>(); // Gets the RB of the specified clone
+            mainRb.AddForce(moveVector.normalized * (moveSpeed * _movementMultiplier), ForceMode2D.Force);
         }
     }
 }
