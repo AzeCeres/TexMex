@@ -46,12 +46,10 @@ namespace System {
                 if (nextTutorial != null)
                     nextTutorial.enabled = true;
                 return;
-            }
-            if (Time.realtimeSinceStartup >= _finalTime) {
+            } if (Time.realtimeSinceStartup >= _finalTime) {
                 SetText();
                 _hasTaught = true;
-            }
-            if (Time.realtimeSinceStartup >= _lingeredTime) {
+            } if (Time.realtimeSinceStartup >= _lingeredTime) {
                 _textField.enabled = false;
             }
         }
