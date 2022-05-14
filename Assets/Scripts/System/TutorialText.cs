@@ -21,6 +21,15 @@ namespace System {
         private void Start() {
             _textField.enabled = false;
         }
+        private void LateUpdate()
+        {
+            if (isSplitTutorial && _split.hasSplit || isSwitchTutorial && _split.hasSwitched || isDeathTutorial && _split.hasDied) {
+                _textField.enabled = false;
+                _hasTaught = true;
+                if (nextTutorial != null)
+                    nextTutorial.SetActive(true);
+            }
+        }
         private void OnEnable() {
             _finalTime = Time.realtimeSinceStartup + timeBeforeText;
             _lingeredTime = _finalTime + textLingerTime;
@@ -37,14 +46,7 @@ namespace System {
         private void OnTriggerStay2D(Collider2D other) {
             if (!other.gameObject.CompareTag("Player")) return;
             print(name);
-            if (isSplitTutorial && _split.hasSplit || isSwitchTutorial && _split.hasSwitched || isDeathTutorial && _split.hasDied
-            ) {
-                _textField.enabled = false;
-                _hasTaught = true;
-                if (nextTutorial != null)
-                    nextTutorial.SetActive(true);
-                return;
-            } if (Time.realtimeSinceStartup >= _finalTime) {
+            if (Time.realtimeSinceStartup >= _finalTime) {
                 SetText();
                 _hasTaught = true;
             } if (Time.realtimeSinceStartup >= _lingeredTime) {
