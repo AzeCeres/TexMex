@@ -12,7 +12,19 @@ namespace Audio
         {
             var clipIndex = Random.Range(0, audioClips.Length);
 
-            audioSource.PlayOneShot(audioClips[clipIndex]);
+            _nextClip = audioClips[clipIndex];
+
+            audioSource.PlayOneShot(_nextClip);
+        }
+        
+        public override float GetClipLength()
+        {
+            if (_nextClip != false) return _nextClip.length;
+            
+            var clipIndex = Random.Range(0, audioClips.Length);
+            _nextClip = audioClips[clipIndex];
+            
+            return _nextClip.length;
         }
     }
 }
