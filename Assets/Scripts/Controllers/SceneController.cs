@@ -4,6 +4,7 @@ using OmniDi.Library.Util;
 using OmniDi.Library.Wrappers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using SceneManager = UnityEngine.SceneManagement.SceneManager;
 
 namespace OmniDi.Library.Controllers
 {

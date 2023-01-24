@@ -2,7 +2,7 @@
     "name": "omnidi.library.editor",
     "rootNamespace": "OmniDi.Library.Editor",
     "references": [
-        "GUID:3c7dcd95326a15041b4e05508c454b92"
+        "GUID:401ebba0c0bbe9b47baf2a1634336003"
     ],
     "includePlatforms": [
         "Editor"
